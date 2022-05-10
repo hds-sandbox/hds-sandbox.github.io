@@ -7,30 +7,30 @@ nav:
 - 'Home': index.md
 - 'About': about/about.md
 - 'News': news/news.md
-- 'Access': 
-      - Computerome: access/Computerome.md
-      - UCloud: access/UCloud.md
-- 'Datasets':
-      - Data policy: datasets/datapolicy.md
-- 'Modules':
-      - EHRs: modules/EHRs.md
-      - Genomics: modules/genomics.md
-      - 'Transcriptomics':
+- 'Access': #access/access.md
+      - 'Computerome': access/Computerome.md
+      - 'UCloud': access/UCloud.md
+- 'Datasets': #datasets/datasets.md
+      - 'Data policy': datasets/datapolicy.md
+- 'Modules': #modules/modules.md
+      - 'EHRs': modules/EHRs.md
+      - 'Genomics': modules/genomics.md
+      - 'Transcriptomics': #modules/transcriptomics.md
         - 'bulk RNA-Seq': https://hds-sandbox.github.io/bulk_RNAseq_course/
         - 'single-cell RNA-Seq': https://github.com/hds-sandbox/hds-sandbox.github.io.git
-      - Proteomics: 
+      - 'Proteomics': #modules/proteomics.md
         - 'AlphaFold': modules/AlphaFold_0122.md 
         - 'Clinical Proteomics': modules/clinProteomics_0122.md
 - 'Recommended': recommended/recommended.md
 - 'Contact': contact/contact.md
-  #docs_dir: develop
-  #site_dir: docs
   #plugins:
   #    - mkdocs-jupyter
   #extra_css:
   #    - extra.css
-extra_javascript:
-  - javascripts/embed-amd.js
+
+use_directory_urls: false
+#extra_javascript:
+#  - javascripts/embed-amd.js
 theme: 
     name: material
     logo: 'img/favicon.ico'

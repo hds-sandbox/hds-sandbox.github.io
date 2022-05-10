@@ -1,153 +1,93 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://hds-sandbox.github.io/</loc>
-         <lastmod>2022-04-25</lastmod>
+         <loc>https://hds-sandbox.github.io/index.html</loc>
+         <lastmod>2022-05-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://hds-sandbox.github.io/about/about/</loc>
-         <lastmod>2022-04-25</lastmod>
+         <loc>https://hds-sandbox.github.io/about/about.html</loc>
+         <lastmod>2022-05-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://hds-sandbox.github.io/access/Computerome/</loc>
-         <lastmod>2022-04-25</lastmod>
+         <loc>https://hds-sandbox.github.io/access/Computerome.html</loc>
+         <lastmod>2022-05-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://hds-sandbox.github.io/access/UCloud/</loc>
-         <lastmod>2022-04-25</lastmod>
+         <loc>https://hds-sandbox.github.io/access/UCloud.html</loc>
+         <lastmod>2022-05-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://hds-sandbox.github.io/access/access/</loc>
-         <lastmod>2022-04-25</lastmod>
+         <loc>https://hds-sandbox.github.io/access/access.html</loc>
+         <lastmod>2022-05-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://hds-sandbox.github.io/contact/contact/</loc>
-         <lastmod>2022-04-25</lastmod>
+         <loc>https://hds-sandbox.github.io/contact/contact.html</loc>
+         <lastmod>2022-05-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://hds-sandbox.github.io/datasets/datapolicy/</loc>
-         <lastmod>2022-04-25</lastmod>
+         <loc>https://hds-sandbox.github.io/datasets/datapolicy.html</loc>
+         <lastmod>2022-05-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://hds-sandbox.github.io/datasets/datasets/</loc>
-         <lastmod>2022-04-25</lastmod>
+         <loc>https://hds-sandbox.github.io/datasets/datasets.html</loc>
+         <lastmod>2022-05-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://hds-sandbox.github.io/modules/AlphaFold_0122/</loc>
-         <lastmod>2022-04-25</lastmod>
+         <loc>https://hds-sandbox.github.io/modules/AlphaFold_0122.html</loc>
+         <lastmod>2022-05-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://hds-sandbox.github.io/modules/EHRs/</loc>
-         <lastmod>2022-04-25</lastmod>
+         <loc>https://hds-sandbox.github.io/modules/EHRs.html</loc>
+         <lastmod>2022-05-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://hds-sandbox.github.io/modules/_module_temp/</loc>
-         <lastmod>2022-04-25</lastmod>
+         <loc>https://hds-sandbox.github.io/modules/_module_temp.html</loc>
+         <lastmod>2022-05-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://hds-sandbox.github.io/modules/bulkRNA_1121/</loc>
-         <lastmod>2022-04-25</lastmod>
+         <loc>https://hds-sandbox.github.io/modules/clinProteomics_0122.html</loc>
+         <lastmod>2022-05-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://hds-sandbox.github.io/modules/clinProteomics_0122/</loc>
-         <lastmod>2022-04-25</lastmod>
+         <loc>https://hds-sandbox.github.io/modules/genomics.html</loc>
+         <lastmod>2022-05-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://hds-sandbox.github.io/modules/genomics/</loc>
-         <lastmod>2022-04-25</lastmod>
+         <loc>https://hds-sandbox.github.io/modules/modules.html</loc>
+         <lastmod>2022-05-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://hds-sandbox.github.io/modules/modules/</loc>
-         <lastmod>2022-04-25</lastmod>
+         <loc>https://hds-sandbox.github.io/modules/proteomics.html</loc>
+         <lastmod>2022-05-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://hds-sandbox.github.io/modules/proteomics/</loc>
-         <lastmod>2022-04-25</lastmod>
+         <loc>https://hds-sandbox.github.io/modules/transcriptomics.html</loc>
+         <lastmod>2022-05-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://hds-sandbox.github.io/modules/scRNA_1121/</loc>
-         <lastmod>2022-04-25</lastmod>
+         <loc>https://hds-sandbox.github.io/news/news.html</loc>
+         <lastmod>2022-05-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://hds-sandbox.github.io/modules/transcriptomics/</loc>
-         <lastmod>2022-04-25</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://hds-sandbox.github.io/modules/modules/AlphaFold_0122/</loc>
-         <lastmod>2022-04-25</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://hds-sandbox.github.io/modules/modules/EHRs/</loc>
-         <lastmod>2022-04-25</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://hds-sandbox.github.io/modules/modules/_module_temp/</loc>
-         <lastmod>2022-04-25</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://hds-sandbox.github.io/modules/modules/bulkRNA_1121/</loc>
-         <lastmod>2022-04-25</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://hds-sandbox.github.io/modules/modules/clinProteomics_0122/</loc>
-         <lastmod>2022-04-25</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://hds-sandbox.github.io/modules/modules/genomics/</loc>
-         <lastmod>2022-04-25</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://hds-sandbox.github.io/modules/modules/modules/</loc>
-         <lastmod>2022-04-25</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://hds-sandbox.github.io/modules/modules/proteomics/</loc>
-         <lastmod>2022-04-25</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://hds-sandbox.github.io/modules/modules/scRNA_1121/</loc>
-         <lastmod>2022-04-25</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://hds-sandbox.github.io/modules/modules/transcriptomics/</loc>
-         <lastmod>2022-04-25</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://hds-sandbox.github.io/news/news/</loc>
-         <lastmod>2022-04-25</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://hds-sandbox.github.io/recommended/recommended/</loc>
-         <lastmod>2022-04-25</lastmod>
+         <loc>https://hds-sandbox.github.io/recommended/recommended.html</loc>
+         <lastmod>2022-05-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
