@@ -16,8 +16,8 @@ nav:
       - EHRs: modules/EHRs.md
       - Genomics: modules/genomics.md
       - 'Transcriptomics':
-        - 'bulk RNA-Seq': modules/bulkRNA_1121.md
-        - 'single-cell RNA-Seq': modules/scRNA_1121.md
+        - 'bulk RNA-Seq': https://hds-sandbox.github.io/bulk_RNAseq_course/
+        - 'single-cell RNA-Seq': https://github.com/hds-sandbox/hds-sandbox.github.io.git
       - Proteomics: 
         - 'AlphaFold': modules/AlphaFold_0122.md 
         - 'Clinical Proteomics': modules/clinProteomics_0122.md
