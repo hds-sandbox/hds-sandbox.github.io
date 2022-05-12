@@ -33,7 +33,8 @@ use_directory_urls: false
 #  - javascripts/embed-amd.js
 theme: 
     name: material
-    logo: 'img/favicon.ico'
+    favicon: img/sandbox1.png
+    logo: img/sandbox1.png
     palette:
       primary: grey
       accent: cyan
