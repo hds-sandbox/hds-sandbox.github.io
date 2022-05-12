@@ -17,7 +17,7 @@ nav:
       - 'Genomics': modules/genomics.md
       - 'Transcriptomics': #modules/transcriptomics.md
         - 'bulk RNA-Seq': https://hds-sandbox.github.io/bulk_RNAseq_course/
-        - 'single-cell RNA-Seq': https://github.com/hds-sandbox/hds-sandbox.github.io.git
+        - 'single-cell RNA-Seq': https://hds-sandbox.github.io/scRNASeq_course/
       - 'Proteomics': #modules/proteomics.md
         - 'AlphaFold': modules/AlphaFold_0122.md 
         - 'Clinical Proteomics': modules/clinProteomics_0122.md
