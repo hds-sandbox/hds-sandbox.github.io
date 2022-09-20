@@ -1,0 +1,57 @@
+site_name: 'Health Data Science Sandbox'
+site_url: https://hds-sandbox.github.io
+site_description: 'supporting training and research in health data science'
+docs_dir: develop
+site_dir: docs
+nav:
+- 'Home': index.md
+- 'About': about/about.md
+- 'News': news/news.md
+- 'Access': #access/access.md
+      - 'Computerome': access/Computerome.md
+      - 'UCloud': access/UCloud.md
+- 'Datasets': #datasets/datasets.md
+      - 'Data policy': datasets/datapolicy.md
+- 'Modules': #modules/modules.md
+      - 'EHRs': modules/EHRs.md
+      - 'Genomics': modules/genomics.md
+      - 'Transcriptomics': #modules/transcriptomics.md
+        - 'bulk RNA-Seq': https://hds-sandbox.github.io/bulk_RNAseq_course/
+        - 'single-cell RNA-Seq': https://hds-sandbox.github.io/scRNASeq_course/
+      - 'Proteomics': #modules/proteomics.md
+        - 'AlphaFold': modules/AlphaFold_0122.md 
+        - 'Clinical Proteomics': modules/clinProteomics_0122.md
+- 'Recommended': recommended/recommended.md
+- 'Contact': contact/contact.md
+  #plugins:
+  #    - mkdocs-jupyter
+  #extra_css:
+  #    - extra.css
+
+use_directory_urls: false
+#extra_javascript:
+#  - javascripts/embed-amd.js
+theme: 
+    name: material
+    favicon: img/sandbox1.png
+    logo: img/sandbox1.png
+    palette:
+      primary: grey
+      accent: cyan
+    features:
+      #    - navigation.sections #adds subheadings to main toc (don't like)
+         - toc.integrate
+              - navigation.top
+      #markdown_extensions:
+      #  - pymdownx.tabbed
+      #  - pymdownx.superfences
+      #  - admonition
+      #  - pymdownx.details
+      #  - attr_list
+      #  - pymdownx.arithmatex:
+      #     generic: true
+      # - pymdownx.tasklist:
+      #      custom_checkbox: true
+      #plugins:
+      #  - search
+      #  - toc-sidebar
