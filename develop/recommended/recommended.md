@@ -3,6 +3,10 @@ layout: page
 title: Recommended
 permalink: /recommended/
 nav_order: 5
+hide:
+  - footer
+  - toc
+  - navigation
 ---
 
 

@@ -4,6 +4,10 @@ title: EHRs
 parent: Modules
 has_children: true
 nav_order: 2
+hide:
+  - navigation
+  - footer
+  - toc
 ---
 
 # Electronic Health Records
