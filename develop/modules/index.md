@@ -32,10 +32,7 @@ and genomic medicine is under active implementation and extension in the health 
 #### [:octicons-fold-down-16: Introduction to Next Generation Sequencing data](https://hds-sandbox.github.io/NGS_summer_course_Aarhus/)
 
 
-![transcriptomics](../assets/images/transcriptomics.png){ align=right width="200" }
-
-
-## Transcriptomics
+## Transcriptomics  ![transcriptomics](../assets/images/transcriptomics.png){ align=right width="200" }
 
 Transcriptomics is the study of transcriptomes, which investigates RNA transcripts within a cell or tissue 
 to determine what genes are being expressed and in what proportion. These RNA transcripts include 
