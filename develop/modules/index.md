@@ -22,7 +22,7 @@ guide for their intended use. Feel free to adapt the materials for your own purp
 (with credit to the National Health Data Science Sandbox project). 
  
 
-## Genomics
+## Genomics  ![genomics](../assets/images/genomics.png){ align=right width="200" }
 
 Genomics is the study of genomes, the complete set of an organism's DNA. Genomics research now encompasses functional and structural studies, epigenomics, and metagenomics, 
 and genomic medicine is under active implementation and extension in the health sector.
@@ -72,6 +72,7 @@ Modules linked to EHR analysis are currently under development. An initial synth
 Advanced computing skills are a foundational skill for use of the above training modules. We aim to provide tutorials that allow the use of standard programming languages for health data science (R and Python) but additional skills in Linux/bash will likely be necessary in any health data scientist's career. Additional knowledge such as the use of version control (git and GitHub) and how to efficiently leverage high performance computing (HPC) resources provided by a local cluster, an academic supercomputer such as Computerome or UCloud, and commercial cloud computing is also of value.
 
 #### [HPC Access](https://hds-sandbox.github.io/access/index.html) (page with instructions for accessing Sandbox resources at Computerome and UCloud)
+
 #### [HeaDS DataLab workshop materials](https://center-for-health-data-science.github.io/index.html) (workshops for programming and good practices developed by the Center for Health Data Science at University of Copenhagen, which are sometimes co-taught by Sandbox staff!)
    
 
