@@ -22,7 +22,7 @@ guide for their intended use. Feel free to adapt the materials for your own purp
 (with credit to the National Health Data Science Sandbox project). 
  
 
-![genomics](../assets/images/genomics.png){ align=right width="150" }
+![genomics](../assets/images/genomics.png){ align=right width="200" }
 
 
 ## Genomics
@@ -33,7 +33,7 @@ and genomic medicine is under active implementation and extension in the health 
 #### [:octicons-fold-down-16: Introduction to Next Generation Sequencing data](https://hds-sandbox.github.io/NGS_summer_course_Aarhus/)
 
 
-![transcriptomics](../assets/images/transcriptomics.png){ align=right width="150" }
+![transcriptomics](../assets/images/transcriptomics.png){ align=right width="200" }
 
 
 ## Transcriptomics
@@ -47,7 +47,7 @@ mRNAs, tRNA, rRNA and other non-coding RNA presents in a cell.
 #### [:material-abugida-devanagari: Single-Cell RNAseq](https://hds-sandbox.github.io/scRNASeq_course/) (self-tutorial version of workshop with date TBA) 
 
 
-![proteomics](../assets/images/proteomics.png){ align=right width="150" }
+![proteomics](../assets/images/proteomics.png){ align=right width="200" }
 
 
 ## Proteomics
@@ -67,7 +67,7 @@ We also offer a tutorial on the independent UCloud app for using ColabFold, a to
 #### [ColabFold Intro](https://hds-sandbox.github.io/proteomics-sandbox/colabfold.html) (instructions for using workshop material from October 2022) 
  
 
- ![EHRs](../assets/images/EHRs.png){ align=right width="150" }
+ ![EHRs](../assets/images/EHRs.png){ align=right width="200" }
 
 
 ## Electronic Health Records
@@ -79,7 +79,7 @@ These datasets are extraordinarily valuable in the development of predictive mod
 Modules linked to EHR analysis are currently under development. An initial synthetic dataset was deployed for a course in the [MSc in Personal Medicine](https://personligmedicin.ku.dk/) program.
 
 
- ![HPC-Lab](../assets/images/HPC.png){ align=right width="150" } 
+ ![HPC-Lab](../assets/images/HPC.png){ align=right width="200" } 
 
  
 ## HPC Lab
