@@ -15,7 +15,7 @@ a collaborative project with team members spanning five Danish universities
 </center>
 
 <figure markdown>
-  ![workflow](./assets/images/Sandbox_workflow_ai_horizontal2w-01.png){width="600"}
+  ![workflow](../assets/images/Sandbox_workflow_ai_horizontal2w-01.png){ width="200" }
 </figure>
 
 
