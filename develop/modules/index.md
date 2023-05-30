@@ -24,8 +24,6 @@ guide for their intended use. Feel free to adapt the materials for your own purp
 
 ## Genomics
 
-![genomics](../assets/images/genomics.png){ align=right width="200" }
-
 Genomics is the study of genomes, the complete set of an organism's DNA. Genomics research now encompasses functional and structural studies, epigenomics, and metagenomics, 
 and genomic medicine is under active implementation and extension in the health sector.
 
@@ -43,10 +41,7 @@ mRNAs, tRNA, rRNA and other non-coding RNA presents in a cell.
 #### [:material-abugida-devanagari: Single-Cell RNAseq](https://hds-sandbox.github.io/scRNASeq_course/) (self-tutorial version of workshop with date TBA) 
 
 
-![proteomics](../assets/images/proteomics.png){ align=right width="200" }
-
-
-## Proteomics
+## Proteomics   ![proteomics](../assets/images/proteomics.png){ align=right width="200" }
 
 Proteomics is the study of proteins that are produced by an organism. Proteomics allows us to 
 analyse protein compositon and structure, which have great importance in determining 
@@ -63,10 +58,7 @@ We also offer a tutorial on the independent UCloud app for using ColabFold, a to
 #### [ColabFold Intro](https://hds-sandbox.github.io/proteomics-sandbox/colabfold.html) (instructions for using workshop material from October 2022) 
  
 
- ![EHRs](../assets/images/EHRs.png){ align=right width="200" }
-
-
-## Electronic Health Records
+## Electronic Health Records  ![EHRs](../assets/images/EHRs.png){ align=right width="200" }
 
 Electronic health records (EHRs) are digital records kept in the public health sector that record the medical histories of individuals, and access is normally highly restricted to preserve patient privacy. 
 This data is sometimes also shared (partly or in full) in secondary patient registries that support research of a specific disease or condition (such as cystic fibrosis). 
@@ -74,11 +66,8 @@ These datasets are extraordinarily valuable in the development of predictive mod
 
 Modules linked to EHR analysis are currently under development. An initial synthetic dataset was deployed for a course in the [MSc in Personal Medicine](https://personligmedicin.ku.dk/) program.
 
-
-#### ![HPC-Lab](../assets/images/HPC.png){ align=right width="200" } 
-
  
-## HPC Lab
+## HPC Lab  ![HPC-Lab](../assets/images/HPC.png){ align=right width="200" } 
 
 Advanced computing skills are a foundational skill for use of the above training modules. We aim to provide tutorials that allow the use of standard programming languages for health data science (R and Python) but additional skills in Linux/bash will likely be necessary in any health data scientist's career. Additional knowledge such as the use of version control (git and GitHub) and how to efficiently leverage high performance computing (HPC) resources provided by a local cluster, an academic supercomputer such as Computerome or UCloud, and commercial cloud computing is also of value.
 
