@@ -22,10 +22,9 @@ guide for their intended use. Feel free to adapt the materials for your own purp
 (with credit to the National Health Data Science Sandbox project). 
  
 
-![genomics](../assets/images/genomics.png){ align=right width="200" }
-
-
 ## Genomics
+
+![genomics](../assets/images/genomics.png){ align=right width="200" }
 
 Genomics is the study of genomes, the complete set of an organism's DNA. Genomics research now encompasses functional and structural studies, epigenomics, and metagenomics, 
 and genomic medicine is under active implementation and extension in the health sector.
