@@ -47,11 +47,9 @@ Proteomics is the study of proteins that are produced by an organism. Proteomics
 analyse protein compositon and structure, which have great importance in determining 
 their function.
 
-Below is a link to documentation for the Proteomics Sandbox, a virtual environment available on UCloud that contains pre-installed tools such as Fragpipe and MaxQuant that enable running a complete proteomics analysis. 
+Below is a link to documentation for the Proteomics Sandbox, a virtual environment available on UCloud that contains pre-installed tools such as Fragpipe and MaxQuant that enable running a complete proteomics analysis. Training modules linked to the Proteomics Sandbox are currently under development and will be listed below as they're completed. 
 
 #### [Proteomics Sandbox](https://hds-sandbox.github.io/proteomics-sandbox/index.html) (documentation version from May 2023)
-
-Training modules linked to the Proteomics Sandbox are currently under development and will be listed below as they're completed.
 
 We also offer a tutorial on the independent UCloud app for using ColabFold, a tool that allows predictions with AlphaFold2 or RoseTTAFold.
 
