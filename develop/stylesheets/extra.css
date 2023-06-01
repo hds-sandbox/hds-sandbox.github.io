@@ -59,16 +59,24 @@ img[alt=sandbox_v2] {
   width: 30%;
 }
 
-img[alt=workflow] {
-  width: 80%;
+ img[alt=workflow] {
+  width: 70%;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
+ img[alt=moduleshorizontal] {
+  width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+ 67 }
+
+/*
 img[alt=genomics] {
   width: 35%;
   display: block;
   margin-left: auto;
   margin-right: auto;
-}
+} */

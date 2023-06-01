@@ -159,8 +159,20 @@ nav:
       - modules/index.md
       - 'Genomics':
         - 'Introduction to Next Generation Sequencing Data': https://hds-sandbox.github.io/NGS_summer_course_Aarhus/
+        - 'Introduction to Population Genomics': https://hds-sandbox.github.io/modules/index.html
+        - 'Introduction to GWAS': https://hds-sandbox.github.io/modules/index.html
+        - 'Interactive Genomic Browser': https://hds-sandbox.github.io/modules/index.html
       - 'Transcriptomics': # modules/transcriptomics.md
         - 'Bulk RNAseq': https://hds-sandbox.github.io/bulk_RNAseq_course/
         - 'Single-Cell RNAseq': https://hds-sandbox.github.io/scRNASeq_course/
+        - 'Cirrocumulus': https://hds-sandbox.github.io/modules/index.html
+        - 'RNAseq in Rstudio': https://hds-sandbox.github.io/modules/index.html
+      - 'Proteomics':
+        - 'Proteomics Sandbox': https://hds-sandbox.github.io/proteomics-sandbox/index.html
+        - 'ColabFold': https://hds-sandbox.github.io/proteomics-sandbox/colabfold.html
+      - 'Electronic Health Records':
+        - 'CLL dataset': https://hds-sandbox.github.io/modules/index.html
+      - 'HPC Lab':
+        - 'HeaDS DataLab': https://center-for-health-data-science.github.io/index.html
   - Contact: contact/contact.md
    
