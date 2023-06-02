@@ -13,15 +13,16 @@ hide:
 # Modules
 </center>
 
-Sandbox resources have been organized as training modules focused on key topics in health data science. We are constantly adding additional resources and have plans to create additional modules on medical imaging and wearable device data. 
-You can access our training modules through:
-+ In-person workshops and courses at host universities (check [News](https://hds-sandbox.github.io/news/) for announcements) 
-+ Course/workshop repositories on our [GitHub page](https://github.com/hds-sandbox) - some tool assembly may be required! 
-+ Independently accessible Sandbox apps on [UCloud](cloud.sdu.dk), the academic HPC at Southern Denmark University
-+ Under development - virtual machines deployed on the Course Platform of Computerome, the academic HPC at the Technical University of Denmark
-Feel free to adapt these resources for your own purposes (with credit to the National Health Data Science Sandbox project and other projects they acknowledge in the specific materials). 
+Sandbox resources have been organized as training modules focused on key topics in health data science. We are constantly adding additional resources and have plans to create additional modules on medical imaging and wearable device data. Feel free to adapt these resources for your own purposes (with credit to the National Health Data Science Sandbox project and other projects they acknowledge in the specific materials). 
 
-Available resources within each training module are listed below, including **tutorials/guides (:octicons-code-review-24:)** and **popular tools for analysis and visualization (:octicons-tools-24:)**. [Email us]() with any questions, comments or suggestions for new workshops!
+You can **access our training modules** through:
+
++ **In-person workshops and courses** at host universities (check [News](https://hds-sandbox.github.io/news/) for announcements) 
++ Course/workshop repositories on our **[GitHub page](https://github.com/hds-sandbox)** - some tool assembly may be required! 
++ Independently accessible **Sandbox apps on [UCloud](https://cloud.sdu.dk)**, the academic HPC at Southern Denmark University
++ Virtual machines deployed on the **[Course Platform](https://www.computerome.dk/solutions/course-platform) at Computerome**, the academic HPC at the Technical University of Denmark (Sandbox rollout still under development!)
+
+Available resources within each training module are listed below, including **:octicons-code-review-24: tutorials and guides :octicons-code-review-24:** and **:octicons-tools-24: popular tools for analysis and visualization :octicons-tools-24:**. [Email us](mailto:nhds_sandbox@sund.ku.dk) with any questions, comments or suggestions for new workshops!
  
 ## Genomics 
 ![Genomics](../assets/images/genomics2.png){ align=right width="30%" } Genomics is the study of genomes, the complete set of an organism's DNA. Genomics research now encompasses functional and structural studies, epigenomics, and metagenomics, and genomic medicine is under active implementation and extension in the health sector. 
