@@ -28,8 +28,11 @@ at [hds-sandbox](https://github.com/hds-sandbox/hds-sandbox.github.io).
 | Anders Krogh                  | PI                                   | Center for Health Data Science, KU |
 | Jennifer Bartell              | Project Coordinator / Data Scientist | Center for Health Data Science, KU |
 | José Alejandro Romero Herrera | Data Scientist                       | Center for Health Data Science, KU |
-| Sander Boisen Valentin        | Data Scientist                       | Department of Clinical Medicine, AAU                                |
+| Jakob Skelmose                | Data Scientist                       | Department of Clinical Medicine, AAU                                |
 | Samuele Soraggi               | Data Scientist                       | Bioinformatics Research Centre, AU                                 |
 | Jesper Roy Christiansen        | Data Scientist                       | Computerome, DTU                    |
 | Jacob Fredegaard Hansen       | Data Scientist                       | Department of Biochemistry and Molecular Biology, SDU                                |
 | Conor O'Hare                  | Research Assistant                   | Center for Health Data Science, KU |
+
+
+We appreciate the contributions of previous team members Sander Boisen Valentin (AAU) and Peter Husen (SDU).

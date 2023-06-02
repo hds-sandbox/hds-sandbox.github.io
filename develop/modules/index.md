@@ -19,7 +19,7 @@ You can **access our training modules** through:
 
 + **In-person workshops and courses** at host universities (check [News](https://hds-sandbox.github.io/news/) for announcements) 
 + Course/workshop repositories on our **[GitHub page](https://github.com/hds-sandbox)** - some tool assembly may be required! 
-+ Independently accessible **Sandbox apps on [UCloud](https://cloud.sdu.dk)**, the academic HPC at Southern Denmark University
++ Independently accessible **Sandbox apps on [UCloud](https://cloud.sdu.dk)**, the academic HPC at University of Southern Denmark
 + Virtual machines deployed on the **[Course Platform](https://www.computerome.dk/solutions/course-platform) at Computerome**, the academic HPC at the Technical University of Denmark (Sandbox rollout still under development!)
 
 Available resources within each training module are listed below, including **:octicons-code-review-24: tutorials and guides :octicons-code-review-24:** and **:octicons-tools-24: popular tools for analysis and visualization :octicons-tools-24:**. [Email us](mailto:nhds_sandbox@sund.ku.dk) with any questions, comments or suggestions for new workshops!
