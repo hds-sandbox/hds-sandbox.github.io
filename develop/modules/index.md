@@ -13,7 +13,13 @@ hide:
 # Modules
 </center>
 
-Sandbox resources have been organized as training modules focused on key topics in health data science. We regularly host in-person workshops and support courses at host universities for students and researchers (check [News](https://hds-sandbox.github.io/news/). These tutorials and tools have also been implemented on [UCloud](cloud.sdu.dk), the academic HPC at Southern Denmark University, via a collection of Sandbox Apps where trainees who can access UCloud via WAYF can also independently use the training module materials. Training resources are also made available for use on other platforms via our [GitHub page](https://github.com/hds-sandbox). Feel free to adapt these resources for your own purposes (with credit to the National Health Data Science Sandbox project and other projects they acknowledge in the specific materials). 
+Sandbox resources have been organized as training modules focused on key topics in health data science. We are constantly adding additional resources and have plans to create additional modules on medical imaging and wearable device data. 
+You can access our training modules through:
++ In-person workshops and courses at host universities (check [News](https://hds-sandbox.github.io/news/) for announcements) 
++ Course/workshop repositories on our [GitHub page](https://github.com/hds-sandbox) - some tool assembly may be required! 
++ Independently accessible Sandbox apps on [UCloud](cloud.sdu.dk), the academic HPC at Southern Denmark University
++ Under development - virtual machines deployed on the Course Platform of Computerome, the academic HPC at the Technical University of Denmark
+Feel free to adapt these resources for your own purposes (with credit to the National Health Data Science Sandbox project and other projects they acknowledge in the specific materials). 
 
 Available resources within each training module are listed below, including **tutorials/guides (:octicons-code-review-24:)** and **popular tools for analysis and visualization (:octicons-tools-24:)**. [Email us]() with any questions, comments or suggestions for new workshops!
  
@@ -61,7 +67,7 @@ The chronic lymphocytic leukemia synthetic dataset listed below is generated sol
 + :octicons-code-review-24: Intro to EHR analysis (workshop under development) 
  
 ## HPC Lab  
-![HPC-Lab](../assets/images/HPC.png){ align=right width="30%" } Advanced computing skills are a foundational skill for use of the above training modules. We aim to provide tutorials that allow the use of standard programming languages for health data science (R and Python) but additional skills in Linux/bash will likely be necessary in any health data scientist's career. Additional knowledge such as the use of version control (git and GitHub) and how to efficiently leverage high performance computing (HPC) resources provided by a local cluster, an academic supercomputer such as Computerome or UCloud, and commercial cloud computing is also of value.
+![HPC-Lab](../assets/images/HPC.png){ align=right width="30%" } Computing skills are an important foundation for effective use of the above training modules. We aim to provide tutorials that allow the use of standard programming languages for health data science (R and Python) but additional skills in Linux/bash will likely be necessary in any health data scientist's career. Additional knowledge such as the use of version control (git and GitHub) and how to efficiently leverage high performance computing (HPC) resources provided by a local cluster, an academic supercomputer such as Computerome or UCloud, and commercial cloud computing is also of value.
 
 + [:octicons-code-review-24: HPC Startup Guide](https://hds-sandbox.github.io/access/index.html) (instructions for accessing and navigating compute resources at Computerome and UCloud)
 + [:octicons-code-review-24: HeaDS DataLab workshop materials](https://center-for-health-data-science.github.io/index.html) (workshops for programming and good practices developed by the Center for Health Data Science at University of Copenhagen, which are sometimes co-taught by Sandbox staff! Includes **R**, **python**, **bash**, and **git**!)
