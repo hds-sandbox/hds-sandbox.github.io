@@ -73,6 +73,10 @@ img[alt=sandbox_v2] {
   margin-right: auto;
  67 }
 
+ figcaption {
+ text-align: center;
+ }
+
 /*
 img[alt=genomics] {
   width: 35%;
