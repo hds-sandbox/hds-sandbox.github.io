@@ -30,8 +30,8 @@ Available resources within each training module are listed below, including **:o
 #### Use the [Genomics Sandbox App](https://cloud.sdu.dk/app/jobs/create?app=genomics&version=2023.03.01) on UCloud to explore the resources below: 
  
 + [:octicons-code-review-24: Introduction to Next Generation Sequencing data](https://hds-sandbox.github.io/NGS_summer_course_Aarhus/) (last update: June 2023)
-+ [:octicons-code-review-24: Introduction to Population Genomics]() (implementation of a course by Prof. Kasper Munch of Aarhus University) (last update: March 2023)
-+ [:octicons-code-review-24: Introduction to GWAS](https://hds-sandbox.github.io/) (last update: May 2023)
++ [:octicons-code-review-24: Introduction to Population Genomics](https://hds-sandbox.github.io/PopulationGenomicsCourse/) (implementation of a course by Prof. Kasper Munch of Aarhus University) (last update: March 2023)
++ [:octicons-code-review-24: Introduction to GWAS](https://hds-sandbox.github.io/GWAS_course/) (last update: March 2023)
 + :octicons-tools-24: Interactive Genomic Browser (a popular visualization tools for genomics analysis)
 >
 

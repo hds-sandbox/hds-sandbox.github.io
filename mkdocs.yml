@@ -159,8 +159,8 @@ nav:
       - modules/index.md
       - 'Genomics':
         - 'Introduction to Next Generation Sequencing Data': https://hds-sandbox.github.io/NGS_summer_course_Aarhus/
-        - 'Introduction to Population Genomics': https://hds-sandbox.github.io/modules/index.html
-        - 'Introduction to GWAS': https://hds-sandbox.github.io/modules/index.html
+        - 'Introduction to Population Genomics': https://hds-sandbox.github.io/PopulationGenomicsCourse/
+        - 'Introduction to GWAS': https://hds-sandbox.github.io/GWAS_course/
         - 'Interactive Genomic Browser': https://hds-sandbox.github.io/modules/index.html
       - 'Transcriptomics': # modules/transcriptomics.md
         - 'Bulk RNAseq': https://hds-sandbox.github.io/bulk_RNAseq_course/
