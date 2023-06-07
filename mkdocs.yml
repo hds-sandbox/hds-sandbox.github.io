@@ -151,10 +151,14 @@ nav:
   - Home: index.md
   - About: about/about.md
   - News: news/news.md
-  - Access: 
+  - HPC access:
+      - access/index.md
       - 'Computerome': access/Computerome.md
       - 'UCloud': access/UCloud.md
-  - Datasets: datasets/datapolicy.md
+  - Datasets: 
+      - datasets/index.md
+      - 'Data Policy': datasets/datapolicy.md
+      - 'Datasets': datasets/datasets.md
   - Modules:
       - modules/index.md
       - 'Genomics':

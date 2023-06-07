@@ -1,16 +1,16 @@
 ---
 layout: default
-title: Modules
+title: HPC Access
 has_children: true
 nav_order: 3
-permalink: /modules
+permalink: /access
 hide:
   - footer
   - toc
 ---
 
 <center>
-# Training Modules
+# HPC Access
 </center>
 
 Sandbox resources have been organized as training modules focused on key topics in health data science. We are constantly adding additional resources and have plans to create additional modules on medical imaging and wearable device data. Feel free to adapt these resources for your own purposes (with credit to the National Health Data Science Sandbox project and other projects they acknowledge in the specific materials). 

@@ -8,6 +8,10 @@ hide:
   - footer
 ---
 
+<center>
+# News and Events
+</center>
+
 ### 18/01/23 - Second bulk RNA-seq course at the University of Copenhagen
 
 On 18th of January we taught the second iteration of our bulk RNA-seq course to researchers (from PhD students to professors) at SUND at the University of Copenhagen. We had ~50 workshop participants joining us for three days of lectures and exercises on UCloud. This time, we introduced preprocessing theory (read QC, alignment and quantification) and the use of automated workflows using the [nf-core rnaseq pipeline](https://nf-co.re/rnaseq).

@@ -1,7 +1,7 @@
 ---
-layout: page
+layout: pages
 title: Contact
-permalink: /contact/
+permalink: /contact
 nav_order: 6
 hide:
   - footer
@@ -9,9 +9,9 @@ hide:
   - navigation
 ---
 
-
-## Contact the Sandbox
-
+<center>
+# Contact the Sandbox
+</center>
 
 The Health Data Science Sandbox is coordinated by the [Center for Health Data Science](https://heads.ku.dk/)
 at the University of Copenhagen (KU).  Sandbox data scientists are also placed in collaborating groups at
