@@ -83,7 +83,7 @@ plugins:
   - minify:   # minify HTML of a page before it is written to disk
       minify_html: true
   - mkdocs-jupyter
-
+  - table-reader
 # Analytics and social media
 extra:
   analytics:
@@ -156,9 +156,10 @@ nav:
       - 'Computerome': access/Computerome.md
       - 'UCloud': access/UCloud.md
   - Datasets: 
-      - datasets/index.md
+    #      - datasets/index.md
       - 'Data Policy': datasets/datapolicy.md
-      - 'Datasets': datasets/datasets.md
+      - 'Synthetic Data': datasets/synthdata.md
+      - 'Assembled Datasets': datasets/datasets.md
   - Modules:
       - modules/index.md
       - 'Genomics':
