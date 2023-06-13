@@ -158,8 +158,8 @@ nav:
   - Datasets: 
     #      - datasets/index.md
       - 'Data Policy': datasets/datapolicy.md
-      - 'Synthetic Data': datasets/synthdata.md
-      - 'Assembled Datasets': datasets/datasets.md
+        #      - 'Synthetic Data': datasets/synthdata.md
+        #      - 'Assembled Datasets': datasets/datasets.md
   - Modules:
       - modules/index.md
       - 'Genomics':
