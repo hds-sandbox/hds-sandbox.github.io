@@ -84,6 +84,9 @@ plugins:
       minify_html: true
   - mkdocs-jupyter
   - table-reader
+  - git-revision-date-localized:
+      enable_creation_date: true
+
 # Analytics and social media
 extra:
   analytics:
@@ -109,6 +112,7 @@ markdown_extensions:
       permalink: true # Adds anchor link, can customise symbol with emoji  
 
   - tables  
+
 
   # Python extensions - can see descriptions  
   # at https://facelessuser.github.io/pymdown-extensions/  
