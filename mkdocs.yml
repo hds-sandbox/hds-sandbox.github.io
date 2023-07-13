@@ -85,7 +85,7 @@ plugins:
   - mkdocs-jupyter
   - table-reader
   - git-revision-date-localized:
-      enable_creation_date: true
+      enable_creation_date: false
 
 # Analytics and social media
 extra:
