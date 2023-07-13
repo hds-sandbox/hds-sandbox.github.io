@@ -26,7 +26,13 @@ There are large public de-identified EHR datasets that serve as benchmark resour
 ---
 
 ## Synthetic data
-![tradeoff](../assets/images/Tradeoff_base.svg#right)
+
+<img src="../assets/images/Tradeoff_base.svg" width="400" align="right">
+
+<!--- 
+![tradeoff](../assets/images/Tradeoff_base.svg#right) 
+-->
+
 Via our collaborators and broader network, the Sandbox has the opportunity to simulate/synthesize data resembling different databases and registries from the Danish health sector. We are exploring methods of creating useful synthetic datasets with national and EU-level data access policies and GDPR restrictions in mind, while developing initial datasets using publicly available data from Danish research studies and other resources.
 
 Ultimately, a new era of synthetic data is rapidly developing. The funded Sandbox proposal focused on generating synthetic data using mechanistic models, agent-based models, or draws from multivariate distributions (such as copulas), which are methods that do not present any significant GDPR-related concerns with sharing the produced datasets as they are derived from population-level characteristics and prior knowledge. However, new deep learning-based methods of data synthesis can theoretically learn complex, nonlinear patterns within a sensitive dataset and generate a synthetic dataset that replicates these patterns. This is a really promising approach for sharing high utility synthetic datasets, but it also elevates risk of accidentally sharing too much about the real dataset and skirting the boundaries of GDPR and ethical data handling. There is an inherent trade-off between privacy preservation and similarity of the synthetic dataset to the original dataset, with method development focused on moving closer to the ideal zone of high privacy AND high similarity. The figure at right is a rough approximation of this relationship versus current families of synthesis methods. 
