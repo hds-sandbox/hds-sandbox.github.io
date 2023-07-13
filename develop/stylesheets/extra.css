@@ -73,6 +73,11 @@ img[alt=sandbox_v2] {
   margin-right: auto;
  67 }
 
+img[src*='#right'] {
+	float: right;
+	width: 35%;
+}
+
  figcaption {
  text-align: center;
  }
