@@ -18,9 +18,7 @@ It is necessary to clarify what we mean when we refer to synthetic data within t
 
 The Sandbox is actually interested in any form of synthetic data - our highest priority is providing safe-to-use data to trainees and researchers that does not raise any concerns about sensitive data with respect to the EU's General Data Protection Regulation (GDPR) and local Danish data regulations. So, we are using both old school and new school forms of data synthesis. However, the discussion on this page is heavily weighted towards our interest in new school synthesis - with our connections to generative modeling researchers and high quality data, we are naturally interested in figuring out a safe way to deploy synthetic datasets derived from deep learning and other high similarity approaches.
 
-<!-- !!! = no drop-down -->
-
-!!! note "The TLDR for synthetic data in the Sandbox"
+??? info "The TLDR for synthetic data in the Sandbox"
     - <i>The development of synthetic datasets should be viewed as a research project</i>. The technology is generally untested with few examples of public roll-out, and its deployment should be future-proofed as much as possible against attacks and potential sensitive data disclosure.
     - <i>Synthetic data generation and evaluation approaches should be tailored     to each dataset of interest</i>. With current technology, it is unlikely that high quality, safe-to-share datasets will be produced at any kind of production scale without a massive effort devoted to pre-processing, data harmonization, and customized routines for different families of datasets.
     - <i>The Sandbox is not openly sharing any synthetic datasets generated from person-specific sensitive data</i>. We think these datasets will be useful to approved researchers that ideally gain access via an approved data portal with registration and data use agreements with relevant data authorities. We are not currently that portal.
