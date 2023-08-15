@@ -19,27 +19,34 @@ Extensive documentation on general use of UCloud (how to use apps and run jobs, 
 
 ## Example: accessing course materials using JupyterLab
 
-* Log onto UCloud at the address [http://cloud.sdu.dk](http://cloud.sdu.dk) using the university credentials.
+**Step 1**  Log onto UCloud at the address [http://cloud.sdu.dk](http://cloud.sdu.dk) using university credentials.
+
+**Step 2**  When you are logged in, be sure to choose the project from which you'd like to use compute resources (red circle). If you've joined one of our courses or workshops, your instructor will let you know which to choose. For this example, we select Sandbox_workshop.
+![](../assets/images/workspace.png)
+
+**Step 3**  Then click on Apps in the left panel to investigate what tools and environments you can use (green circle). The easiest way to find Sandbox resources is to search via the toolbar (red circle). In this example, we'll choose the Genomics Sandbox.
+![](../assets/images/apps.png)
 
 
-* When you are logged in, be sure to choose the project for the NNF course (red circle). Then click on the Apps button (green circle).
-![](../assets/images/dashboard.png)
+**Step 4**  Click on the app button. You will get into the settings window. You can configure the app as shown below, or you may receive custom instructions in a workshop on how to load a configuration file made available in the project folders which will take care of everything for you. 
+![](../assets/images/configure_NGS.png)
+In this example, we configure our session by:
 
-* Find the app `Jupyterlab` (red circle), which is under the title `Featured`.
-![](../assets/images/chooseapp.png)
+  1. entering a job name
+    
+  2. selecting hours of time we want to use a node
+    
+  3. selecting a 4 CPU standard node with 24 GB memory.
+    
+  4. choosing the course "Introduction to NGS Data Analysis" 
+    
+  5. hitting submit (there may be a wait).
 
-* Click on the app button. You will get into the settings window. Load the application settings following the illustrations below.
+The first 3 steps set up our compute resources for the period we want to work and can be customized as needed.
 
-![](../assets/images/setup_1.png)
 
-![](../assets/images/setup_2.png)
+**Step 5**  Wait to go through the queue. When the session starts, the timer begins to count down. In a couple of minutes you should be able to open the interface through the button (green circle).
 
-![](../assets/images/setup_3.png)
+![](../assets/images/running_NGS.png)
 
-* Now, click on the button `Submit` (red circle).
-
-![](../assets/images/submit.png)
-
-* Wait to go through the queue. When the session starts, the timer begins to count down (red circle). In a couple of minutes you should be able to open the interface through the button (green circle).
-
-![](../assets/images/running.png)
+This page will remain open while you work (or you can return to it via 'Runs' in the left panel). You can end your session early by pressing and holding 'Stop application' (pink circle), you can see how much time you have left (red circle) and you can add hours to your session as you go (buttons in blue circle).
