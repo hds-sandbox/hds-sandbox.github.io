@@ -17,11 +17,11 @@ Each Danish university has its own usage relationship with UCloud as governed by
 
 Extensive documentation on general use of UCloud (how to use apps and run jobs, etc.) is available in the UCloud [user guide](https://docs.cloud.sdu.dk/).
 
-## Example: accessing course materials using JupyterLab
+## Example: accessing course materials in a Sandbox app
 
 **Step 1**  Log onto UCloud at the address [http://cloud.sdu.dk](http://cloud.sdu.dk) using university credentials.
 
-**Step 2**  When you are logged in, be sure to choose the project from which you'd like to use compute resources (red circle). If you've joined one of our courses or workshops, your instructor will let you know which to choose. For this example, we select Sandbox_workshop.
+**Step 2**  When you are logged in, be sure to choose the project from which you'd like to use compute resources (red circle). You can provision your own project (check with your local DeiC office if you're new to UCloud) or you can be invited to someone else's project. If you've joined one of our courses or workshops, your instructor will let you know which to choose. For this example, we select Sandbox_workshop.
 ![](../assets/images/workspace.png)
 
 **Step 3**  Then click on Apps in the left panel to investigate what tools and environments you can use (green circle). The easiest way to find Sandbox resources is to search via the toolbar (red circle). In this example, we'll choose the Genomics Sandbox.
