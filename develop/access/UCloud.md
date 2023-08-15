@@ -17,3 +17,29 @@ Each Danish university has its own usage relationship with UCloud as governed by
 
 Extensive documentation on general use of UCloud (how to use apps and run jobs, etc.) is available in the UCloud [user guide](https://docs.cloud.sdu.dk/).
 
+## Example: accessing course materials using JupyterLab
+
+* Log onto UCloud at the address [http://cloud.sdu.dk](http://cloud.sdu.dk) using the university credentials.
+
+
+* When you are logged in, be sure to choose the project for the NNF course (red circle). Then click on the Apps button (green circle).
+![](../assets/images/dashboard.png)
+
+* Find the app `Jupyterlab` (red circle), which is under the title `Featured`.
+![](../assets/images/chooseapp.png)
+
+* Click on the app button. You will get into the settings window. Load the application settings following the illustrations below.
+
+![](../assets/images/setup_1.png)
+
+![](../assets/images/setup_2.png)
+
+![](../assets/images/setup_3.png)
+
+* Now, click on the button `Submit` (red circle).
+
+![](../assets/images/submit.png)
+
+* Wait to go through the queue. When the session starts, the timer begins to count down (red circle). In a couple of minutes you should be able to open the interface through the button (green circle).
+
+![](../assets/images/running.png)
