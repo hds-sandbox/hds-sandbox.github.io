@@ -67,10 +67,11 @@ The chronic lymphocytic leukemia synthetic dataset listed below is generated sol
 + :octicons-tools-24: Chronic Lymphocytic Leukemia synthetic dataset created for use in "Fra realworld data til personlig medicin", a course from University of Copenhagen's [MS in Personlig Medicin](https://personligmedicin.ku.dk/) (last update: January 2023)
 + :octicons-code-review-24: Intro to EHR analysis (workshop under development) 
  
-## HPC Lab  
+## Data Carpentry and management
 ![HPC-Lab](../assets/images/HPC.png){ align=right width="30%" } Computing skills are an important foundation for health data science (and using the above training modules), but formal training is often lacking as biomedical researchers navigate increasingly difficult computational tasks in their projects. These skills range from programming to use of high performance computers (hpc) to proper research data management.
 
 + [:octicons-code-review-24: HPC Startup Guide](https://hds-sandbox.github.io/access/index.html) (instructions for accessing and navigating compute resources at Computerome and UCloud)
 + [:octicons-code-review-24: HeaDS DataLab workshop materials](https://center-for-health-data-science.github.io/index.html) (workshops for programming and good practices developed by the Center for Health Data Science at University of Copenhagen, which are sometimes co-taught by Sandbox staff! Includes **R**, **python**, **bash**, and **git**!)
 + :octicons-code-review-24: Intro to HPC (workshop under development)
++ :octicons-code-review-24: Research data management for NGS data (workshop under development)
 
