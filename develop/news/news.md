@@ -22,6 +22,9 @@ Sandbox data scientists routinely lead or contribute to courses and workshops at
 
 <h3 align="center" style="margin:0px"> News & Updates</h3>
 
+#### 19/06/2023 - 3 days of bulk RNA-seq at the University of Copenhagen
+Our teaching team (from the Sandbox, the HeaDS DataLab, and reNEW's genomics platform) hosted another 3 day workshop on bulk RNA-seq. The 34 participants used the updated version of the UCloud Transcriptomics App which provided the smoothest experience yet for both trainers and trainees. A new goal for the next course run is to add a student project to support independent implementation and exploration of the course content.
+
 #### 31/05/2023 - Sandbox App updates on UCloud rolled out
 New versions of the Genomics Sandbox App, the Transcriptomics Sandbox App, and the Proteomics Sandbox App have all been launched on UCloud this month! Check out the new components in the training modules such as a GWAS module in Genomics and new tools in Transcriptomics and Proteomics. Updates were also informed by the different courses supported during Spring 2023. With these courses wrapping up this month, the associated new training materials have also been included in the new versions of the apps.
 
