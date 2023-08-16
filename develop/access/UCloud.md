@@ -17,18 +17,20 @@ Each Danish university has its own usage relationship with UCloud as governed by
 
 Extensive documentation on general use of UCloud (how to use apps and run jobs, etc.) is available in the UCloud [user guide](https://docs.cloud.sdu.dk/).
 
-## Example: accessing course materials in a Sandbox app
+## Example: how to open a Sandbox app
 
 **Step 1**  Log onto UCloud at the address [http://cloud.sdu.dk](http://cloud.sdu.dk) using university credentials.
 
-**Step 2**  When you are logged in, be sure to choose the project from which you'd like to use compute resources (red circle). You can provision your own project (check with your local DeiC office if you're new to UCloud) or you can be invited to someone else's project. If you've joined one of our courses or workshops, your instructor will let you know which to choose. For this example, we select Sandbox_workshop.
+
+**Step 2**  When you are logged in, choose the project from which you'd like to use compute resources (red circle). You can provision your own project (check with your local DeiC office if you're new to UCloud) or you can be invited to someone else's project. If you've joined one of our courses or workshops, your instructor will let you know which to choose. For this example, we select Sandbox_workshop.
 ![](../assets/images/workspace.png)
+
 
 **Step 3**  Then click on Apps in the left panel to investigate what tools and environments you can use (green circle). The easiest way to find Sandbox resources is to search via the toolbar (red circle). In this example, we'll choose the Genomics Sandbox.
 ![](../assets/images/apps.png)
 
 
-**Step 4**  Click on the app button. You will get into the settings window. You can configure the app as shown below, or you may receive custom instructions in a workshop on how to load a configuration file made available in the project folders which will take care of everything for you. 
+**Step 4**  Click on the app button. You will get into the settings window. You can configure the app as shown below, or be provided with a configuration file made available in a workshop's project folders which will take care of everything for you. 
 ![](../assets/images/configure_NGS.png)
 In this example, we configure our session by:
 
@@ -36,11 +38,11 @@ In this example, we configure our session by:
     
   2. selecting hours of time we want to use a node
     
-  3. selecting a 4 CPU standard node with 24 GB memory.
+  3. selecting a 4 CPU standard node with 24 GB memory
     
   4. choosing the course "Introduction to NGS Data Analysis" 
     
-  5. hitting submit (there may be a wait).
+  5. hitting submit (there may be a wait)
 
 The first 3 steps set up our compute resources for the period we want to work and can be customized as needed.
 
