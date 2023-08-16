@@ -17,7 +17,7 @@ Sandbox resources have been organized as training modules focused on key topics 
 
 You can **access our training modules** through:
 
-+ **In-person workshops and courses** at host universities (check [News](https://hds-sandbox.github.io/news/) for announcements) 
++ **In-person workshops and courses** at host universities (check [News](https://hds-sandbox.github.io/news/news.html) for announcements) 
 + Course/workshop repositories on our **[GitHub page](https://github.com/hds-sandbox)** - some tool assembly may be required! 
 + Independently accessible **Sandbox apps on [UCloud](https://cloud.sdu.dk)**, the academic HPC at University of Southern Denmark
 + Virtual machines deployed on the **[Course Platform](https://www.computerome.dk/solutions/course-platform) at Computerome**, the academic HPC at the Technical University of Denmark (Sandbox rollout still under development!)
@@ -62,7 +62,7 @@ We also offer a tutorial on UCloud's [ColabFold app](https://cloud.sdu.dk/app/jo
 ## Electronic Health Records  
 ![EHRs](../assets/images/EHRs.png){ align=right width="30%" } Electronic health records (EHRs) are digital records kept in the public health sector that record the medical histories of individuals, and access is normally highly restricted to preserve patient privacy. This data is sometimes also shared (partly or in full) in secondary patient registries that support research of a specific disease or condition (such as breast cancer or cystic fibrosis). These datasets are extraordinarily valuable in the development of predictive models used in precision medicine.
 
-The chronic lymphocytic leukemia synthetic dataset listed below is generated solely from public data and is of low utility, so we don't recommend its use beyond the course it was designed for (with much explanation for the students on its construction and caveats). Please see [Synthetic Data](https://hds-sandbox.github.io/syntheticdata/) for more information.
+The chronic lymphocytic leukemia synthetic dataset listed below is generated solely from public data and is of low utility, so we don't recommend its use beyond the course it was designed for (with much explanation for the students on its construction and caveats). Please see [Synthetic Data](https://hds-sandbox.github.io/datasets/synthdata.html) for more information.
 
 + :octicons-tools-24: Chronic Lymphocytic Leukemia synthetic dataset created for use in "Fra realworld data til personlig medicin", a course from University of Copenhagen's [MS in Personlig Medicin](https://personligmedicin.ku.dk/) (last update: January 2023)
 + :octicons-code-review-24: Intro to EHR analysis (workshop under development) 

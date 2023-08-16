@@ -21,7 +21,7 @@ and Aalborg University (AAU).
 To get in touch with the Sandbox or be connected with Sandbox staff at your university,
 please [email us](mailto:nhds_sandbox@sund.ku.dk). To obtain module material for use in your
 own compute environment, see our GitHub organization page
-at [hds-sandbox](https://github.com/hds-sandbox/hds-sandbox.github.io).
+at [hds-sandbox](https://github.com/hds-sandbox/).
 
 | Member                        | Role                                 | Institution                        |
 |-------------------------------|--------------------------------------|------------------------------------|

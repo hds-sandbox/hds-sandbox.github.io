@@ -11,6 +11,10 @@ hide:
 
 # Accessing the Sandbox on Computerome
 
+<b>We do not currently support independent use of Sandbox materials on Computerome</b>. Access is supported via courses collaborating with the Sandbox and run on Computerome's [Course Platform](https://computerome.dk/solutions/course-platform). Check [here](https://hds-sandbox.github.io/access/index.html) for more info. 
+
+*The below instructions are provided as reference for course participants.*
+
 To set up a user account on Computerome, you will need to provide administrators with your name, email address, and phone number for two-factor authentication. Once approved as a user, you will receive your username and server address (URL) by email, and you will receive an initial course-platform password by text.
 
 On Computerome, the Sandbox environment is deployed as a virtual machine with a Linux desktop as user interface. This environment can be accessed through VMware Horizon using two different methods: (A) a desktop client (which you install on your computer) or (B) a web-based client (for those without install privileges on their computer). Please follow the appropriate instructions (A versus B) depending on your access preference.
