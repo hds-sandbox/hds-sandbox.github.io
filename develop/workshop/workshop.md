@@ -12,10 +12,10 @@ hide:
 <h4 align=center>Welcome to the homepage for in-person workshops introducing the Health Data Science Sandbox to potential users. Thanks for joining us!</h4> 
 
 <h2>Agenda</h2>
- + The Sandbox Concept - 15 minutes
- + Access Sandbox resources - 15 minutes
+ + The Sandbox Concept - 20 minutes
+ + Access Sandbox resources - 5 minutes
  + Try out a module - 2 hours
- + Pointers and feedback - 20 minutes
+ + Discussion and feedback - 20 minutes
 
 ## The Sandbox concept
 The Health Data Science Sandbox aims to be a training resource for bioinformaticians, data scientists, and those generally curious about how to investigate large biomedical datasets. We are an active and developing project seeking interested users (both trainees and educators). All of our open-source materials are available on our [Github page](https://github.com/hds-sandbox) and much more information is available on the rest of the website you are currently visiting! 
@@ -42,10 +42,10 @@ If you're interested in bulk or single cell RNA sequencing analysis and visualiz
 
 ![proteomics](../assets/images/proteomics.png){ align=left width="10%" }
 ### Proteomics
-Interested in the latest and greatest protein models built on AlphaFold technology? Join Sandbox Data Scientist Jacob Fredegaard Hansen as he walks you through how to use CollabFold on UCloud. Jacob can also demo our Proteomics Sandbox, which contains a suite of proteomics analysis tools that will support a future course in clinical proteomics but is already available on UCloud for interested users. Sign into UCloud and then click this [invite link](not active yet).
+Interested in modern methods for protein structure prediction? Join Sandbox Data Scientist Jacob Fredegaard Hansen as he walks you through how to use ColabFold on UCloud. Jacob can also demo our Proteomics Sandbox, which contains a suite of proteomics analysis tools that will support a future course in clinical proteomics but is already available on UCloud for interested users. Sign into UCloud and then click this [invite link](not active yet).
 
 
-## Pointers and feedback
+## Discussion and feedback
 We hope you enjoyed the live demo sessions. If you have broader questions, suggestions, or concerns, now is the time to raise them! If you are totally toast for the day, remember that you can check out longer versions of our tutorials as well as other topics and tools in each of the [Sandbox modules](https://hds-sandbox.github.io/modules/index.html) or join us for a multi-day in person [course](https://hds-sandbox.github.io/news/news.html).
 
 As data scientists, we also would be really happy for some quantifiable info and feedback - we want to build things that the Danish health data science community is excited to use. <b>Please answer these [5 questions](survey link) for us before you head out for the day</b>  (*link activated on day of the workshop*).
