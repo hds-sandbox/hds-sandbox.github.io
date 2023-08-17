@@ -18,7 +18,7 @@ hide:
  + Discussion and feedback - 20 minutes
 
 ## The Sandbox concept
-The Health Data Science Sandbox aims to be a training resource for bioinformaticians, data scientists, and those generally curious about how to investigate large biomedical datasets. We are an active and developing project seeking interested users (both trainees and educators). All of our open-source materials are available on our [Github page](https://github.com/hds-sandbox) and much more information is available on the rest of the website you are currently visiting! 
+The Health Data Science Sandbox aims to be a training resource for bioinformaticians, data scientists, and those generally curious about how to investigate large biomedical datasets. We are an active and developing project seeking interested users (both trainees and educators). All of our open-source materials are available on our [Github page](https://github.com/hds-sandbox) and much more information is available on the rest of the website you are currently visiting! We work with both UCloud and Computerome (major Danish academic supercomputers) - see our [HPC Access page](https://hds-sandbox.github.io/access/index.html) for more info on each set up.
 
 ## Access Sandbox resources
 We currently provide training materials and resources as topical apps on UCloud, the supercomputer located at the University of Southern Denmark. To use these resources, you'll need the following:
