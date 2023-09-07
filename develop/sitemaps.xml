@@ -8,4 +8,10 @@
 <sitemap>
 <loc>https://hds-sandbox.github.io/scRNASeq_course/sitemap.xml</loc>
 </sitemap>
+<sitemap>
+<loc>https://hds-sandbox.github.io/ELIXIR-workshop/sitemap.xml</loc>
+</sitemap>
+<sitemap>
+<loc>https://hds-sandbox.github.io/proteomics-sandbox/sitemap.xml</loc>
+</sitemap>
 </sitemapindex>
