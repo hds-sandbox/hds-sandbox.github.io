@@ -72,6 +72,5 @@ The chronic lymphocytic leukemia synthetic dataset listed below is generated sol
 
 + [:octicons-code-review-24: HPC Startup Guide](https://hds-sandbox.github.io/access/index.html) (instructions for accessing and navigating compute resources at Computerome and UCloud)
 + [:octicons-code-review-24: HeaDS DataLab workshop materials](https://center-for-health-data-science.github.io/index.html) (workshops for programming and good practices developed by the Center for Health Data Science at University of Copenhagen, which are sometimes co-taught by Sandbox staff! Includes **R**, **python**, **bash**, and **git**!)
+[:octicons-code-review-24: RDM for NGS data](https://hds-sandbox.github.io/RDM_NGS_course) (workshop on how to handle NGS data following simple guidelines to increase the FAIRability of your data)
 + :octicons-code-review-24: Intro to HPC (workshop under development)
-+ :octicons-code-review-24: Research data management for NGS data (workshop under development)
-

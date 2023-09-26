@@ -183,6 +183,7 @@ nav:
         - 'CLL dataset': https://hds-sandbox.github.io/modules/index.html
       - 'HPC Lab':
         - 'HeaDS DataLab': https://center-for-health-data-science.github.io/index.html
+        - 'RDM for NGS data': https://hds-sandbox.github.io/RDM_NGS_course
   - Contact: contact/contact.md
   - HeaDS website: https://heads.ku.dk/
   - Workshop:  https://hds-sandbox.github.io/ELIXIR-workshop/
