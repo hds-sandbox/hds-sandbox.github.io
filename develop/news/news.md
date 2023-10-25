@@ -28,7 +28,7 @@ Sandbox data scientist Jose Alejandro Romero Herrera ran the first instance of a
 #### 07/09/2023 - 'Digging into the Health Data Science Sandbox' at the Danish Bioinformatics Conference 2023 (Aarhus University)
 The full team of Sandbox data scientists hosted a 4 hour workshop at the Danish Bioinformatics conference where they gave a taster session of each of our 3 omics apps. We learned that multi-omics analysis were a substantial draw for the crowd at the DBC and are making plans to address this interest in future events.
 
-#### 29/08/2023 - 2 days of Sandbox intro at Aarhus University
+#### 29/08/2023 - 3 days of Sandbox demos at Aarhus University
 Sandbox data scientist Samuele Soraggi hosted a three day speed run through Sandbox apps at the Bioinformatics Research Center. The 26 participants joined for genomics, transcriptomics, and/or proteomics app demos depending on their interests. This thorough omics demo had maxed out participant sign-ups and an enthusiastic crew enjoyed the sessions alongside a bit of networking across disciplines. We plan to host more of these type of workshops given the event's success!
 
 #### 19/06/2023 - 3 days of bulk RNA-seq at the University of Copenhagen
