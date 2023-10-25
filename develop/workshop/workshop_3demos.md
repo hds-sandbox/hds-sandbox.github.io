@@ -28,11 +28,22 @@ We currently provide training materials and resources as topical apps on UCloud,
  3. our invite link to the correct UCloud project that will be shared on the day of the workshop. This way, we can provide you compute resources for the active sessions of the workshop. To use Sandbox materials outside of the workshop, you'll need to check with the local DeiC office at your university about how to request compute hours on UCloud.
 
 ## Try out a module
-So our Sandbox data scientists have finished their intro at the workshop? Great, now the brave ones in the audience can try out one of our apps in a live session. Today we are demoing:
+So our Sandbox data scientists have finished their intro at the workshop? Great, now it's time to choose your poison *(cough)* <b>topic of interest</b> for today. Your options are below:
+
+![Genomics](../assets/images/genomics2.png){ align=left width="10%" }
+### Genomics
+If you're interested in NGS technologies and applications ranging from genome assembly to variant calling to metagenomics, join Sandbox Data Scientist Samuele Soraggi in testing out our Genomics Sandbox app. This app supports a semester-length course on NGS as well as a Population Genomics course run regularly at Aarhus University. Sign into UCloud and then click this [invite link](not active yet).
+
 
 ![Transcriptomics](../assets/images/transcriptomics.png){ align=left width="10%" }
 ### Transcriptomics 
-If you're interested in bulk or single cell RNA sequencing analysis and visualization, join Sandbox Data Scientist Samuele Soraggi from Aarhus University in testing out our Transcriptomics Sandbox app. This app supports regular 3-4 day workshops at University of Copenhagen and provides stand-alone visualisation tools. Sign into UCloud and then click this [invite link](not active yet).
+If you're interested in bulk or single cell RNA sequencing analysis and visualization, join Sandbox Data Scientist Jose Alejandro Romero Herrera (Alex) in testing out our Transcriptomics Sandbox app. This app supports regular 3-4 day workshops at University of Copenhagen and provides stand-alone visualisation tools. Sign into UCloud and then click this [invite link](not active yet).
+
+
+![proteomics](../assets/images/proteomics.png){ align=left width="10%" }
+### Proteomics
+Interested in modern methods for protein structure prediction? Join Sandbox Data Scientist Jacob Fredegaard Hansen as he walks you through how to use ColabFold on UCloud. Jacob can also demo our Proteomics Sandbox, which contains a suite of proteomics analysis tools that will support a future course in clinical proteomics but is already available on UCloud for interested users. Sign into UCloud and then click this [invite link](not active yet).
+
 
 ## Discussion and feedback
 We hope you enjoyed the live demo. If you have broader questions, suggestions, or concerns, now is the time to raise them! If you are totally toast for the day, remember that you can check out longer versions of our tutorials as well as other topics and tools in each of the [Sandbox modules](https://hds-sandbox.github.io/modules/index.html) or join us for a multi-day in person [course](https://hds-sandbox.github.io/news/news.html).
