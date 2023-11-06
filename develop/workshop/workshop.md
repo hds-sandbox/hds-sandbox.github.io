@@ -11,17 +11,17 @@ hide:
 
 <h4 align=center>Welcome to the homepage for in-person workshops introducing the Health Data Science Sandbox to potential users. Thanks for joining us!</h4> 
 
-<h2>Upcoming Workshop</h2>
-Intro to the Health Data Science Sandbox at Aalborg University
-Instructors: Sandbox Data Scientists Jakob Skelmose (AAU CLINDA) and Samuele Soraggi (AU BiRC)
-Location: SLV249 mødelokale 11.01.032 at AAU SUND
-Sign up on AAU's Moodle [here](https://www.moodle.aau.dk/course/view.php?id=50047) or [email the Sandbox](mailto:nhds_sandbox@sund.ku.dk) with questions
+??? info "Upcoming Workshop"
++ Intro to the Health Data Science Sandbox at Aalborg University
++ Instructors: Sandbox Data Scientists Jakob Skelmose (AAU CLINDA) and Samuele Soraggi (AU BiRC)
++ Location: SLV249 mødelokale 11.01.032 at AAU SUND
++ Sign up on AAU's Moodle [here](https://www.moodle.aau.dk/course/view.php?id=50047) or [email the Sandbox](mailto:nhds_sandbox@sund.ku.dk) with questions
 
 <h2>Agenda</h2>
- + The Sandbox Concept - 30 minutes
- + Accessing Sandbox resources - 10 minutes
- + Try out our transcriptomics module - 2 hours
- + Discussion and feedback - 20 minutes
+ 1. The Sandbox Concept - 30 minutes
+ 2. Accessing Sandbox resources - 10 minutes
+ 3. Try out our transcriptomics module - 2 hours
+ 4. Discussion and feedback - 20 minutes
 
 ## The Sandbox concept
 The Health Data Science Sandbox aims to be a training resource for bioinformaticians, data scientists, and those generally curious about how to investigate large biomedical datasets. We are an active and developing project seeking interested users (both trainees and educators). All of our open-source materials are available on our [Github page](https://github.com/hds-sandbox) and much more information is available on the rest of the website you are currently visiting! We work with both UCloud and Computerome (major Danish academic supercomputers) - see our [HPC Access page](https://hds-sandbox.github.io/access/index.html) for more info on each set up.
