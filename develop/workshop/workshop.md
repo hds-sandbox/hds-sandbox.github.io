@@ -12,9 +12,14 @@ hide:
 <h4 align=center>Welcome to the homepage for in-person workshops introducing the Health Data Science Sandbox to potential users. Thanks for joining us!</h4> 
 
 !!! info "Upcoming Workshop at AAU"
-    - Intro to the Health Data Science Sandbox at Aalborg University
+    <b> Intro to the Health Data Science Sandbox at Aalborg University</b>
+
+    Interested in adding new analysis techniques to your health data science skill set? Curious about how to use Danish supercomputing resources? Looking for how to host coding material for your own course as an academic educator? Join our workshop for a demo of the Health Data Science Sandbox, a platform for training and research being built collaboratively across 5 universities. We will introduce our mission, network, and resources and then give you an opportunity to try out our omics-focused training module with single cell RNA sequencing data in a guided live session on UCloud (experience with R is a plus but not required). The workshop is open for students, researchers, and educators. 
+    
     - Instructors: Sandbox Data Scientists Jakob Skelmose (AAU CLINDA) and Samuele Soraggi (AU BiRC)
+    - Time: 6 December 2023, 1200-1600
     - Location: SLV249 moedelokale 11.01.032 at AAU SUND
+    - Prerequisites: anyone can join for the first hour to hear about Sandbox resources, how to use them, and plans for the future. Some experience with R or Python will help you if you join the following transcriptomics app demo for the rest of the session (but all are welcome).
     - [Sign up](https://www.moodle.aau.dk/course/view.php?id=50047) on AAU's Moodle or [email the Sandbox](mailto:nhds_sandbox@sund.ku.dk) with questions
 
 
