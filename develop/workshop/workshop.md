@@ -11,11 +11,13 @@ hide:
 
 <h4 align=center>Welcome to the homepage for in-person workshops introducing the Health Data Science Sandbox to potential users. Thanks for joining us!</h4> 
 
-??? info "Upcoming Workshop"
-+ Intro to the Health Data Science Sandbox at Aalborg University
-+ Instructors: Sandbox Data Scientists Jakob Skelmose (AAU CLINDA) and Samuele Soraggi (AU BiRC)
-+ Location: SLV249 mødelokale 11.01.032 at AAU SUND
-+ Sign up on AAU's Moodle [here](https://www.moodle.aau.dk/course/view.php?id=50047) or [email the Sandbox](mailto:nhds_sandbox@sund.ku.dk) with questions
+!!! info "Upcoming Workshop at AAU"
+    - Intro to the Health Data Science Sandbox at Aalborg University
+    - Instructors: Sandbox Data Scientists Jakob Skelmose (AAU CLINDA) and Samuele Soraggi (AU BiRC)
+    - Location: SLV249 moedelokale 11.01.032 at AAU SUND
+    - [Sign up](https://www.moodle.aau.dk/course/view.php?id=50047) on AAU's Moodle or [email the Sandbox](mailto:nhds_sandbox@sund.ku.dk) with questions
+
+
 
 <h2>Agenda</h2>
  1. The Sandbox Concept - 30 minutes
