@@ -11,11 +11,24 @@ hide:
 
 <h4 align=center>Welcome to the homepage for in-person workshops introducing the Health Data Science Sandbox to potential users. Thanks for joining us!</h4> 
 
+!!! info "Upcoming Workshop at AAU"
+    <b> Intro to the Health Data Science Sandbox at Aalborg University</b>
+
+    Interested in adding new analysis techniques to your health data science skill set? Curious about how to use Danish supercomputing resources? Looking for how to host coding material for your own course as an academic educator? Join our workshop for a demo of the Health Data Science Sandbox, a platform for training and research being built collaboratively across 5 universities. We will introduce our mission, network, and resources and then give you an opportunity to try out our omics-focused training module with single cell RNA sequencing data in a guided live session on UCloud (experience with R is a plus but not required). The workshop is open for students, researchers, and educators. 
+    
+    - Instructors: Sandbox Data Scientists Jakob Skelmose (AAU CLINDA) and Samuele Soraggi (AU BiRC)
+    - Time: 6 December 2023, 1200-1600
+    - Location: SLV249 moedelokale 11.01.032 at AAU SUND
+    - Prerequisites: anyone can join for the first hour to hear about Sandbox resources, how to use them, and plans for the future. Some experience with R or Python will help you if you join the following transcriptomics app demo for the rest of the session (but all are welcome).
+    - [Sign up](https://www.moodle.aau.dk/course/view.php?id=50047) on AAU's Moodle or [email the Sandbox](mailto:nhds_sandbox@sund.ku.dk) with questions
+
+
+
 <h2>Agenda</h2>
- + The Sandbox Concept - 30 minutes
- + Accessing Sandbox resources - 10 minutes
- + Try out our transcriptomics module - 2 hours
- + Discussion and feedback - 20 minutes
+ 1. The Sandbox Concept - 30 minutes
+ 2. Accessing Sandbox resources - 10 minutes
+ 3. Try out our transcriptomics module - 2 hours
+ 4. Discussion and feedback - 20 minutes
 
 ## The Sandbox concept
 The Health Data Science Sandbox aims to be a training resource for bioinformaticians, data scientists, and those generally curious about how to investigate large biomedical datasets. We are an active and developing project seeking interested users (both trainees and educators). All of our open-source materials are available on our [Github page](https://github.com/hds-sandbox) and much more information is available on the rest of the website you are currently visiting! We work with both UCloud and Computerome (major Danish academic supercomputers) - see our [HPC Access page](https://hds-sandbox.github.io/access/index.html) for more info on each set up.
