@@ -22,6 +22,9 @@ Sandbox data scientists routinely lead or contribute to courses and workshops at
 
 <h3 align="center" style="margin:0px"> News & Updates</h3>
 
+#### 9/11/2023 - Updated Proteomics Sandbox App supporting of a Biostatistics course at SDU
+The Proteomics Sandbox Application has recently undergone a significant update, enhancing its security features to ensure safer usage for its users. In this latest iteration, Sandbox data scientist Jacob Fredegaard Hansen has expanded the app's software suite by introducing two new tools: DIA-NN and MZmine, catering to the metabolomics field. Furthermore, the pre-existing software within the application has been refreshed and updated to the latest versions, ensuring that the Proteomics Sandbox Application remains at the cutting-edge of the field. Excitingly, this application will be actively utilized in the course "BMB831: Biostatistics in R II" at the University of Southern Denmark throughout this autumn, showcasing its relevance and applicability in academic settings.
+
 #### 25/10/2023 - 'Research Data Management for NGS Data' with DeiC (Technical University of Denmark)
 Sandbox data scientist Jose Alejandro Romero Herrera ran the first instance of a new module on research data management practices he developed specifically for NGS data. Twelve participants were hosted in conjunction with DeiC at DTU, and were exposed to tools like bash, conda, git, and cookie cutter in their quest to organize their omics data.
 
