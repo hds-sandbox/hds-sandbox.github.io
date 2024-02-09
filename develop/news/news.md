@@ -22,6 +22,21 @@ Sandbox data scientists routinely lead or contribute to courses and workshops at
 
 <h3 align="center" style="margin:0px"> News & Updates</h3>
 
+#### 9/2/2024 - The Proteomics Sandbox supports a new course at SDU!
+During the Spring Semester 2024, Sandbox data scientist Jacob Fredegaard Hansen will be assisting with teaching and tools in the course BMB834: Protein Structure, Dynamics, and Modelling at the University of Southern Denmark. Here, Jacob will provide Sandbox support, and materials will be used for applying computational methods for protein structure retrieval and visualization, as well as for applying high-performance computing (HPC) methods for protein structure modeling.
+
+#### 1/2/2024 - The Sandbox attends the DDSA PhD Meetup and 2024 D3A conference at Nyborg Strand
+Several Sandbox staff represented the project at both the DDSA PhD Meetup with a practical presentation on research data management and with posters at D3A, the national data science meeting. It was nice to meet up in person and also make new connections with the excellent cadre of conference attendees. Thanks to the DDSA secretariat for their invitation and organizational efforts.
+
+#### 31/1/2024 - New posted manuscript - 'A primer for synthetic health data'
+In collaboration with Prof. Henning Langberg at KU Public Health and funding from Erhvervsfyrtaarn Sund Vaegt, Jennifer Bartell has developed a manuscript that discusses technical, regulatory, and deployment solutions and challenges for synthetic health data from a broad perspective. This manuscript was developed in collaboration with Sandbox partners Sander Boisen Valentin and Martin Boegsted of AAU, and we plan to submit it to a journal soon. For now, check out [our manuscript on arXiv](https://arxiv.org/abs/2401.17653)!
+
+#### 12/12/2023 - NNF Collaborative Data Science award news: the SE3D project!
+Today we got the news that we will be able to hire 5 new research staff focused on synthetic health data over the next 4 years. The SE3D project -  Synthetic health data: ethical development and deployment via deep learning approaches - will be led by Sandbox PIs Martin Boegsted (AAU) and Anders Krogh (KU) alongside Sandbox project lead Jennifer Bartell (KU) and a new collaborator, Prof. Jan Trzaskowski from AAU Law. We're really excited to set up this research arm that shares so many Sandbox interests and potential for interaction. The project starts from 1 May 2024, with much thanks to the NNF for their continued support of our ideas. Look out for job ads in the spring from KU and AAU!
+
+#### 7/11/2023 - 'From Data Chaos to Data Harmony: Managing NGS Data in a Wetlab' at the annual DeiC conference
+Sandbox data scientist Jose Alejandro Romero Herrera gave a talk in the Data Management speaker track at the annual Danish E-Infrastructure Consortium (DeiC) conference in Kolding, Denmark. The talk was well received at the biggest DeiC conference ever (250 participants).
+
 #### 9/11/2023 - Updated Proteomics Sandbox App supporting of a Biostatistics course at SDU
 The Proteomics Sandbox Application has recently undergone a significant update, enhancing its security features to ensure safer usage for its users. In this latest iteration, Sandbox data scientist Jacob Fredegaard Hansen has expanded the app's software suite by introducing two new tools: DIA-NN and MZmine, catering to the metabolomics field. Furthermore, the pre-existing software within the application has been refreshed and updated to the latest versions, ensuring that the Proteomics Sandbox Application remains at the cutting-edge of the field. Excitingly, this application will be actively utilized in the course "BMB831: Biostatistics in R II" at the University of Southern Denmark throughout this autumn, showcasing its relevance and applicability in academic settings.
 
