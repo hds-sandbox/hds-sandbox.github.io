@@ -76,8 +76,8 @@ extra_javascript:
 plugins:
   - tags:
       tags_file: keywords.md # Keywords file to use for mkdocs tags
-  - bibtex:
-      bib_file: references.bib # Reference file in bibtex format
+  #- bibtex:
+  #    bib_file: references.bib # Reference file in bibtex format
   - search
   - mkdocs-video # embed videos to the docs
   - minify:   # minify HTML of a page before it is written to disk
