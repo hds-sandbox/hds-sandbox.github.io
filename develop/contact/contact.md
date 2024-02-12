@@ -23,16 +23,14 @@ please [email us](mailto:nhds_sandbox@sund.ku.dk). To obtain module material for
 own compute environment, see our GitHub organization page
 at [hds-sandbox](https://github.com/hds-sandbox/).
 
-| Member                        | Role                                 | Institution                        |
-|-------------------------------|--------------------------------------|------------------------------------|
-| Anders Krogh                  | PI                                   | Center for Health Data Science, KU |
-| Jennifer Bartell              | Project Coordinator / Data Scientist | Center for Health Data Science, KU |
-| José Alejandro Romero Herrera | Data Scientist                       | Center for Health Data Science, KU |
-| Jakob Skelmose                | Data Scientist                       | Department of Clinical Medicine, AAU                                |
-| Samuele Soraggi               | Data Scientist                       | Bioinformatics Research Centre, AU                                 |
-| Jesper Roy Christiansen        | Data Scientist                       | Computerome, DTU                    |
-| Jacob Fredegaard Hansen       | Data Scientist                       | Department of Biochemistry and Molecular Biology, SDU                                |
-| Conor O'Hare                  | Research Assistant                   | Center for Health Data Science, KU |
+| Member                        | Role                                 | Institution                        | PI                                 |
+|-------------------------------|--------------------------------------|------------------------------------|------------------------------------|
+| Jennifer Bartell              | Project Coordinator / Data Scientist | Center for Health Data Science, KU |Anders Krogh                        |
+| Alba Refoyo Martinez          | Data Scientist                       | Center for Health Data Science, KU |Anders Krogh                        |
+| Jakob Skelmose                | Data Scientist                       | Department of Clinical Medicine, AAU|Martin Boegsted                    |
+| Samuele Soraggi               | Data Scientist                       | Bioinformatics Research Centre, AU |Mikkel Schierup                     |
+| Jesper Roy Christiansen       | Data Scientist                       | Computerome, DTU                   |Peter Loengreen                     |
+| Jacob Fredegaard Hansen       | Data Scientist                       | Department of Biochemistry and Molecular Biology, SDU|Ole Noerregaard Jensen|
 
 
-We appreciate the contributions of previous team members Sander Boisen Valentin (AAU) and Peter Husen (SDU).
+We appreciate the contributions of previous team members José Alejandro Romero Herrera (KU), Conor O'Hare (KU), Sander Boisen Valentin (AAU) and Peter Husen (SDU).
