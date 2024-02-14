@@ -50,6 +50,7 @@ Then click on Apps in the left panel to investigate what tools and environments 
 Click on the app button. You will get into the settings window. First, we recommend reading the documentation of the app (green square). Then, you can configure the app as shown below, or be provided with a configuration file made available in a workshop's project folders (*import parameters*) which will take care of everything for you. 
 
 > ![](../assets/images/configure_NGS.png)
+
 In this example, we configure our session by:
 
   1. entering a job name
