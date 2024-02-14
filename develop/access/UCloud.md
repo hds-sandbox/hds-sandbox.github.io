@@ -81,4 +81,4 @@ You can navigate through the different folders and start running the Python note
 
 > ![](../assets/images/openning_notebook.png)
 
-If you are an advanced user, you can also create your own Python files and select the kernel *NGS (python)* to use the pre-installed software. Watch videos on how to upload and download new data and share files that you have created/developed with collaborators [here].(https://docs.cloud.sdu.dk/tutorials/tutorial1.html)
+If you are an advanced user, you can also create your own Python files and select the kernel *NGS (python)* to use the pre-installed software. Watch videos on how to upload and download new data and share files that you have created/developed with collaborators [here](https://docs.cloud.sdu.dk/tutorials/tutorial1.html).
