@@ -28,7 +28,7 @@ Log onto UCloud at the address [http://cloud.sdu.dk](http://cloud.sdu.dk) using 
 
 When you are logged in, choose the project from which you'd like to use compute resources (red circle). Every user has its own personal workspace (*Your workspace*). You can also provision your own project (check with your local DeiC office if you're new to UCloud) or you can be invited to someone else's project. If you've previously selected a project, it will be launched by default. If it's your first time, you'll be in your own workspace. If you've joined one of our courses or workshops, your instructor will let you know which to choose. For this example, we select Sandbox_workshop.
 
-![](../assets/images/workspace.png)
+> ![](../assets/images/workspace.png)
 
 On the left side, you can see the structure of the project (content changes when you select a different project). 
 
