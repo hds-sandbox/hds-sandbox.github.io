@@ -1,7 +1,7 @@
 ---
 title: "News"
 listing:
-  fields: [image, date, title, author, categories]
+  fields: [date, title, author]
   contents: news/*.qmd
   type: table
   sort:

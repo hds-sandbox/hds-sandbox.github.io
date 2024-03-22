@@ -23,7 +23,7 @@ There are large public de-identified EHR datasets that serve as benchmark resour
 
 ## Synthetic data
 
-![]("../images/Tradeoff_base.svg"){width="400px" fig-align="right"}
+![]("../images/Tradeoff_base.svg"){width=400 fig-align="right"}
 
 <!--- 
 ![tradeoff](../assets/images/Tradeoff_base.svg#right) 
