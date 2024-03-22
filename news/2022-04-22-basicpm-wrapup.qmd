@@ -1,0 +1,9 @@
+---
+title: "Basics of Personalized Medicine - final wrap-up"
+description: "Basics of Personalized Medicine - final wrap-up"
+author: Jennifer Bartell
+date: 2022-06-01
+categories: [personalized-medicine, AAU]
+---
+
+Our first course, Basics of Personalized Medicine, wrapped up this month with student project presentations which described their approaches to analysis of the synthetic Chronic Lymphocytic Leukemia dataset created for the course. Course reviews highlighted the helpfulness of Sandbox staff in troubleshooting R problems and the tremendous amount that students learned about predictive modeling.

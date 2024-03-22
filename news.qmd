@@ -1,0 +1,12 @@
+---
+title: "News"
+listing:
+  fields: [image, date, title, author, categories]
+  contents: news/*.qmd
+  type: table
+  sort:
+    - "date desc"
+---
+
+
+Sandbox data scientists routinely lead or contribute to courses and workshops at host universities in Denmark. Check out upcoming events in the table below!
