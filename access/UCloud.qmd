@@ -13,7 +13,7 @@ hide:
 
 User accounts on UCloud are enabled by university login credentials using WAYF (Where Are You From). Access the WAYF login portal [here](https://cloud.sdu.dk/), and then find your affiliated Danish university using the search bar. After login, we suggest setting up Two Factor Authentication by clicking on the icon in the top-right corner of the screen. Once you are an approved user of UCloud, you can access the Sandbox environment via different 'Sandbox' apps linked to topical modules that you deploy using your own storage and computing resources - just go to Apps once you have signed into UCloud and search 'Sandbox' to find what we have deployed. Each app page has its own Documentation link that will direct you to Sandbox-based usage guidelines which may be customized to the app's particular tools and scope. Apps will have different 'courses' that you can initially choose which make a personal copy of training materials in your workspace for you to edit.  
 
-Each Danish university has its own usage relationship with UCloud as governed by their local front office of [DeiC](https://www.deic.dk/en) - check with your university IT support / DeiC representatives about requesting computational resources. For example, the University of Copenhagen has previously allotted an initial chunk of free UCloud compute hours to staff (from PhD students to professors as well as non-academic staff). If you have further questions about getting compute resources, please [contact](https://hds-sandbox.github.io/contact) Sandbox staff.
+Each Danish university has its usage relationship with UCloud as governed by their local front office of [DeiC](https://www.deic.dk/en) - check with your university IT support / DeiC representatives about requesting computational resources. For example, the University of Copenhagen has previously allotted an initial chunk of free UCloud compute hours to staff (from PhD students to professors as well as non-academic staff). If you have further questions about getting compute resources, please [contact](https://hds-sandbox.github.io/contact) Sandbox staff.
 
 Extensive documentation on the general use of UCloud (how to use apps and run jobs, etc.) is available in the UCloud [user guide](https://docs.cloud.sdu.dk/).
 
@@ -30,7 +30,7 @@ When you are logged in, choose the project from the dashboard (highlighted in re
 
 For this example, we select Sandbox_workshop.
 
-> ![](../assets/images/workspace.png)
+![Dashboard: your workspace](../assets/images/workspace.png){fig-alt="Screenshot of your dashboard"}
 
 On the left side, you can see the structure of the project (content changes when you select a different project):
 
@@ -40,13 +40,14 @@ On the left side, you can see the structure of the project (content changes when
 - **Apps**: gain access to the apps catalog on ucloud. We refer to [apps](https://docs.cloud.sdu.dk/Apps/type.html) as the software applications that can be deployed on the cloud. It's recommended to explore the featured ones. Use the search bar to find the *sandbox apps* 
 - **Runs**: from where you submit your jobs and past runs information
 
-!!! important
-    Don't forget to **accept the invitation** to access new projects.
-    Remember to **switch projects** to access other files and resources. Test switching among projects and observe how the dashboard changes.
+:::{.callout-important}
+Don't forget to **accept the invitation** to access new projects.
+Remember to **switch projects** to access other files and resources. Test switching among projects and observe how the dashboard changes.
+:::
 
-At the bottom left corner, you will find your user ID, which you may need to provide once the course starts or for future collaborations, such as being added to other people's projects. You can also find here [UCloud docs](https://docs.cloud.sdu.dk/).
+At the bottom left corner, you will find your user ID, which you may need to provide once the course starts or for future collaborations, such as being added to other people's projects. You can also find it on [UCloud docs](https://docs.cloud.sdu.dk/).
 
-In the dashboard, you will also find news, your favorite apps, recent runs, resources and other notifications between other applications: 
+In the dashboard, you will also find news, your favorite apps, recent runs, resources, and other notifications between other applications: 
 - **Resource allocations**: indicate your currently allocated resources (e.g., KU employees have access to 1000kr in computing). 
 - **Grant applications**: apply for more resources (computing or storage if you run out of them)
 
@@ -54,29 +55,32 @@ In the dashboard, you will also find news, your favorite apps, recent runs, reso
 
 Then click on Apps in the left panel to investigate what tools and environments you can use (green circle). The easiest way to find Sandbox resources is to search via the toolbar (red circle). In this example, we'll select the Genomics Sandbox (which will bring you to the submission screen).
 
-> ![](../assets/images/apps.png)
+![Dashboard: all apps](../assets/images/apps.png){fig-alt="Screenshot of apps dashboard"}
 
-!!! tip
-    Mark them as favorites so they appear on your dashboard. 
+:::{.callout-tip}
+Mark them as favorites so they appear on your dashboard. 
+:::
 
 ### **Step 4**  
 
 Click on the app button to get into the settings window. First, we recommend reading the documentation of the app (highlighted in green). Then, you can configure the app as shown below, or be provided with a configuration file made available in a workshop's project folders (*import parameters*) which will take care of everything for you. 
 
-> ![](../assets/images/configure_NGS.png)
+![Dashboard jobs: configuration step](../assets/images/configure_NGS.png){fig-alt="Screenshot of how to configure your job"}
 
 In this example, we configure our session by:
 
-  1. entering a job name (descriptive of the task)
-  2. selecting hours of time we want to use a node (it can be modified afterward)
-  3. selecting a 4 CPU standard node with 24 GB memory
-  4. choosing the course "Introduction to NGS Data Analysis" 
-  5. optional: add folders to access while in this job 
-  6. hitting submit (there may be a wait)
+1. entering a job name (descriptive of the task)
+2. selecting the time (in hours) we want to use a node for (it can be modified afterward)
+3. selecting a 4 CPU standard node with 24 GB memory
+4. choosing the course "Introduction to NGS Data Analysis" 
+5. optional: add folders to access while in this job 
+6. hitting submit (there may be a wait)
 
-!!! important
-    The first 3 steps set up our computing resources for the period we want to work and can be customized as needed. However, **only step 2 can be modified after submitting the job**. For some of the Sandbox apps, you might want to select folders (Home and the Notebooks/Data from the module to avoid downloading it every time you start a new job). If you are in doubt, read the documentation specific to the app you are interested in.
-    Select the version of the app (if in doubt, use the latest one). This allows you to run specific versions of software.
+:::{.callout-important} 
+The first 3 steps set up our computing resources for the period we want to work and can be customized as needed. However, **only step 2 can be modified after submitting the job**. For some of the Sandbox apps, you might want to select folders (Home and the Notebooks/Data from the module to avoid downloading it every time you start a new job). If you are in doubt, read the documentation specific to the app you are interested in.
+
+Select the version of the app (if in doubt, use the latest one). This allows you to run specific versions of software.
+:::
 
 There are different types of apps, and therefore, interfaces. Some, like RStudio or Jupyter Notebooks, have their own graphical user interface, whereas others are command-line interfaces. Lastly, you can also deploy a virtual desktop and virtual machine, which allow you to spin up a virtual computer.
 
@@ -84,7 +88,7 @@ There are different types of apps, and therefore, interfaces. Some, like RStudio
 
 Wait to go through the queue. When the session starts, the timer begins to count down. In a couple of minutes, you should be able to open the interface through the button (green circle) in a new window (refresh the window if needed). 
 
-> ![](../assets/images/running_NGS.png)
+![Dashboard jobs: running the app](../assets/images/running_NGS.png){fig-alt="Screenshot of dashboard running app"}
 
 This page will remain open while you work (or you can return to it via 'Runs' in the left panel). You can end your session early by pressing and holding 'Stop application' (pink circle), you can see how much time you have left (red circle) and you can add hours to your session as you go (buttons in blue square).
 
@@ -92,16 +96,18 @@ This page will remain open while you work (or you can return to it via 'Runs' in
 
 If you are testing the genomic app, your interface should look like in the image below. Different apps might use other development environments. In this case, you will be working from [JupyterLab](https://jupyter.org/). You can open Jupyter Notebooks (yellow square), R studio (blue square) or a terminal (black square) among others. In this case, #1 and #2 have all the software and packages that you will need pre-installed (this is not the case with Python 3 to the left). 
 
-> ![](../assets/images/interface_jupyterlab.png)
+![JupyterLab interface: running the app](../assets/images/interface_jupyterlab.png){fig-alt="Screenshot of JupyterLab interface"}
 
 You can navigate through the different folders and start running the Python notebooks (pink arrow).
 
-> ![](../assets/images/openning_notebook.png)
+![JupyterLab interface: openning notebook](../assets/images/openning_notebook.png){fig-alt="Screenshot of Jupyter Notebook"}
 
 If you are an advanced user, you can also create your own Python files and select the kernel *NGS (python)* to use the pre-installed software. Learn how to manage (upload and download new data) and share files that you have created/developed with collaborators [here](https://docs.cloud.sdu.dk/tutorials/tutorial1.html).
 
-!!! tip
-    Create your own directories to save the output of your jobs. You will be able to access them later in your project folders under the resources you are using
-    If you haven't created any directories, look for the generated files under a folder with the same name as the job name you used.
+:::{.callout-tip}
+Create your own directories to save the output of your jobs. You will be able to access them later in your project folders under the resources you are using
+
+If you haven't created any directories, look for the generated files under a folder with the same name as the job name you used.
+:::
 
 You are ready to start using Ucloud and the sandbox tools! 
