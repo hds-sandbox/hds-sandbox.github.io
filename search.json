@@ -9,9 +9,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Danish Health Data Science Sandbox",
+    "title": "Welcome to the Health Data Science Sandbox",
     "section": "",
-    "text": "Welcome to the Health Data Science Sandbox\n\n\na collaborative project with team members spanning five Danish universities\n\n\n\n\n\n\n\nThe Health Data Science Sandbox is a national project coordinated by the Center for Health Data Science at the University of Copenhagen. We’re working with a network of health data science experts to build training resources on academic supercomputers for students and researchers in Denmark. Our Sandbox contains training modules that pair topical datasets with recommended analysis tools, pipelines, and learning materials/tutorials in a portable, containerized format.\n\n\nTo get involved as a trainee, researcher, or educator in Denmark:\n\n\nTRAINEES: join our next scheduled workshop or a supported university course\nTRAINEES/RESEARCHERS: explore training modules independently on UCloud\nRESEARCHERS: adapt training modules or code repositories to your research\nEDUCATORS: host a training event or course in the Sandbox with our support\n\n\n\nA note on Sandbox data policy\n\nThe Sandbox aims to be a resource for learning new analysis approaches and tools for health data science on useful, interesting, and safe-to-share datasets. All person-specific datasets in the Sandbox are non-sensitive and GDPR-safe because they are 1) sourced from public databases, 2) fully anonymous/non-sensitive from a GDPR perspective, and/or 3) synthetic. To learn more, check out Datasets where we explain our data policy in detail and our approach to synthetic data generation.\n\nThanks to the Novo Nordisk Foundation for funding the National Health Data Science Project! Please give credit if you use our open-source materials in any form (NNF grant number NNF20OC0063268)."
+    "text": "Welcome to the Health Data Science Sandbox\n\nA collaborative project with team members spanning five Danish universities\n\n\n\n\n\n\nThe Health Data Science Sandbox is a national project coordinated by the Center for Health Data Science at the University of Copenhagen. We’re working with a network of health data science experts to build training resources on academic supercomputers for students and researchers in Denmark. Our Sandbox contains training modules that pair topical datasets with recommended analysis tools, pipelines, and learning materials/tutorials in a portable, containerized format.\n\n \n\nTo get involved as a trainee, researcher, or educator in Denmark:\nTRAINEES: join our next scheduled workshop or a supported university course\nTRAINEES/RESEARCHERS: explore training modules independently on UCloud\nRESEARCHERS: adapt training modules or code repositories to your research\nEDUCATORS: host a training event or course in the Sandbox with our support\n\n \n\n\n\n\n\n\nA note on Sandbox data policy\n\n\n\nThe Sandbox aims to be a resource for learning new analysis approaches and tools for health data science on useful, interesting, and safe-to-share datasets. All person-specific datasets in the Sandbox are non-sensitive and GDPR-safe because they are 1) sourced from public databases, 2) fully anonymous/non-sensitive from a GDPR perspective, and/or 3) synthetic. To learn more, check out Datasets where we explain our data policy in detail and our approach to synthetic data generation.\n\n\nThanks to the Novo Nordisk Foundation for funding the National Health Data Science Project! Please give credit if you use our open-source materials in any form (NNF grant number NNF20OC0063268)."
   },
   {
     "objectID": "cards/SamueleSoraggi.html",
@@ -35,6 +35,13 @@
     "text": "The Sandbox is collaborating with the two major academic high performance computing platforms in Denmark. Computerome is located at the Technical University of Denmark (and co-owned by the University of Copenhagen) while UCloud is owned by the University of Southern Denmark. These HPC platforms each have their own strengths which we leverage in the Sandbox in different ways."
   },
   {
+    "objectID": "access/index.html#ucloud",
+    "href": "access/index.html#ucloud",
+    "title": "HPC access",
+    "section": "UCloud",
+    "text": "UCloud\nUCloud is a relatively new HPC platform that can be accessed by students at Danish universities (via a WAYF university login). It has a user friendly graphical user interface that supports straightforward project, user, and resource management. UCloud provides access to many tools via selectable Apps matched with a range of flexible compute resources, and the Sandbox is deploying training modules in this form such that any UCloud user can easily access Sandbox materials independently. The Sandbox is also hosting workshops and training events on UCloud in conjunction with in-person training.\n\n\n\n\n\n\nAccess Sandbox Apps on UCloud\n\n\n\nFind detailed instructions on accessing Sandbox apps here via UCloud. Check out UCloud’s extensive user docs here."
+  },
+  {
     "objectID": "access/index.html#computerome",
     "href": "access/index.html#computerome",
     "title": "HPC access",
@@ -42,32 +49,25 @@
     "text": "Computerome\nComputerome is the home of many sensitive health datasets via collaborations between DTU, KU, Rigshospitalet, and other major health sector players in the Capital Region of Denmark. Computerome has recently launched their secure cloud platform, DELPHI, and in collaboration with the Sandbox has built a Course Platform on the same backbone such that courses and training can be conducted in the same environment as real research would be performed in the secure cloud. The Sandbox is supporting courses in the Course Platform, but it is also available for independent use by educators at Danish universities. Please see their website for more information on independent use and pricing, and contact us if you’d like to collaborate on hosting a course on Computerome. We can help with tool installation, environment testing, and user support (ranging from using the environment to course content if we have Sandbox staff with matching expertise).\nParticipants in courses co-hosted by the Sandbox can check here for access instructions."
   },
   {
-    "objectID": "access/index.html#ucloud",
-    "href": "access/index.html#ucloud",
-    "title": "HPC access",
-    "section": "Ucloud",
-    "text": "Ucloud\nUCloud is a relatively new HPC platform that can be accessed by students at Danish universities (via a WAYF university login). It has a user friendly graphical user interface that supports straightforward project, user, and resource management. UCloud provides access to many tools via selectable Apps matched with a range of flexible compute resources, and the Sandbox is deploying training modules in this form such that any UCloud user can easily access Sandbox materials independently. The Sandbox is also hosting workshops and training events on UCloud in conjunction with in-person training.\nCheck out UCloud’s extensive user docs here and instructions for how to access Sandbox apps here."
-  },
-  {
     "objectID": "access/index.html#genomedk",
     "href": "access/index.html#genomedk",
     "title": "HPC access",
     "section": "GenomeDK",
-    "text": "GenomeDK\nTBA soon"
+    "text": "GenomeDK\nIn development."
   },
   {
     "objectID": "access/index.html#any-other-computing-cluster",
     "href": "access/index.html#any-other-computing-cluster",
     "title": "HPC access",
     "section": "Any other computing cluster",
-    "text": "Any other computing cluster\nTBA soon"
+    "text": "Any other computing cluster\nIn development."
   },
   {
     "objectID": "access/index.html#your-local-pc",
     "href": "access/index.html#your-local-pc",
     "title": "HPC access",
     "section": "Your local PC",
-    "text": "Your local PC\nTBA soon"
+    "text": "Your local PC\nIn development."
   },
   {
     "objectID": "access/genomedk.html",
