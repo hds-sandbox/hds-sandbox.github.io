@@ -1,40 +1,42 @@
 ---
-title: "Danish Health Data Science Sandbox"
-format: html
-date-modified: last-modified
-date-format: long
-date: 2024-01-01
+format: 
+    html:
+        toc: false
 bibliography: resources/references.bib
 ---
 
-<h1 align="center" style="margin:0px">Welcome to the Health Data Science Sandbox</h1>
-<h3 align="center" style="margin:0px">a collaborative project with team members spanning five Danish universities</h3>
+# Welcome to the Health Data Science Sandbox {.centered}
 
-![](images/Sandbox_workflow_ai_horizontal2w-01.png){width="60%" fig-align="center"}
+<div style="text-align: center;">
+### A collaborative project with team members spanning five Danish universities
+</div>
 
----
+![](images/Sandbox_workflow_ai_horizontal2w-01.png){fig-align="center"}
 
 The Health Data Science Sandbox is a national project coordinated by the [Center for Health Data Science](https://heads.ku.dk/) at the University of Copenhagen. We're working with a network of health data science experts to build training resources on academic supercomputers for students and researchers in Denmark. Our Sandbox contains [training modules](https://hds-sandbox.github.com/modules/index.html) that pair topical datasets with recommended analysis tools, pipelines, and learning materials/tutorials in a portable, containerized format.
 
 
 ![](images/Modules_horizontal.png)
 
-<h2 align="center" style="margin:0px">To get involved as a trainee, researcher, or educator in Denmark:</h2>
-<center>
-TRAINEES: [join](https://hds-sandbox.github.io/news/news.html) our next scheduled workshop or a supported university course                                    
+&nbsp;
 
-TRAINEES/RESEARCHERS: explore [training modules](https://hds-sandbox.github.io/modules/index.html) independently on UCloud
+<div style="text-align: center;">
+### To get involved as a trainee, researcher, or educator in Denmark:
 
-RESEARCHERS: adapt [training modules](https://hds-sandbox.github.io/modules/index.html) or [code repositories](https://github.com/hds-sandbox) to your research
+**TRAINEES**: [join](https://hds-sandbox.github.io/news/news.html) our next scheduled workshop or a supported university course  
 
-EDUCATORS: [host](https://hds-sandbox.github.io/access/) a training event or course in the Sandbox with our support
-</center>
----
+**TRAINEES/RESEARCHERS**: explore [training modules](https://hds-sandbox.github.io/modules/index.html) independently on UCloud
 
-<center> **A note on Sandbox data policy** </center>
+**RESEARCHERS**: adapt [training modules](https://hds-sandbox.github.io/modules/index.html) or [code repositories](https://github.com/hds-sandbox) to your research
 
+**EDUCATORS**: [host](https://hds-sandbox.github.io/access/) a training event or course in the Sandbox with our support
+
+</div>
+
+&nbsp;
+
+:::{.callout-note title="A note on Sandbox data policy"}
 The Sandbox aims to be a resource for learning new analysis approaches and tools for health data science on useful, interesting, and safe-to-share datasets. All person-specific datasets in the Sandbox are non-sensitive and GDPR-safe because they are 1) sourced from public databases, 2) fully anonymous/non-sensitive from a GDPR perspective, and/or 3) synthetic. To learn more, check out [Datasets](https://hds-sandbox.github.io/datasets/datapolicy.html) where we explain our data policy in detail and our approach to synthetic data generation.
-
----
+:::
 
 **Thanks to the Novo Nordisk Foundation for funding the National Health Data Science Project! Please give credit if you use our open-source materials in any form (NNF grant number NNF20OC0063268).** 
