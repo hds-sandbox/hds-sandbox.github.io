@@ -33,7 +33,7 @@ Genomics is the study of genomes, the complete set of an organism's DNA. Genomic
 
 ![](../images/transcriptomics.png){fig-align="right" width="20%"}  
 
-Transcriptomics is the study of transcriptomes, which investigates RNA transcripts within a cell or tissue to determine what genes are being expressed and in what proportion. These RNA transcripts include mRNAs, tRNA, rRNA and other non-coding RNA presents in a cell. 
+Transcriptomics is the study of transcriptomes, which investigates RNA transcripts within a cell or tissue to determine what genes are being expressed and in what proportion. These RNA transcripts include mRNAs, tRNA, rRNA, and other non-coding RNA present in a cell. 
 
 **Use the [Transcriptomics Sandbox App](https://cloud.sdu.dk/app/jobs/create?app=transcriptomics&version=2023.03) on UCloud to explore these resources:**
 
@@ -47,9 +47,9 @@ Transcriptomics is the study of transcriptomes, which investigates RNA transcrip
 
 ![](../images/proteomics.png){fig-align="right" width="20%"}  
 
-Proteomics is the study of proteins that are produced by an organism. Proteomics allows us to analyse protein compositon and structure, which have great importance in determining their function.
+Proteomics is the study of proteins that are produced by an organism. Proteomics allows us to analyze protein composition and structure, which have great importance in determining their function.
 
-**#### **Use the [Proteomics Sandbox App](https://cloud.sdu.dk/app/jobs/create?app=proteomics&version=Mar2023) on UCloud to explore pre-installed tools for proteomics analysis and other resources:** 
+**Use the [Proteomics Sandbox App](https://cloud.sdu.dk/app/jobs/create?app=proteomics&version=Mar2023) on UCloud to explore pre-installed tools for proteomics analysis and other resources:** 
 
 - [Proteomics Sandbox Documentation](https://hds-sandbox.github.io/proteomics-sandbox/index.html) (last update: May 2023)
 - Introduction to Clinical Proteomics (course under development)
@@ -63,20 +63,20 @@ We also offer a tutorial on UCloud's [ColabFold app](https://cloud.sdu.dk/app/jo
 
 ![](../images/EHRs.png){fig-align="right" width="20%"}  
 
-Electronic health records (EHRs) are digital records kept in the public health sector that record the medical histories of individuals, and access is normally highly restricted to preserve patient privacy. This data is sometimes also shared (partly or in full) in secondary patient registries that support research of a specific disease or condition (such as breast cancer or cystic fibrosis). These datasets are extraordinarily valuable in the development of predictive models used in precision medicine.
+Electronic health records (EHRs) are digital records kept in the public health sector that record the medical histories of individuals, and access is normally highly restricted to preserve patient privacy. This data is sometimes also shared (partly or in full) in secondary patient registries that support research on a specific disease or condition (such as breast cancer or cystic fibrosis). These datasets are extraordinarily valuable in the development of predictive models used in precision medicine.
 
-The chronic lymphocytic leukemia synthetic dataset listed below is generated solely from public data and is of low utility, so we don't recommend its use beyond the course it was designed for (with much explanation for the students on its construction and caveats). Please see [Synthetic Data](../datasets/synthdata.qmd) for more information.
+The chronic lymphocytic leukemia synthetic dataset listed below is generated solely from public data. It is of low utility, so we don't recommend its use beyond the course it was designed for (with much explanation for the students on its construction and caveats). Please see [Synthetic Data](../datasets/synthdata.qmd) for more information.
 
-- Chronic Lymphocytic Leukemia synthetic dataset created for use in "Fra realworld data til personlig medicin", a course from University of Copenhagen's [MS in Personlig Medicin](https://personligmedicin.ku.dk/) (last update: January 2023)
+- Chronic Lymphocytic Leukemia synthetic dataset created for use in "Fra realworld data til personlig medicin", a course from the University of Copenhagen's [MS in Personlig Medicin](https://personligmedicin.ku.dk/) (last update: January 2023)
 - Intro to EHR analysis (workshop under development) 
  
 ## Data Carpentry and management
 
 ![](../images/HPC.png){fig-align="right" width="20%"} 
 
-Computing skills are an important foundation for health data science (and using the above training modules), but formal training is often lacking as biomedical researchers navigate increasingly difficult computational tasks in their projects. These skills range from programming to use of high performance computers (hpc) to proper research data management.
+Computing skills are an important foundation for health data science (and using the above training modules), but formal training is often lacking as biomedical researchers navigate increasingly difficult computational tasks in their projects. These skills range from programming to the use of high-performance computers (HPC) to proper research data management.
 
 - [HPC Startup Guide](https://hds-sandbox.github.io/access/index.html) (instructions for accessing and navigating compute resources at Computerome and UCloud)
-- [HeaDS DataLab workshop materials](https://center-for-health-data-science.github.io/index.html) (workshops for programming and good practices developed by the Center for Health Data Science at University of Copenhagen, which are sometimes co-taught by Sandbox staff! Includes **R**, **python**, **bash**, and **git**!)
-- [RDM for NGS data](https://hds-sandbox.github.io/RDM_NGS_course) (workshop on how to handle NGS data following simple guidelines to increase the FAIRability of your data)
-- Intro to HPC (workshop under development)
+- [RDM for biodata](https://hds-sandbox.github.io/RDM_NGS_course) (workshop on how to handle NGS data following simple guidelines to increase the FAIRability of your data)
+- [HeaDS DataLab workshop materials](https://center-for-health-data-science.github.io/index.html) (workshops for programming and good practices developed by the Center for Health Data Science at the University of Copenhagen, which are sometimes co-taught by Sandbox staff! Includes **R**, **python**, **bash**, and **git**!)
+- Intro to HPC (workshop in development)
