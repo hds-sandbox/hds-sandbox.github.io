@@ -1,15 +1,5 @@
 [
   {
-    "listing": "/about/about.html",
-    "items": [
-      "/cards/AlbaMartinez.html",
-      "/cards/JacobHansen.html",
-      "/cards/JakobSkelmose.html",
-      "/cards/JenniferBartell.html",
-      "/cards/SamueleSoraggi.html"
-    ]
-  },
-  {
     "listing": "/news.html",
     "items": [
       "/news/2024-02-09-proteomics-sandbox.html",
@@ -34,6 +24,16 @@
       "/news/2022-01-04-basicpm.html",
       "/news/2022-04-22-basicpm-wrapup.html",
       "/news/2022-06-01-genomics-au.html"
+    ]
+  },
+  {
+    "listing": "/about/about.html",
+    "items": [
+      "/cards/AlbaMartinez.html",
+      "/cards/JacobHansen.html",
+      "/cards/JakobSkelmose.html",
+      "/cards/JenniferBartell.html",
+      "/cards/SamueleSoraggi.html"
     ]
   }
 ]
