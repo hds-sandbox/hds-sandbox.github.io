@@ -16,10 +16,14 @@ You can **access our training modules** through:
 + Independently accessible **Sandbox apps on [GenomeDK](https://genome.au.dk)**, the bioinformatics high-throughput HPC at University of Aarhus
 + Virtual machines deployed on the **[Course Platform](https://www.computerome.dk/solutions/course-platform) at Computerome**, the academic HPC at the Technical University of Denmark (Sandbox rollout still under development!)
 **tutorials and guides** and **popular tools for analysis and visualization**. [Email us](mailto:nhds_sandbox@sund.ku.dk) with any questions, comments or suggestions for new workshops!
- 
-## Genomics 
 
-![](../images/genomics2.png){fig-align="right" width="20%"} 
+&nbsp;
+ 
+## Genomics {.embedded}
+
+<div style="margin-bottom: -20px">
+![](../images/genomics2.png){fig-align="right" width="18%"}
+</div>
 
 Genomics is the study of genomes, the complete set of an organism's DNA. Genomics research now encompasses functional and structural studies, epigenomics, and metagenomics, and genomic medicine is under active implementation and extension in the health sector. 
 
@@ -29,9 +33,13 @@ Genomics is the study of genomes, the complete set of an organism's DNA. Genomic
 - [Introduction to Population Genomics](https://hds-sandbox.github.io/PopulationGenomicsCourse/) (implementation of a course by Prof. Kasper Munch of Aarhus University) (last update: March 2023)
 - [Introduction to GWAS](https://hds-sandbox.github.io/GWAS_course/) (last update: March 2023)
 
-## Transcriptomics  
+&nbsp;
 
-![](../images/transcriptomics.png){fig-align="right" width="20%"}  
+## Transcriptomics  {.embedded}
+
+<div style="margin-bottom: -20px">
+![](../images/transcriptomics.png){fig-align="right" width="18%"}
+</div>
 
 Transcriptomics is the study of transcriptomes, which investigates RNA transcripts within a cell or tissue to determine what genes are being expressed and in what proportion. These RNA transcripts include mRNAs, tRNA, rRNA, and other non-coding RNA present in a cell. 
 
@@ -42,10 +50,13 @@ Transcriptomics is the study of transcriptomes, which investigates RNA transcrip
 - Cirrocumulus (a popular tool for visualizing different types of RNA-seq data and downstream analysis)
 - RNAseq in RStudio (RStudio session with pre-installed RNAseq analysis packages for exploring with your own uploaded data)
 
+&nbsp;
 
-## Proteomics   
+## Proteomics  {.embedded}
 
-![](../images/proteomics.png){fig-align="right" width="20%"}  
+<div style="margin-bottom: -20px">
+![](../images/proteomics.png){fig-align="right" width="18%"}
+</div>
 
 Proteomics is the study of proteins that are produced by an organism. Proteomics allows us to analyze protein composition and structure, which have great importance in determining their function.
 
@@ -58,10 +69,13 @@ We also offer a tutorial on UCloud's [ColabFold app](https://cloud.sdu.dk/app/jo
 
 - [ColabFold Intro](https://hds-sandbox.github.io/proteomics-sandbox/colabfold.html) (last update: October 2022) 
  
+&nbsp;
 
-## Electronic Health Records  
+## Electronic Health Records {.embedded} 
 
-![](../images/EHRs.png){fig-align="right" width="20%"}  
+<div style="margin-bottom: -20px">
+![](../images/EHRs.png){fig-align="right" width="18%"}
+</div>
 
 Electronic health records (EHRs) are digital records kept in the public health sector that record the medical histories of individuals, and access is normally highly restricted to preserve patient privacy. This data is sometimes also shared (partly or in full) in secondary patient registries that support research on a specific disease or condition (such as breast cancer or cystic fibrosis). These datasets are extraordinarily valuable in the development of predictive models used in precision medicine.
 
@@ -70,9 +84,13 @@ The chronic lymphocytic leukemia synthetic dataset listed below is generated sol
 - Chronic Lymphocytic Leukemia synthetic dataset created for use in "Fra realworld data til personlig medicin", a course from the University of Copenhagen's [MS in Personlig Medicin](https://personligmedicin.ku.dk/) (last update: January 2023)
 - Intro to EHR analysis (workshop under development) 
  
-## Data Carpentry and management
+&nbsp;
 
-![](../images/HPC.png){fig-align="right" width="20%"} 
+## Data Carpentry and management {.embedded}
+
+<div style="margin-bottom: -20px">
+![](../images/HPC.png){fig-align="right" width="18%"}
+</div>
 
 Computing skills are an important foundation for health data science (and using the above training modules), but formal training is often lacking as biomedical researchers navigate increasingly difficult computational tasks in their projects. These skills range from programming to the use of high-performance computers (HPC) to proper research data management.
 

@@ -17,6 +17,10 @@ Each Danish university has its usage relationship with UCloud as governed by the
 
 Extensive documentation on the general use of UCloud (how to use apps and run jobs, etc.) is available in the UCloud [user guide](https://docs.cloud.sdu.dk/).
 
+:::{.callout-tip}
+Click on the images to view them in full size.
+:::
+
 ## Example: how to open a Sandbox app
 
 ### **Step 1**  
@@ -30,7 +34,7 @@ When you are logged in, choose the project from the dashboard (highlighted in re
 
 For this example, we select Sandbox_workshop.
 
-![Dashboard: your workspace](../assets/images/workspace.png){fig-alt="Screenshot of your dashboard"}
+![Dashboard: your workspace](../images/workspace.png){fig-alt="Screenshot of your dashboard" .black-box .lightbox}
 
 On the left side, you can see the structure of the project (content changes when you select a different project):
 
@@ -55,7 +59,7 @@ In the dashboard, you will also find news, your favorite apps, recent runs, reso
 
 Then click on Apps in the left panel to investigate what tools and environments you can use (green circle). The easiest way to find Sandbox resources is to search via the toolbar (red circle). In this example, we'll select the Genomics Sandbox (which will bring you to the submission screen).
 
-![Dashboard: all apps](../assets/images/apps.png){fig-alt="Screenshot of apps dashboard"}
+![Dashboard: all apps](../images/apps.png){fig-alt="Screenshot of apps dashboard" .black-box .lightbox}
 
 :::{.callout-tip}
 Mark them as favorites so they appear on your dashboard. 
@@ -65,7 +69,7 @@ Mark them as favorites so they appear on your dashboard.
 
 Click on the app button to get into the settings window. First, we recommend reading the documentation of the app (highlighted in green). Then, you can configure the app as shown below, or be provided with a configuration file made available in a workshop's project folders (*import parameters*) which will take care of everything for you. 
 
-![Dashboard jobs: configuration step](../assets/images/configure_NGS.png){fig-alt="Screenshot of how to configure your job"}
+![Dashboard jobs: configuration step](../images/configure_NGS.png){fig-alt="Screenshot of how to configure your job" .black-box .lightbox}
 
 In this example, we configure our session by:
 
@@ -88,7 +92,7 @@ There are different types of apps, and therefore, interfaces. Some, like RStudio
 
 Wait to go through the queue. When the session starts, the timer begins to count down. In a couple of minutes, you should be able to open the interface through the button (green circle) in a new window (refresh the window if needed). 
 
-![Dashboard jobs: running the app](../assets/images/running_NGS.png){fig-alt="Screenshot of dashboard running app"}
+![Dashboard jobs: running the app](../images/running_NGS.png){fig-alt="Screenshot of dashboard running app" .black-box .lightbox}
 
 This page will remain open while you work (or you can return to it via 'Runs' in the left panel). You can end your session early by pressing and holding 'Stop application' (pink circle), you can see how much time you have left (red circle) and you can add hours to your session as you go (buttons in blue square).
 
@@ -96,11 +100,11 @@ This page will remain open while you work (or you can return to it via 'Runs' in
 
 If you are testing the genomic app, your interface should look like in the image below. Different apps might use other development environments. In this case, you will be working from [JupyterLab](https://jupyter.org/). You can open Jupyter Notebooks (yellow square), R studio (blue square) or a terminal (black square) among others. In this case, #1 and #2 have all the software and packages that you will need pre-installed (this is not the case with Python 3 to the left). 
 
-![JupyterLab interface: running the app](../assets/images/interface_jupyterlab.png){fig-alt="Screenshot of JupyterLab interface"}
+![JupyterLab interface: running the app](../images/interface_jupyterlab.png){fig-alt="Screenshot of JupyterLab interface" .black-box .lightbox}
 
 You can navigate through the different folders and start running the Python notebooks (pink arrow).
 
-![JupyterLab interface: openning notebook](../assets/images/openning_notebook.png){fig-alt="Screenshot of Jupyter Notebook"}
+![JupyterLab interface: openning notebook](../images/openning_notebook.png){fig-alt="Screenshot of Jupyter Notebook" .black-box .lightbox}
 
 If you are an advanced user, you can also create your own Python files and select the kernel *NGS (python)* to use the pre-installed software. Learn how to manage (upload and download new data) and share files that you have created/developed with collaborators [here](https://docs.cloud.sdu.dk/tutorials/tutorial1.html).
 
