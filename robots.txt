@@ -1,1 +1,1 @@
-Sitemap: https://github.com/hds-sandbox/hds-sandbox.github.io/sitemap.xml
+Sitemap: https://hds-sandbox.github.io/sitemap.xml
