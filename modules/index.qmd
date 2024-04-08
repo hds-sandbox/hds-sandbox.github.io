@@ -19,9 +19,9 @@ You can **access our training modules** through:
 
 &nbsp;
  
-## Genomics {.embedded}
+## Genomics
 
-<div style="margin-bottom: -20px">
+<div style="margin-bottom: -20px;margin-top: -90px">
 ![](../images/genomics2.png){fig-align="right" width="18%"}
 </div>
 
@@ -35,9 +35,9 @@ Genomics is the study of genomes, the complete set of an organism's DNA. Genomic
 
 &nbsp;
 
-## Transcriptomics  {.embedded}
+## Transcriptomics
 
-<div style="margin-bottom: -20px">
+<div style="margin-bottom: -20px;margin-top: -90px">
 ![](../images/transcriptomics.png){fig-align="right" width="18%"}
 </div>
 
@@ -52,9 +52,9 @@ Transcriptomics is the study of transcriptomes, which investigates RNA transcrip
 
 &nbsp;
 
-## Proteomics  {.embedded}
+## Proteomics 
 
-<div style="margin-bottom: -20px">
+<div style="margin-bottom: -20px;margin-top: -90px">
 ![](../images/proteomics.png){fig-align="right" width="18%"}
 </div>
 
@@ -71,9 +71,9 @@ We also offer a tutorial on UCloud's [ColabFold app](https://cloud.sdu.dk/app/jo
  
 &nbsp;
 
-## Electronic Health Records {.embedded} 
+## Electronic Health Records
 
-<div style="margin-bottom: -20px">
+<div style="margin-bottom: -20px;margin-top: -90px">
 ![](../images/EHRs.png){fig-align="right" width="18%"}
 </div>
 
@@ -86,9 +86,9 @@ The chronic lymphocytic leukemia synthetic dataset listed below is generated sol
  
 &nbsp;
 
-## Data Carpentry and management {.embedded}
+## Data Carpentry and management
 
-<div style="margin-bottom: -20px">
+<div style="margin-bottom: -20px;margin-top: -90px">
 ![](../images/HPC.png){fig-align="right" width="18%"}
 </div>
 
