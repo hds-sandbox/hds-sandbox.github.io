@@ -1,9 +1,6 @@
 ---
 title: "Sandbox Workshop"
 format: html
-date-modified: last-modified
-date-format: long
-date: 2024-04-15
 ---
 
 :::{.callout-note  appearance="simple" icon=false} 
