@@ -13,7 +13,7 @@ bibliography: resources/references.bib
 
 ![](images/Sandbox_workflow_ai_horizontal2w-01.png){fig-align="center"}
 
-The Health Data Science Sandbox is a national project coordinated by the [Center for Health Data Science](https://heads.ku.dk/) at the University of Copenhagen. We're working with a network of health data science experts to build training resources on academic supercomputers for students and researchers in Denmark. Our Sandbox contains [training modules](https://hds-sandbox.github.com/modules/index.html) that pair topical datasets with recommended analysis tools, pipelines, and learning materials/tutorials in a portable, containerized format.
+The Health Data Science Sandbox is a national project coordinated by the [Center for Health Data Science](https://heads.ku.dk/) at the University of Copenhagen. We're working with a network of health data science experts to build training resources on academic supercomputers for students and researchers in Denmark. Our Sandbox contains [training modules](modules/index.qmd) that pair topical datasets with recommended analysis tools, pipelines, and learning materials/tutorials in a portable, containerized format.
 
 
 ![](images/Modules_horizontal.png)
@@ -23,13 +23,13 @@ The Health Data Science Sandbox is a national project coordinated by the [Center
 <div style="text-align: center;">
 ### To get involved as a trainee, researcher, or educator in Denmark:
 
-**TRAINEES**: [join](https://hds-sandbox.github.io/news/news.html) our next scheduled workshop or a supported university course  
+**TRAINEES**: [join](news.qmd) our next scheduled workshop or a supported university course  
 
-**TRAINEES/RESEARCHERS**: explore [training modules](https://hds-sandbox.github.io/modules/index.html) independently on UCloud
+**TRAINEES/RESEARCHERS**: explore [training modules](modules/index.qmd) independently on UCloud
 
-**RESEARCHERS**: adapt [training modules](https://hds-sandbox.github.io/modules/index.html) or [code repositories](https://github.com/hds-sandbox) to your research
+**RESEARCHERS**: adapt [training modules](modules/index.qmd) or [code repositories](https://github.com/hds-sandbox) to your research
 
-**EDUCATORS**: [host](https://hds-sandbox.github.io/access/) a training event or course in the Sandbox with our support
+**EDUCATORS**: [host](access/index.qmd) a training event or course in the Sandbox with our support
 
 </div>
 

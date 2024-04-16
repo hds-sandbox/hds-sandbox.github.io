@@ -21,6 +21,6 @@ The intended scope of the Sandbox is broad, and we will be pulling from many dif
 ## Synthetic/Simulated data
 The Sandbox is focused on supporting Danish health data science education and research. Via our collaborators and broader network, we have the opportunity to simulate/synthesize data resembling different databases and registries from the Danish health sector in addition to using traditional data simulation techniques to replicate general datasets. We are exploring methods of creating useful synthetic datasets with local access guidelines/GDPR restrictions in mind, while developing initial datasets using published data from Danish studies and publically available resources.
 
-<figure markdown>
- ![workflow](../assets/images/SynthDataQualities.png)
-</figure>
+
+![](../images/SynthDataQualities.png)
+
