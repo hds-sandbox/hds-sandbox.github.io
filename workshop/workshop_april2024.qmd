@@ -16,15 +16,15 @@ format: html
 | Time | Activity |
 |:----|:----|
 | 9:00	|	*Morning coffee (optional)* |
-| 9:30	|	Introduction to the Sandbox project |
-| 10:00	|	Introduction to HPC: the basics |
+| 9:30	|	**Introduction to the Sandbox project** |
+| 10:00	|	**Introduction to HPC: the basics** |
 | 10:30	|	*Coffee break* |
-| 10:45	|	DK HPC resources, access, and intro to UCloud |
-| 11:15	|	UCloud demo: using apps and running jobs |
+| 10:45	|	**DK HPC resources, access, and intro to UCloud** |
+| 11:15	|	**UCloud demo: using apps and running jobs** |
 | 12:00	|	*Lunch break* |
-| 13:00	|	Proteomics App |
+| 13:00	|	**Proteomics App** |
 | 14:15	|	*Coffee break* |
-| 14:30	|	Proteomics App |
+| 14:30	|	**Proteomics App** |
 | 16:00	|	*End of day!* |
 
 ### Day 2
@@ -32,14 +32,14 @@ format: html
 | Time | Activity | 
 |:----|:----|
 | 9:00	|	*Morning coffee (optional)* |
-| 9:30	| RDM intro for health data science |
+| 9:30	| **RDM intro for health data science** |
 | 10:30	|	*Coffee break* |
-| 10:45	|	Step-by-step guide: simple solutions |
+| 10:45	|	**Step-by-step guide: simple solutions** |
 | 12:00	|	*Lunch break* |
-| 13:00	|	Transcriptomics App |
+| 13:00	|	**Transcriptomics App** |
 | 14:30	|	*Coffee break* |
-| 14:45	|	Transcriptomics App |
-| 15:45	|	Wrap-up and feedback |
+| 14:45	|	**Transcriptomics App** |
+| 15:45	|	**Wrap-up and feedback** |
 | 16:00	|	*End of day and goodbye!* |
 
 # Workshop
