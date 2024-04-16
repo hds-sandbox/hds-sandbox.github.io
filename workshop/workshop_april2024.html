@@ -170,7 +170,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#workshop" id="toc-workshop" class="nav-link" data-scroll-target="#workshop">Workshop</a>
   <ul class="collapse">
   <li><a href="#access-sandbox-resources" id="toc-access-sandbox-resources" class="nav-link" data-scroll-target="#access-sandbox-resources">Access Sandbox resources</a></li>
-  <li><a href="#using-our-modules" id="toc-using-our-modules" class="nav-link" data-scroll-target="#using-our-modules">Using our modules</a></li>
+  <li><a href="#our-omics-apps" id="toc-our-omics-apps" class="nav-link" data-scroll-target="#our-omics-apps">Our OMICS apps</a></li>
   <li><a href="#discussion-and-feedback" id="toc-discussion-and-feedback" class="nav-link" data-scroll-target="#discussion-and-feedback">Discussion and feedback</a></li>
   </ul></li>
   </ul>
@@ -199,7 +199,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Modified</div>
     <div class="quarto-title-meta-contents">
-      <p class="date-modified">April 15, 2024</p>
+      <p class="date-modified">April 16, 2024</p>
     </div>
   </div>
     
@@ -220,7 +220,7 @@ ul.task-list li input[type="checkbox"] {
 Sandbox Workshop dates: 18-19 April 2024
 </h3>
 <h4 align="center" class="anchored">
-Welcome to the homepage for in-person workshops introducing the Health Data Science Sandbox to potential users. Thanks for joining us!
+Welcome to the homepage for in-person workshops introducing the Health Data Science Sandbox to new users. Thanks for joining us!
 </h4>
 </div>
 </div>
@@ -343,7 +343,7 @@ Day 2
 <p>The Health Data Science Sandbox aims to be a <strong>training resource for bioinformaticians, data scientists, and those generally curious about how to investigate large biomedical datasets</strong>. We are an active and developing project <strong>seeking interested users</strong> (both trainees and educators). All of our open-source materials are available on our <a href="https://github.com/hds-sandbox">Github page</a> and can be used on a computing cluster! We work with both <a href="https://cloud/sdu.dk">UCloud</a>, <a href="https://genome.au.dk">GenomeDK</a> and <a href="https://www.computerome.dk/">Computerome</a>, the major Danish academic supercomputers. See our <a href="../access/index.html">HPC Access page</a> for more info on each set up.</p>
 <section id="access-sandbox-resources" class="level2">
 <h2 class="anchored" data-anchor-id="access-sandbox-resources">Access Sandbox resources</h2>
-<p>Our first choice is to provide all the <strong>training materials, tutorials and tools as interactive apps on UCloud</strong>, the supercomputer located at the University of Southern Denmark. To use these resources, you’ll need the following:</p>
+<p>Our first choice is to provide all the <strong>training materials, tutorials and tools as interactive apps on UCloud</strong>, the supercomputer located at the University of Southern Denmark. Anyone using these resources needs the following:</p>
 <ol type="1">
 <li>a Danish university ID so you can sign on to UCloud via WAYF<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>.</li>
 </ol>
@@ -354,11 +354,11 @@ Day 2
 <p>&nbsp;</p>
 <ol start="2" type="1">
 <li><p>basic ability to navigate in Linux/RStudio/Jupyter. <strong>You don’t need to be an expert</strong>, but it is beyond our ambitions (and course material) to teach you how to code from zero and how to run analyses simultaneously. We recommend a basic R or Python course before diving in.</p></li>
-<li><p><strong>For workshop participants:</strong> use our invite link to the correct UCloud workspace that will be shared on the day of the workshop. This way, we can provide you compute resources for the active sessions of the workshop<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a> Click the link below after your first uCloud access.</p></li>
+<li><p><strong>For workshop participants:</strong> use our invite link to the correct UCloud workspace that will be shared on the day of the workshop. This way, we can provide you compute resources for the active sessions of the workshop<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a> Click the link below after your first uCloud access and accept the invite that shows.</p></li>
 </ol>
 <p>&nbsp;</p>
 <p align="center">
-<a href="https://cloud.sdu.dk/app/projects/invite/b8c2ed67-3c40-4ccb-8a52-1f289c7e3df0" style="background-color: #4266A1; color: #FFFFFF; padding: 30px 20px; text-decoration: none; border-radius: 5px;"> Invitation link to uCloud workspace </a>
+<a href="https://cloud.sdu.dk/app/projects/invite/b8c2ed67-3c40-4ccb-8a52-1f289c7e3df0" style="background-color: #4266A1; color: #FFFFFF; padding: 30px 20px; text-decoration: none; border-radius: 5px;"> Invite link to uCloud workspace </a>
 </p>
 <p>&nbsp; &nbsp;</p>
 <div class="callout callout-style-default callout-note callout-titled">
@@ -371,33 +371,52 @@ Note
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Our apps can run on other clusters, simply by pulling a docker container. You only need to have either <code>docker</code> or <code>singularity</code> installed on the cluster. <code>GenomeDK</code> supports <code>singularity</code> and thus can run our learning material as well. Ask us if you want to use the apps out of <code>uCloud</code>.</p>
+<p>Our apps can run on other clusters, simply by pulling a so-called <code>docker container</code>. You only need to have either <code>docker</code> or <code>singularity</code> installed on the cluster. <code>GenomeDK</code> supports <code>singularity</code> and thus can run our learning material as well. Ask us if you want to help the apps out of <code>uCloud</code>. Instructions will soon be available within our <a href="../access/genomedk.html">HPC access instructions</a>.</p>
 </div>
 </div>
 </section>
-<section id="using-our-modules" class="level2">
-<h2 class="anchored" data-anchor-id="using-our-modules">Using our modules</h2>
-<p>The agenda starts with an introduction to high Performance Computing (HPC) and <code>uCloud</code>. You will try two apps during the workshop:</p>
+<section id="our-omics-apps" class="level2">
+<h2 class="anchored" data-anchor-id="our-omics-apps">Our OMICS apps</h2>
+<p>The agenda starts with an introduction to high Performance Computing (HPC) and <code>uCloud</code>. You will try two apps during the workshop, but we are developing others, and have deployed three apps already.</p>
+<p>&nbsp;</p>
+<div style="overflow: auto;">
+<img src="../images/proteomics.png" alt="Image" style="float: left; margin-right: 15px; width: 10%;">
+<p>
+<strong>Proteomics Sandbox</strong>: Our sandbox modern with a suite of proteomics analysis tools, used for example in clinical proteomics. This app is not alone, since our data scientist <a href="../cards/JacobHansen.html">Jacob</a> has also made the app ColabFold on UCloud, with methods for protein structure prediction.
+</p>
+</div>
+<p>&nbsp;</p>
 <div style="overflow: auto;">
 <img src="../images/transcriptomics.png" alt="Image" style="float: left; margin-right: 15px; width: 10%;">
 <p>
-</p><h4 class="anchored">
-Transcriptomics
-</h4>
-Our sandbox bulk or single cell RNA sequencing analysis and visualization - amongst others two regular workshops and provides stand-alone visualisation tools. In the next update we will introduce advanced tutorials for more complex single cell RNA sequencing analysis from some of our supported courses.
-<p></p>
+<strong>Transcriptomics Sandbox</strong> : Our sandbox for bulk or single cell RNA sequencing analysis and visualization - amongst others two regular workshops and provides stand-alone visualisation tools. In the next update we will introduce advanced tutorials for more complex single cell RNA sequencing analysis from some of our supported courses.
+</p>
 </div>
-<p><img src="../images/genomics2.png" class="img-fluid" style="width:10.0%" data-align="left" alt="Genomics"> ### Genomics If you’re interested in NGS technologies and applications ranging from genome assembly to variant calling to metagenomics, join Sandbox Data Scientist Samuele Soraggi in testing out our Genomics Sandbox app. This app supports a semester-length course on NGS as well as a Population Genomics course run regularly at Aarhus University. Sign into UCloud and then click this <a href="not active yet">invite link</a>.</p>
-<p><img src="../images/transcriptomics.png" class="img-fluid" style="width:10.0%" data-align="left" alt="Transcriptomics"> ### Transcriptomics If you’re interested in bulk or single cell RNA sequencing analysis and visualization, join Sandbox Data Scientist Jose Alejandro Romero Herrera (Alex) in testing out our Transcriptomics Sandbox app. This app supports regular 3-4 day workshops at University of Copenhagen and provides stand-alone visualisation tools. Sign into UCloud and then click this <a href="not active yet">invite link</a>.</p>
-<p><img src="../images/proteomics.png" class="img-fluid" style="width:10.0%" data-align="left" alt="proteomics"> ### Proteomics Interested in modern methods for protein structure prediction? Join Sandbox Data Scientist Jacob Fredegaard Hansen as he walks you through how to use ColabFold on UCloud. Jacob can also demo our Proteomics Sandbox, which contains a suite of proteomics analysis tools that will support a future course in clinical proteomics but is already available on UCloud for interested users. Sign into UCloud and then click this <a href="not active yet">invite link</a>.</p>
+<p>&nbsp;</p>
+<div style="overflow: auto;">
+<img src="../images/genomics2.png" alt="Image" style="float: left; margin-right: 15px; width: 10%;">
+<p>
+<strong>Genomics Sandbox</strong>: Our sandbox NGS data analysis and applications ranging from genome assembly to variant calling to metagenomics. We have currently a semester-long population genomics course and an NGS course with many applications (alignment, VCF analysis, bulk-RNA data, single-cell RNA sequencing)
+</p>
+</div>
 </section>
 <section id="discussion-and-feedback" class="level2">
 <h2 class="anchored" data-anchor-id="discussion-and-feedback">Discussion and feedback</h2>
 <p>We hope you enjoyed the live demo. If you have broader questions, suggestions, or concerns, now is the time to raise them! If you are totally toast for the day, remember that you can check out longer versions of our tutorials as well as other topics and tools in each of the <a href="../modules/index.html">Sandbox modules</a> or join us for a multi-day in person course (<a href="../news.html">follow our news here</a>).</p>
 <p>As data scientists, we also would be really happy for some quantifiable info and feedback - we want to build things that the Danish health data science community is excited to use. <b>Please answer these <a href="survey link">5 questions</a> for us before you head out for the day</b> (<em>link activated on day of the workshop</em>).</p>
-<h2 align="center" style="margin:0px" class="anchored">
+<p>&nbsp;</p>
+<div class="callout callout-style-simple callout-note no-icon">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-body-container">
+<h4 align="center" class="anchored">
 Nice meeting you and we hope to see you again!
-</h2>
+</h4>
+</div>
+</div>
+</div>
 
 
 </section>
@@ -408,7 +427,7 @@ Nice meeting you and we hope to see you again!
 
 <ol>
 <li id="fn1"><p>Other institutions (e.g.&nbsp;hospitals, libraries, …) can log-on through WAYF. See all institutions <a href="https://www.wayf.dk/da/institutioner-i-wayf">here</a><a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn2"><p>To use Sandbox materials outside of the workshop: remember that each new user has 1000 krowns of free computing credit and around 50GB of free storage, which can be used to run many hours of code from our workshop. If you run out of credit (which takes long time) you’ll need to check with the <a href="https://www.deic.dk/en/Front-Office">local DeiC office at your university</a> about how to request compute hours on UCloud. Contact us at the Sandbox if you need help or want more information.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>To use Sandbox materials outside of the workshop: remember that each new user has hundreds of hours of free computing credit and around 50GB of free storage, which can be used to run any uCloud software. If you run out of credit (which takes long time) you’ll need to check with the <a href="https://www.deic.dk/en/Front-Office">local DeiC office at your university</a> about how to request compute hours on UCloud. Contact us at the Sandbox if you need help or want more information.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 </ol>
 </section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
