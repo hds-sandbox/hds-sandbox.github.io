@@ -1,9 +1,0 @@
----
-title: "Intro to NGS data analysis - Summer School"
-#description: "Data Scientist, Copenhagen University"
-author: Samuele Soraggi
-date: 2024-04-18
-categories: [Genomics, AU, course]
----
-
-This workshop is a regularly hosted summer school to teach NGS data analysis, and is taught by Stig Andersen, Mikkel Schierup, and Samuele Soraggi (supporting via the HDS Sandbox).
