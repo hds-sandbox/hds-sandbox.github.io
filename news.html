@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.553">
+<meta name="generator" content="quarto-1.4.554">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -73,20 +73,48 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    const listingTargetEl = window.document.querySelector('#listing-upcoming_event .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
     }
 
     const options = {
-      valueNames: ['listing-date','listing-title','listing-author',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
+      valueNames: ['listing-image','listing-title','listing-description','listing-categories','listing-date',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-upcoming_event'] = new List('listing-upcoming_event', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-past_event .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-Dates','listing-Location','listing-Organizers',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
       
       searchColumns: ["listing-date","listing-title","listing-author"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+    window['quarto-listings']['listing-past_event'] = new List('listing-past_event', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -245,29 +273,96 @@ window.Quarto = {
 </header>
 
 
-<p>Sandbox data scientists routinely lead or contribute to courses and workshops at host universities in Denmark. Check out upcoming events in the table below!</p>
+<p>Sandbox data scientists routinely lead or contribute to courses and workshops at host universities in Denmark. Check out upcoming events here! All our past events are listed in the table below.</p>
 
 
 
 
-<div class="quarto-listing quarto-listing-container-table" id="listing-listing">
+<div class="quarto-listing quarto-listing-container-grid" id="listing-upcoming_event">
+<div class="list grid quarto-listing-cols-5">
+<div class="g-col-1" data-index="0" data-categories="snakemake,conda,KU,course" data-listing-date-sort="1731628800000" data-listing-file-modified-sort="1715160979384" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="2">
+<a href="./news/upcoming/2024-11-15-hpcPipes.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top"><img src="./img/logo.png" style="height: 200px;"  class="thumbnail-image card-img"/></p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+HPC Pipes
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('snakemake'); return false;">
+snakemake
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('conda'); return false;">
+conda
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('KU'); return false;">
+KU
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('course'); return false;">
+course
+</div>
+</div>
+<div class="card-text listing-description">
+Click to sign-up
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Nov 15, 2024
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="HPC,RDM,KU,course" data-listing-date-sort="1730246400000" data-listing-file-modified-sort="1715160979384" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="2">
+<a href="./news/upcoming/2024-10-30-hpcLaunch.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./images/HPC.png" class="thumbnail-image card-img" style="height: 200px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+HPC launch
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('HPC'); return false;">
+HPC
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('RDM'); return false;">
+RDM
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('KU'); return false;">
+KU
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('course'); return false;">
+course
+</div>
+</div>
+<div class="card-text listing-description">
+Click to sign-up
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Oct 30, 2024
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div><div class="quarto-listing quarto-listing-container-table" id="listing-past_event">
 <div class="listing-actions-group">
    <div class="input-group input-group-sm quarto-listing-sort">
      <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-     <select id="listing-listing-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+     <select id="listing-past_event-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-past_event'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
        <option value="" disabled="" selected="" hidden="">Order By</option>
        <option value="index" data-direction="asc">Default</option>
-         <option value="listing-date-sort" data-direction="asc">
-          Date - Oldest
-        </option>
-         <option value="listing-date-sort" data-direction="desc">
-          Date - Newest
-        </option>
          <option value="listing-title-sort" data-direction="asc">
-          Title
-        </option>
-         <option value="listing-author" data-direction="asc">
-          Author
+          Event title
         </option>
      </select>
   </div>
@@ -280,279 +375,340 @@ window.Quarto = {
 <thead>
 <tr>
 <th>
-<a class="sort" data-sort="listing-date-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Date</a>
+<a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Event title</a>
 </th>
 <th>
-<a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Title</a>
+Dates
 </th>
 <th>
-<a class="sort" data-sort="listing-author" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Author</a>
+Location
+</th>
+<th>
+Organizers
 </th>
 </tr>
 </thead>
 <tbody class="list">
-<tr data-index="0" data-categories="sandbox,KU,course" data-listing-date-sort="1713398400000" data-listing-file-modified-sort="1713364922125" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="92" data-listing-title-sort="Workshop: Digging into the Health Data Science Sandbox" data-listing-filename-sort="2024-04-18-sandbox-workshop.qmd">
+<tr data-index="0" data-categories="KU,workshop,course,HPC,RDM" data-listing-date-sort="1713398400000" data-listing-file-modified-sort="1715160979384" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="54" data-listing-title-sort="Digging into the Health Data Science Sandbox" data-listing-filename-sort="2024-04-18-sandboxIntro.qmd">
 <td>
-<span class="listing-date">Apr 18, 2024</span>
+<a href="./news/past/2024-04-18-sandboxIntro.html" class="title listing-title">Digging into the Health Data Science Sandbox</a>
 </td>
 <td>
-<a href="./news/2024-04-18-sandbox-workshop.html" class="title listing-title">Workshop: Digging into the Health Data Science Sandbox</a>
+<span class="listing-Dates">18-19 April 2024</span>
 </td>
 <td>
-<span class="listing-author">Jennifer Bartell</span>
-</td>
-</tr>
-<tr data-index="1" data-categories="Genomics,AU,course" data-listing-date-sort="1713398400000" data-listing-file-modified-sort="1713364922125" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="29" data-listing-title-sort="Intro to NGS data analysis - Summer School" data-listing-filename-sort="2024-07-01-NGS-analysis.qmd">
-<td>
-<span class="listing-date">Apr 18, 2024</span>
+<span class="listing-Location">KU</span>
 </td>
 <td>
-<a href="./news/2024-07-01-NGS-analysis.html" class="title listing-title">Intro to NGS data analysis - Summer School</a>
-</td>
-<td>
-<span class="listing-author">Samuele Soraggi</span>
+<span class="listing-Organizers">Jennifer Bartell</span>
 </td>
 </tr>
-<tr data-index="2" data-categories="proteomics,SDU,course" data-listing-date-sort="1707436800000" data-listing-file-modified-sort="1713364922125" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="67" data-listing-title-sort="Course support at SDU" data-listing-filename-sort="2024-02-09-proteomics-sandbox.qmd">
+<tr data-index="1" data-categories="proteomics,SDU,course" data-listing-date-sort="1707436800000" data-listing-file-modified-sort="1715160979384" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="67" data-listing-title-sort="Course support at SDU" data-listing-filename-sort="2024-02-09-proteomics-sandbox.qmd">
 <td>
-<span class="listing-date">Feb 9, 2024</span>
+<a href="./news/past/2024-02-09-proteomics-sandbox.html" class="title listing-title">Course support at SDU</a>
 </td>
 <td>
-<a href="./news/2024-02-09-proteomics-sandbox.html" class="title listing-title">Course support at SDU</a>
+<span class="listing-Dates">9 February 2024</span>
 </td>
 <td>
-<span class="listing-author">Jacob Fredegaard Hansen</span>
-</td>
-</tr>
-<tr data-index="3" data-categories="conference,DDSA" data-listing-date-sort="1706745600000" data-listing-file-modified-sort="1713364922125" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="61" data-listing-title-sort="DDSA PhD meetup and D3A conference" data-listing-filename-sort="2024-02-01-DDSAD3A.qmd">
-<td>
-<span class="listing-date">Feb 1, 2024</span>
+<span class="listing-Location">SDU</span>
 </td>
 <td>
-<a href="./news/2024-02-01-DDSAD3A.html" class="title listing-title">DDSA PhD meetup and D3A conference</a>
-</td>
-<td>
-<span class="listing-author">Jennifer Bartell</span>
+<span class="listing-Organizers">Jacob Fredegaard Hansen</span>
 </td>
 </tr>
-<tr data-index="4" data-categories="manuscript,synthetic-data,KU,AAU" data-listing-date-sort="1706659200000" data-listing-file-modified-sort="1713364922125" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="74" data-listing-title-sort="A primer for Synthetic health data" data-listing-filename-sort="2024-01-31-manuscript.qmd">
+<tr data-index="2" data-categories="conference,DDSA" data-listing-date-sort="1706745600000" data-listing-file-modified-sort="1715160979384" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="61" data-listing-title-sort="DDSA PhD meetup and D3A conference" data-listing-filename-sort="2024-02-01-DDSAD3A.qmd">
 <td>
-<span class="listing-date">Jan 31, 2024</span>
+<a href="./news/past/2024-02-01-DDSAD3A.html" class="title listing-title">DDSA PhD meetup and D3A conference</a>
 </td>
 <td>
-<a href="./news/2024-01-31-manuscript.html" class="title listing-title">A primer for Synthetic health data</a>
+<span class="listing-Dates">1 February 2024</span>
 </td>
 <td>
-<span class="listing-author">Jennifer Bartell</span>
-</td>
-</tr>
-<tr data-index="5" data-categories="novo-nordisk-foundation,grant,AAU,KU" data-listing-date-sort="1702339200000" data-listing-file-modified-sort="1713364922125" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="124" data-listing-title-sort="NNF Collaborative Data Science award news: the SE3D project!" data-listing-filename-sort="2023-12-12-SE3D.qmd">
-<td>
-<span class="listing-date">Dec 12, 2023</span>
+<span class="listing-Location">DDSA</span>
 </td>
 <td>
-<a href="./news/2023-12-12-SE3D.html" class="title listing-title">NNF Collaborative Data Science award news: the SE3D project!</a>
-</td>
-<td>
-<span class="listing-author">Jennifer Bartell</span>
+<span class="listing-Organizers">Jennifer Bartell</span>
 </td>
 </tr>
-<tr data-index="6" data-categories="proteomics,course,SDU" data-listing-date-sort="1699488000000" data-listing-file-modified-sort="1713364922125" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="111" data-listing-title-sort="Updates from SDU" data-listing-filename-sort="2023-11-09-proteomics_biostat_SDU.qmd">
+<tr data-index="3" data-categories="manuscript,synthetic-data,KU,AAU" data-listing-date-sort="1706659200000" data-listing-file-modified-sort="1715160979384" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="74" data-listing-title-sort="A primer for Synthetic health data" data-listing-filename-sort="2024-01-31-manuscript.qmd">
 <td>
-<span class="listing-date">Nov 9, 2023</span>
+<a href="./news/past/2024-01-31-manuscript.html" class="title listing-title">A primer for Synthetic health data</a>
 </td>
 <td>
-<a href="./news/2023-11-09-proteomics_biostat_SDU.html" class="title listing-title">Updates from SDU</a>
+<span class="listing-Dates">31 January 2024</span>
 </td>
 <td>
-<span class="listing-author">Jacob Fredegaard Hansen</span>
-</td>
-</tr>
-<tr data-index="7" data-categories="course,data-management,DTU" data-listing-date-sort="1699315200000" data-listing-file-modified-sort="1713364922125" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="56" data-listing-title-sort="A course on RDS for NGS data" data-listing-filename-sort="2023-10-25-RDM_NGS.qmd">
-<td>
-<span class="listing-date">Nov 7, 2023</span>
+<span class="listing-Location">&nbsp;</span>
 </td>
 <td>
-<a href="./news/2023-10-25-RDM_NGS.html" class="title listing-title">A course on RDS for NGS data</a>
-</td>
-<td>
-<span class="listing-author">Jose AR Herrera</span>
+<span class="listing-Organizers">Jennifer Bartell</span>
 </td>
 </tr>
-<tr data-index="8" data-categories="conference,data-management,talk" data-listing-date-sort="1699315200000" data-listing-file-modified-sort="1713364922125" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="40" data-listing-title-sort="From Data Chaos to Data Harmony" data-listing-filename-sort="2023-11-07-RDMtalk.qmd">
+<tr data-index="4" data-categories="novo-nordisk-foundation,grant,AAU,KU" data-listing-date-sort="1702339200000" data-listing-file-modified-sort="1715160979384" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="124" data-listing-title-sort="NNF Collaborative Data Science award news: the SE3D project!" data-listing-filename-sort="2023-12-12-SE3D.qmd">
 <td>
-<span class="listing-date">Nov 7, 2023</span>
+<a href="./news/past/2023-12-12-SE3D.html" class="title listing-title">NNF Collaborative Data Science award news: the SE3D project!</a>
 </td>
 <td>
-<a href="./news/2023-11-07-RDMtalk.html" class="title listing-title">From Data Chaos to Data Harmony</a>
+<span class="listing-Dates">12 December 2023</span>
 </td>
 <td>
-<span class="listing-author">Jennifer Bartell</span>
-</td>
-</tr>
-<tr data-index="9" data-categories="workshop,conference,AU" data-listing-date-sort="1694044800000" data-listing-file-modified-sort="1713364922125" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="56" data-listing-title-sort="'Digging into the Health Data Science Sandbox' workshop" data-listing-filename-sort="2023-09-07-workshop-conference.qmd">
-<td>
-<span class="listing-date">Sep 7, 2023</span>
+<span class="listing-Location">KU</span>
 </td>
 <td>
-<a href="./news/2023-09-07-workshop-conference.html" class="title listing-title">‘Digging into the Health Data Science Sandbox’ workshop</a>
-</td>
-<td>
-<span class="listing-author">Jennifer Bartell</span>
+<span class="listing-Organizers">Jennifer Bartell</span>
 </td>
 </tr>
-<tr data-index="10" data-categories="workshop,AU" data-listing-date-sort="1693267200000" data-listing-file-modified-sort="1713364922125" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="71" data-listing-title-sort="Sandbox workshop in Aarhus" data-listing-filename-sort="2023-08-29-aarhus-workshop.qmd">
+<tr data-index="5" data-categories="proteomics,course,SDU" data-listing-date-sort="1699488000000" data-listing-file-modified-sort="1715160979384" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="111" data-listing-title-sort="Updates from SDU" data-listing-filename-sort="2023-11-09-proteomics_biostat_SDU.qmd">
 <td>
-<span class="listing-date">Aug 29, 2023</span>
+<a href="./news/past/2023-11-09-proteomics_biostat_SDU.html" class="title listing-title">Updates from SDU</a>
 </td>
 <td>
-<a href="./news/2023-08-29-aarhus-workshop.html" class="title listing-title">Sandbox workshop in Aarhus</a>
+<span class="listing-Dates">9 November 2023</span>
 </td>
 <td>
-<span class="listing-author">Samuele Soraggi</span>
-</td>
-</tr>
-<tr data-index="11" data-categories="workshop,KU,HeaDS,reNEW,transcriptomics" data-listing-date-sort="1687132800000" data-listing-file-modified-sort="1713364922125" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="68" data-listing-title-sort="Workshop on bulkRNA-seq data" data-listing-filename-sort="2023-06-19-KU-bulk.qmd">
-<td>
-<span class="listing-date">Jun 19, 2023</span>
+<span class="listing-Location">SDU</span>
 </td>
 <td>
-<a href="./news/2023-06-19-KU-bulk.html" class="title listing-title">Workshop on bulkRNA-seq data</a>
-</td>
-<td>
-<span class="listing-author">Jennifer Bartell</span>
+<span class="listing-Organizers">Jacob Fredegaard Hansen</span>
 </td>
 </tr>
-<tr data-index="12" data-categories="genomics,transcriptomics,proteomics,ucloud,KU,HeaDS,reNEW,transcriptomics" data-listing-date-sort="1685491200000" data-listing-file-modified-sort="1713364922125" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="82" data-listing-title-sort="Sandbox App updates on UCloud rolled out" data-listing-filename-sort="2023-05-31-rollout-ucloud.qmd">
+<tr data-index="6" data-categories="course,data-management,DTU" data-listing-date-sort="1699315200000" data-listing-file-modified-sort="1715160979384" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="56" data-listing-title-sort="A course on RDS for NGS data" data-listing-filename-sort="2023-10-25-RDM_NGS.qmd">
 <td>
-<span class="listing-date">May 31, 2023</span>
+<a href="./news/past/2023-10-25-RDM_NGS.html" class="title listing-title">A course on RDS for NGS data</a>
 </td>
 <td>
-<a href="./news/2023-05-31-rollout-ucloud.html" class="title listing-title">Sandbox App updates on UCloud rolled out</a>
+<span class="listing-Dates">7 November 2023</span>
 </td>
 <td>
-<span class="listing-author">Jennifer Bartell</span>
-</td>
-</tr>
-<tr data-index="13" data-categories="workshop,course,KU,nextflow" data-listing-date-sort="1674000000000" data-listing-file-modified-sort="1713364922125" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="130" data-listing-title-sort="Second bulk RNA-seq course at the University of Copenhagen" data-listing-filename-sort="2023-01-18-bulk-KU.qmd">
-<td>
-<span class="listing-date">Jan 18, 2023</span>
+<span class="listing-Location">DTU</span>
 </td>
 <td>
-<a href="./news/2023-01-18-bulk-KU.html" class="title listing-title">Second bulk RNA-seq course at the University of Copenhagen</a>
-</td>
-<td>
-<span class="listing-author">Jennifer Bartell</span>
+<span class="listing-Organizers">Jose AR Herrera</span>
 </td>
 </tr>
-<tr data-index="14" data-categories="courses,population-genomics,personalized-medicine,single-cell,HeaDS,reNEW,transcriptomics" data-listing-date-sort="1673308800000" data-listing-file-modified-sort="1713364922125" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="325" data-listing-title-sort="Sandbox support for Spring 2023 courses" data-listing-filename-sort="2023-01-10-spring-support.qmd">
+<tr data-index="7" data-categories="conference,data-management,talk" data-listing-date-sort="1699315200000" data-listing-file-modified-sort="1715160979384" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="40" data-listing-title-sort="From Data Chaos to Data Harmony" data-listing-filename-sort="2023-11-07-RDMtalk.qmd">
 <td>
-<span class="listing-date">Jan 10, 2023</span>
+<a href="./news/past/2023-11-07-RDMtalk.html" class="title listing-title">From Data Chaos to Data Harmony</a>
 </td>
 <td>
-<a href="./news/2023-01-10-spring-support.html" class="title listing-title">Sandbox support for Spring 2023 courses</a>
+<span class="listing-Dates">7 November 2023</span>
 </td>
 <td>
-<span class="listing-author">Jennifer Bartell</span>
-</td>
-</tr>
-<tr data-index="15" data-categories="computerome" data-listing-date-sort="1673136000000" data-listing-file-modified-sort="1713364922125" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="114" data-listing-title-sort="Soft launch of the new Course Platform at Computerome" data-listing-filename-sort="2023-01-08-platform-computerome.qmd">
-<td>
-<span class="listing-date">Jan 8, 2023</span>
+<span class="listing-Location">DeiC conference</span>
 </td>
 <td>
-<a href="./news/2023-01-08-platform-computerome.html" class="title listing-title">Soft launch of the new Course Platform at Computerome</a>
-</td>
-<td>
-<span class="listing-author">Jesper R Christiansen</span>
+<span class="listing-Organizers">Jennifer Bartell</span>
 </td>
 </tr>
-<tr data-index="16" data-categories="AU,statistics,ML" data-listing-date-sort="1669766400000" data-listing-file-modified-sort="1713364922125" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="25" data-listing-title-sort="Sandbox support for 'Advanced Statistical Learning'" data-listing-filename-sort="2022-11-30-advancedstatlearning.qmd">
+<tr data-index="8" data-categories="workshop,conference,AU" data-listing-date-sort="1694044800000" data-listing-file-modified-sort="1715160979380" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="56" data-listing-title-sort="'Digging into the Health Data Science Sandbox' workshop" data-listing-filename-sort="2023-09-07-workshop-conference.qmd">
 <td>
-<span class="listing-date">Nov 30, 2022</span>
+<a href="./news/past/2023-09-07-workshop-conference.html" class="title listing-title">‘Digging into the Health Data Science Sandbox’ workshop</a>
 </td>
 <td>
-<a href="./news/2022-11-30-advancedstatlearning.html" class="title listing-title">Sandbox support for ‘Advanced Statistical Learning’</a>
+<span class="listing-Dates">7 September 2023</span>
 </td>
 <td>
-<span class="listing-author">Samuele Soraggi</span>
-</td>
-</tr>
-<tr data-index="17" data-categories="bioinformatics,SDU" data-listing-date-sort="1668470400000" data-listing-file-modified-sort="1713364922125" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="54" data-listing-title-sort="Sandbox support within 'Workshops in Applied Bioinformatics' at SDU" data-listing-filename-sort="2022-11-15-support-bioinf-sdu.qmd">
-<td>
-<span class="listing-date">Nov 15, 2022</span>
+<span class="listing-Location">AU</span>
 </td>
 <td>
-<a href="./news/2022-11-15-support-bioinf-sdu.html" class="title listing-title">Sandbox support within ‘Workshops in Applied Bioinformatics’ at SDU</a>
-</td>
-<td>
-<span class="listing-author">Jacob Fredegaard Hansen</span>
+<span class="listing-Organizers">Jennifer Bartell</span>
 </td>
 </tr>
-<tr data-index="18" data-categories="transcriptomics,ucloud" data-listing-date-sort="1668470400000" data-listing-file-modified-sort="1713364922125" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="49" data-listing-title-sort="Transcriptomics Sandbox app launched on UCloud!" data-listing-filename-sort="2022-12-10-transcriptomics-launch.qmd">
+<tr data-index="9" data-categories="workshop,AU" data-listing-date-sort="1693267200000" data-listing-file-modified-sort="1715160979380" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="71" data-listing-title-sort="Sandbox workshop in Aarhus" data-listing-filename-sort="2023-08-29-aarhus-workshop.qmd">
 <td>
-<span class="listing-date">Nov 15, 2022</span>
+<a href="./news/past/2023-08-29-aarhus-workshop.html" class="title listing-title">Sandbox workshop in Aarhus</a>
 </td>
 <td>
-<a href="./news/2022-12-10-transcriptomics-launch.html" class="title listing-title">Transcriptomics Sandbox app launched on UCloud!</a>
+<span class="listing-Dates">29 August 2023</span>
 </td>
 <td>
-<span class="listing-author">Jose AR Herrera</span>
-</td>
-</tr>
-<tr data-index="19" data-categories="genomics,ucloud" data-listing-date-sort="1662422400000" data-listing-file-modified-sort="1713364922125" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="50" data-listing-title-sort="Genomics Sandbox app launched on UCloud!" data-listing-filename-sort="2022-09-06-genomics-launch.qmd">
-<td>
-<span class="listing-date">Sep 6, 2022</span>
+<span class="listing-Location">AU</span>
 </td>
 <td>
-<a href="./news/2022-09-06-genomics-launch.html" class="title listing-title">Genomics Sandbox app launched on UCloud!</a>
-</td>
-<td>
-<span class="listing-author">Samuele Soraggi</span>
+<span class="listing-Organizers">Samuele Soraggi</span>
 </td>
 </tr>
-<tr data-index="20" data-categories="transcriptomics,course,KU,HeaDS,reNEW" data-listing-date-sort="1660780800000" data-listing-file-modified-sort="1713364922125" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="94" data-listing-title-sort="Bulk RNA-seq course at University of Copenhagen" data-listing-filename-sort="2022-08-18-bulk-ku.qmd">
+<tr data-index="10" data-categories="workshop,KU,HeaDS,reNEW,transcriptomics" data-listing-date-sort="1687132800000" data-listing-file-modified-sort="1715160979380" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="68" data-listing-title-sort="Workshop on bulkRNA-seq data" data-listing-filename-sort="2023-06-19-KU-bulk.qmd">
 <td>
-<span class="listing-date">Aug 18, 2022</span>
+<a href="./news/past/2023-06-19-KU-bulk.html" class="title listing-title">Workshop on bulkRNA-seq data</a>
 </td>
 <td>
-<a href="./news/2022-08-18-bulk-ku.html" class="title listing-title">Bulk RNA-seq course at University of Copenhagen</a>
+<span class="listing-Dates">19 June 2023</span>
 </td>
 <td>
-<span class="listing-author">Jennuifer Bartell</span>
-</td>
-</tr>
-<tr data-index="21" data-categories="personalized-medicine,AAU" data-listing-date-sort="1654041600000" data-listing-file-modified-sort="1713364922125" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="40" data-listing-title-sort="Basics of Personalized Medicine - MSc course" data-listing-filename-sort="2022-01-04-basicpm.qmd">
-<td>
-<span class="listing-date">Jun 1, 2022</span>
+<span class="listing-Location">KU</span>
 </td>
 <td>
-<a href="./news/2022-01-04-basicpm.html" class="title listing-title">Basics of Personalized Medicine - MSc course</a>
-</td>
-<td>
-<span class="listing-author">Jennifer Bartell</span>
+<span class="listing-Organizers">Jennifer Bartell</span>
 </td>
 </tr>
-<tr data-index="22" data-categories="personalized-medicine,AAU" data-listing-date-sort="1654041600000" data-listing-file-modified-sort="1713364922125" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="54" data-listing-title-sort="Basics of Personalized Medicine - final wrap-up" data-listing-filename-sort="2022-04-22-basicpm-wrapup.qmd">
+<tr data-index="11" data-categories="genomics,transcriptomics,proteomics,ucloud,KU,HeaDS,reNEW,transcriptomics" data-listing-date-sort="1685491200000" data-listing-file-modified-sort="1715160979380" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="82" data-listing-title-sort="Sandbox App updates on UCloud rolled out" data-listing-filename-sort="2023-05-31-rollout-ucloud.qmd">
 <td>
-<span class="listing-date">Jun 1, 2022</span>
+<a href="./news/past/2023-05-31-rollout-ucloud.html" class="title listing-title">Sandbox App updates on UCloud rolled out</a>
 </td>
 <td>
-<a href="./news/2022-04-22-basicpm-wrapup.html" class="title listing-title">Basics of Personalized Medicine - final wrap-up</a>
+<span class="listing-Dates">31 May 2023</span>
 </td>
 <td>
-<span class="listing-author">Jennifer Bartell</span>
+<span class="listing-Location">KU</span>
+</td>
+<td>
+<span class="listing-Organizers">Jennifer Bartell</span>
 </td>
 </tr>
-<tr data-index="23" data-categories="genomics,AU" data-listing-date-sort="1654041600000" data-listing-file-modified-sort="1713364922125" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="77" data-listing-title-sort="Genomics course at Aarhus University" data-listing-filename-sort="2022-06-01-genomics-au.qmd">
+<tr data-index="12" data-categories="workshop,course,KU,nextflow" data-listing-date-sort="1674000000000" data-listing-file-modified-sort="1715160979380" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="130" data-listing-title-sort="Second bulk RNA-seq course at the University of Copenhagen" data-listing-filename-sort="2023-01-18-bulk-KU.qmd">
 <td>
-<span class="listing-date">Jun 1, 2022</span>
+<a href="./news/past/2023-01-18-bulk-KU.html" class="title listing-title">Second bulk RNA-seq course at the University of Copenhagen</a>
 </td>
 <td>
-<a href="./news/2022-06-01-genomics-au.html" class="title listing-title">Genomics course at Aarhus University</a>
+<span class="listing-Dates">18 January 2023</span>
 </td>
 <td>
-<span class="listing-author">Samuele Soraggi</span>
+<span class="listing-Location">KU</span>
+</td>
+<td>
+<span class="listing-Organizers">Jennifer Bartell</span>
+</td>
+</tr>
+<tr data-index="13" data-categories="courses,population-genomics,personalized-medicine,single-cell,HeaDS,reNEW,transcriptomics" data-listing-date-sort="1673308800000" data-listing-file-modified-sort="1715160979380" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="325" data-listing-title-sort="Sandbox support for Spring 2023 courses" data-listing-filename-sort="2023-01-10-spring-support.qmd">
+<td>
+<a href="./news/past/2023-01-10-spring-support.html" class="title listing-title">Sandbox support for Spring 2023 courses</a>
+</td>
+<td>
+<span class="listing-Dates">10 January 2023</span>
+</td>
+<td>
+<span class="listing-Location">KU</span>
+</td>
+<td>
+<span class="listing-Organizers">Jennifer Bartell</span>
+</td>
+</tr>
+<tr data-index="14" data-categories="computerome" data-listing-date-sort="1673136000000" data-listing-file-modified-sort="1715160979380" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="114" data-listing-title-sort="Soft launch of the new Course Platform at Computerome" data-listing-filename-sort="2023-01-08-platform-computerome.qmd">
+<td>
+<a href="./news/past/2023-01-08-platform-computerome.html" class="title listing-title">Soft launch of the new Course Platform at Computerome</a>
+</td>
+<td>
+<span class="listing-Dates">8 January 2023</span>
+</td>
+<td>
+<span class="listing-Location">KU</span>
+</td>
+<td>
+<span class="listing-Organizers">Jesper R Christiansen</span>
+</td>
+</tr>
+<tr data-index="15" data-categories="AU,statistics,ML" data-listing-date-sort="1669766400000" data-listing-file-modified-sort="1715160979380" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="25" data-listing-title-sort="Sandbox support for 'Advanced Statistical Learning'" data-listing-filename-sort="2022-11-30-advancedstatlearning.qmd">
+<td>
+<a href="./news/past/2022-11-30-advancedstatlearning.html" class="title listing-title">Sandbox support for ‘Advanced Statistical Learning’</a>
+</td>
+<td>
+<span class="listing-Dates">30 November 2022</span>
+</td>
+<td>
+<span class="listing-Location">AU</span>
+</td>
+<td>
+<span class="listing-Organizers">Samuele Soraggi</span>
+</td>
+</tr>
+<tr data-index="16" data-categories="bioinformatics,SDU" data-listing-date-sort="1668470400000" data-listing-file-modified-sort="1715160979380" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="54" data-listing-title-sort="Sandbox support within 'Workshops in Applied Bioinformatics' at SDU" data-listing-filename-sort="2022-11-15-support-bioinf-sdu.qmd">
+<td>
+<a href="./news/past/2022-11-15-support-bioinf-sdu.html" class="title listing-title">Sandbox support within ‘Workshops in Applied Bioinformatics’ at SDU</a>
+</td>
+<td>
+<span class="listing-Dates">15 November 2022</span>
+</td>
+<td>
+<span class="listing-Location">SDU</span>
+</td>
+<td>
+<span class="listing-Organizers">Jacob Fredegaard Hansen</span>
+</td>
+</tr>
+<tr data-index="17" data-categories="transcriptomics,ucloud" data-listing-date-sort="1668470400000" data-listing-file-modified-sort="1715160979380" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="49" data-listing-title-sort="Transcriptomics Sandbox app launched on UCloud!" data-listing-filename-sort="2022-12-10-transcriptomics-launch.qmd">
+<td>
+<a href="./news/past/2022-12-10-transcriptomics-launch.html" class="title listing-title">Transcriptomics Sandbox app launched on UCloud!</a>
+</td>
+<td>
+<span class="listing-Dates">15 November 2022</span>
+</td>
+<td>
+<span class="listing-Location">KU</span>
+</td>
+<td>
+<span class="listing-Organizers">Jose AR Herrera</span>
+</td>
+</tr>
+<tr data-index="18" data-categories="genomics,ucloud" data-listing-date-sort="1662422400000" data-listing-file-modified-sort="1715160979380" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="50" data-listing-title-sort="Genomics Sandbox app launched on UCloud!" data-listing-filename-sort="2022-09-06-genomics-launch.qmd">
+<td>
+<a href="./news/past/2022-09-06-genomics-launch.html" class="title listing-title">Genomics Sandbox app launched on UCloud!</a>
+</td>
+<td>
+<span class="listing-Dates">6 September 2022</span>
+</td>
+<td>
+<span class="listing-Location">AU</span>
+</td>
+<td>
+<span class="listing-Organizers">Samuele Soraggi</span>
+</td>
+</tr>
+<tr data-index="19" data-categories="transcriptomics,course,KU,HeaDS,reNEW" data-listing-date-sort="1660780800000" data-listing-file-modified-sort="1715160979380" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="94" data-listing-title-sort="Bulk RNA-seq course at University of Copenhagen" data-listing-filename-sort="2022-08-18-bulk-ku.qmd">
+<td>
+<a href="./news/past/2022-08-18-bulk-ku.html" class="title listing-title">Bulk RNA-seq course at University of Copenhagen</a>
+</td>
+<td>
+<span class="listing-Dates">18 August 2022</span>
+</td>
+<td>
+<span class="listing-Location">KU</span>
+</td>
+<td>
+<span class="listing-Organizers">Jennifer Bartell</span>
+</td>
+</tr>
+<tr data-index="20" data-categories="genomics,AU" data-listing-date-sort="1654041600000" data-listing-file-modified-sort="1715160979380" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="77" data-listing-title-sort="Genomics course at Aarhus University" data-listing-filename-sort="2022-06-01-genomics-au.qmd">
+<td>
+<a href="./news/past/2022-06-01-genomics-au.html" class="title listing-title">Genomics course at Aarhus University</a>
+</td>
+<td>
+<span class="listing-Dates">1 June 2022</span>
+</td>
+<td>
+<span class="listing-Location">AU</span>
+</td>
+<td>
+<span class="listing-Organizers">Samuele Soraggi</span>
+</td>
+</tr>
+<tr data-index="21" data-categories="personalized-medicine,AAU" data-listing-date-sort="1650585600000" data-listing-file-modified-sort="1715160979380" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="54" data-listing-title-sort="Basics of Personalized Medicine - final wrap-up" data-listing-filename-sort="2022-04-22-basicpm-wrapup.qmd">
+<td>
+<a href="./news/past/2022-04-22-basicpm-wrapup.html" class="title listing-title">Basics of Personalized Medicine - final wrap-up</a>
+</td>
+<td>
+<span class="listing-Dates">22 April 2022</span>
+</td>
+<td>
+<span class="listing-Location">AAU</span>
+</td>
+<td>
+<span class="listing-Organizers">Jennifer Bartell</span>
+</td>
+</tr>
+<tr data-index="22" data-categories="personalized-medicine,AAU" data-listing-date-sort="1648771200000" data-listing-file-modified-sort="1715160979380" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="40" data-listing-title-sort="Basics of Personalized Medicine - MSc course" data-listing-filename-sort="2022-01-04-basicpm.qmd">
+<td>
+<a href="./news/past/2022-01-04-basicpm.html" class="title listing-title">Basics of Personalized Medicine - MSc course</a>
+</td>
+<td>
+<span class="listing-Dates">1 April 2022</span>
+</td>
+<td>
+<span class="listing-Location">AAU</span>
+</td>
+<td>
+<span class="listing-Organizers">Jennifer Bartell</span>
 </td>
 </tr>
 </tbody>

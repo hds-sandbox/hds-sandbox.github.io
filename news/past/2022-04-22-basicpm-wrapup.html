@@ -2,14 +2,14 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.553">
+<meta name="generator" content="quarto-1.4.554">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Jennifer Bartell">
-<meta name="dcterms.date" content="2024-01-31">
+<meta name="dcterms.date" content="2022-04-22">
+<meta name="description" content="Basics of Personalized Medicine - final wrap-up">
 
-<title>Health Data Science Sandbox - A primer for Synthetic health data</title>
+<title>Health Data Science Sandbox - Basics of Personalized Medicine - final wrap-up</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -25,24 +25,24 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<script src="../site_libs/quarto-html/quarto.js"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -81,10 +81,10 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../img/logo.png" alt="" class="navbar-logo">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../img/logo.png" alt="" class="navbar-logo">
     </a>
-    <a class="navbar-brand" href="../index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Health Data Science Sandbox</span>
     </a>
   </div>
@@ -95,23 +95,23 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../index.html"> 
+    <a class="nav-link" href="../../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../news.html"> 
+    <a class="nav-link" href="../../news.html"> 
 <span class="menu-text">News</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../access/index.html"> 
+    <a class="nav-link" href="../../access/index.html"> 
 <span class="menu-text">HPC access</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../modules/index.html"> 
+    <a class="nav-link" href="../../modules/index.html"> 
 <span class="menu-text">Modules</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../workshop/workshop_april2024.html"> 
+    <a class="nav-link" href="../../workshop/workshop_april2024.html"> 
 <span class="menu-text">Workshop</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -120,17 +120,17 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-datasets">    
         <li>
-    <a class="dropdown-item" href="../datasets/datapolicy.html">
+    <a class="dropdown-item" href="../../datasets/datapolicy.html">
  <span class="dropdown-text">Data policy</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../datasets/synthdata.html">
+    <a class="dropdown-item" href="../../datasets/synthdata.html">
  <span class="dropdown-text">Synthetic data</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="../about/about.html"> 
+    <a class="nav-link" href="../../about/about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
 </ul>
@@ -170,30 +170,27 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">A primer for Synthetic health data</h1>
+<h1 class="title">Basics of Personalized Medicine - final wrap-up</h1>
   <div class="quarto-categories">
-    <div class="quarto-category">manuscript</div>
-    <div class="quarto-category">synthetic-data</div>
-    <div class="quarto-category">KU</div>
+    <div class="quarto-category">personalized-medicine</div>
     <div class="quarto-category">AAU</div>
   </div>
   </div>
 
+<div>
+  <div class="description">
+    Basics of Personalized Medicine - final wrap-up
+  </div>
+</div>
 
 
 <div class="quarto-title-meta">
 
-    <div>
-    <div class="quarto-title-meta-heading">Author</div>
-    <div class="quarto-title-meta-contents">
-             <p>Jennifer Bartell </p>
-          </div>
-  </div>
     
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">January 31, 2024</p>
+      <p class="date">April 22, 2022</p>
     </div>
   </div>
   
@@ -205,7 +202,7 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>In collaboration with Prof.&nbsp;Henning Langberg at KU Public Health and funding from Erhvervsfyrtaarn Sund Vaegt, Jennifer Bartell has developed a manuscript that discusses technical, regulatory, and deployment solutions and challenges for synthetic health data from a broad perspective. This manuscript was developed in collaboration with Sandbox partners Sander Boisen Valentin and Martin Boegsted of AAU, and we plan to submit it to a journal soon. For now, check out <a href="https://arxiv.org/abs/2401.17653">our manuscript on arXiv</a>!</p>
+<p>Our first course, Basics of Personalized Medicine, wrapped up this month with student project presentations which described their approaches to analysis of the synthetic Chronic Lymphocytic Leukemia dataset created for the course. Course reviews highlighted the helpfulness of Sandbox staff in troubleshooting R problems and the tremendous amount that students learned about predictive modeling.</p>
 
 
 
