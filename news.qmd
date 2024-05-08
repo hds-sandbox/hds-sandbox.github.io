@@ -7,7 +7,7 @@ format:
 listing:
   - id: "upcoming_event"
     image-height: 200px
-    grid-columns: 5
+    grid-columns: 3
     image-placeholder: "./img/logo.png"
     fields: [image,title, description,categories, date]
     contents: news/upcoming/*.qmd
