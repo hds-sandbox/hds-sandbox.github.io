@@ -1,8 +1,10 @@
 ---
 title: "Soft launch of the new Course Platform at Computerome"
 description: "Soft launch of the new Course Platform at Computerome"
-author: Jesper R Christiansen
+Organizers: Jesper R Christiansen
 date: 2023-01-08
+Dates: "8 January 2023"
+Location: KU
 categories: [computerome]
 ---
 

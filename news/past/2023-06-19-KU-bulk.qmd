@@ -1,8 +1,10 @@
 ---
 title: "Workshop on bulkRNA-seq data"
 description: "3 days of bulk RNA-seq at the University of Copenhagen"
-author: Jennifer Bartell
+Organizers: Jennifer Bartell
 date: 2023-06-19
+Dates: "19 June 2023"
+Location: KU
 categories: [workshop, KU, HeaDS, reNEW, transcriptomics]
 ---
 

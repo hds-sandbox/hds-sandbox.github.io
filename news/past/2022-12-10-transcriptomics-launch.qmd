@@ -1,8 +1,10 @@
 ---
 title: "Transcriptomics Sandbox app launched on UCloud!"
 description: "Transcriptomics Sandbox app launched on UCloud!"
-author: Jose AR Herrera
+Organizers: Jose AR Herrera
 date: 2022-11-15
+Dates: "15 November 2022"
+Location: KU
 categories: [transcriptomics, ucloud]
 ---
 

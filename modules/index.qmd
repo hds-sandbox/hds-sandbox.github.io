@@ -3,7 +3,6 @@ title: "Training modules"
 format: html
 date-modified: last-modified
 date-format: long
-date: 2024-01-01
 ---
 
 Sandbox resources have been organized as training modules focused on key topics in health data science. We are constantly adding additional resources and have plans to create additional modules on medical imaging and wearable device data. Feel free to adapt these resources for your own purposes (with credit to the National Health Data Science Sandbox project and other projects they acknowledge in the specific materials). 
@@ -16,6 +15,21 @@ You can **access our training modules** through:
 + Independently accessible **Sandbox apps on [GenomeDK](https://genome.au.dk)**, the bioinformatics high-throughput HPC at University of Aarhus
 + Virtual machines deployed on the **[Course Platform](https://www.computerome.dk/solutions/course-platform) at Computerome**, the academic HPC at the Technical University of Denmark (Sandbox rollout still under development!)
 **tutorials and guides** and **popular tools for analysis and visualization**. [Email us](mailto:nhds_sandbox@sund.ku.dk) with any questions, comments or suggestions for new workshops!
+
+&nbsp;
+
+## Data Carpentry and management {#sandbox-hpc}
+
+<div style="margin-bottom: -20px;margin-top: -90px">
+![](../images/HPC.png){fig-align="right" width="18%"}
+</div>
+
+Computing skills are an important foundation for health data science (and using the above training modules), but formal training is often lacking as biomedical researchers navigate increasingly difficult computational tasks in their projects. These skills range from programming to the use of high-performance computers (HPC) to proper research data management.
+
+- [RDM for biodata](https://hds-sandbox.github.io/RDM_NGS_course) (workshop on how to handle NGS data following simple guidelines to increase the FAIRability of your data)
+- [HPC launch (workshop in development)](https://hds-sandbox.github.io/HPC-lab/develop/hpc_intro.html)
+- [HPC pipes (workshop in development)](https://hds-sandbox.github.io/HPC-lab/develop/fair_workflow.html)
+- [HeaDS DataLab workshop materials](https://center-for-health-data-science.github.io/index.html) (workshops for programming and good practices developed by the Center for Health Data Science at the University of Copenhagen, which are sometimes co-taught by Sandbox staff! Includes **R**, **python**, **bash**, and **git**!)
 
 &nbsp;
  
@@ -71,7 +85,7 @@ We also offer a tutorial on UCloud's [ColabFold app](https://cloud.sdu.dk/app/jo
  
 &nbsp;
 
-## Electronic Health Records
+## Electronic Health Records {#EHC}
 
 <div style="margin-bottom: -20px;margin-top: -90px">
 ![](../images/EHRs.png){fig-align="right" width="18%"}
@@ -83,18 +97,3 @@ The chronic lymphocytic leukemia synthetic dataset listed below is generated sol
 
 - Chronic Lymphocytic Leukemia synthetic dataset created for use in "Fra realworld data til personlig medicin", a course from the University of Copenhagen's [MS in Personlig Medicin](https://personligmedicin.ku.dk/) (last update: January 2023)
 - Intro to EHR analysis (workshop under development) 
- 
-&nbsp;
-
-## Data Carpentry and management
-
-<div style="margin-bottom: -20px;margin-top: -90px">
-![](../images/HPC.png){fig-align="right" width="18%"}
-</div>
-
-Computing skills are an important foundation for health data science (and using the above training modules), but formal training is often lacking as biomedical researchers navigate increasingly difficult computational tasks in their projects. These skills range from programming to the use of high-performance computers (HPC) to proper research data management.
-
-- [HPC Startup Guide](https://hds-sandbox.github.io/access/index.html) (instructions for accessing and navigating compute resources at Computerome and UCloud)
-- [RDM for biodata](https://hds-sandbox.github.io/RDM_NGS_course) (workshop on how to handle NGS data following simple guidelines to increase the FAIRability of your data)
-- [HeaDS DataLab workshop materials](https://center-for-health-data-science.github.io/index.html) (workshops for programming and good practices developed by the Center for Health Data Science at the University of Copenhagen, which are sometimes co-taught by Sandbox staff! Includes **R**, **python**, **bash**, and **git**!)
-- Intro to HPC (workshop in development)

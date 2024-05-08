@@ -1,8 +1,10 @@
 ---
 title: "Sandbox App updates on UCloud rolled out"
 description: "Sandbox App updates on UCloud rolled out"
-author: Jennifer Bartell
+Organizers: Jennifer Bartell
 date: 2023-05-31
+Dates: "31 May 2023"
+Location: KU
 categories: [genomics, transcriptomics, proteomics, ucloud, KU, HeaDS, reNEW, transcriptomics]
 ---
 

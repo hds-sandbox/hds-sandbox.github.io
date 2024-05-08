@@ -1,8 +1,10 @@
 ---
 title: "Second bulk RNA-seq course at the University of Copenhagen"
 description: "Second bulk RNA-seq course at the University of Copenhagen"
-author: Jennifer Bartell
+Organizers: Jennifer Bartell
 date: 2023-01-18
+Dates: "18 January 2023"
+Location: KU 
 categories: [workshop, course, KU, nextflow]
 ---
 

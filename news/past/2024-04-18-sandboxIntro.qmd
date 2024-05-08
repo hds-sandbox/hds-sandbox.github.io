@@ -1,0 +1,11 @@
+---
+title: "Digging into the Health Data Science Sandbox"
+#description: "Data Scientist, Copenhagen University"
+Organizers: Jennifer Bartell
+date: 2024-04-18
+Dates: "18-19 April 2024"
+Location: KU
+categories: [KU, workshop, course, HPC, RDM]
+---
+
+Several Sandbox staff organized a two-day workshop for PhD, postdocs and academic staff on how to use high-performance computing resources and bioinformatics training apps from the Health Data Science Sandbox project. Main topics: fundamentals of accessing UCloud and Sandbox UCloud apps that support pipelines and data analysis guidance for RNA-seq, proteomics, and RDM. 

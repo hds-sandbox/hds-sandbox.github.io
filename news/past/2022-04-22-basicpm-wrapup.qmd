@@ -1,8 +1,10 @@
 ---
 title: "Basics of Personalized Medicine - final wrap-up"
 description: "Basics of Personalized Medicine - final wrap-up"
-author: Jennifer Bartell
-date: 2022-06-01
+Organizers: Jennifer Bartell
+date: 2022-04-22
+Dates: "22 April 2022"
+Location: AAU
 categories: [personalized-medicine, AAU]
 ---
 

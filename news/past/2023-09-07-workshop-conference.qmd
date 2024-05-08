@@ -1,8 +1,10 @@
 ---
 title: "'Digging into the Health Data Science Sandbox' workshop"
 description: "'Digging into the Health Data Science Sandbox' at the Danish Bioinformatics Conference 2023 (Aarhus University)"
-author: Jennifer Bartell
+Organizers: Jennifer Bartell
 date: 2023-09-07
+Dates: "7 September 2023"
+Location: AU
 categories: [workshop, conference, AU]
 ---
 

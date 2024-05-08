@@ -1,8 +1,10 @@
 ---
 title: "Genomics Sandbox app launched on UCloud!"
 description: "Genomics Sandbox app launched on UCloud!"
-author: Samuele Soraggi
+Organizers: Samuele Soraggi
 date: 2022-09-06
+Dates: "6 September 2022"
+Location: AU
 categories: [genomics, ucloud]
 ---
 
