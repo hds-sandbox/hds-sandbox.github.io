@@ -1,8 +1,10 @@
 ---
 title: "Genomics course at Aarhus University"
 description: "Genomics course at Aarhus University"
-author: Samuele Soraggi
+Organizers: Samuele Soraggi
 date: 2022-06-01
+Dates: "1 June 2022"
+Location: AU
 categories: [genomics, AU]
 ---
 

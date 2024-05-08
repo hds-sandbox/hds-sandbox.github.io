@@ -1,8 +1,10 @@
 ---
 title: "Sandbox support for 'Advanced Statistical Learning'"
 description: "Sandbox support for 'Advanced Statistical Learning'"
-author: Samuele Soraggi
+Organizers: Samuele Soraggi
 date: 2022-11-30
+Dates: "30 November 2022"
+Location: AU
 categories: [AU, statistics, ML]
 ---
 

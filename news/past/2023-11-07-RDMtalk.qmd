@@ -1,8 +1,10 @@
 ---
 title: "From Data Chaos to Data Harmony"
 description: "From Data Chaos to Data Harmony: Managing NGS Data in a Wetlab - at the annual DeiC conference"
-author: Jennifer Bartell
+Organizers: Jennifer Bartell
 date: 2023-11-07
+Dates: "7 November 2023"
+Location: DeiC conference
 categories: [conference, data-management, talk]
 ---
 

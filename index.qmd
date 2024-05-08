@@ -2,6 +2,8 @@
 format: 
     html:
         toc: false
+        grid:
+            body-width: 1100px
 bibliography: resources/references.bib
 ---
 
@@ -11,12 +13,39 @@ bibliography: resources/references.bib
 ### A collaborative project with team members spanning five Danish universities
 </div>
 
+&nbsp;
+
 ![](images/Sandbox_workflow_ai_horizontal2w-01.png){fig-align="center"}
+
 
 The Health Data Science Sandbox is a national project coordinated by the [Center for Health Data Science](https://heads.ku.dk/) at the University of Copenhagen. We're working with a network of health data science experts to build training resources on academic supercomputers for students and researchers in Denmark. Our Sandbox contains [training modules](modules/index.qmd) that pair topical datasets with recommended analysis tools, pipelines, and learning materials/tutorials in a portable, containerized format.
 
+::: {layout-nrow=1 layout-ncol=5}
+::: {.column}
+[![HPC Lab](../images/HPC.png){class="hover-target" width="100%"}](https://hds-sandbox.github.io/modules/#sandbox-hpc)
+**<span style="display: block; margin-top:15px; text-align: center; font-size: 1.2em;">HPC Lab</span>**
+:::
 
-![](images/Modules_horizontal.png)
+::: {.column}
+[![](../images/genomics2.png){class="hover-target" width="100%"}](https://hds-sandbox.github.io/modules/#genomics)
+**<span style="display: block; margin-top:15px; text-align: center; font-size: 1.2em;">Genomics</span>**
+:::
+
+::: {.column}
+[![](../images/transcriptomics.png){class="hover-target" width="100%"}](https://hds-sandbox.github.io/modules/#transcriptomics)
+**<span style="display: block; margin-top:15px; text-align: center; font-size: 1.2em;">Transcriptomics</span>**
+:::
+
+::: {.column}
+[![](../images/proteomics.png){class="hover-target" width="100%"}](https://hds-sandbox.github.io/modules/#proteomics)
+**<span style="display: block; margin-top:15px; text-align: center; font-size: 1.2em;">Proteomics</span>**
+:::
+
+::: {.column}
+[![](../images/EHRs.png){class="hover-target" width="100%"}](https://hds-sandbox.github.io/modules/##EHC)
+**<span style="display: block; margin-top:15px; text-align: center; font-size: 1.2em;">Health records</span>**
+:::
+:::
 
 &nbsp;
 
@@ -40,3 +69,12 @@ The Sandbox aims to be a resource for learning new analysis approaches and tools
 :::
 
 **Thanks to the Novo Nordisk Foundation for funding the National Health Data Science Project! Please give credit if you use our open-source materials in any form (NNF grant number NNF20OC0063268).** 
+
+<style>
+/* Targeting images with the class "hover-target" when hovered */
+img.hover-target:hover {
+    cursor: pointer; /* Changes the cursor to a pointer when hovered */
+    transform: scale(1.1); /* Enlarges the image when hovered */
+    transition: transform 0.2s; /* Smooth transition effect */
+}
+</style>

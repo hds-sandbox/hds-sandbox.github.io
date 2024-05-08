@@ -1,8 +1,10 @@
 ---
 title: "A course on RDS for NGS data"
 description: "'Research Data Management for NGS Data' with DeiC (Technical University of Denmark)"
-author: Jose AR Herrera
+Organizers: Jose AR Herrera
 date: 2023-11-07
+Dates: "7 November 2023"
+Location: DTU
 categories: [course, data-management, DTU]
 ---
 

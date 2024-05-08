@@ -1,8 +1,10 @@
 ---
 title: "Sandbox support for Spring 2023 courses"
 description: "Sandbox support for Spring 2023 courses"
-author: Jennifer Bartell
+Organizers: Jennifer Bartell
 date: 2023-01-10
+Dates: "10 January 2023"
+Location: KU
 categories: [courses, population-genomics, personalized-medicine, single-cell, HeaDS, reNEW, transcriptomics]
 ---
 

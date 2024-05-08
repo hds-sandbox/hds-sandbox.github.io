@@ -1,8 +1,10 @@
 ---
 title: "Bulk RNA-seq course at University of Copenhagen"
 description: "Bulk RNA-seq course at University of Copenhagen"
-author: Jennuifer Bartell
+Organizers: Jennifer Bartell
 date: 2022-08-18
+Dates: "18 August 2022"
+Location: KU
 categories: [transcriptomics, course, KU, HeaDS, reNEW]
 ---
 

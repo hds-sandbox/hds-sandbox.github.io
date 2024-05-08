@@ -1,8 +1,10 @@
 ---
 title: "Updates from SDU"
 description: "Updated Proteomics Sandbox App supporting of a Biostatistics course at SDU"
-author: Jacob Fredegaard Hansen
+Organizers: Jacob Fredegaard Hansen
 date: 2023-11-09
+Dates: "9 November 2023"
+Location: SDU
 categories: [proteomics, course, SDU]
 ---
 
