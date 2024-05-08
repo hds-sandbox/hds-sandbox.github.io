@@ -119,7 +119,7 @@ The agenda starts with an introduction to High Performance Computing (HPC) and `
 
 We hope you enjoyed the live demo. If you have broader questions, suggestions, or concerns, now is the time to raise them! If you are totally toast for the day, remember that you can check out longer versions of our tutorials as well as other topics and tools in each of the [Sandbox modules](../modules/index.html) or join us for a multi-day in-person course ([follow our news here](../news.qmd)).
 
-As data scientists, we also would be really happy for some quantifiable info and feedback - we want to build things that the Danish health data science community is excited to use. <b>Please answer these [5 questions](survey link) for us before you head out for the day</b>  (*link activated on day of the workshop*).
+As data scientists, we also would be really happy for some quantifiable info and feedback - we want to build things that the Danish health data science community is excited to use. <b>Please answer these [5 questions](https://forms.office.com/e/e6e3AA1u0D?origin=lprLink) for us before you head out for the day ^[*link activated on day one of the workshop*.].</b>
 
 
 &nbsp;
