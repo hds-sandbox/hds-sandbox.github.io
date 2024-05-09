@@ -30,8 +30,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<script src="../site_libs/quarto-listing/list.min.js"></script>
-<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -70,65 +68,7 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-image','listing-title','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 </head>
 
@@ -168,10 +108,6 @@ window.Quarto = {
     <a class="nav-link" href="../modules/index.html"> 
 <span class="menu-text">Modules</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../workshop/workshop_april2024.html"> 
-<span class="menu-text">Workshop</span></a>
-  </li>  
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-datasets" role="button" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Datasets</span>
@@ -190,6 +126,10 @@ window.Quarto = {
   <li class="nav-item">
     <a class="nav-link active" href="../about/about.html" aria-current="page"> 
 <span class="menu-text">About</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../contact/contact.html"> 
+<span class="menu-text">Contact</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
@@ -217,7 +157,7 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
@@ -226,12 +166,11 @@ window.Quarto = {
    
   <ul>
   <li><a href="#partner-with-the-sandbox" id="toc-partner-with-the-sandbox" class="nav-link active" data-scroll-target="#partner-with-the-sandbox">Partner with the Sandbox</a></li>
-  <li><a href="#contact-the-sandbox-team" id="toc-contact-the-sandbox-team" class="nav-link" data-scroll-target="#contact-the-sandbox-team">Contact the sandbox team</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content column-page-left" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -240,7 +179,7 @@ window.Quarto = {
 
 
 
-<div class="quarto-title-meta">
+<div class="quarto-title-meta column-page-left">
 
     
   
@@ -253,7 +192,7 @@ window.Quarto = {
 
 
 <p><strong>An infrastructure project for health data science training and research in Denmark</strong></p>
-<p>The National Health Data Science Sandbox project kicked off in 2021 with 5 years of funding via the Data Science Research Infrastructure initiative from the Novo Nordisk Foundation. Health data science experts at five Danish universities are contributing to the Sandbox with coordination from the Center for Health Data Science under lead PI Professor Anders Krogh. <a href="../contact/contact.qmd">Data scientists</a> hosted in the research groups of each PI are building infrastructure and training modules on Computerome and UCloud, the primary academic high performance computing (HPC) platforms in Denmark.</p>
+<p>The National Health Data Science Sandbox project kicked off in 2021 with 5 years of funding via the Data Science Research Infrastructure initiative from the Novo Nordisk Foundation. Health data science experts at five Danish universities are contributing to the Sandbox with coordination from the Center for Health Data Science under lead PI Professor Anders Krogh. Data scientists hosted in the research groups of each PI are building infrastructure and training modules on Computerome and UCloud, the primary academic high performance computing (HPC) platforms in Denmark. If you have any questions or would like to get in touch with one of our data scientists, please <a href="../contact/contact.html">contact us here</a>.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="../images/Sandbox_PIs.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:60.0%"></p>
@@ -266,142 +205,18 @@ window.Quarto = {
 <li>researchers: prototype your tools and algorithms with an array of good quality datasets that are GDPR compliant and free to access</li>
 <li>educators: develop your next course with computational assignments in the HPC environment your students will use for their research</li>
 </ul>
-<p>Activity developing independent training modules and hosting workshops has centered on UCloud, while collaborative construction of a flexible Course Platform has been completed on Computerome for use by the Sandbox and independent educators. Publicly sourced datasets are being used in training modules on UCloud, while generation of synthetic data is an ongoing project at Computerome. Sandbox resources are under active construction, so check out our other pages for the current status on <a href="../access/index.html">HPC Access</a>, <a href="../datasets/datapolicy.html">Datasets</a>, and <a href="../modules/index.html">Modules</a>. We run workshops using completed training modules on a regular basis and provide active support for Sandbox-hosted courses through a slack workspace. See our <a href="../contact/contact.qmd">Contact</a> page for more information.</p>
+<p>Activity developing independent training modules and hosting workshops has centered on UCloud, while collaborative construction of a flexible Course Platform has been completed on Computerome for use by the Sandbox and independent educators. Publicly sourced datasets are being used in training modules on UCloud, while generation of synthetic data is an ongoing project at Computerome. Sandbox resources are under active construction, so check out our other pages for the current status on <a href="../access/index.html">HPC Access</a>, <a href="../datasets/datapolicy.html">Datasets</a>, and <a href="../modules/index.html">Modules</a>. We run workshops using completed training modules on a regular basis and provide active support for Sandbox-hosted courses through a slack workspace. See our <a href="../contact/contact.html">Contact</a> page for more information.</p>
 <hr>
 <section id="partner-with-the-sandbox" class="level1">
 <h1>Partner with the Sandbox</h1>
 <p>The Sandbox welcomes proposals for new courses, modules, and prototyping projects from researchers and educators. We’d like to partner with lecturers engaged with us in developing needed materials collaboratively - we would love to have input from subject experts or help promote exciting new tools and analysis methods via modules! Please contact us with your ideas at <a href="mailto:nhds_sandbox@sund.ku.dk">nhds_sandbox@sund.ku.dk</a>.</p>
 <hr>
 <p><strong>We thank the Novo Nordisk Foundation for funding support. If you use the Sandbox for research or reference it in text or presentations, please acknowledge the Health Data Science Sandbox project and its funder the Novo Nordisk Foundation (grant number NNF20OC0063268).</strong></p>
-</section>
-<section id="contact-the-sandbox-team" class="level1">
-<h1>Contact the sandbox team</h1>
-<p>The Health Data Science Sandbox is coordinated by the <a href="https://heads.ku.dk/">Center for Health Data Science</a> at the University of Copenhagen (KU). Sandbox data scientists are also placed in collaborating groups at the Technical University of Denmark (DTU), University of Southern Denmark (SDU), Aarhus University (AU), and Aalborg University (AAU).</p>
-<p>To get in touch with the Sandbox or be connected with Sandbox staff at your university, please <a href="mailto:nhds_sandbox@sund.ku.dk">email us</a>. To obtain module material for use in your own compute environment, see our GitHub organization page at <a href="https://github.com/hds-sandbox/">hds-sandbox</a>.</p>
-<p>We appreciate the contributions of previous team members José Alejandro Romero Herrera (KU), Conor O’Hare (KU), Sander Boisen Valentin (AAU) and Peter Husen (SDU).</p>
-<p>You can find all the team members and their contacts below:</p>
-
 
 
 </section>
 
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-listing-file-modified-sort="1715239494061" data-listing-reading-time-sort="1" data-listing-word-count-sort="45">
-<div class="thumbnail">
-<p><a href="../cards/AlbaMartinez.html" class="no-external"></a></p><a href="../cards/AlbaMartinez.html" class="no-external">
-<p class="card-img-top"><img src="../cards/alba.jpg"  class="thumbnail-image card-img"/></p>
-</a><p><a href="../cards/AlbaMartinez.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../cards/AlbaMartinez.html" class="no-external">Alba Refoyo Martinez</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../cards/AlbaMartinez.html" class="no-external"></a>
-</div>
-<div class="listing-description">
-<a href="../cards/AlbaMartinez.html" class="no-external">Data Scientist, Copenhagen University</a>
-</div>
-</div>
-<div class="metadata">
-<p><a href="../cards/AlbaMartinez.html" class="no-external"></a></p><a href="../cards/AlbaMartinez.html" class="no-external">
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-listing-file-modified-sort="1715239494061" data-listing-reading-time-sort="1" data-listing-word-count-sort="39">
-<div class="thumbnail">
-<p><a href="../cards/JacobHansen.html" class="no-external"></a></p><a href="../cards/JacobHansen.html" class="no-external">
-<p class="card-img-top"><img src="../cards/jaCob.jpg"  class="thumbnail-image card-img"/></p>
-</a><p><a href="../cards/JacobHansen.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../cards/JacobHansen.html" class="no-external">Jacob Fredegaard Hansen</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../cards/JacobHansen.html" class="no-external"></a>
-</div>
-<div class="listing-description">
-<a href="../cards/JacobHansen.html" class="no-external">Data Scientist, Southern Denmark University</a>
-</div>
-</div>
-<div class="metadata">
-<p><a href="../cards/JacobHansen.html" class="no-external"></a></p><a href="../cards/JacobHansen.html" class="no-external">
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-listing-file-modified-sort="1715239494061" data-listing-reading-time-sort="1" data-listing-word-count-sort="41">
-<div class="thumbnail">
-<p><a href="../cards/JakobSkelmose.html" class="no-external"></a></p><a href="../cards/JakobSkelmose.html" class="no-external">
-<p class="card-img-top"><img src="../cards/jaKob.jpg"  class="thumbnail-image card-img"/></p>
-</a><p><a href="../cards/JakobSkelmose.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../cards/JakobSkelmose.html" class="no-external">Jakob Skelmose</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../cards/JakobSkelmose.html" class="no-external"></a>
-</div>
-<div class="listing-description">
-<a href="../cards/JakobSkelmose.html" class="no-external">Data Scientist, Aalborg University</a>
-</div>
-</div>
-<div class="metadata">
-<p><a href="../cards/JakobSkelmose.html" class="no-external"></a></p><a href="../cards/JakobSkelmose.html" class="no-external">
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="3" data-listing-file-modified-sort="1715239494061" data-listing-reading-time-sort="1" data-listing-word-count-sort="43">
-<div class="thumbnail">
-<p><a href="../cards/JenniferBartell.html" class="no-external"></a></p><a href="../cards/JenniferBartell.html" class="no-external">
-<p class="card-img-top"><img src="../cards/jennie.jpg"  class="thumbnail-image card-img"/></p>
-</a><p><a href="../cards/JenniferBartell.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../cards/JenniferBartell.html" class="no-external">Jennifer Bartell</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../cards/JenniferBartell.html" class="no-external"></a>
-</div>
-<div class="listing-description">
-<a href="../cards/JenniferBartell.html" class="no-external">Data Scientist and Project coordinator, Copenhagen University</a>
-</div>
-</div>
-<div class="metadata">
-<p><a href="../cards/JenniferBartell.html" class="no-external"></a></p><a href="../cards/JenniferBartell.html" class="no-external">
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="4" data-listing-file-modified-sort="1715239494061" data-listing-reading-time-sort="1" data-listing-word-count-sort="53">
-<div class="thumbnail">
-<p><a href="../cards/SamueleSoraggi.html" class="no-external"></a></p><a href="../cards/SamueleSoraggi.html" class="no-external">
-<p class="card-img-top"><img src="../cards/samuele.jpg"  class="thumbnail-image card-img"/></p>
-</a><p><a href="../cards/SamueleSoraggi.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../cards/SamueleSoraggi.html" class="no-external">Samuele Soraggi</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../cards/SamueleSoraggi.html" class="no-external"></a>
-</div>
-<div class="listing-description">
-<a href="../cards/SamueleSoraggi.html" class="no-external">Data Scientist, Aarhus University</a>
-</div>
-</div>
-<div class="metadata">
-<p><a href="../cards/SamueleSoraggi.html" class="no-external"></a></p><a href="../cards/SamueleSoraggi.html" class="no-external">
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
