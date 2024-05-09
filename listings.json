@@ -2,9 +2,9 @@
   {
     "listing": "/news.html",
     "items": [
-      "/news/upcoming/2024-11-15-hpcPipes.html",
-      "/news/upcoming/2024-10-30-hpcLaunch.html",
       "/news/upcoming/2024-07-01-NGS-analysis.html",
+      "/news/upcoming/2024-10-30-hpcLaunch.html",
+      "/news/upcoming/2024-11-15-hpcPipes.html",
       "/news/past/2024-04-18-sandbox-workshop.html",
       "/news/past/2024-02-09-proteomics-sandbox.html",
       "/news/past/2024-02-01-DDSAD3A.html",
