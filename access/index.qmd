@@ -1,6 +1,8 @@
 ---
 title: "HPC access"
-format: html
+format:
+  html:
+    page-layout: full
 ---
 
 

@@ -1,6 +1,8 @@
 ---
 title: "Training modules"
-format: html
+format:
+  html:
+    page-layout: full
 date-modified: last-modified
 date-format: long
 ---
@@ -21,7 +23,7 @@ You can **access our training modules** through:
 ## Data Carpentry and management {#sandbox-hpc}
 
 <div style="margin-bottom: -20px;margin-top: -90px">
-![](../images/HPC.png){fig-align="right" width="18%"}
+![](../images/HPC.png){fig-align="right" width="16%"}
 </div>
 
 Computing skills are an important foundation for health data science (and using the above training modules), but formal training is often lacking as biomedical researchers navigate increasingly difficult computational tasks in their projects. These skills range from programming to the use of high-performance computers (HPC) to proper research data management.
@@ -36,7 +38,7 @@ Computing skills are an important foundation for health data science (and using 
 ## Genomics
 
 <div style="margin-bottom: -20px;margin-top: -90px">
-![](../images/genomics2.png){fig-align="right" width="18%"}
+![](../images/genomics2.png){fig-align="right" width="16%"}
 </div>
 
 Genomics is the study of genomes, the complete set of an organism's DNA. Genomics research now encompasses functional and structural studies, epigenomics, and metagenomics, and genomic medicine is under active implementation and extension in the health sector. 
@@ -52,7 +54,7 @@ Genomics is the study of genomes, the complete set of an organism's DNA. Genomic
 ## Transcriptomics
 
 <div style="margin-bottom: -20px;margin-top: -90px">
-![](../images/transcriptomics.png){fig-align="right" width="18%"}
+![](../images/transcriptomics.png){fig-align="right" width="16%"}
 </div>
 
 Transcriptomics is the study of transcriptomes, which investigates RNA transcripts within a cell or tissue to determine what genes are being expressed and in what proportion. These RNA transcripts include mRNAs, tRNA, rRNA, and other non-coding RNA present in a cell. 
@@ -69,7 +71,7 @@ Transcriptomics is the study of transcriptomes, which investigates RNA transcrip
 ## Proteomics 
 
 <div style="margin-bottom: -20px;margin-top: -90px">
-![](../images/proteomics.png){fig-align="right" width="18%"}
+![](../images/proteomics.png){fig-align="right" width="16%"}
 </div>
 
 Proteomics is the study of proteins that are produced by an organism. Proteomics allows us to analyze protein composition and structure, which have great importance in determining their function.
@@ -88,7 +90,7 @@ We also offer a tutorial on UCloud's [ColabFold app](https://cloud.sdu.dk/app/jo
 ## Electronic Health Records {#EHC}
 
 <div style="margin-bottom: -20px;margin-top: -90px">
-![](../images/EHRs.png){fig-align="right" width="18%"}
+![](../images/EHRs.png){fig-align="right" width="16%"}
 </div>
 
 Electronic health records (EHRs) are digital records kept in the public health sector that record the medical histories of individuals, and access is normally highly restricted to preserve patient privacy. This data is sometimes also shared (partly or in full) in secondary patient registries that support research on a specific disease or condition (such as breast cancer or cystic fibrosis). These datasets are extraordinarily valuable in the development of predictive models used in precision medicine.
