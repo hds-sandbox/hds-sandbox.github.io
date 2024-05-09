@@ -14,16 +14,16 @@ website:
         text: HPC access
       - href: modules/index.qmd
         text: Modules
-      - href: workshop/workshop_april2024.qmd
-        text: Workshop
+#      - href: workshop/workshop_april2024.qmd
+#        text: Workshop
       - text: Datasets
         menu:
           - href: datasets/datapolicy.qmd
           - href: datasets/synthdata.qmd
       - href: about/about.qmd
         text: About
-#      - href: contact/contact.qmd
-#        text: Contact
+      - href: contact/contact.qmd
+        text: Contact
 
     right: 
       - icon: github

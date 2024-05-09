@@ -1,16 +1,13 @@
 ---
 title: "About the Sandbox"
-listing:
-  fields: [image, title, description]
-  contents: ../cards/*.qmd
-  type: default
-  sort:
-    - "date desc"
+format:
+  html:
+    page-layout: full
 ---
 
 **An infrastructure project for health data science training and research in Denmark**
 
-The National Health Data Science Sandbox project kicked off in 2021 with 5 years of funding via the Data Science Research Infrastructure initiative from the Novo Nordisk Foundation. Health data science experts at five Danish universities are contributing to the Sandbox with coordination from the Center for Health Data Science under lead PI Professor Anders Krogh. [Data scientists](../contact/contact.qmd) hosted in the research groups of each PI are building infrastructure and training modules on Computerome and UCloud, the primary academic high performance computing (HPC) platforms in Denmark. 
+The National Health Data Science Sandbox project kicked off in 2021 with 5 years of funding via the Data Science Research Infrastructure initiative from the Novo Nordisk Foundation. Health data science experts at five Danish universities are contributing to the Sandbox with coordination from the Center for Health Data Science under lead PI Professor Anders Krogh. Data scientists hosted in the research groups of each PI are building infrastructure and training modules on Computerome and UCloud, the primary academic high performance computing (HPC) platforms in Denmark. If you have any questions or would like to get in touch with one of our data scientists, please [contact us here](../contact/contact.qmd).
 
 
 ![](../images/Sandbox_PIs.png){fig-align="center" width="60%"}
@@ -32,19 +29,3 @@ The Sandbox welcomes proposals for new courses, modules, and prototyping project
 ---
 
 **We thank the Novo Nordisk Foundation for funding support. If you use the Sandbox for research or reference it in text or presentations, please acknowledge the Health Data Science Sandbox project and its funder the Novo Nordisk Foundation (grant number NNF20OC0063268).**
-
-# Contact the sandbox team
-
-The Health Data Science Sandbox is coordinated by the [Center for Health Data Science](https://heads.ku.dk/)
-at the University of Copenhagen (KU).  Sandbox data scientists are also placed in collaborating groups at
-the Technical University of Denmark (DTU), University of Southern Denmark (SDU), Aarhus University (AU),
-and Aalborg University (AAU).
-
-To get in touch with the Sandbox or be connected with Sandbox staff at your university,
-please [email us](mailto:nhds_sandbox@sund.ku.dk). To obtain module material for use in your
-own compute environment, see our GitHub organization page
-at [hds-sandbox](https://github.com/hds-sandbox/).
-
-We appreciate the contributions of previous team members José Alejandro Romero Herrera (KU), Conor O'Hare (KU), Sander Boisen Valentin (AAU) and Peter Husen (SDU).
-
-You can find all the team members and their contacts below:
