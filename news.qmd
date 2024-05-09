@@ -2,8 +2,7 @@
 title: "News"
 format:
   html:
-    grid:
-      body-width: 1300px
+    page-layout: full
 listing:
   - id: "upcoming_event"
     image-height: 200px
@@ -13,7 +12,7 @@ listing:
     contents: news/upcoming/*.qmd
     type: grid
     sort:
-      - "date desc"
+      - "date asc"
   - id: "past_event"
     fields: [title, Dates, Location, Organizers]
     field-display-names:

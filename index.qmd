@@ -2,8 +2,7 @@
 format: 
     html:
         toc: false
-        grid:
-            body-width: 1100px
+        page-layout: full
 bibliography: resources/references.bib
 ---
 
