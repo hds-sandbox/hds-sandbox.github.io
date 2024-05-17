@@ -23,7 +23,7 @@ at [hds-sandbox](https://github.com/hds-sandbox/).
 
 | Member                        | Role                                | Institution                        | PI                                 |
 |-------------------------------|-------------------------------------|------------------------------------|------------------------------------|
-| Jennifer Bartell              | Project Coordinator, Data Scientist | Center for Health Data Science, KU |Anders Krogh                        |
+| Jennifer Bartell              | Project Manager, Data Scientist | Center for Health Data Science, KU |Anders Krogh                        |
 | Alba Refoyo Martinez          | Data Scientist                      | Center for Health Data Science, KU |Anders Krogh                        |
 | Jakob Skelmose                | Data Scientist                      | Department of Clinical Medicine, AAU|Martin Boegsted                    |
 | Samuele Soraggi               | Data Scientist                      | Bioinformatics Research Centre, AU |Mikkel Schierup                     |
