@@ -207,7 +207,8 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="accessing-the-sandbox-on-ucloud" class="level1">
 <h1>Accessing the Sandbox on UCloud</h1>
-<p>User accounts on UCloud are enabled by university login credentials using WAYF (Where Are You From). Access the WAYF login portal <a href="https://cloud.sdu.dk/">here</a>, and then find your affiliated Danish university using the search bar. After login, we suggest setting up Two Factor Authentication by clicking on the icon in the top-right corner of the screen. Once you are an approved user of UCloud, you can access the Sandbox environment via different ‘Sandbox’ apps linked to topical modules that you deploy using your own storage and computing resources - just go to Apps once you have signed into UCloud and search ‘Sandbox’ to find what we have deployed. Each app page has its own Documentation link that will direct you to Sandbox-based usage guidelines which may be customized to the app’s particular tools and scope. Apps will have different ‘courses’ that you can initially choose which make a personal copy of training materials in your workspace for you to edit.</p>
+<p>High-Performance Computing (HPC) is crucial for researchers because it provides the computational power necessary to tackle complex and data-intensive problems. HPC systems, with their advanced processing capabilities, allow researchers to perform tasks that would be impractical or impossible with standard computers. UCloud is one such example, designed to be user-friendly with an intuitive graphical interface. It is flexible and extensible to handle multi-scale, multi-disciplinary research challenges, making complex digital technology accessible to all users.</p>
+<p>User accounts on UCloud are enabled by university login credentials using WAYF (Where Are You From). Access the WAYF login portal <a href="https://cloud.sdu.dk/">here</a>, and then find your affiliated Danish university using the search bar. After login, we suggest setting up Two Factor Authentication by clicking on the icon in the top-right corner of the screen. Once you are an approved user of UCloud, you can access the Sandbox environment via different ‘Sandbox’ apps linked to topical modules that you deploy using your own storage and computing resources - just go to Apps once you have signed into UCloud and search ‘Sandbox’ to find what we have deployed. Each app page has its own Documentation link that will direct you to Sandbox-based usage guidelines which may be customized to the app’s particular tools and scope. Apps will feature various <code>modules</code> that you can select initially, creating a personal copy of the training materials in your workspace for you to edit.</p>
 <p>Each Danish university has its usage relationship with UCloud as governed by their local front office of <a href="https://www.deic.dk/en">DeiC</a> - check with your university IT support / DeiC representatives about requesting computational resources. For example, the University of Copenhagen has previously allotted an initial chunk of free UCloud compute hours to staff (from PhD students to professors as well as non-academic staff). If you have further questions about getting compute resources, please <a href="https://hds-sandbox.github.io/contact">contact</a> Sandbox staff.</p>
 <p>Extensive documentation on the general use of UCloud (how to use apps and run jobs, etc.) is available in the UCloud <a href="https://docs.cloud.sdu.dk/">user guide</a>.</p>
 <div class="callout callout-style-default callout-tip callout-titled">
@@ -231,8 +232,8 @@ Tip
 </section>
 <section id="step-2" class="level3">
 <h3 class="anchored" data-anchor-id="step-2"><strong>Step 2</strong></h3>
-<p>When you are logged in, choose the project from the dashboard (highlighted in red) from which you would like to utilize compute resources. Every user has their personal workspace (<em>My workspace</em>). You can also provision your own project (check with your local DeiC office if you’re new to UCloud) or you can be invited to someone else’s project. If you’ve previously selected a project, it will be launched by default. If it’s your first time, you’ll be in your workspace. If you’ve joined one of our courses or workshops, your instructor will let you know which to choose.</p>
-<p>For this example, we select Sandbox_workshop.</p>
+<p>When you are logged in, choose the project from the dashboard (top-right side) from which you would like to utilize compute resources. Every user has their personal workspace (<code>My workspace</code>). You can also provision your own project (check with your local DeiC office if you’re new to UCloud) or you can be invited to someone else’s project. If you’ve previously selected a project, it will be launched by default. If it’s your first time, you’ll be in your workspace. If you’ve joined one of our courses or workshops, your instructor will let you know which to choose.</p>
+<p>For this example, we select <code>Sandbox RNAseq workshop</code>.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><a href="../images/workspace.png" class="lightbox" data-glightbox="description: .lightbox-desc-1" data-gallery="quarto-lightbox-gallery-1" title="Dashboard: your workspace"><img src="../images/workspace.png" class="black-box img-fluid figure-img" alt="Screenshot of your dashboard"></a></p>
@@ -242,9 +243,9 @@ Tip
 <p>On the left side, you can see the structure of the project (content changes when you select a different project):</p>
 <ul>
 <li><strong>Files</strong>: all folders/files you have access to. You can navigate through folders, download, upload, or share files with collaborators. You might have varying rights across folders, mostly depending on whether they are yours or have been shared with you</li>
-<li><strong>Shares/Projects</strong>: you have been invited to</li>
+<li><strong>Project</strong>: details</li>
 <li><strong>Resources</strong>: allocated to your workspace or a project (shared)</li>
-<li><strong>Apps</strong>: gain access to the apps catalog on ucloud. We refer to <a href="https://docs.cloud.sdu.dk/Apps/type.html">apps</a> as the software applications that can be deployed on the cloud. It’s recommended to explore the featured ones. Use the search bar to find the <em>sandbox apps</em></li>
+<li><strong>applications</strong>: gain access to the apps catalog on ucloud. We refer to <a href="https://docs.cloud.sdu.dk/Apps/type.html">apps</a> as the software applications that can be deployed on the cloud. It’s recommended to explore the featured ones. Use the search bar to find the <em>sandbox apps</em></li>
 <li><strong>Runs</strong>: from where you submit your jobs and past runs information</li>
 </ul>
 <div class="callout callout-style-default callout-important callout-titled">
@@ -261,14 +262,24 @@ Important
 </div>
 </div>
 <p>At the bottom left corner, you will find your user ID, which you may need to provide once the course starts or for future collaborations, such as being added to other people’s projects. You can also find it on <a href="https://docs.cloud.sdu.dk/">UCloud docs</a>.</p>
-<p>In the dashboard, you will also find news, your favorite apps, recent runs, resources, and other notifications between other applications: - <strong>Resource allocations</strong>: indicate your currently allocated resources (e.g., KU employees have access to 1000kr in computing). - <strong>Grant applications</strong>: apply for more resources (computing or storage if you run out of them)</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="../images/menu_avatar.png" class="lightbox" data-glightbox="description: .lightbox-desc-2" data-gallery="quarto-lightbox-gallery-2" title="Dashboard: bottom-left menu"><img src="../images/menu_avatar.png" class="black-box left img-fluid figure-img" alt="Bottom-left menu" width="300"></a></p>
+<figcaption>Dashboard: bottom-left menu</figcaption>
+</figure>
+</div>
+<p>In the dashboard, you will also find news and UCloud releases, recent runs, resources allocations, and other notifications between other applications:</p>
+<ul>
+<li><strong>Resource allocations</strong>: indicate your currently allocated resources (e.g., KU employees have access to 1000kr in computing).</li>
+<li><strong>Grant applications</strong>: apply for more resources (computing or storage if you run out of them)</li>
+</ul>
 </section>
 <section id="step-3" class="level3">
 <h3 class="anchored" data-anchor-id="step-3"><strong>Step 3</strong></h3>
-<p>Then click on Apps in the left panel to investigate what tools and environments you can use (green circle). The easiest way to find Sandbox resources is to search via the toolbar (red circle). In this example, we’ll select the Genomics Sandbox (which will bring you to the submission screen).</p>
+<p>Then click on Apps in the left panel to investigate what tools and environments you can use (orange square). The easiest way to find Sandbox resources is to search via the toolbar (red circle). In this example, we’ll select the Genomics Sandbox (which will bring you to the submission screen).</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="../images/apps.png" class="lightbox" data-glightbox="description: .lightbox-desc-2" data-gallery="quarto-lightbox-gallery-2" title="Dashboard: all apps"><img src="../images/apps.png" class="black-box img-fluid figure-img" alt="Screenshot of apps dashboard"></a></p>
+<p><a href="../images/apps.png" class="lightbox" data-glightbox="description: .lightbox-desc-3" data-gallery="quarto-lightbox-gallery-3" title="Dashboard: all apps"><img src="../images/apps.png" class="black-box img-fluid figure-img" alt="Screenshot of apps dashboard"></a></p>
 <figcaption>Dashboard: all apps</figcaption>
 </figure>
 </div>
@@ -288,21 +299,22 @@ Tip
 </section>
 <section id="step-4" class="level3">
 <h3 class="anchored" data-anchor-id="step-4"><strong>Step 4</strong></h3>
-<p>Click on the app button to get into the settings window. First, we recommend reading the documentation of the app (highlighted in green). Then, you can configure the app as shown below, or be provided with a configuration file made available in a workshop’s project folders (<em>import parameters</em>) which will take care of everything for you.</p>
+<p>Click on the app button to get into the settings window. First, we recommend reading the documentation of the app (step 2). Then, you can configure the app as shown below, or be provided with a configuration file made available in a workshop’s project folders (<code>import parameters</code>) which will take care of everything for you.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="../images/configure_NGS.png" class="lightbox" data-glightbox="description: .lightbox-desc-3" data-gallery="quarto-lightbox-gallery-3" title="Dashboard jobs: configuration step"><img src="../images/configure_NGS.png" class="black-box img-fluid figure-img" alt="Screenshot of how to configure your job"></a></p>
+<p><a href="../images/configuring_job.png" class="lightbox" data-glightbox="description: .lightbox-desc-4" data-gallery="quarto-lightbox-gallery-4" title="Dashboard jobs: configuration step"><img src="../images/configuring_job.png" class="black-box img-fluid figure-img" alt="Screenshot of how to configure your job"></a></p>
 <figcaption>Dashboard jobs: configuration step</figcaption>
 </figure>
 </div>
 <p>In this example, we configure our session by:</p>
 <ol type="1">
-<li>entering a job name (descriptive of the task)</li>
-<li>selecting the time (in hours) we want to use a node for (it can be modified afterward)</li>
-<li>selecting a 4 CPU standard node with 24 GB memory</li>
-<li>choosing the course “Introduction to NGS Data Analysis”</li>
-<li>optional: add folders to access while in this job</li>
-<li>hitting submit (there may be a wait)</li>
+<li>Name and version of the app to run</li>
+<li>Read the documentation before using any app</li>
+<li>Import parameters (from previous runs or JSON files tailored for the app)</li>
+<li>Job settings: enter a job name (descriptive of the task), select the time (in hours) we want to use a node for (it can be modified afterwards!) and the machine type (selecting a 4 CPU standard node with 24 GB memory)</li>
+<li>Optional: add folders to access while in this job (e.g.: <code>/home</code>)</li>
+<li>Choose the module in the app you want to run (some apps have several modules that load different notebooks and data)</li>
+<li>Click on the <code>Submit</code> button (and wait!)</li>
 </ol>
 <div class="callout callout-style-default callout-important callout-titled">
 <div class="callout-header d-flex align-content-center">
@@ -314,7 +326,7 @@ Important
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>The first 3 steps set up our computing resources for the period we want to work and can be customized as needed. However, <strong>only step 2 can be modified after submitting the job</strong>. For some of the Sandbox apps, you might want to select folders (Home and the Notebooks/Data from the module to avoid downloading it every time you start a new job). If you are in doubt, read the documentation specific to the app you are interested in.</p>
+<p>Step 4 sets up our computing resources for the period we want to work and can be customized as needed. However, <strong>only the time can be modified after submitting the job</strong>. For some of the Sandbox apps, you might want to select folders (Home and the Notebooks/Data from the module to avoid downloading it every time you start a new job). If you are in doubt, read the documentation specific to the app you are interested in.</p>
 <p>Select the version of the app (if in doubt, use the latest one). This allows you to run specific versions of software.</p>
 </div>
 </div>
@@ -322,32 +334,32 @@ Important
 </section>
 <section id="step-5" class="level3">
 <h3 class="anchored" data-anchor-id="step-5"><strong>Step 5</strong></h3>
-<p>Wait to go through the queue. When the session starts, the timer begins to count down. In a couple of minutes, you should be able to open the interface through the button (green circle) in a new window (refresh the window if needed).</p>
+<p>Wait to go through the queue. When the session starts, the timer begins to count down. In a couple of minutes, you should be able to open the interface through the button (<code>Open interface</code>) in a new window (refresh the window if needed).</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="../images/running_NGS.png" class="lightbox" data-glightbox="description: .lightbox-desc-4" data-gallery="quarto-lightbox-gallery-4" title="Dashboard jobs: running the app"><img src="../images/running_NGS.png" class="black-box img-fluid figure-img" alt="Screenshot of dashboard running app"></a></p>
+<p><a href="../images/job_dashboard.png" class="lightbox" data-glightbox="description: .lightbox-desc-5" data-gallery="quarto-lightbox-gallery-5" title="Dashboard jobs: running the app"><img src="../images/job_dashboard.png" class="black-box img-fluid figure-img" alt="Screenshot of dashboard running app"></a></p>
 <figcaption>Dashboard jobs: running the app</figcaption>
 </figure>
 </div>
-<p>This page will remain open while you work (or you can return to it via ‘Runs’ in the left panel). You can end your session early by pressing and holding ‘Stop application’ (pink circle), you can see how much time you have left (red circle) and you can add hours to your session as you go (buttons in blue square).</p>
+<p>This page will remain open while you work (or you can return to it via <code>Runs</code> in the left panel). You can end your session early by pressing and holding <code>Stop application</code> (red button), you can see how much time you have left and can add hours to your session as you go (blue buttons in orange square).</p>
 </section>
 <section id="step-6" class="level3">
 <h3 class="anchored" data-anchor-id="step-6"><strong>Step 6</strong></h3>
-<p>If you are testing the genomic app, your interface should look like in the image below. Different apps might use other development environments. In this case, you will be working from <a href="https://jupyter.org/">JupyterLab</a>. You can open Jupyter Notebooks (yellow square), R studio (blue square) or a terminal (black square) among others. In this case, #1 and #2 have all the software and packages that you will need pre-installed (this is not the case with Python 3 to the left).</p>
+<p>If you are testing the genomic app, your interface should look like in the image below. Different apps might use other development environments. In this case, you will be working from <a href="https://jupyter.org/">JupyterLab</a>. You can open Jupyter Notebooks (yellow square), R studio (blue square) or a terminal (black square) among others. In this case, the highlighted buttons (under <code>Notebooks</code>) have all the software and packages that you will need pre-installed (this is not the case with Python 3 to the left).</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="../images/interface_jupyterlab.png" class="lightbox" data-glightbox="description: .lightbox-desc-5" data-gallery="quarto-lightbox-gallery-5" title="JupyterLab interface: running the app"><img src="../images/interface_jupyterlab.png" class="black-box img-fluid figure-img" alt="Screenshot of JupyterLab interface"></a></p>
+<p><a href="../images/interface_jupyterlab.png" class="lightbox" data-glightbox="description: .lightbox-desc-6" data-gallery="quarto-lightbox-gallery-6" title="JupyterLab interface: running the app"><img src="../images/interface_jupyterlab.png" class="black-box img-fluid figure-img" alt="Screenshot of JupyterLab interface"></a></p>
 <figcaption>JupyterLab interface: running the app</figcaption>
 </figure>
 </div>
-<p>You can navigate through the different folders and start running the Python notebooks (pink arrow).</p>
+<p>You can navigate through the different folders and start running the Python notebooks (orange square).</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="../images/openning_notebook.png" class="lightbox" data-glightbox="description: .lightbox-desc-6" data-gallery="quarto-lightbox-gallery-6" title="JupyterLab interface: openning notebook"><img src="../images/openning_notebook.png" class="black-box img-fluid figure-img" alt="Screenshot of Jupyter Notebook"></a></p>
-<figcaption>JupyterLab interface: openning notebook</figcaption>
+<p><a href="../images/opening_notebook.png" class="lightbox" data-glightbox="description: .lightbox-desc-7" data-gallery="quarto-lightbox-gallery-7" title="JupyterLab interface: opening notebook"><img src="../images/opening_notebook.png" class="black-box img-fluid figure-img" alt="Screenshot of Jupyter Notebook"></a></p>
+<figcaption>JupyterLab interface: opening notebook</figcaption>
 </figure>
 </div>
-<p>If you are an advanced user, you can also create your own Python files and select the kernel <em>NGS (python)</em> to use the pre-installed software. Learn how to manage (upload and download new data) and share files that you have created/developed with collaborators <a href="https://docs.cloud.sdu.dk/tutorials/tutorial1.html">here</a>.</p>
+<p>If you are an advanced user, you can also create your own Python files and select the <code>Kernel</code> <strong>NGS (python)</strong> to use the pre-installed software. Learn how to manage (upload and download new data) and share files that you have created/developed with collaborators <a href="https://docs.cloud.sdu.dk/tutorials/tutorial1.html">here</a>.</p>
 <div class="callout callout-style-default callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -367,11 +379,12 @@ Tip
 
 <div class="hidden" aria-hidden="true">
 <span class="glightbox-desc lightbox-desc-1">Dashboard: your workspace</span>
-<span class="glightbox-desc lightbox-desc-2">Dashboard: all apps</span>
-<span class="glightbox-desc lightbox-desc-3">Dashboard jobs: configuration step</span>
-<span class="glightbox-desc lightbox-desc-4">Dashboard jobs: running the app</span>
-<span class="glightbox-desc lightbox-desc-5">JupyterLab interface: running the app</span>
-<span class="glightbox-desc lightbox-desc-6">JupyterLab interface: openning notebook</span>
+<span class="glightbox-desc lightbox-desc-2">Dashboard: bottom-left menu</span>
+<span class="glightbox-desc lightbox-desc-3">Dashboard: all apps</span>
+<span class="glightbox-desc lightbox-desc-4">Dashboard jobs: configuration step</span>
+<span class="glightbox-desc lightbox-desc-5">Dashboard jobs: running the app</span>
+<span class="glightbox-desc lightbox-desc-6">JupyterLab interface: running the app</span>
+<span class="glightbox-desc lightbox-desc-7">JupyterLab interface: opening notebook</span>
 </div>
 </section>
 </section>
@@ -932,7 +945,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
-<script>var lightboxQuarto = GLightbox({"descPosition":"bottom","closeEffect":"zoom","selector":".lightbox","openEffect":"zoom","loop":false});
+<script>var lightboxQuarto = GLightbox({"openEffect":"zoom","closeEffect":"zoom","selector":".lightbox","loop":false,"descPosition":"bottom"});
 window.onload = () => {
   lightboxQuarto.on('slide_before_load', (data) => {
     const { slideIndex, slideNode, slideConfig, player, trigger } = data;
