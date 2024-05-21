@@ -103,7 +103,11 @@ This page will remain open while you work (or you can return to it via `Runs` in
 
 ### **Step 6**
 
-If you are testing the genomic app, your interface should look like in the image below. Different apps might use other development environments. In this case, you will be working from [JupyterLab](https://jupyter.org/). You can open Jupyter Notebooks (yellow square), R studio (blue square) or a terminal (black square) among others. In this case, the highlighted buttons (under `Notebooks`) have all the software and packages that you will need pre-installed (this is not the case with Python 3 to the left). 
+Different apps might employ distinct development environments, so your interface experience could vary accordingly. If you're utilizing an RStudio-based application, like the transcriptomics tool, your interface will launch in a new tab, resembling the image provided below. Simply navigate through the folders to locate and access the R Markdown notebooks.
+
+![RStudio interface: running the app](../images/interface_rstudio.png){fig-alt="Screenshot of RStudio interface" .black-box .lightbox}
+
+If you are testing a JupyterLab-based application, such as the genomic app, your interface should look like in the image below. In this case, you will be working from [JupyterLab](https://jupyter.org/). You can open Jupyter Notebooks (yellow square), R studio (blue square) or a terminal (black square) among others. In this case, the highlighted buttons (under `Notebooks`) have all the software and packages that you will need pre-installed (this is not the case with Python 3 to the left). 
 
 ![JupyterLab interface: running the app](../images/interface_jupyterlab.png){fig-alt="Screenshot of JupyterLab interface" .black-box .lightbox}
 
