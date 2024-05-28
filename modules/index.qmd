@@ -61,7 +61,7 @@ Transcriptomics is the study of transcriptomes, which investigates RNA transcrip
 
 **Use the [Transcriptomics Sandbox App](https://cloud.sdu.dk/app/jobs/create?app=transcriptomics&version=2023.03) on UCloud to explore these resources:**
 
-- [Bulk RNAseq](https://hds-sandbox.github.io/bulk_RNAseq_course) (last update: June 2023) 
+- [Bulk RNAseq](https://hds-sandbox.github.io/bulk_RNAseq_course/develop/) (last update: May 2024) 
 - [Single-Cell RNAseq](https://hds-sandbox.github.io/scRNASeq_course/) (last update: May 2023) 
 - Cirrocumulus (a popular tool for visualizing different types of RNA-seq data and downstream analysis)
 - RNAseq in RStudio (RStudio session with pre-installed RNAseq analysis packages for exploring with your own uploaded data)
