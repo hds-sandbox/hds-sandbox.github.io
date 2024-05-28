@@ -578,7 +578,7 @@
     "href": "modules/index.html#transcriptomics",
     "title": "Training modules",
     "section": "Transcriptomics",
-    "text": "Transcriptomics\n\n\n\n\n\n\n\nTranscriptomics is the study of transcriptomes, which investigates RNA transcripts within a cell or tissue to determine what genes are being expressed and in what proportion. These RNA transcripts include mRNAs, tRNA, rRNA, and other non-coding RNA present in a cell.\nUse the Transcriptomics Sandbox App on UCloud to explore these resources:\n\nBulk RNAseq (last update: June 2023)\nSingle-Cell RNAseq (last update: May 2023)\nCirrocumulus (a popular tool for visualizing different types of RNA-seq data and downstream analysis)\nRNAseq in RStudio (RStudio session with pre-installed RNAseq analysis packages for exploring with your own uploaded data)"
+    "text": "Transcriptomics\n\n\n\n\n\n\n\nTranscriptomics is the study of transcriptomes, which investigates RNA transcripts within a cell or tissue to determine what genes are being expressed and in what proportion. These RNA transcripts include mRNAs, tRNA, rRNA, and other non-coding RNA present in a cell.\nUse the Transcriptomics Sandbox App on UCloud to explore these resources:\n\nBulk RNAseq (last update: May 2024)\nSingle-Cell RNAseq (last update: May 2023)\nCirrocumulus (a popular tool for visualizing different types of RNA-seq data and downstream analysis)\nRNAseq in RStudio (RStudio session with pre-installed RNAseq analysis packages for exploring with your own uploaded data)"
   },
   {
     "objectID": "modules/index.html#proteomics",
