@@ -14,7 +14,7 @@ website:
         text: HPC access
       - href: modules/index.qmd
         text: Modules
-      - href: workshop/workshop_june2024.qmd
+      - href: workshop/workshop_june24.qmd
         text: RNAseq Workshop
       - text: Datasets
         menu:
