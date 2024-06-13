@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.554">
+<meta name="generator" content="quarto-1.4.555">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -186,7 +186,7 @@ Welcome to the homepage for our in-person bulk RNAseq workshop. Thank you for jo
 </div>
 </div>
 </div>
-<p>The Health Data Science Sandbox aims to be a <strong>training resource for bioinformaticians, data scientists, and those generally curious about how to investigate large biomedical datasets</strong>. We are an active and developing project <strong>seeking interested users</strong> (both trainees and educators). All of our open-source materials are available on our <a href="https://github.com/hds-sandbox">Github page</a> and can be used on a computing cluster! We work with both <a href="https://cloud/sdu.dk">UCloud</a>, <a href="https://genome.au.dk">GenomeDK</a> and <a href="https://www.computerome.dk/">Computerome</a>, the major Danish academic supercomputers. See our <a href="../access/index.html">HPC Access page</a> for more info on each setup.</p>
+<p>The Health Data Science Sandbox aims to be a <strong>training resource for bioinformaticians, data scientists, and those generally curious about how to investigate large biomedical datasets</strong>. We are an active and developing project <strong>seeking interested users</strong> (both trainees and educators). Our open-source materials are available on our <a href="https://github.com/hds-sandbox">Github page</a> and can be used on a computing cluster! We work with both <a href="https://cloud/sdu.dk">UCloud</a>, <a href="https://genome.au.dk">GenomeDK</a> and <a href="https://www.computerome.dk/">Computerome</a>, the major Danish academic supercomputers. See our <a href="../access/index.html">HPC Access page</a> for more info on each setup.</p>
 <section id="access-sandbox-resources" class="level2">
 <h2 class="anchored" data-anchor-id="access-sandbox-resources">Access Sandbox resources</h2>
 <p>Our first choice is to provide all the <strong>training materials, tutorials, and tools as interactive apps on UCloud</strong>, the supercomputer located at the University of Southern Denmark. Anyone using these resources needs the following:</p>
@@ -200,7 +200,7 @@ Welcome to the homepage for our in-person bulk RNAseq workshop. Thank you for jo
 <p>&nbsp;</p>
 <ol start="2" type="1">
 <li><p>Basic ability to navigate in Linux/RStudio/Jupyter. <strong>You don’t need to be an expert</strong>, but it is beyond our ambitions (and course material) to teach you how to code from zero and how to run analyses simultaneously. We recommend a basic R or Python course before diving in.</p></li>
-<li><p><strong>For workshop participants:</strong> Use our invite link to the correct UCloud workspace that will be shared on the day of the workshop. This way, we can provide you with compute resources for the active sessions of the workshop<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a> Click the link below after your first uCloud access and accept the invite that shows.</p></li>
+<li><p><strong>For workshop participants:</strong> Use our invite link to the correct UCloud workspace that will be shared on the workshop day. This way, we can provide you with compute resources for the active sessions of the workshop<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a> Click the link below after your first UCloud access and accept the invite that shows.</p></li>
 </ol>
 <p>&nbsp;</p>
 <p align="center">
@@ -217,29 +217,38 @@ Note
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Our apps can run on other clusters, simply by pulling a so-called <code>docker container</code>. You only need to have either <code>docker</code> installed on the cluster.</p>
+<p>Our apps can run on other clusters, simply by pulling a so-called <code>docker container</code>. You only need to install <code>docker</code> or <code>singularity</code> on the cluster.</p>
 </div>
 </div>
 </section>
 <section id="our-sandbox-apps" class="level2">
 <h2 class="anchored" data-anchor-id="our-sandbox-apps">Our Sandbox apps</h2>
-<p>The agenda starts with an introduction to High Performance Computing (HPC) and <code>uCloud</code>.</p>
+<p>High-Performance Computing (HPC) platforms are essential for large-scale data analysis. Therefore, we will be running our bulk RNA-seq analyses on one of the national HPC platforms. We will guide you through the setup process for using <code>UCloud</code>. For more details or to repeat the process on your own, you can also visit <a href="https://hds-sandbox.github.io/bulk_RNAseq_course/develop/05a_data_analysis_setup.html">this</a> website.</p>
 <ul>
-<li>To get started in our transcriptomics app, click <a href="https://hds-sandbox.github.io/bulk_RNAseq_course/develop/05a_data_analysis_setup.html">here</a></li>
+<li>To get started with our transcriptomics app, click <a href="https://hds-sandbox.github.io/bulk_RNAseq_course/develop/05a_data_analysis_setup.html">here</a></li>
 </ul>
 <div style="overflow: auto;">
 <img src="../images/transcriptomics.png" alt="Image" style="float: left; margin-right: 15px; width: 8%;">
 <p>
-<strong>Transcriptomics Sandbox</strong> : Our sandbox for bulk or single-cell RNA sequencing analysis and visualization - amongst others two regular workshops and provides stand-alone visualization tools. In the next update, we will introduce advanced tutorials for more complex single-cell RNA sequencing analysis from some of our supported courses. - Click <a href="https://hds-sandbox.github.io/bulk_RNAseq_course/develop/05a_data_analysis_setup.html">here</a> to start setting up the app - To run nf-core RNAseq pipeline follow the instructions <a href="https://hds-sandbox.github.io/bulk_RNAseq_course/develop/04c_preprocessing_setup.html">here</a>
-</p>
-</div>
+</p><p><strong>Transcriptomics Sandbox</strong>: Our sandbox for bulk or single-cell RNA sequencing analysis provides stand-alone visualization tools. In the next update, we will introduce advanced tutorials for more complex single-cell RNA sequencing analysis from some of our supported courses.</p>
+<ul>
+<li>To start setting up the app and review the materials for the various data analysis steps click <a href="https://hds-sandbox.github.io/bulk_RNAseq_course/develop/05a_data_analysis_setup.html">here</a>
+<ul>
+<li>To run the nf-core RNAseq pipeline follow the instructions <a href="https://hds-sandbox.github.io/bulk_RNAseq_course/develop/04c_preprocessing_setup.html">here</a></li>
+</ul>
+<p></p>
+</li></ul></div>
+
 <p>&nbsp;</p>
 <p>We are developing other apps. If you are interested, explore our modules section on our website!</p>
 </section>
 <section id="discussion-and-feedback" class="level2">
 <h2 class="anchored" data-anchor-id="discussion-and-feedback">Discussion and feedback</h2>
-<p>We hope you enjoyed the live demo. If you have broader questions, suggestions, or concerns, now is the time to raise them! If you are totally toast for the day, remember that you can check out longer versions of our tutorials as well as other topics and tools in each of the <a href="../modules/index.html">Sandbox modules</a> or join us for a multi-day in-person course (<a href="../news.html">follow our news here</a>).</p>
-<p>As data scientists, we also would be really happy for some quantifiable info and feedback - we want to build things that the Danish health data science community is excited to use. <b>Please answer these <a href="https://forms.office.com/e/e6e3AA1u0D?origin=lprLink">5 questions</a> for us before you head out for the day <a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a>.</b></p>
+<p>We hope you enjoyed the live demo. If you have broader questions, suggestions, or concerns, now is the time to raise them! If you are toast for the day, remember that you can check out longer versions of our tutorials as well as other topics and tools in each of the <a href="../modules/index.html">Sandbox modules</a> or join us for a multi-day in-person course (<a href="../news.html">follow our news here</a>).</p>
+<p>As data scientists, we also would be happy for some quantifiable info and feedback - we want to build things that the Danish health data science community is excited to use.</p>
+<!-- 
+<b>Please answer these [5 questions](https://forms.office.com/e/e6e3AA1u0D?origin=lprLink) for us before you head out for the day ^[*link activated on day one of the workshop*.].</b>
+-->
 <p>&nbsp;</p>
 <div class="callout callout-style-simple callout-note no-icon">
 <div class="callout-body d-flex">
@@ -262,8 +271,7 @@ Nice meeting you and we hope to see you again!
 
 <ol>
 <li id="fn1"><p>Other institutions (e.g.&nbsp;hospitals, libraries, …) can log on through WAYF. See all institutions <a href="https://www.wayf.dk/da/institutioner-i-wayf">here</a><a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn2"><p>To use Sandbox materials outside of the workshop: remember that each new user has hundreds of hours of free computing credit and around 50GB of free storage, which can be used to run any uCloud software. If you run out of credit (which takes a long time) you’ll need to check with the <a href="https://www.deic.dk/en/Front-Office">local DeiC office at your university</a> about how to request compute hours on UCloud. Contact us at the Sandbox if you need help or want more information.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn3"><p><em>link activated on day one of the workshop</em>.<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>To use Sandbox materials outside of the workshop: remember that each new user has hundreds of hours of free computing credit and around 50GB of free storage, which can be used to run any UCloud software. If you run out of credit (which takes a long time) you’ll need to check with the <a href="https://www.deic.dk/en/Front-Office">local DeiC office at your university</a> about how to request compute hours on UCloud. Contact us at the Sandbox if you need help or want more information.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 </ol>
 </section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
