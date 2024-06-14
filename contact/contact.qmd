@@ -28,7 +28,7 @@ at [hds-sandbox](https://github.com/hds-sandbox/).
 | Jakob Skelmose                | Data Scientist                      | Department of Clinical Medicine, AAU|Martin Boegsted                    |
 | Samuele Soraggi               | Data Scientist                      | Bioinformatics Research Centre, AU |Mikkel Schierup                     |
 | Jesper Roy Christiansen       | Data Scientist                      | Computerome, DTU                   |Peter Loengreen                     |
-| Jacob Fredegaard Hansen       | Data Scientist                      | Department of Biochemistry and Molecular Biology, SDU|Ole Nørregaard Jensen|
+| Jacob Fredegaard Hansen       | Data Scientist                      | Department of Biochemistry and Molecular Biology, SDU|Ole Nørregaard Jensen <br> Veit Schvämmle|
 
 <style>
 table {
