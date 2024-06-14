@@ -1,0 +1,11 @@
+---
+title: "Jacob Fredegaard Hansen"
+description: "Data Scientist, University of Southern Denmark"
+#https://emojidb.org/quarto-emojis for emojis copypaste
+---
+
+![](jaCob.jpg){width=300}
+
+[![](LinkedIN.png){width=50}](https://www.linkedin.com/in/jacobfh)   [![](Github_black.png){width=50}](https://github.com/jacobfh1)   [![](Outlook.png){width=50}](jfredegaard@bmb.sdu.dk?subject=Test)   [![](mapPin.png){width=50}](https://www.sdu.dk/en/forskning/biomedical-ms)   [![](www.png){width=50}](https://jacobfh.com/)   
+
+Jacob is a Sandbox data scientist based at the University of Southern Denmark, part of the [Protein Research Group](https://www.sdu.dk/en/forskning/protein) in the [Department of Biochemistry and Molecular Biology](https://www.sdu.dk/en/om_sdu/institutter_centre/bmb_biokemi_og_molekylaer_biologi). He specializes in proteomics applications and protein structure prediction tools. Jacob has a background in biochemistry and molecular biology (BSc) and computational biomedicine (MSc). Before delving into health data science at Sandbox, he focused on transcription factor binding specificity for his master's thesis, analyzing and evaluating it as a biophysical process.

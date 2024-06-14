@@ -1,0 +1,92 @@
+---
+format:
+  html:
+    page-layout: full 
+    toc: false
+---
+
+:::{.callout-note  appearance="simple" icon=false} 
+<h1 align=center>Welcome to the homepage for our in-person bulk RNAseq workshop. Thank you for joining us!</h1> 
+<h3 align=center style="margin:0px">17-19 June 2024</h3>
+::: 
+
+The Health Data Science Sandbox aims to be a **training resource for bioinformaticians, data scientists, and those generally curious about how to investigate large biomedical datasets**. We are an active and developing project **seeking interested users** (both trainees and educators). Our open-source materials are available on our [Github page](https://github.com/hds-sandbox) and can be used on a computing cluster! We work with both [UCloud](https://cloud/sdu.dk), [GenomeDK](https://genome.au.dk) and [Computerome](https://www.computerome.dk/), the major Danish academic supercomputers. See our [HPC Access page](../access/index.qmd) for more info on each setup.
+
+## Access Sandbox resources
+
+Our first choice is to provide all the **training materials, tutorials, and tools as interactive apps on UCloud**, the supercomputer located at the University of Southern Denmark. Anyone using these resources needs the following:
+
+ 1. Danish university credentials to sign on to UCloud via WAYF^[Other institutions (e.g. hospitals, libraries, ...) can log on through WAYF. See all institutions [here](https://www.wayf.dk/da/institutioner-i-wayf)]. 
+
+&nbsp;
+
+ <p align="center">
+  <a href="https://cloud.sdu.dk" style="background-color: #4266A1; color: #FFFFFF; padding: 30px 20px; text-decoration: none; border-radius: 5px;">
+    for UCloud Access
+    click here
+  </a>
+</p>
+
+&nbsp;
+
+ 2. Basic ability to navigate in Linux/RStudio/Jupyter. **You don't need to be an expert**, but it is beyond our ambitions (and course material) to teach you how to code from zero and how to run analyses simultaneously. We recommend a basic R or Python course before diving in.
+
+ 3. **For workshop participants:** Use our invite link to the correct UCloud workspace that will be shared on the workshop day. This way, we can provide you with compute resources for the active sessions of the workshop^[To use Sandbox materials outside of the workshop: remember that each new user has hundreds of hours of free computing credit and around 50GB of free storage, which can be used to run any UCloud software. If you run out of credit (which takes a long time) you'll need to check with the [local DeiC office at your university](https://www.deic.dk/en/Front-Office) about how to request compute hours on UCloud. Contact us at the Sandbox if you need help or want more information.] Click the link below after your first UCloud access and accept the invite that shows.
+
+ &nbsp;
+
+ <p align="center">
+  <a href="https://cloud.sdu.dk/app/projects/invite/5ae0a575-9aa7-4c87-ac8f-c735ca653738" style="background-color: #4266A1; color: #FFFFFF; padding: 30px 20px; text-decoration: none; border-radius: 5px;">
+    Invite link to
+    uCloud workspace
+  </a>
+</p>
+
+&nbsp;
+&nbsp;
+
+:::{.callout-note}
+Our apps can run on other clusters, simply by pulling a so-called `docker container`. You only need to install `docker` or `singularity` on the cluster.
+:::
+
+## Our Sandbox apps
+
+High-Performance Computing (HPC) platforms are essential for large-scale data analysis. Therefore, we will be running our bulk RNA-seq analyses on one of the national HPC platforms. We will guide you through the setup process for using `UCloud`. For more details or to repeat the process on your own, you can also visit [this](https://hds-sandbox.github.io/bulk_RNAseq_course/develop/05a_data_analysis_setup.html) website.
+
+- To get started with our transcriptomics app, click [here](https://hds-sandbox.github.io/bulk_RNAseq_course/develop/05a_data_analysis_setup.html)
+
+<div style="overflow: auto;">
+  <img src="../images/transcriptomics.png" alt="Image" style="float: left; margin-right: 15px; width: 8%;">
+  <p>
+    **Transcriptomics Sandbox**: Our sandbox for bulk or single-cell RNA sequencing analysis provides stand-alone visualization tools. In the next update, we will introduce advanced tutorials for more complex single-cell RNA sequencing analysis from some of our supported courses.
+    
+  - To start setting up the app and review the materials for the various data analysis steps click [here](https://hds-sandbox.github.io/bulk_RNAseq_course/develop/05a_data_analysis_setup.html)
+  - To run the nf-core RNAseq pipeline follow the instructions [here](https://hds-sandbox.github.io/bulk_RNAseq_course/develop/04c_preprocessing_setup.html) 
+  </p>
+</div>
+
+&nbsp;
+
+We are developing other apps. If you are interested, explore our modules section on our website!
+
+## Discussion and feedback
+
+We hope you enjoyed the live demo. If you have broader questions, suggestions, or concerns, now is the time to raise them! If you are toast for the day, remember that you can check out longer versions of our tutorials as well as other topics and tools in each of the [Sandbox modules](../modules/index.html) or join us for a multi-day in-person course ([follow our news here](../news.qmd)).
+
+As data scientists, we also would be happy for some quantifiable info and feedback - we want to build things that the Danish health data science community is excited to use. 
+
+<!-- 
+<b>Please answer these [5 questions](https://forms.office.com/e/e6e3AA1u0D?origin=lprLink) for us before you head out for the day ^[*link activated on day one of the workshop*.].</b>
+-->
+
+&nbsp;
+
+:::{.callout-note  appearance="simple" icon=false} 
+<h4 align=center>Nice meeting you and we hope to see you again!</h4> 
+::: 
+
+
+
+
+
+
