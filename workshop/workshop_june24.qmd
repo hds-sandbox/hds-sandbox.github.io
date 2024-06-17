@@ -49,19 +49,23 @@ Our first choice is to provide all the **training materials, tutorials, and tool
 Our apps can run on other clusters, simply by pulling a so-called `docker container`. You only need to install `docker` or `singularity` on the cluster.
 :::
 
-## Our Sandbox apps
+## Transcriptomics apps
+
+Links to download the material for this workshop: 
+
+- [SLIDES](https://zenodo.org/records/11909973)
+- [EVERYTHING ELSE (data, assignments, etc.)](https://zenodo.org/records/10214800)
 
 High-Performance Computing (HPC) platforms are essential for large-scale data analysis. Therefore, we will be running our bulk RNA-seq analyses on one of the national HPC platforms. We will guide you through the setup process for using `UCloud`. For more details or to repeat the process on your own, you can also visit [this](https://hds-sandbox.github.io/bulk_RNAseq_course/develop/05a_data_analysis_setup.html) website.
 
 - To get started with our transcriptomics app, click [here](https://hds-sandbox.github.io/bulk_RNAseq_course/develop/05a_data_analysis_setup.html)
+- To run the nf-core RNAseq pipeline follow the instructions [here](https://hds-sandbox.github.io/bulk_RNAseq_course/develop/04c_preprocessing_setup.html) 
 
 <div style="overflow: auto;">
   <img src="../images/transcriptomics.png" alt="Image" style="float: left; margin-right: 15px; width: 8%;">
   <p>
     **Transcriptomics Sandbox**: Our sandbox for bulk or single-cell RNA sequencing analysis provides stand-alone visualization tools. In the next update, we will introduce advanced tutorials for more complex single-cell RNA sequencing analysis from some of our supported courses.
     
-  - To start setting up the app and review the materials for the various data analysis steps click [here](https://hds-sandbox.github.io/bulk_RNAseq_course/develop/05a_data_analysis_setup.html)
-  - To run the nf-core RNAseq pipeline follow the instructions [here](https://hds-sandbox.github.io/bulk_RNAseq_course/develop/04c_preprocessing_setup.html) 
   </p>
 </div>
 
