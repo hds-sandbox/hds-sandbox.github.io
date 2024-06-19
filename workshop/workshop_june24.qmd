@@ -51,10 +51,7 @@ Our apps can run on other clusters, simply by pulling a so-called `docker contai
 
 ## Transcriptomics apps
 
-Links to download the material for this workshop: 
-
-- [SLIDES](https://zenodo.org/records/11909973)
-- [EVERYTHING ELSE (data, assignments, etc.)](https://zenodo.org/records/10214800)
+Links to download the material for this workshop [here](https://zenodo.org/records/12090853).
 
 High-Performance Computing (HPC) platforms are essential for large-scale data analysis. Therefore, we will be running our bulk RNA-seq analyses on one of the national HPC platforms. We will guide you through the setup process for using `UCloud`. For more details or to repeat the process on your own, you can also visit [this](https://hds-sandbox.github.io/bulk_RNAseq_course/develop/05a_data_analysis_setup.html) website.
 
