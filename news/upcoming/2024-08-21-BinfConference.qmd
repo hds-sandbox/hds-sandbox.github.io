@@ -1,0 +1,19 @@
+---
+title: "How I learned to stop worrying and love RDM"
+image: "binfConference_24.png"
+author: "ARM and JB"
+Organizers: Jennifer Bartell
+date: 2024-08-21
+categories: [HPC, RDM, KU, workshop]
+description: Conference workshop
+---
+
+Research data management involves more than just writing your DMP (Data Management Plan). We can assist you in crafting a more meaningful DMP with some practical tips. While DMP are essential in research, they may sometimes seem too general or not directly applicable to the specific challenges you face daily.
+
+Join our workshop to make your research data more FAIR (Findable, Acessible, Interoperable and Reusable). We will cover various topis to enhance your data analysis work and go through several good practices for:
+
+- data organization (incl. file naming)
+- data documentation and file formats
+- data analysis 
+- data storage 
+- data archiving 
