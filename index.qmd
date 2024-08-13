@@ -3,50 +3,79 @@ format:
     html:
         toc: false
         page-layout: full
+css: css/styles.css
 bibliography: resources/references.bib
 ---
 
 # Welcome to the Health Data Science Sandbox {.centered}
 
-<div style="text-align: center;">
-### A collaborative project with team members spanning five Danish universities
+<div style="text-align: center; padding:4px; background-color: #f0f0f0;">
+### Access our training modules
 </div>
 
-&nbsp;
 
-![](images/Sandbox_workflow_ai_horizontal2w-01.png){fig-align="center"}
-
-
-The Health Data Science Sandbox is a national project coordinated by the [Center for Health Data Science](https://heads.ku.dk/) at the University of Copenhagen. We're working with a network of health data science experts to build training resources on academic supercomputers for students and researchers in Denmark. Our Sandbox contains [training modules](modules/index.qmd) that pair topical datasets with recommended analysis tools, pipelines, and learning materials/tutorials in a portable, containerized format.
-
-::: {layout-nrow=1 layout-ncol=5}
+::: {layout-nrow=1 layout-ncol=5 .layout-border}
 ::: {.column}
 [![HPC Lab](../images/HPC.png){class="hover-target" width="100%"}](https://hds-sandbox.github.io/modules/#sandbox-hpc)
 **<span style="display: block; margin-top:15px; text-align: center; font-size: 1.2em;">HPC Lab</span>**
+
+<div style="text-align: center;">
+    HPC launch
+    HPC pipes
+    RDM
+</div>
 :::
 
 ::: {.column}
 [![](../images/genomics2.png){class="hover-target" width="100%"}](https://hds-sandbox.github.io/modules/#genomics)
 **<span style="display: block; margin-top:15px; text-align: center; font-size: 1.2em;">Genomics</span>**
+
+<div style="text-align: center;">
+    NGS data analysis 
+    Population Genomics
+    GWAS
+</div>
 :::
 
 ::: {.column}
 [![](../images/transcriptomics.png){class="hover-target" width="100%"}](https://hds-sandbox.github.io/modules/#transcriptomics)
 **<span style="display: block; margin-top:15px; text-align: center; font-size: 1.2em;">Transcriptomics</span>**
+
+<div style="text-align: center;">
+    Bulk RNAseq
+    Single-cell RNAseq
+</div>
 :::
 
 ::: {.column}
 [![](../images/proteomics.png){class="hover-target" width="100%"}](https://hds-sandbox.github.io/modules/#proteomics)
 **<span style="display: block; margin-top:15px; text-align: center; font-size: 1.2em;">Proteomics</span>**
+
+<div style="text-align: center;">
+    Clinical Proteomics
+    ColabFold 
+</div>
 :::
 
 ::: {.column}
 [![](../images/EHRs.png){class="hover-target" width="100%"}](https://hds-sandbox.github.io/modules/##EHC)
 **<span style="display: block; margin-top:15px; text-align: center; font-size: 1.2em;">Health records</span>**
+<div style="text-align: center;">
+    Synthetic data 
+    Personalized Medicine 
+</div>
+
 :::
 :::
 
-&nbsp;
+
+<div style="text-align: center;">
+### We are a collaborative project with team members spanning five Danish universities
+</div>
+
+The Health Data Science Sandbox is a national project coordinated by the [Center for Health Data Science](https://heads.ku.dk/) at the University of Copenhagen. We're working with a network of health data science experts to build training resources on academic supercomputers for students and researchers in Denmark. Our Sandbox contains [training modules](modules/index.qmd) that pair topical datasets with recommended analysis tools, pipelines, and learning materials/tutorials in a portable, containerized format.
+
+![](images/Sandbox_workflow_ai_horizontal2w-01.png){fig-align="center"}
 
 <div style="text-align: center;">
 ### To get involved as a trainee, researcher, or educator in Denmark:
