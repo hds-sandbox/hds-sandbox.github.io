@@ -1,0 +1,32 @@
+---
+format:
+  html:
+    page-layout: full 
+    toc: false
+---
+
+:::{.callout-note  appearance="simple" icon=false} 
+<h1 align=center>Welcome to the homepage for our in-person RDM workshop. Thank you for joining us!</h1> 
+<h3 align=center style="margin:0px">21st August 2024</h3>
+::: 
+
+
+## Metadata links
+- [1000 Genomes Project](https://ftp.1000genomes.ebi.ac.uk/vol1/ftp/)
+- [Homo sapiens, GRCh38](https://ftp.ensembl.org/pub/release-111/fasta/homo_sapiens/dna/README)
+- [IPD-IMGT/HLA database](https://github.com/ANHIG/IMGTHLA/blob/Latest/README.md)
+- [Pandas package](https://github.com/pandas-dev/pandas)
+- [Danish registers](https://www.dst.dk/extranet/forskningvariabellister/Oversigt%20over%20registre.html)
+&nbsp;
+
+The Health Data Science Sandbox aims to be a **training resource for bioinformaticians, data scientists, and those generally curious about how to investigate large biomedical datasets**. We are an active and developing project **seeking interested users** (both trainees and educators). Our open-source materials are available on our [Github page](https://github.com/hds-sandbox) and can be used on a computing cluster! We work with both [UCloud](https://cloud/sdu.dk), [GenomeDK](https://genome.au.dk) and [Computerome](https://www.computerome.dk/), the major Danish academic supercomputers. See our [HPC Access page](../access/index.qmd) for more info on each setup.
+
+:::{.callout-note  appearance="simple" icon=false} 
+<h4 align=center>Nice meeting you and we hope to see you again!</h4> 
+::: 
+
+
+
+
+
+
