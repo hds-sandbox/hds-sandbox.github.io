@@ -14,8 +14,8 @@ website:
         text: HPC access
       - href: modules/index.qmd
         text: Modules
-      - href: workshop/workshop_conf.qmd
-        text: RDM Workshop
+#      - href: workshop/workshop_conf.qmd
+#        text: RDM Workshop
       - text: Datasets
         menu:
           - href: datasets/datapolicy.qmd
