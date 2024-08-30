@@ -1,20 +1,11 @@
 [
   {
-    "listing": "/contact/contact.html",
-    "items": [
-      "/cards/AlbaMartinez.html",
-      "/cards/JacobHansen.html",
-      "/cards/JakobSkelmose.html",
-      "/cards/JenniferBartell.html",
-      "/cards/SamueleSoraggi.html"
-    ]
-  },
-  {
     "listing": "/news.html",
     "items": [
-      "/news/upcoming/2024-08-21-BinfConference.html",
       "/news/upcoming/2024-10-30-hpcLaunch.html",
       "/news/upcoming/2024-11-15-hpcPipes.html",
+      "/news/upcoming/2024-11-18-bulk.html",
+      "/news/past/2024-08-21-BinfConference.html",
       "/news/past/2024-07-01-NGS-analysis.html",
       "/news/past/2024-04-18-sandbox-workshop.html",
       "/news/past/2024-02-09-proteomics-sandbox.html",
@@ -39,6 +30,16 @@
       "/news/past/2022-06-01-genomics-au.html",
       "/news/past/2022-04-22-basicpm-wrapup.html",
       "/news/past/2022-01-04-basicpm.html"
+    ]
+  },
+  {
+    "listing": "/contact/contact.html",
+    "items": [
+      "/cards/AlbaMartinez.html",
+      "/cards/JacobHansen.html",
+      "/cards/JakobSkelmose.html",
+      "/cards/JenniferBartell.html",
+      "/cards/SamueleSoraggi.html"
     ]
   }
 ]
