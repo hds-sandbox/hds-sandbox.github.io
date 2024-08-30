@@ -2,8 +2,10 @@
 title: "How I learned to stop worrying and love RDM"
 image: "binfConference_24.png"
 author: "ARM and JB"
-Organizers: Jennifer Bartell
+Organizers: "Jennifer Bartell & Alba RM"
 date: 2024-08-21
+Dates: "21 August 2024"
+Location: ADBi Conference
 categories: [HPC, RDM, KU, workshop]
 description: Conference workshop
 ---
