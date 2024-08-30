@@ -1,0 +1,21 @@
+---
+title: "Bulk RNAseq analysis"
+image: "../../images/transcriptomics.png"
+author: HeaDS
+Organizers: HeaDS
+date: 2024-11-18
+categories: [Bulk RNAseq, nf-core, nextflow]
+description: "Click to sign-up"
+---
+
+[Sign-up](https://eventsignup.ku.dk/rnaseq-nov2024/conference)
+
+This workshop contains a basic tutorial on how to approach bioinformatics analyses of bulk RNAseq data, starting from the count matrix.
+
+By the end of this workshop, you will be able to:
+
+- Gain insight into how to design an RNA-seq experiment
+- Preprocess sequencing reads
+- Analyze bulk RNAseq data using the R package DESeq2
+- Know best practices for performing Differential Expression Analysis
+- Annotate and interpret their results
