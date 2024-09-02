@@ -1,0 +1,16 @@
+---
+title: "Workshop at scVerse2024"
+image: "https://images.squarespace-cdn.com/content/v1/65f327a1d63de64385123101/2e16d2bc-b1a4-4746-b1ba-c88709029398/scverse_bw_300x300.png?format=1500w"
+author: Samuele Soraggi
+Organizers: Samuele Soraggi
+date: 2024-09-10
+categories: [single cell omics]
+description: "Conference Woekshop"
+---
+
+We will run a workshop on dimensionality reduction on single cell data (transcriptomics and spatial) with a focus on 
+- state of the art techniques, 
+- graph optimization VS laplacian operators
+- how to create interactive webpage plots to document your work in a FAIR and open access manner
+
+The workshop will be running first [at the conference](https://scverse.org/conference2024) and afterwards be available at [the dedicated webpage](https://hds-sandbox.github.io/scverse-2024-workshop) for everyone to use. The link to the workshop will work correctly after 10th september 2024.

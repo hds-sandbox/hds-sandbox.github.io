@@ -1,0 +1,19 @@
+---
+title: "ABC - Accessible Bioinformatics Cafe in Aarhus"
+image: "https://abc.au.dk/img/ABClogo.png"
+author: Samuele Soraggi
+Organizers: Samuele Soraggi
+date: 2024-09-01
+categories: [coding, bioinformatics, support]
+description: "Bioinformatics Cafe at AU"
+---
+
+The Health Data Science Sandbox and the Core Bioinformatics Facility at Aarhus university run together a bi-weekly meeting to support both beginners and experts to code. The Cafe is aimed at biologists and bioinformaticians at all academic levels, from students to professors. 
+
+Find out more about the regular cafe meetings and other connected events such as workshops and courses through the dedicated webpage [abc.au.dk](https://abc.au.dk).
+
+Some photos from our first meetings:
+
+![](../../images/ABC1.jpg){width=600px, fig-align="center"}
+
+![](../../images/ABC2.jpg){width=600px, fig-align="center"}
