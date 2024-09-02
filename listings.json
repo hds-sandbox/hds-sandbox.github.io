@@ -2,9 +2,11 @@
   {
     "listing": "/news.html",
     "items": [
+      "/news/upcoming/2024-09-10-scverse2024.html",
       "/news/upcoming/2024-10-30-hpcLaunch.html",
       "/news/upcoming/2024-11-15-hpcPipes.html",
       "/news/upcoming/2024-11-18-bulk.html",
+      "/news/past/2024-09-01-bioinf-cafe-aarhus.html",
       "/news/past/2024-08-21-BinfConference.html",
       "/news/past/2024-07-01-NGS-analysis.html",
       "/news/past/2024-04-18-sandbox-workshop.html",
