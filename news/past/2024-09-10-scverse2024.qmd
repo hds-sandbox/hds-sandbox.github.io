@@ -4,8 +4,9 @@ image: "https://images.squarespace-cdn.com/content/v1/65f327a1d63de64385123101/2
 author: Samuele Soraggi
 Organizers: Samuele Soraggi
 date: 2024-09-10
-categories: [single cell omics]
-description: "Conference Woekshop"
+Location: "Technical University of Munich"
+categories: [single cell omics, dimensionality reduction]
+description: "Conference Workshop"
 ---
 
 We will run a workshop on dimensionality reduction on single cell data (transcriptomics and spatial) with a focus on 

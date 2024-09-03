@@ -4,6 +4,7 @@ image: "https://abc.au.dk/img/ABClogo.png"
 author: Samuele Soraggi
 Organizers: Samuele Soraggi
 date: 2024-09-01
+Location: "Aarhus University"
 categories: [coding, bioinformatics, support]
 description: "Bioinformatics Cafe at AU"
 ---
