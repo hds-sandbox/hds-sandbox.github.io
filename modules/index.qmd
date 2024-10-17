@@ -31,7 +31,7 @@ Computing skills are an important foundation for health data science (and using 
 - [RDM for biodata](https://hds-sandbox.github.io/RDM_biodata_course) (workshop on how to handle NGS data following simple guidelines to increase the FAIRability of your data)
 - [HPC-Lab (content in development)](https://hds-sandbox.github.io/HPC-lab/)
   - [HPC launch (workshop in development)](https://hds-sandbox.github.io/HPC-lab/develop/hpc_intro.html)
-  - [HPC pipes (workshop in development)](https://hds-sandbox.github.io/HPC-lab/develop/pipes_intro.html)
+  - [HPC pipes (workshop in development)](https://hds-sandbox.github.io/HPC-lab/develop/p0-intro.html)
 - [HeaDS DataLab workshop materials](https://center-for-health-data-science.github.io/index.html) (workshops for programming and good practices developed by the Center for Health Data Science at the University of Copenhagen, which are sometimes co-taught by Sandbox staff! Includes **R**, **python**, **bash**, and **git**!)
 
 &nbsp;
