@@ -1,7 +1,7 @@
 ---
 title: "Workshop: Digging into the Health Data Science Sandbox"
 #description: "Data Scientist, Copenhagen University"
-Organizers: Jennifer Bartell
+Organizers: J.Bartell and A.Refoyo
 date: 2024-04-18
 Dates: "18-19 April 2024"
 Location: KU

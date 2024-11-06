@@ -2,7 +2,7 @@
 title: "Intro to NGS data analysis - Summer School"
 Organizers:  Samuele Soraggi
 date: 2024-07-01
-Dates: "01-05 July 2024"
+Dates: "1-5 July 2024"
 Location: AU
 categories: [Genomics, AU, course]
 ---

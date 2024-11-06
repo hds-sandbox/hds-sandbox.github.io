@@ -5,8 +5,8 @@ format:
     page-layout: full
 listing:
   - id: "upcoming_event"
-    image-height: 300px
-    grid-columns: 3
+    image-height: 200px
+    grid-columns: 4
     image-placeholder: "./img/logo.png"
     fields: [image,title, description,categories, date]
     contents: news/upcoming/*.qmd

@@ -1,11 +1,12 @@
 ---
-title: "HPC launch"
+title: "HPC-Launch"
 image: "../../images/HPC.png"
-author: JB
-Organizers: Jennifer Bartell
-date: 2024-10-30
+Organizers: J.Bartell and A.Refoyo
+date: 2024-09-30
+Dates: "30 September 2024"
+Location: "University of Copenhagen"
 categories: [HPC, RDM, KU, course]
-description: "Click to sign-up"
+description: "HPC & RDM intro workshop"
 ---
 
 [Sign-up](https://eventsignup.ku.dk/hpc-launch)
