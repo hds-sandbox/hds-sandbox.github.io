@@ -1,3 +1,5 @@
+/* for index front page */
+
 .column {
   display: flex;
   flex-direction: column;
@@ -15,7 +17,6 @@
   object-fit: cover;
   border-radius: 8px;
 }
-
 
 .column div {
   text-align: center;
@@ -42,4 +43,12 @@
   gap: 0;  /* Remove extra space between columns */
   margin: 0;
   padding: 0;
+}
+
+/* for news page */
+.listing img {
+  max-width: 50% !important;   /* Limit the width of images to 80% of the container */
+  height: auto;     /* Maintain aspect ratio */
+  margin: 0 auto;   /* Center the image */
+  display: block;
 }
