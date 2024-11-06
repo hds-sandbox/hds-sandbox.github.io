@@ -85,7 +85,7 @@ Our apps can run on other clusters, simply by pulling a so-called `docker contai
 
 ## Our OMICS apps
 
-The agenda starts with an introduction to High Performance Computing (HPC) and `uCloud`. You will try two apps during the workshop, but we are developing others, and have deployed three apps already.
+The agenda starts with an introduction to High Performance Computing (HPC) and `UCloud`. You will try two apps during the workshop, but we are developing others, and have deployed three apps already.
 
 &nbsp;
 

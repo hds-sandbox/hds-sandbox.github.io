@@ -1,0 +1,14 @@
+---
+title: "HPC Pipes"
+author: "ARM and JB"
+Organizers: A.Refoyo and J.Bartell
+date: 2025-05-12
+categories: [snakemake, conda, KU, course]
+description: "Opening for signup soon"
+---
+
+Opening for signup soon.
+
+The course HPC-Pipes introduces best practices for setting up, running, and sharing reproducible bioinformatics pipelines and workflows, with a strong emphasis on Snakemake for practical exercises. Rather than focusing on specific tools for bioinformatics analysis, we will cover the entire process of building a robust pipeline—applicable to any data type—using workflow languages, environment/package managers, optimized HPC resources, and FAIR principles for data and tool management. By the end of the course, participants will be equipped to design custom pipelines tailored to their analysis needs.
+
+We will guide participants in automating data analysis with popular workflow languages like Snakemake and Nextflow. From there, we’ll explore how to ensure reproducibility within pipelines and the available options for sharing data analysis and software within the research community. Participants will also learn strategies for managing and organizing large datasets, from documentation and processing to storage, sharing, and preservation. We’ll cover tools like Docker and other containers, with demonstrations on using package and environment managers such as Conda to control the software environment within workflows and containers (Docker and Apptainer). Finally, we’ll provide insights into managing and optimizing pipeline projects on HPC platforms, using resources efficiently.

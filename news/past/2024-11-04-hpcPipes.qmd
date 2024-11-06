@@ -1,8 +1,10 @@
 ---
-title: "HPC Pipes"
+title: "HPC-Pipes"
 author: "ARM and JB"
-Organizers: Alba
+Organizers: A.Refoyo and J.Bartell
 date: 2024-11-04
+Dates: "4-5 November 2024"
+Location: "University of Copenhagen"
 categories: [snakemake, conda, KU, course]
 description: "Click to sign-up"
 ---

@@ -4,6 +4,7 @@ image: "https://images.squarespace-cdn.com/content/v1/65f327a1d63de64385123101/2
 author: Samuele Soraggi
 Organizers: Samuele Soraggi
 date: 2024-09-10
+Dates: "10 September 2024"
 Location: "Technical University of Munich"
 categories: [single cell omics, dimensionality reduction]
 description: "Conference Workshop"

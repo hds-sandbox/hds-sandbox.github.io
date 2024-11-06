@@ -9,20 +9,20 @@ bibliography: resources/references.bib
 
 # Welcome to the Health Data Science Sandbox {.centered}
 
-<div style="text-align: center; padding:4px; background-color: #f0f0f0;">
+<div style="text-align: center; padding:4px; background-color: #f0f0f0 ;width: 100%;">
 ### Access our training modules
 </div>
 
 
-::: {layout-nrow=1 layout-ncol=5 .layout-border}
+::: {layout-nrow=1 layout-ncol=5 .grid-cell .layout-border}
 ::: {.column}
 [![HPC Lab](../images/HPC.png){class="hover-target" width="100%"}](https://hds-sandbox.github.io/modules/#sandbox-hpc)
 **<span style="display: block; margin-top:15px; text-align: center; font-size: 1.2em;">HPC Lab</span>**
 
 <div style="text-align: center;">
+    Research Data Management
     HPC launch
     HPC pipes
-    RDM
 </div>
 :::
 
