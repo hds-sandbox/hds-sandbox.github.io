@@ -16,7 +16,7 @@ You can **access our training modules** through:
 + Independently accessible **Sandbox apps on [UCloud](https://cloud.sdu.dk)**, the academic (interactive) HPC at University of Southern Denmark
 + Independently accessible **Sandbox apps on [GenomeDK](https://genome.au.dk)**, the bioinformatics high-throughput HPC at University of Aarhus
 + Virtual machines deployed on the **[Course Platform](https://www.computerome.dk/solutions/course-platform) at Computerome**, the academic HPC at the Technical University of Denmark (Sandbox rollout still under development!)
-**tutorials and guides** and **popular tools for analysis and visualization**. [Email us](mailto:nhds_sandbox@sund.ku.dk) with any questions, comments or suggestions for new workshops!
+**tutorials and guides** and **popular tools for analysis and visualization**. [Email us](mailto:nhds_sandbox@sund.ku.dk) with any questions, comments, or suggestions for new workshops!
 
 &nbsp;
 
@@ -28,9 +28,10 @@ You can **access our training modules** through:
 
 Computing skills are an important foundation for health data science (and using the above training modules), but formal training is often lacking as biomedical researchers navigate increasingly difficult computational tasks in their projects. These skills range from programming to the use of high-performance computers (HPC) to proper research data management.
 
-- [RDM for biodata](https://hds-sandbox.github.io/RDM_NGS_course) (workshop on how to handle NGS data following simple guidelines to increase the FAIRability of your data)
-- [HPC launch (workshop in development)](https://hds-sandbox.github.io/HPC-lab/develop/hpc_intro.html)
-- [HPC pipes (workshop in development)](https://hds-sandbox.github.io/HPC-lab/develop/fair_workflow.html)
+- [RDM for biodata](https://hds-sandbox.github.io/RDM_biodata_course) (workshop on how to handle NGS data following simple guidelines to increase the FAIRability of your data)
+- [HPC-Lab (content in development)](https://hds-sandbox.github.io/HPC-lab/)
+  - [HPC launch (workshop in development)](https://hds-sandbox.github.io/HPC-lab/develop/hpc-intro.html)
+  - [HPC pipes (workshop in development)](https://hds-sandbox.github.io/HPC-lab/develop/p0-intro.html)
 - [HeaDS DataLab workshop materials](https://center-for-health-data-science.github.io/index.html) (workshops for programming and good practices developed by the Center for Health Data Science at the University of Copenhagen, which are sometimes co-taught by Sandbox staff! Includes **R**, **python**, **bash**, and **git**!)
 
 &nbsp;
