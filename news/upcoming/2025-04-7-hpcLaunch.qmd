@@ -3,7 +3,7 @@ title: "HPC launch"
 image: "../../images/HPC.png"
 author: JB & ARM 
 Organizers: Jennifer Bartell
-date: 2025-05-12
+date: 2025-04-07
 categories: [HPC, RDM, KU, course]
 description: "Opening for signup soon"
 ---
