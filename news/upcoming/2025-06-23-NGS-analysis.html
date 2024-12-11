@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="dcterms.date" content="2025-06-23">
 
-<title>workshop_june24 – Health Data Science Sandbox</title>
+<title>Intro to NGS data analysis - Summer School – Health Data Science Sandbox</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,24 +24,24 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<script src="../site_libs/quarto-html/quarto.js"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-e26003cea8cd680ca0c55a263523d882.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-d166b450ba5a8e9f7a0ab969bf6592c1.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-ed9c931cba61491376169e2697ad0014.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-a040cd6abc73b98b2f4c673569425434.min.css" rel="prefetch" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-e26003cea8cd680ca0c55a263523d882.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-d166b450ba5a8e9f7a0ab969bf6592c1.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-ed9c931cba61491376169e2697ad0014.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark-a040cd6abc73b98b2f4c673569425434.min.css" rel="prefetch" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -79,10 +80,10 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../img/logo.png" alt="" class="navbar-logo">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../img/logo.png" alt="" class="navbar-logo">
     </a>
-    <a class="navbar-brand" href="../index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Health Data Science Sandbox</span>
     </a>
   </div>
@@ -93,19 +94,19 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../index.html"> 
+    <a class="nav-link" href="../../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../news.html"> 
+    <a class="nav-link" href="../../news.html"> 
 <span class="menu-text">News</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../access/index.html"> 
+    <a class="nav-link" href="../../access/index.html"> 
 <span class="menu-text">HPC access</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../modules/index.html"> 
+    <a class="nav-link" href="../../modules/index.html"> 
 <span class="menu-text">Modules</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -114,21 +115,21 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-datasets">    
         <li>
-    <a class="dropdown-item" href="../datasets/datapolicy.html">
+    <a class="dropdown-item" href="../../datasets/datapolicy.html">
  <span class="dropdown-text">Data policy</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../datasets/synthdata.html">
+    <a class="dropdown-item" href="../../datasets/synthdata.html">
  <span class="dropdown-text">Synthetic data</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="../about/about.html"> 
+    <a class="nav-link" href="../../about/about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../contact/contact.html"> 
+    <a class="nav-link" href="../../contact/contact.html"> 
 <span class="menu-text">Contact</span></a>
   </li>  
 </ul>
@@ -157,117 +158,56 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
+    </div>
 <!-- main -->
-<main class="content column-page" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"><h1 align="center" class="title display-7">
-Welcome to the homepage for our in-person bulk RNAseq workshop. Thank you for joining us!
-</h1></header>
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Intro to NGS data analysis - Summer School</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">Genomics</div>
+    <div class="quarto-category">bulkRNA</div>
+    <div class="quarto-category">scRNA</div>
+    <div class="quarto-category">AU</div>
+    <div class="quarto-category">course</div>
+  </div>
+  </div>
 
 
 
+<div class="quarto-title-meta">
 
-<div class="callout callout-style-simple callout-note no-icon">
-<div class="callout-body d-flex">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-body-container">
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">June 23, 2025</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
 
-<h3 align="center" style="margin:0px" class="anchored">
-17-19 June 2024
-</h3>
-</div>
-</div>
-</div>
-<p>The Health Data Science Sandbox aims to be a <strong>training resource for bioinformaticians, data scientists, and those generally curious about how to investigate large biomedical datasets</strong>. We are an active and developing project <strong>seeking interested users</strong> (both trainees and educators). Our open-source materials are available on our <a href="https://github.com/hds-sandbox">Github page</a> and can be used on a computing cluster! We work with both <a href="https://cloud/sdu.dk">UCloud</a>, <a href="https://genome.au.dk">GenomeDK</a> and <a href="https://www.computerome.dk/">Computerome</a>, the major Danish academic supercomputers. See our <a href="../access/index.html">HPC Access page</a> for more info on each setup.</p>
-<section id="access-sandbox-resources" class="level2">
-<h2 class="anchored" data-anchor-id="access-sandbox-resources">Access Sandbox resources</h2>
-<p>Our first choice is to provide all the <strong>training materials, tutorials, and tools as interactive apps on UCloud</strong>, the supercomputer located at the University of Southern Denmark. Anyone using these resources needs the following:</p>
-<ol type="1">
-<li>Danish university credentials to sign on to UCloud via WAYF<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>.</li>
-</ol>
+
+</header>
+
+
+<p>This summer school is a regularly hosted summer school to teach NGS data analysis, and is taught by Stig Andersen, Mikkel Schierup, and Samuele Soraggi (supporting via the HDS Sandbox). You can find additional information and sign up below</p>
 <p>&nbsp;</p>
 <p align="center">
-<a href="https://cloud.sdu.dk" style="background-color: #4266A1; color: #FFFFFF; padding: 30px 20px; text-decoration: none; border-radius: 5px;"> for UCloud Access click here </a>
+<a href="https://international.au.dk/education/admissions/summeruniversity/course/courses-2025/next-generation-sequencing" style="background-color: #4266A1; color: #FFFFFF; padding: 30px 20px; text-decoration: none; border-radius: 5px;"> Information + Signup </a>
 </p>
-<p>&nbsp;</p>
-<ol start="2" type="1">
-<li><p>Basic ability to navigate in Linux/RStudio/Jupyter. <strong>You don’t need to be an expert</strong>, but it is beyond our ambitions (and course material) to teach you how to code from zero and how to run analyses simultaneously. We recommend a basic R or Python course before diving in.</p></li>
-<li><p><strong>For workshop participants:</strong> Use our invite link to the correct UCloud workspace that will be shared on the workshop day. This way, we can provide you with compute resources for the active sessions of the workshop<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a> Click the link below after your first UCloud access and accept the invite that shows.</p></li>
-</ol>
-<p>&nbsp;</p>
-<p align="center">
-<a href="https://cloud.sdu.dk/app/projects/invite/5ae0a575-9aa7-4c87-ac8f-c735ca653738" style="background-color: #4266A1; color: #FFFFFF; padding: 30px 20px; text-decoration: none; border-radius: 5px;"> Invite link to uCloud workspace </a>
-</p>
-<p>&nbsp; &nbsp;</p>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Note
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Our apps can run on other clusters, simply by pulling a so-called <code>docker container</code>. You only need to install <code>docker</code> or <code>singularity</code> on the cluster.</p>
-</div>
-</div>
-</section>
-<section id="transcriptomics-apps" class="level2">
-<h2 class="anchored" data-anchor-id="transcriptomics-apps">Transcriptomics apps</h2>
-<p>High-Performance Computing (HPC) platforms are essential for large-scale data analysis. Therefore, we will run our bulk RNA-seq analyses on one of the national HPC platforms, <code>UCloud</code>.</p>
-<ul>
-<li>To review the course material, visit our <a href="https://hds-sandbox.github.io/bulk_RNAseq_course/develop">website</a> where you will find the content for all the lectures.<br>
-</li>
-<li>Zenodo link to download the material (slides, assignments, data, etc.) for this workshop <a href="https://zenodo.org/records/12090853">here</a>.</li>
-<li>To get started with our transcriptomics app, follow the <a href="https://hds-sandbox.github.io/bulk_RNAseq_course/develop/05a_data_analysis_setup.html"><code>UCloud</code> setup</a> guidelines. This will help you set up a new job and repeat the exercises on your own.</li>
-<li>To run the nf-core RNAseq pipeline follow the instructions <a href="https://hds-sandbox.github.io/bulk_RNAseq_course/develop/04c_preprocessing_setup.html">here</a>. This will generate the output from the preprocessing pipeline.</li>
-</ul>
-<div style="overflow: auto;">
-<img src="../images/transcriptomics.png" alt="Image" style="float: left; margin-right: 15px; width: 8%;">
-<p>
-</p><p><strong>Transcriptomics Sandbox</strong>: Our sandbox for bulk or single-cell RNA sequencing analysis provides stand-alone visualization tools. In the next update, we will introduce advanced tutorials for more complex single-cell RNA sequencing analysis from some of our supported courses.</p>
-<p></p>
-</div>
-<p>&nbsp;</p>
-<p>We are developing other apps. If you are interested, explore our modules section on our website!</p>
-</section>
-<section id="discussion-and-feedback" class="level2">
-<h2 class="anchored" data-anchor-id="discussion-and-feedback">Discussion and feedback</h2>
-<p>We hope you enjoyed the live demo. If you have broader questions, suggestions, or concerns, now is the time to raise them! If you are toast for the day, remember that you can check out longer versions of our tutorials as well as other topics and tools in each of the <a href="../modules/index.html">Sandbox modules</a> or join us for a multi-day in-person course (<a href="../news.html">follow our news here</a>).</p>
-<p>As data scientists, we also would be happy for some quantifiable info and feedback - we want to build things that the Danish health data science community is excited to use.</p>
-<!-- 
-<b>Please answer these [5 questions](https://forms.office.com/e/e6e3AA1u0D?origin=lprLink) for us before you head out for the day ^[*link activated on day one of the workshop*.].</b>
--->
-<p>&nbsp;</p>
-<div class="callout callout-style-simple callout-note no-icon">
-<div class="callout-body d-flex">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-body-container">
-<h4 align="center" class="anchored">
-Nice meeting you and we hope to see you again!
-</h4>
-</div>
-</div>
-</div>
 
 
-</section>
 
-
-<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
-
-<ol>
-<li id="fn1"><p>Other institutions (e.g.&nbsp;hospitals, libraries, …) can log on through WAYF. See all institutions <a href="https://www.wayf.dk/da/institutioner-i-wayf">here</a><a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn2"><p>To use Sandbox materials outside of the workshop: remember that each new user has hundreds of hours of free computing credit and around 50GB of free storage, which can be used to run any UCloud software. If you run out of credit (which takes a long time) you’ll need to check with the <a href="https://www.deic.dk/en/Front-Office">local DeiC office at your university</a> about how to request compute hours on UCloud. Contact us at the Sandbox if you need help or want more information.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-</ol>
-</section></div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
