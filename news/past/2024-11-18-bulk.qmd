@@ -4,11 +4,11 @@ image: "../../images/transcriptomics.png"
 author: HeaDS
 Organizers: HeaDS
 date: 2024-11-18
+Dates: "18-20 November 2024"
+Location: "University of Copenhagen"
 categories: [Bulk RNAseq, nf-core, DESeq2]
 description: "Click to sign-up"
 ---
-
-[Sign-up](https://eventsignup.ku.dk/rnaseq-nov2024/conference)
 
 This workshop contains a basic tutorial on how to approach bioinformatics analyses of bulk RNAseq data, starting from the count matrix.
 
