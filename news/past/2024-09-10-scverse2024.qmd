@@ -16,3 +16,11 @@ We will run a workshop on dimensionality reduction on single cell data (transcri
 - how to create interactive webpage plots to document your work in a FAIR and open access manner
 
 The workshop will be running first [at the conference](https://scverse.org/conference2024) and afterwards be available at [the dedicated webpage](https://hds-sandbox.github.io/scverse-2024-workshop) for everyone to use. The link to the workshop will work correctly after 10th september 2024.
+
+&nbsp;
+
+ <p align="center">
+  <a href="https://hds-sandbox.github.io/scverse-2024-workshop/" style="background-color: #4266A1; color: #FFFFFF; padding: 30px 20px; text-decoration: none; border-radius: 5px;">
+    Access the workshop
+  </a>
+</p>

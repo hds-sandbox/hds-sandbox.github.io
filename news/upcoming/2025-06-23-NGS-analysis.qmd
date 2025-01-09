@@ -1,0 +1,20 @@
+---
+title: "Intro to NGS data analysis - Summer School"
+Organizers:  Samuele Soraggi
+date: 2025-06-23
+Dates: "23-27 June 2025"
+Location: AU
+categories: [Genomics, bulkRNA, scRNA, AU, course]
+---
+
+This summer school is a regularly hosted summer school to teach NGS data analysis, and is taught by Stig Andersen, Mikkel Schierup, and Samuele Soraggi (supporting via the HDS Sandbox). You can find additional information and sign up below
+
+&nbsp;
+
+ <p align="center">
+  <a href="https://international.au.dk/education/admissions/summeruniversity/course/courses-2025/next-generation-sequencing" style="background-color: #4266A1; color: #FFFFFF; padding: 30px 20px; text-decoration: none; border-radius: 5px;">
+    Information + Signup
+  </a>
+</p>
+
+
