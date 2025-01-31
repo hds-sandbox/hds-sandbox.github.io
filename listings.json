@@ -1,5 +1,14 @@
 [
   {
+    "listing": "/contact/contact.html",
+    "items": [
+      "/cards/AlbaMartinez.html",
+      "/cards/JakobSkelmose.html",
+      "/cards/JenniferBartell.html",
+      "/cards/SamueleSoraggi.html"
+    ]
+  },
+  {
     "listing": "/news.html",
     "items": [
       "/news/upcoming/2025-03-24-genomics.html",
@@ -36,15 +45,6 @@
       "/news/past/2022-06-01-genomics-au.html",
       "/news/past/2022-04-22-basicpm-wrapup.html",
       "/news/past/2022-01-04-basicpm.html"
-    ]
-  },
-  {
-    "listing": "/contact/contact.html",
-    "items": [
-      "/cards/AlbaMartinez.html",
-      "/cards/JakobSkelmose.html",
-      "/cards/JenniferBartell.html",
-      "/cards/SamueleSoraggi.html"
     ]
   }
 ]
