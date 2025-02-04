@@ -14,15 +14,16 @@ bibliography: resources/references.bib
 </div>
 
 
-::: {layout-nrow=1 layout-ncol=5 .grid-cell .layout-border}
+::: {.grid-cell .layout-border}
 ::: {.column}
 [![HPC Lab](../images/HPC.png){class="hover-target" width="100%"}](https://hds-sandbox.github.io/modules/#sandbox-hpc)
 **<span style="display: block; margin-top:15px; text-align: center; font-size: 1.2em;">HPC Lab</span>**
 
 <div style="text-align: center;">
-    Research Data Management
     HPC launch
     HPC pipes
+    GenomeDK workshops
+    Research Data Management
 </div>
 :::
 
@@ -44,6 +45,7 @@ bibliography: resources/references.bib
 <div style="text-align: center;">
     Bulk RNAseq
     Single-cell RNAseq
+    Advanced single-cell
 </div>
 :::
 

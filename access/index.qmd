@@ -33,12 +33,28 @@ Participants in courses co-hosted by the Sandbox can check [here](Computerome.qm
 
 ## GenomeDK
 
-In development.
+*In development*
 
-## Any other computing cluster
+:::{.callout-note title="GenomeDK workshops at AU" collapse="true"}
+Check out [GenomeDK Workshop Resources (AU)](https://hds-sandbox.github.io/GDKworkshops/) for access and an introduction to the HPC system and basic commands. 
 
-In development.
+GenomeDK workshop content (in development): 
 
-## Your local PC
+- Some background
+- GenomeDK’s ABC
+- File System (FS) on GenomeDK
+- Working with Files
+- Project management
+- Downloads and Copies
+- Package/Environment management
+- Running a Job
+:::
 
-In development.
+## Any other computing cluster / local PC
+
+Some of our modules are available in a containerized version on Docker Hub, making them accessible on any system, while others are specifically designed for UCloud. Additionally, some modules provide separate instructions for setting up environments locally or on an HPC system.
+
+Find the docker images in https://hub.docker.com/u/hdssandbox. 
+
+
+
