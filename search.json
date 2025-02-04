@@ -32,21 +32,14 @@
     "href": "access/index.html#genomedk",
     "title": "HPC access",
     "section": "GenomeDK",
-    "text": "GenomeDK\nIn development."
+    "text": "GenomeDK\nIn development\n\n\n\n\n\n\nGenomeDK workshops at AU\n\n\n\n\n\nCheck out GenomeDK Workshop Resources (AU) for access and an introduction to the HPC system and basic commands.\nGenomeDK workshop content (in development):\n\nSome background\nGenomeDK’s ABC\nFile System (FS) on GenomeDK\nWorking with Files\nProject management\nDownloads and Copies\nPackage/Environment management\nRunning a Job"
   },
   {
-    "objectID": "access/index.html#any-other-computing-cluster",
-    "href": "access/index.html#any-other-computing-cluster",
+    "objectID": "access/index.html#any-other-computing-cluster-local-pc",
+    "href": "access/index.html#any-other-computing-cluster-local-pc",
     "title": "HPC access",
-    "section": "Any other computing cluster",
-    "text": "Any other computing cluster\nIn development."
-  },
-  {
-    "objectID": "access/index.html#your-local-pc",
-    "href": "access/index.html#your-local-pc",
-    "title": "HPC access",
-    "section": "Your local PC",
-    "text": "Your local PC\nIn development."
+    "section": "Any other computing cluster / local PC",
+    "text": "Any other computing cluster / local PC\nSome of our modules are available in a containerized version on Docker Hub, making them accessible on any system, while others are specifically designed for UCloud. Additionally, some modules provide separate instructions for setting up environments locally or on an HPC system.\nFind the docker images in https://hub.docker.com/u/hdssandbox."
   },
   {
     "objectID": "access/genomedk.html",
@@ -56,39 +49,46 @@
     "text": "sss"
   },
   {
-    "objectID": "modules/bulk_rnaseq.html",
-    "href": "modules/bulk_rnaseq.html",
-    "title": "Bulk RNAseq",
+    "objectID": "modules/index.html",
+    "href": "modules/index.html",
+    "title": "Training modules",
     "section": "",
-    "text": ":material-web-plus: Course Page\n\nThis workshop material includes a tutorial on how to approach RNAseq data, starting from your count matrix. Thus, the workshop only briefly touches upon laboratory protocols, library preparation, and experimental design of RNA sequencing experiments, mainly for the purpose of outlining considerations in the downstream bioinformatic analysis. This workshop is based on the materials developed by members of the teaching team at the Harvard Chan Bioinformatics Core (HBC), a collection of modified tutorials from the DESeq2 and R language vignettes.\nIntended use: The aim of this repository is to run a comprehensive but introductory workshop on bulk-RNAseq bioinformatic analyses. Each of the modules of this workshop is accompanied by a powerpoint slideshow explaining the steps and the theory behind a typical bioinformatics analysis (ideally with a teacher). Many of the slides are annotated with extra information and/or point to original sources for extra reading material.\n\n\nBy the end of this workshop, you should be able to analyse your own bulk RNAseq count matrix:\n\nNormalize your data.\nExplore your samples with PCAs and heatmaps.\nPerform Differential Expression Analysis.\nAnnotate your results.\n\n!!! agenda “Syllabus” 1. Course Introduction 2. Setup 3. Experimental planning 4. Data Explanation 5. Preprocessing 6. RNAseq counts 7. Exploratory analysis 8. Differential Expression Analysis 9. Functional Analysis 10. Summarized workflow\n!!! info “Workshop prerequisites” - Knowledge of R, Rstudio and Rmarkdown. It is recommended that you have at least followed our workshop R basics - Basic knowledge of RNAseq technology - Basic knowledge of data science and statistics such as PCA, clustering and statistical testing\n\n\n\nCenter for Health Data Science, University of Copenhagen.\nHugo Tavares, Bioinformatics Training Facility, University of Cambridge.\nSilvia Raineri, Center for Stem Cell Medicine (reNew), University of Copenhagen.\nHarvard Chan Bioinformatics Core (HBC), check out their github repo"
+    "text": "Sandbox resources have been organized as training modules focused on key topics in health data science. We are constantly adding additional resources and have plans to create additional modules on medical imaging and wearable device data. Feel free to adapt these resources for your own purposes (with credit to the National Health Data Science Sandbox project and other projects they acknowledge in the specific materials).\nYou can access our training modules through:"
   },
   {
-    "objectID": "modules/bulk_rnaseq.html#goals",
-    "href": "modules/bulk_rnaseq.html#goals",
-    "title": "Bulk RNAseq",
-    "section": "",
-    "text": "By the end of this workshop, you should be able to analyse your own bulk RNAseq count matrix:\n\nNormalize your data.\nExplore your samples with PCAs and heatmaps.\nPerform Differential Expression Analysis.\nAnnotate your results.\n\n!!! agenda “Syllabus” 1. Course Introduction 2. Setup 3. Experimental planning 4. Data Explanation 5. Preprocessing 6. RNAseq counts 7. Exploratory analysis 8. Differential Expression Analysis 9. Functional Analysis 10. Summarized workflow\n!!! info “Workshop prerequisites” - Knowledge of R, Rstudio and Rmarkdown. It is recommended that you have at least followed our workshop R basics - Basic knowledge of RNAseq technology - Basic knowledge of data science and statistics such as PCA, clustering and statistical testing\n\n\n\nCenter for Health Data Science, University of Copenhagen.\nHugo Tavares, Bioinformatics Training Facility, University of Cambridge.\nSilvia Raineri, Center for Stem Cell Medicine (reNew), University of Copenhagen.\nHarvard Chan Bioinformatics Core (HBC), check out their github repo"
+    "objectID": "modules/index.html#sandbox-hpc",
+    "href": "modules/index.html#sandbox-hpc",
+    "title": "Training modules",
+    "section": "Data Carpentry and management",
+    "text": "Data Carpentry and management\n\n\n\n\n\n\n\nComputing skills are an important foundation for health data science (and using the above training modules), but formal training is often lacking as biomedical researchers navigate increasingly difficult computational tasks in their projects. These skills range from programming to the use of high-performance computers (HPC) to proper research data management.\n\nRDM for biodata (workshop on how to handle NGS data following simple guidelines to increase the FAIRability of your data)\nHPC-Lab (content in development)\n\nHPC launch\nHPC pipes\n\nGenomeDK Workshop Resources (AU) (content in development)\nHeaDS DataLab workshop materials (KU) (workshops for programming and good practices developed by the Center for Health Data Science at the University of Copenhagen, which are sometimes co-taught by Sandbox staff! Includes R, python, bash, and git!)"
   },
   {
-    "objectID": "modules/transcriptomics.html",
-    "href": "modules/transcriptomics.html",
-    "title": "Transcriptomics",
-    "section": "",
-    "text": "Transcriptomics\nTranscriptomics is the study of RNA transcripts and provides insight into gene expression patterns. State-of-the-art approaches rely on high-throughput sequencing of transcripts sampled by various methods."
+    "objectID": "modules/index.html#genomics",
+    "href": "modules/index.html#genomics",
+    "title": "Training modules",
+    "section": "Genomics",
+    "text": "Genomics\n\n\n\n\n\n\n\nGenomics is the study of genomes, the complete set of an organism’s DNA. Genomics research now encompasses functional and structural studies, epigenomics, and metagenomics, and genomic medicine is under active implementation and extension in the health sector.\nUse the Genomics Sandbox App on UCloud to explore the resources below:\n\nIntroduction to Next Generation Sequencing data (last update: June 2023)\nIntroduction to Population Genomics (implementation of a course by Prof. Kasper Munch of Aarhus University) (last update: March 2023)\nIntroduction to GWAS (last update: January 2025)"
   },
   {
-    "objectID": "modules/EHRs.html",
-    "href": "modules/EHRs.html",
-    "title": "EHRs",
-    "section": "",
-    "text": "Electronic Health Records\nElectronic health records (EHRs) are digital records kept in the public health sector that record the medical histories of individuals, and access is normally highly restricted to preserve patient privacy. This data is sometimes also shared (partly or in full) in secondary patient registries that support research of a specific disease or condition (such as cystic fibrosis). These datasets are extraordinarily valuable in the development of predictive models used in precision medicine.\nModules linked to EHR analysis are currently under development."
+    "objectID": "modules/index.html#transcriptomics",
+    "href": "modules/index.html#transcriptomics",
+    "title": "Training modules",
+    "section": "Transcriptomics",
+    "text": "Transcriptomics\n\n\n\n\n\n\n\nTranscriptomics is the study of transcriptomes, which investigates RNA transcripts within a cell or tissue to determine what genes are being expressed and in what proportion. These RNA transcripts include mRNAs, tRNA, rRNA, and other non-coding RNA present in a cell.\nUse the Transcriptomics Sandbox App on UCloud to explore these resources:\n\nBulk RNAseq (last update: May 2024)\nSingle-Cell RNAseq (last update: May 2023)\nCirrocumulus (a popular tool for visualizing different types of RNA-seq data and downstream analysis)\nRNAseq in RStudio (RStudio session with pre-installed RNAseq analysis packages for exploring with your own uploaded data)"
   },
   {
-    "objectID": "modules/proteomics.html",
-    "href": "modules/proteomics.html",
-    "title": "Proteomics",
-    "section": "",
-    "text": "Proteomics\nProteomics is the study of proteins summed across a complete sample (ranging from a single cell to a whole organism). High-throughput measurement is conducted using mass spectrometry techniques and protein arrays, and provides insight into protein expression profiles and interactions."
+    "objectID": "modules/index.html#proteomics",
+    "href": "modules/index.html#proteomics",
+    "title": "Training modules",
+    "section": "Proteomics",
+    "text": "Proteomics\n\n\n\n\n\n\n\nProteomics is the study of proteins that are produced by an organism. Proteomics allows us to analyze protein composition and structure, which have great importance in determining their function.\nUse the Proteomics Sandbox App on UCloud to explore pre-installed tools for proteomics analysis and other resources:\n\nProteomics Sandbox Documentation (last update: May 2023)\nIntroduction to Clinical Proteomics (course under development)\n\nWe also offer a tutorial on UCloud’s ColabFold app, a tool that allows predictions with AlphaFold2 or RoseTTAFold.\n\nColabFold Intro (last update: October 2022)"
+  },
+  {
+    "objectID": "modules/index.html#EHC",
+    "href": "modules/index.html#EHC",
+    "title": "Training modules",
+    "section": "Electronic Health Records",
+    "text": "Electronic Health Records\n\n\n\n\n\n\n\nElectronic health records (EHRs) are digital records kept in the public health sector that record the medical histories of individuals, and access is normally highly restricted to preserve patient privacy. This data is sometimes also shared (partly or in full) in secondary patient registries that support research on a specific disease or condition (such as breast cancer or cystic fibrosis). These datasets are extraordinarily valuable in the development of predictive models used in precision medicine.\nThe chronic lymphocytic leukemia synthetic dataset listed below is generated solely from public data. It is of low utility, so we don’t recommend its use beyond the course it was designed for (with much explanation for the students on its construction and caveats). Please see Synthetic Data for more information.\n\nChronic Lymphocytic Leukemia synthetic dataset created for use in “Fra realworld data til personlig medicin”, a course from the University of Copenhagen’s MS in Personlig Medicin (last update: January 2023)\nIntro to EHR analysis (workshop under development)"
   },
   {
     "objectID": "recommended/recommended.html",
@@ -599,7 +599,7 @@
     "href": "index.html",
     "title": "Welcome to the Health Data Science Sandbox",
     "section": "",
-    "text": "Welcome to the Health Data Science Sandbox\n\nAccess our training modules\n\n\n\n\n\n\n\n HPC Lab\n\nResearch Data Management\nHPC launch\nHPC pipes\n\n\n\n Genomics\n\nNGS data analysis \nPopulation Genomics\nGWAS\n\n\n\n Transcriptomics\n\nBulk RNAseq\nSingle-cell RNAseq\n\n\n\n Proteomics\n\nClinical Proteomics\nColabFold \n\n\n\n Health records\n\nSynthetic data \nPersonalized Medicine \n\n\n\n\n\nWe are a collaborative project with team members spanning five Danish universities\n\nThe Health Data Science Sandbox is a national project coordinated by the Center for Health Data Science at the University of Copenhagen. We’re working with a network of health data science experts to build training resources on academic supercomputers for students and researchers in Denmark. Our Sandbox contains training modules that pair topical datasets with recommended analysis tools, pipelines, and learning materials/tutorials in a portable, containerized format.\n\n\n\n\n\n\nTo get involved as a trainee, researcher, or educator in Denmark:\nTRAINEES: join our next scheduled workshop or a supported university course\nTRAINEES/RESEARCHERS: explore training modules independently on UCloud\nRESEARCHERS: adapt training modules or code repositories to your research\nEDUCATORS: host a training event or course in the Sandbox with our support\n\n \n\n\n\n\n\n\nA note on Sandbox data policy\n\n\n\nThe Sandbox aims to be a resource for learning new analysis approaches and tools for health data science on useful, interesting, and safe-to-share datasets. All person-specific datasets in the Sandbox are non-sensitive and GDPR-safe because they are 1) sourced from public databases, 2) fully anonymous/non-sensitive from a GDPR perspective, and/or 3) synthetic. To learn more, check out Datasets where we explain our data policy in detail and our approach to synthetic data generation.\n\n\nThanks to the Novo Nordisk Foundation for funding the National Health Data Science Project! Please give credit if you use our open-source materials in any form (NNF grant number NNF20OC0063268)."
+    "text": "Welcome to the Health Data Science Sandbox\n\nAccess our training modules\n\n\n\n HPC Lab\n\nHPC launch\nHPC pipes\nGenomeDK workshops\nResearch Data Management\n\n\n\n Genomics\n\nNGS data analysis \nPopulation Genomics\nGWAS\n\n\n\n Transcriptomics\n\nBulk RNAseq\nSingle-cell RNAseq\nAdvanced single-cell\n\n\n\n Proteomics\n\nClinical Proteomics\nColabFold \n\n\n\n Health records\n\nSynthetic data \nPersonalized Medicine \n\n\n\n\nWe are a collaborative project with team members spanning five Danish universities\n\nThe Health Data Science Sandbox is a national project coordinated by the Center for Health Data Science at the University of Copenhagen. We’re working with a network of health data science experts to build training resources on academic supercomputers for students and researchers in Denmark. Our Sandbox contains training modules that pair topical datasets with recommended analysis tools, pipelines, and learning materials/tutorials in a portable, containerized format.\n\n\n\n\n\n\nTo get involved as a trainee, researcher, or educator in Denmark:\nTRAINEES: join our next scheduled workshop or a supported university course\nTRAINEES/RESEARCHERS: explore training modules independently on UCloud\nRESEARCHERS: adapt training modules or code repositories to your research\nEDUCATORS: host a training event or course in the Sandbox with our support\n\n \n\n\n\n\n\n\nA note on Sandbox data policy\n\n\n\nThe Sandbox aims to be a resource for learning new analysis approaches and tools for health data science on useful, interesting, and safe-to-share datasets. All person-specific datasets in the Sandbox are non-sensitive and GDPR-safe because they are 1) sourced from public databases, 2) fully anonymous/non-sensitive from a GDPR perspective, and/or 3) synthetic. To learn more, check out Datasets where we explain our data policy in detail and our approach to synthetic data generation.\n\n\nThanks to the Novo Nordisk Foundation for funding the National Health Data Science Project! Please give credit if you use our open-source materials in any form (NNF grant number NNF20OC0063268)."
   },
   {
     "objectID": "workshop/workshop_june24.html",
@@ -651,55 +651,6 @@
     "text": "News and Events\n\nSandbox data scientists routinely lead or contribute to courses and workshops at host universities in Denmark. Check out upcoming events in the table below!\n\nUpcoming Sandbox Training Events\n\n{{ read_csv(‘../assets/upcomingcourses.csv’) }}\n\n\nNews & Updates\n\n\n07/11/2023 - Proteomics Sandbox Update: Enhanced Security and New Metabolomics Tools (U0niversity of Southern Denmark)\nThe Proteomics Sandbox Application has recently undergone a significant update, enhancing its security features to ensure safer usage for its users. In this latest iteration, the application has expanded its software suite by introducing two new tools: DIA-NN and MZmine, catering to the metabolomics field. Furthermore, the pre-existing software within the application has been refreshed and updated to the latest versions, ensuring that the Proteomics Sandbox Application remains at the cutting-edge of the field. Excitingly, this application will be actively utilized in the course “BMB831: Biostatistics in R II” at the University of Southern Denmark throughout this autumn, showcasing its relevance and applicability in academic settings.\n\n\n25/10/2023 - ‘Research Data Management for NGS Data’ with DeiC (Technical University of Denmark)\nSandbox data scientist Jose Alejandro Romero Herrera ran the first instance of a new module on research data management practices he developed specifically for NGS data. Twelve participants were hosted in conjunction with DeiC at DTU, and were exposed to tools like bash, conda, git, and cookie cutter in their quest to organize their omics data.\n\n\n07/09/2023 - ‘Digging into the Health Data Science Sandbox’ at the Danish Bioinformatics Conference 2023 (Aarhus University)\nThe full team of Sandbox data scientists hosted a 4 hour workshop at the Danish Bioinformatics conference where they gave a taster session of each of our 3 omics apps. We learned that multi-omics analysis were a substantial draw for the crowd at the DBC and are making plans to address this interest in future events.\n\n\n29/08/2023 - 3 days of Sandbox demos at Aarhus University\nSandbox data scientist Samuele Soraggi hosted a three day speed run through Sandbox apps at the Bioinformatics Research Center. The 26 participants joined for genomics, transcriptomics, and/or proteomics app demos depending on their interests. This thorough omics demo had maxed out participant sign-ups and an enthusiastic crew enjoyed the sessions alongside a bit of networking across disciplines. We plan to host more of these type of workshops given the event’s success!\n\n\n19/06/2023 - 3 days of bulk RNA-seq at the University of Copenhagen\nOur teaching team (from the Sandbox, the HeaDS DataLab, and reNEW’s genomics platform) hosted another 3 day workshop on bulk RNA-seq. The 34 participants used the updated version of the UCloud Transcriptomics App which provided the smoothest experience yet for both trainers and trainees. A new goal for the next course run is to add a student project to support independent implementation and exploration of the course content.\n\n\n31/05/2023 - Sandbox App updates on UCloud rolled out\nNew versions of the Genomics Sandbox App, the Transcriptomics Sandbox App, and the Proteomics Sandbox App have all been launched on UCloud this month! Check out the new components in the training modules such as a GWAS module in Genomics and new tools in Transcriptomics and Proteomics. Updates were also informed by the different courses supported during Spring 2023. With these courses wrapping up this month, the associated new training materials have also been included in the new versions of the apps.\n\n\n18/01/2023 - Second bulk RNA-seq course at the University of Copenhagen\nOn 18th of January we taught the second iteration of our bulk RNA-seq course to researchers (from PhD students to professors) at SUND at the University of Copenhagen. We had ~50 workshop participants joining us for three days of lectures and exercises on UCloud. This time, we introduced preprocessing theory (read QC, alignment and quantification) and the use of automated workflows using the nf-core rnaseq pipeline.\nFor those that could not enroll for this session, you can find the updated material here. We have moved the datasets and slides to a zenodo repository\nWe’d like to extend our thanks to our workshop collaborators, data scientists from the SUND DataLab at KU’s Center for Health Data Science as well as the genomics platform at the NNF Center for Stem Cell Medicine (reNEW).\n\n\n10/01/2023 - Sandbox support for Spring 2023 courses\n\nSandbox support for ‘Population Genomics’\nExercises for an MS course on Population Genomics taught by Prof. Kasper Munch at Aarhus University are being implemented on UCloud by Sandbox data scientist Samuele Soraggi. Students will explore the training materials on UCloud during the Spring 2023 semester, after which the materials will be accessible to any UCloud user via the Genomics Sandbox App.\n\n\n‘Fra real-world data til personlig medicin’ with Course Platform & Sandbox support\nThe second round of the course ‘Fra real-world data til personlig medicin’ in KU’s MS in Personlig Medicin begins in January with an introduction to CLL-TIM, a predictive model for chronic lymphocytic leukemia deployed by Prof. Carsten Niemann, an introduction by Sandbox coordinator Jennifer Bartell to the new Course Platform at Computerome built with Sandbox help for hosting courses with HPC resources, and an introduction to building predictive models using TidyModels in R by Prof. Rasmus Broendum. The course will run through April with 10 continuing education students building their own predictive models using a new and improved synthetic CLL dataset developed by Sandbox data scientist Sander Boisen Valentin. Jennifer and Rasmus are also manning the Sandbox Slack workspace to field student questions about the dataset and their model building.\n\n\nSandbox support for ‘Single-cell, Single-Molecule: The Next Level in Cell Biology’\nAn NNF-funded course, ‘Single-cell, Single-Molecule: The Next Level in Cell Biology’ combining experimental and computational approaches to RNA sequencing is starting at Aarhus University. In addition to course-responsible professor Stig Andersen and co-teachers Victoria Birkedal and Thomas Boesen, Sandbox PI Mikkel Schierup will be contributing along with Sandbox data scientist Samuele Soraggi. Samuele is adapting the Transcriptomics App material on UCloud to supply tutorials and exercises for this hefty course as well as serving as a teaching assistant. The course materials will be available to all users of the Transcriptomics Sandbox App on UCloud in the future.\n\n\n\n8/01/2023 - Soft launch of the new Course Platform at Computerome\nSandbox data scientist Jesper Roy Christiansen has been integral to the development of a new ‘Course Platform’ at Computerome, the HPC platform at the Technical University of Denmark. Built as a collaboration between the Sandbox and Computerome, the Course Platform will host its first users, students in ‘Fra real-world data til personlig medicin’, a course of KU’s MS in Personlig Medicin. Sandbox coordinator Jennifer Bartell and Sandbox PI Martin Boegsted have also been involved in testing this new system during course setup. See the above link as well as HPC Access for more details on this platform and how you can also use this new platform to host courses (with or without Sandbox involvement!).\n\n\n30/11/2022 - Sandbox support for ‘Advanced Statistical Learning’\nSandbox data scientist Samuele Soraggi spent two weeks teaching for the Fall 2023 course ‘Advanced Statistical Learning’ taught by Prof. Asger Hobolth at Aarhus University.\n\n\n15/11/2022 - Sandbox support for a workshop in the series ‘Workshops in Applied Bioinformatics’ at SDU\nSandbox data scientist Jacob Fredegaard Hansen created a tutorial on how to use ColabFold for a one day workshop as part of the ‘Workshops in Applied Bioinformatics’ series taught by Sandbox collaborator Veit Schwammle. The material is accessible on the Sandbox website (see Modules, Proteomics) for any UCloud user alongside the UCloud ColabFold App.\n\n\n10/12/2022 - Transcriptomics Sandbox app launched on UCloud!\nWe have deployed our second standalone Sandbox app on UCloud! Please see the Access page for instructions on how to find our Sandbox apps on UCloud - This one is titled ‘Transcriptomics Sandbox’ and module documentation is linked from the UCloud app page as well as here in Modules.\n\n\n06/09/2022 - Genomics Sandbox app launched on UCloud!\nWe have deployed our first standalone Sandbox app on UCloud! Please see the Access page for instructions on how to find our Sandbox apps on UCloud - this first one is titled ‘Genomics Sandbox’ and module documentation is linked from the UCloud app page as well as here in Modules.\n\n\n18/08/2022 - Bulk RNA-seq course at University of Copenhagen\nToday we began teaching our brand new bulk RNA-seq course to researchers (from PhD students to professors) at SUND at the University of Copenhagen. We had 32 workshop participants join us for two days of lectures and exercises on UCloud. We’d like to extend our thanks to our workshop collaborators, data scientists from the SUND DataLab at KU’s Center for Health Data Science as well as the genomics platform at the NNF Center for Stem Cell Medicine (reNEW).\nFor those that could not enroll for this session, you can find the relevant material here.\n\n\n01/06/2022 - Genomics course at Aarhus University\nA month-long course in Genomics taught by Professors Mikkel Schierup and Stig Andersen has started with lead supercomputing support on UCloud by Sandbox data scientist and course instructor Samuele Soraggi. Computational exercises in NGS analysis were deployed in a UCloud project for use by 47 graduate students with primarily molecular biology and clinical backgrounds and no prior supercomputing experience! Post-course update: We received many positive reviews on use of the Genomics Sandbox training materials on UCloud!\n\n\n22/04/2022 - Basics of Personalized Medicine - final wrap-up\nOur first course, Basics of Personalized Medicine, wrapped up this month with student project presentations which described their approaches to analysis of the synthetic Chronic Lymphocytic Leukemia dataset created for the course. Course reviews highlighted the helpfulness of Sandbox staff in troubleshooting R problems and the tremendous amount that students learned about predictive modeling.\n\n\n04/01/2022 - Basics of Personalized Medicine - MS in Personal Medicine program\nThe first course supported by the Sandbox is launching this month - ‘Basics of Personalized Medicine’ - where students in the new Master in Personal Medicine program at University of Copenhagen are introduced to predictive modeling using electronic health records."
   },
   {
-    "objectID": "modules/course_template.html",
-    "href": "modules/course_template.html",
-    "title": "\nCourse Template\n",
-    "section": "",
-    "text": "Course Template\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor massa, nec semper lorem quam in massa.\nJennifer Bartell Jose Alejandro Romero Herrera Samuele Soraggi\n!!! abstract “Overview” 💬 Questions:\n- Why are we doing this?\n- What is the meaning of life?"
-  },
-  {
-    "objectID": "modules/course_template.html#introduction",
-    "href": "modules/course_template.html#introduction",
-    "title": "\nCourse Template\n",
-    "section": "Introduction",
-    "text": "Introduction\n\nLook at this!\n\nLorem markdownum voluntas et praeteritae aliquando Cauno thyrso inevitabile est, interdum fingit educat, aliquo ungues solito sermo. Miscent pulveris me fletus moenia sed simul aequoris removit, te incursu.\n\nIncursurus liquidis Troiae\nEn ad staminaque ullam\nPellis erat collo Hectoreis cadavera quia draconem"
-  },
-  {
-    "objectID": "modules/course_template.html#agenda",
-    "href": "modules/course_template.html#agenda",
-    "title": "\nCourse Template\n",
-    "section": "Agenda",
-    "text": "Agenda\n!!! note “In this tutorial, we will cover:” * First item * Second item"
-  },
-  {
-    "objectID": "modules/course_template.html#section-1",
-    "href": "modules/course_template.html#section-1",
-    "title": "\nCourse Template\n",
-    "section": "Section 1",
-    "text": "Section 1\nLorem markdownum voluntas et praeteritae aliquando Cauno thyrso inevitabile est, interdum fingit educat, aliquo ungues solito sermo. Miscent pulveris me fletus moenia sed simul aequoris removit, te incursu.\n??? question “How does this thing work?”\nBy looking at it long enough!"
-  },
-  {
-    "objectID": "modules/course_template.html#section-2",
-    "href": "modules/course_template.html#section-2",
-    "title": "\nCourse Template\n",
-    "section": "Section 2",
-    "text": "Section 2\nLorem markdownum voluntas et praeteritae aliquando Cauno thyrso inevitabile est, interdum fingit educat, aliquo ungues solito sermo. Miscent pulveris me fletus moenia sed simul aequoris removit, te incursu.\n??? note\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod\nnulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor\nmassa, nec semper lorem quam in massa."
-  },
-  {
-    "objectID": "modules/course_template.html#section-3",
-    "href": "modules/course_template.html#section-3",
-    "title": "\nCourse Template\n",
-    "section": "Section 3",
-    "text": "Section 3\nLorem markdownum voluntas et praeteritae aliquando Cauno thyrso inevitabile est, interdum fingit educat, aliquo ungues solito sermo. Miscent pulveris me fletus moenia sed simul aequoris removit, te incursu.\n!!! info “Are you using an Apple chip?”\nContinue to do so."
-  },
-  {
-    "objectID": "modules/genomics.html",
-    "href": "modules/genomics.html",
-    "title": "Genomics",
-    "section": "",
-    "text": "Genomics\nGenomics is the study of genomes, the complete set of an organism’s DNA. Genomics research now encompasses functional and structural studies, epigenomics, and metagenomics, and genomic medicine is under active implementation and extension in the health sector.\nModules linked to genomics topics are currently under construction."
-  },
-  {
     "objectID": "modules/clinProteomics_0122.html",
     "href": "modules/clinProteomics_0122.html",
     "title": "Clinical Proteomics",
@@ -712,48 +663,6 @@
     "title": "Clinical Proteomics",
     "section": "",
     "text": "BMB online computational proteomics course\nNordBioNet summer school 2021 (workshops)\nIntroduction to bioinformatics for proteomics - Prof. Harald Barsnes, University of Bergen\nQC workshop and Quantitative Analysis workshop, long 2019 version - Prof. Veit Schwammle, University of Southern Denmark\nSimulation of proteomics data - Dr. Marie Locard-Paulet, University of Copenhagen\nProteogenomics - Dr. Marc Vaudel, University of Bergen\n\n\n\n\nCenter for Health Data Science, University of Copenhagen."
-  },
-  {
-    "objectID": "modules/index.html",
-    "href": "modules/index.html",
-    "title": "Training modules",
-    "section": "",
-    "text": "Sandbox resources have been organized as training modules focused on key topics in health data science. We are constantly adding additional resources and have plans to create additional modules on medical imaging and wearable device data. Feel free to adapt these resources for your own purposes (with credit to the National Health Data Science Sandbox project and other projects they acknowledge in the specific materials).\nYou can access our training modules through:"
-  },
-  {
-    "objectID": "modules/index.html#sandbox-hpc",
-    "href": "modules/index.html#sandbox-hpc",
-    "title": "Training modules",
-    "section": "Data Carpentry and management",
-    "text": "Data Carpentry and management\n\n\n\n\n\n\n\nComputing skills are an important foundation for health data science (and using the above training modules), but formal training is often lacking as biomedical researchers navigate increasingly difficult computational tasks in their projects. These skills range from programming to the use of high-performance computers (HPC) to proper research data management.\n\nRDM for biodata (workshop on how to handle NGS data following simple guidelines to increase the FAIRability of your data)\nHPC-Lab (content in development)\n\nHPC launch (workshop in development)\nHPC pipes (workshop in development)\n\nHeaDS DataLab workshop materials (workshops for programming and good practices developed by the Center for Health Data Science at the University of Copenhagen, which are sometimes co-taught by Sandbox staff! Includes R, python, bash, and git!)"
-  },
-  {
-    "objectID": "modules/index.html#genomics",
-    "href": "modules/index.html#genomics",
-    "title": "Training modules",
-    "section": "Genomics",
-    "text": "Genomics\n\n\n\n\n\n\n\nGenomics is the study of genomes, the complete set of an organism’s DNA. Genomics research now encompasses functional and structural studies, epigenomics, and metagenomics, and genomic medicine is under active implementation and extension in the health sector.\nUse the Genomics Sandbox App on UCloud to explore the resources below:\n\nIntroduction to Next Generation Sequencing data (last update: June 2023)\nIntroduction to Population Genomics (implementation of a course by Prof. Kasper Munch of Aarhus University) (last update: March 2023)\nIntroduction to GWAS (last update: January 2025)"
-  },
-  {
-    "objectID": "modules/index.html#transcriptomics",
-    "href": "modules/index.html#transcriptomics",
-    "title": "Training modules",
-    "section": "Transcriptomics",
-    "text": "Transcriptomics\n\n\n\n\n\n\n\nTranscriptomics is the study of transcriptomes, which investigates RNA transcripts within a cell or tissue to determine what genes are being expressed and in what proportion. These RNA transcripts include mRNAs, tRNA, rRNA, and other non-coding RNA present in a cell.\nUse the Transcriptomics Sandbox App on UCloud to explore these resources:\n\nBulk RNAseq (last update: May 2024)\nSingle-Cell RNAseq (last update: May 2023)\nCirrocumulus (a popular tool for visualizing different types of RNA-seq data and downstream analysis)\nRNAseq in RStudio (RStudio session with pre-installed RNAseq analysis packages for exploring with your own uploaded data)"
-  },
-  {
-    "objectID": "modules/index.html#proteomics",
-    "href": "modules/index.html#proteomics",
-    "title": "Training modules",
-    "section": "Proteomics",
-    "text": "Proteomics\n\n\n\n\n\n\n\nProteomics is the study of proteins that are produced by an organism. Proteomics allows us to analyze protein composition and structure, which have great importance in determining their function.\nUse the Proteomics Sandbox App on UCloud to explore pre-installed tools for proteomics analysis and other resources:\n\nProteomics Sandbox Documentation (last update: May 2023)\nIntroduction to Clinical Proteomics (course under development)\n\nWe also offer a tutorial on UCloud’s ColabFold app, a tool that allows predictions with AlphaFold2 or RoseTTAFold.\n\nColabFold Intro (last update: October 2022)"
-  },
-  {
-    "objectID": "modules/index.html#EHC",
-    "href": "modules/index.html#EHC",
-    "title": "Training modules",
-    "section": "Electronic Health Records",
-    "text": "Electronic Health Records\n\n\n\n\n\n\n\nElectronic health records (EHRs) are digital records kept in the public health sector that record the medical histories of individuals, and access is normally highly restricted to preserve patient privacy. This data is sometimes also shared (partly or in full) in secondary patient registries that support research on a specific disease or condition (such as breast cancer or cystic fibrosis). These datasets are extraordinarily valuable in the development of predictive models used in precision medicine.\nThe chronic lymphocytic leukemia synthetic dataset listed below is generated solely from public data. It is of low utility, so we don’t recommend its use beyond the course it was designed for (with much explanation for the students on its construction and caveats). Please see Synthetic Data for more information.\n\nChronic Lymphocytic Leukemia synthetic dataset created for use in “Fra realworld data til personlig medicin”, a course from the University of Copenhagen’s MS in Personlig Medicin (last update: January 2023)\nIntro to EHR analysis (workshop under development)"
   },
   {
     "objectID": "modules/AlphaFold_0122.html",
