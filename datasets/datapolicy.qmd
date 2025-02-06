@@ -23,11 +23,7 @@ There are large public de-identified EHR datasets that serve as benchmark resour
 
 ## Synthetic data
 
-![]("../images/Tradeoff_base.png"){width=400 fig-align="right"}
-
-<!--- 
-![tradeoff](../assets/images/Tradeoff_base.svg#right) 
--->
+![](../images/Tradeoff_base.png){width=400 fig-align="center"}
 
 Via our collaborators and broader network, the Sandbox has the opportunity to simulate/synthesize data resembling different databases and registries from the Danish health sector. We are exploring methods of creating useful synthetic datasets with national and EU-level data access policies and GDPR restrictions in mind, while developing initial datasets using publicly available data from Danish research studies and other resources.
 
