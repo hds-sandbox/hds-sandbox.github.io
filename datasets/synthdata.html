@@ -166,7 +166,7 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#progress-and-challenges" id="toc-progress-and-challenges" class="nav-link active" data-scroll-target="#progress-and-challenges">progress and challenges</a>
+  <li><a href="#progress-and-challenges" id="toc-progress-and-challenges" class="nav-link active" data-scroll-target="#progress-and-challenges">Progress and challenges</a>
   <ul class="collapse">
   <li><a href="#defining-synthetic-data" id="toc-defining-synthetic-data" class="nav-link" data-scroll-target="#defining-synthetic-data">Defining synthetic data</a></li>
   <li><a href="#generating-synthetic-data" id="toc-generating-synthetic-data" class="nav-link" data-scroll-target="#generating-synthetic-data">Generating synthetic data</a></li>
@@ -199,7 +199,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Modified</div>
     <div class="quarto-title-meta-contents">
-      <p class="date-modified">February 4, 2025</p>
+      <p class="date-modified">February 6, 2025</p>
     </div>
   </div>
     
@@ -211,7 +211,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 <section id="progress-and-challenges" class="level1">
-<h1>progress and challenges</h1>
+<h1>Progress and challenges</h1>
 <section id="defining-synthetic-data" class="level2">
 <h2 class="anchored" data-anchor-id="defining-synthetic-data">Defining synthetic data</h2>
 <p>It is necessary to clarify what we mean when we refer to synthetic data within the Sandbox project. While the term has been used for decades to describe all kinds of ‘non-real’ data including those derived from models and simulations, developments in deep generative modeling have dramatically expanded our understanding of what synthetic data can be. In the age of deepfakes and news articles written entirely by ChatGPT, synthetic data derived from deep learning is in a wholly different class from data simulated with a mechanistic or agent-based model.</p>
@@ -226,9 +226,11 @@ The TLDR for synthetic data in the Sandbox
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<pre><code>- The development of synthetic datasets should be viewed as a research project. The technology is generally untested with few examples of public roll-out, and its deployment should be future-proofed as much as possible against attacks and potential sensitive data disclosure.
-- Synthetic data generation and evaluation approaches should be tailored     to each dataset of interest. With current technology, it is unlikely that high quality, safe-to-share datasets will be produced at any kind of production scale without a massive effort devoted to pre-processing, data harmonization, and customized routines for different families of datasets.
-- The Sandbox is not openly sharing any synthetic datasets generated from person-specific sensitive data. We think these datasets will be useful to approved researchers that ideally gain access via an approved data portal with registration and data use agreements with relevant data authorities. We are not currently that portal.</code></pre>
+<ul>
+<li>The development of synthetic datasets should be viewed as a research project. The technology is generally untested with few examples of public roll-out, and its deployment should be future-proofed as much as possible against attacks and potential sensitive data disclosure.</li>
+<li>Synthetic data generation and evaluation approaches should be tailored to each dataset of interest. With current technology, it is unlikely that high quality, safe-to-share datasets will be produced at any kind of production scale without a massive effort devoted to pre-processing, data harmonization, and customized routines for different families of datasets.</li>
+<li>The Sandbox is not openly sharing any synthetic datasets generated from person-specific sensitive data. We think these datasets will be useful to approved researchers that ideally gain access via an approved data portal with registration and data use agreements with relevant data authorities. We are not currently that portal.</li>
+</ul>
 </div>
 </div>
 </section>
@@ -256,12 +258,14 @@ Sandbox Rules for Synthetic Data
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<pre><code>1. Creation of synthetic data involves processing sensitive data, and this requires obtaining project approvals from data authorities when performing this work on sensitive data. Any synthetic data work with restricted-access, sensitive data by the Sandbox will only be conducted with these approvals in place in the frame of a research project.
-2. Goals for each synthetic dataset project should be defined at project initiation: how will the synthetic dataset be used, who is the intended audience, and how might it be shared? This frame should govern every consequent decision for that dataset and be shared alongside the final dataset.
-3. Quantitative metrics for fidelity, utility, and privacy preservation should be implemented for each dataset and shared alongside the final dataset.
-4. A cost-benefit analysis should be performed after the project is completed - is any risk to privacy appropriately balanced by value of the dataset in achieving its stated aims and contributing to the public good?
-5. Data authorities with ethical and strategic stakes in who accesses the synthetic dataset should be included in decisions about how it is used and who is allowed to access it. 
-6. Synthetic datasets created from person-specific sensitive data rather than population characteristics can still pose privacy risks, and any users of the dataset should be approved and registered. The Sandbox will not release any such datasets publicly and will instead work with appropriate data authorities to decide how such datasets should be governed in a responsible way. </code></pre>
+<ol type="1">
+<li>Creation of synthetic data involves processing sensitive data, and this requires obtaining project approvals from data authorities when performing this work on sensitive data. Any synthetic data work with restricted-access, sensitive data by the Sandbox will only be conducted with these approvals in place in the frame of a research project.</li>
+<li>Goals for each synthetic dataset project should be defined at project initiation: how will the synthetic dataset be used, who is the intended audience, and how might it be shared? This frame should govern every consequent decision for that dataset and be shared alongside the final dataset.</li>
+<li>Quantitative metrics for fidelity, utility, and privacy preservation should be implemented for each dataset and shared alongside the final dataset.</li>
+<li>A cost-benefit analysis should be performed after the project is completed - is any risk to privacy appropriately balanced by value of the dataset in achieving its stated aims and contributing to the public good?</li>
+<li>Data authorities with ethical and strategic stakes in who accesses the synthetic dataset should be included in decisions about how it is used and who is allowed to access it.</li>
+<li>Synthetic datasets created from person-specific sensitive data rather than population characteristics can still pose privacy risks, and any users of the dataset should be approved and registered. The Sandbox will not release any such datasets publicly and will instead work with appropriate data authorities to decide how such datasets should be governed in a responsible way.</li>
+</ol>
 </div>
 </div>
 
