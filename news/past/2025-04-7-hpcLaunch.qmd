@@ -1,8 +1,9 @@
 ---
 title: "HPC launch"
-image: "../../images/HPC.png"
 author: JB & ARM 
-Organizers: Jennifer Bartell
+Organizers: J.Bartell and A.Refoyo
+Location: "University of Copenhagen"
+Dates: "7 April 2025"
 date: 2025-04-07
 categories: [HPC, RDM, KU, course]
 description: "Click to sign-up"

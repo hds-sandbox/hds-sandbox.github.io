@@ -92,7 +92,7 @@ The agenda starts with an introduction to High Performance Computing (HPC) and `
 <div style="overflow: auto;">
   <img src="../images/proteomics.png" alt="Image" style="float: left; margin-right: 15px; width: 10%;">
   <p>
-    **Proteomics Sandbox**: Our sandbox modern with a suite of proteomics analysis tools, used for example in clinical proteomics. This app is not alone, since our data scientist [Jacob](../cards/JacobHansen.qmd) has also made the app ColabFold on UCloud, with methods for protein structure prediction.
+    **Proteomics Sandbox**: Our sandbox modern with a suite of proteomics analysis tools, used for example in clinical proteomics. This app is not alone, since one of our data scientist, Jacob Fredegaard Hansen, has also made the app ColabFold on UCloud, with methods for protein structure prediction.
   </p>
 </div>
 

@@ -2,8 +2,9 @@
 title: "HPC Pipes"
 author: "ARM and JB"
 Organizers: A.Refoyo and J.Bartell
-date: 2025-08-25
-categories: [snakemake, conda, KU, course]
+date: 2025-08-14
+Location: "University of Copenhagen"
+categories: [snakemake, nextflow, conda, docker, KU, course]
 description: "Opening for signup soon"
 ---
 
