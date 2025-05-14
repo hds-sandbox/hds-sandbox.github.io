@@ -11,10 +11,11 @@
   {
     "listing": "/news.html",
     "items": [
-      "/news/upcoming/2025-03-24-genomics.html",
-      "/news/upcoming/2025-04-7-hpcLaunch.html",
       "/news/upcoming/2025-06-23-NGS-analysis.html",
       "/news/upcoming/2025-05-12-hpcPipes.html",
+      "/news/upcoming/2025-11-18-bulk.html",
+      "/news/past/2025-04-7-hpcLaunch.html",
+      "/news/past/2025-03-24-genomics.html",
       "/news/past/2024-11-18-bulk.html",
       "/news/past/2024-11-04-hpcPipes.html",
       "/news/past/2024-09-30-hpcLaunch.html",
