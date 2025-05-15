@@ -1,0 +1,12 @@
+---
+title: "Lev Levitsky"
+description: "Data Scientist, University of Southern Denmark"
+#https://emojidb.org/quarto-emojis for emojis copypaste
+---
+
+![](lev.jpg){width=300}
+
+[![](LinkedIN.png){width=50}](https://dk.linkedin.com/in/lev-levitsky-005854247)   [![](Github_black.png){width=50}](https://github.com/levitsky)   [![](Outlook.png){width=50}](mailto:levitsky@bmb.sdu.dk)   [![](mapPin.png){width=50}](https://www.sdu.dk/en/forskning/biomedical-ms/medarbejdere/medarbejdere-vs/support-staff/lev-levitsky)
+
+
+Lev is a Sandbox data scientist based at the University of Southern Denmark. His expertise is centered around computational proteomics, and he supports the Proteomics part of the Sandbox project.
