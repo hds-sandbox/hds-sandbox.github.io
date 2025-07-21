@@ -1,6 +1,5 @@
 ---
 title: "'The Health Data Science Sandbox' workshop"
-description: "'Digging into the Health Data Science Sandbox' at the Danish Bioinformatics Conference 2025 (Aalborg University)"
 Organizers: Jennifer Bartell
 images: "./binfConference.png"
 date: 2025-10-27
