@@ -1,5 +1,6 @@
 ---
 title: "Intro to NGS data analysis - Summer School"
+author: Samuele Soraggi
 Organizers:  Samuele Soraggi
 date: 2025-06-23
 Dates: "23-27 June 2025"

@@ -7,4 +7,4 @@ Location: DDSA
 categories: [workshop, DDSA]
 ---
 
-1-day all-inclusive workshop on High-Performance Computing (HPC) for Bachelors and Masters students enrolled at Danish universities. Several Sandbox staff represented the project and help with the practical part, and Jennifer Bartell gave a lecture on National HPCs. 
+1-day all-inclusive workshop on High-Performance Computing (HPC) for Bachelors and Masters students enrolled at Danish universities. Several Sandbox staff represented the project and help with the practical part, and Jennifer Bartell gave a lecture on National HPCs.

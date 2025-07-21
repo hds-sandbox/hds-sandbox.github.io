@@ -1,0 +1,15 @@
+---
+title: "'The Health Data Science Sandbox' workshop"
+description: "'Digging into the Health Data Science Sandbox' at the Danish Bioinformatics Conference 2025 (Aalborg University)"
+Organizers: Jennifer Bartell
+images: "./binfConference.png"
+date: 2025-10-27
+Dates: "27-28 October 2025"
+Location: AAU
+categories: [workshop, Binf ,conference, AAU]
+description: "Click to sign-up"
+---
+
+Sign-up: <https://eventsignup.ku.dk/9danishbioinfconference>. 
+
+The Sandbox data scientists will host a workshop (topic TBA) at the Danish Bioinformatics conference. 
