@@ -14,9 +14,9 @@ bibliography: resources/references.bib
 </div>
 
 
-::: {.grid-cell .layout-border}
-::: {.column}
-[![HPC Lab](../images/HPC.png){class="hover-target" width="100%"}](https://hds-sandbox.github.io/modules/#sandbox-hpc)
+::: {.layout-border}
+::: {.grid-cell}
+[![HPC Lab](./images/HPC.png){class="hover-target" width="100%"}](https://hds-sandbox.github.io/modules/#sandbox-hpc)
 **<span style="display: block; margin-top:15px; text-align: center; font-size: 1.2em;">HPC Lab</span>**
 
 <div style="text-align: center;">
@@ -27,8 +27,8 @@ bibliography: resources/references.bib
 </div>
 :::
 
-::: {.column}
-[![](../images/genomics2.png){class="hover-target" width="100%"}](https://hds-sandbox.github.io/modules/#genomics)
+::: {.grid-cell}
+[![](./images/genomics2.png){class="hover-target" width="100%"}](https://hds-sandbox.github.io/modules/#genomics)
 **<span style="display: block; margin-top:15px; text-align: center; font-size: 1.2em;">Genomics</span>**
 
 <div style="text-align: center;">
@@ -38,8 +38,8 @@ bibliography: resources/references.bib
 </div>
 :::
 
-::: {.column}
-[![](../images/transcriptomics.png){class="hover-target" width="100%"}](https://hds-sandbox.github.io/modules/#transcriptomics)
+::: {.grid-cell}
+[![](./images/transcriptomics.png){class="hover-target" width="100%"}](https://hds-sandbox.github.io/modules/#transcriptomics)
 **<span style="display: block; margin-top:15px; text-align: center; font-size: 1.2em;">Transcriptomics</span>**
 
 <div style="text-align: center;">
@@ -49,8 +49,8 @@ bibliography: resources/references.bib
 </div>
 :::
 
-::: {.column}
-[![](../images/proteomics.png){class="hover-target" width="100%"}](https://hds-sandbox.github.io/modules/#proteomics)
+::: {.grid-cell}
+[![](./images/proteomics.png){class="hover-target" width="100%"}](https://hds-sandbox.github.io/modules/#proteomics)
 **<span style="display: block; margin-top:15px; text-align: center; font-size: 1.2em;">Proteomics</span>**
 
 <div style="text-align: center;">
@@ -59,8 +59,8 @@ bibliography: resources/references.bib
 </div>
 :::
 
-::: {.column}
-[![](../images/EHRs.png){class="hover-target" width="100%"}](https://hds-sandbox.github.io/modules/##EHC)
+::: {.grid-cell}
+[![](./images/EHRs.png){class="hover-target" width="100%"}](https://hds-sandbox.github.io/modules/#EHC)
 **<span style="display: block; margin-top:15px; text-align: center; font-size: 1.2em;">Health records</span>**
 <div style="text-align: center;">
     Synthetic data 

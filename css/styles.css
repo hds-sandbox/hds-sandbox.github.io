@@ -1,6 +1,20 @@
 /* for index front page */
 
-.column {
+.layout-border {
+  background-color:  #f0f0f0;
+  align-items: stretch;  /* Stretch the columns to the same height */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 200px));
+  box-sizing: border-box;         /* Ensure padding/margin does not affect width/height */
+  justify-content: space-evenly;
+  height:auto;
+  width: 100%;
+  gap: 0;  /* Remove extra space between columns */
+  margin: 0;
+  padding: 0;
+}
+
+.grid-cell {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -11,40 +25,23 @@
   flex: 1;
 }
 
-.column img {
-  width: 100%;
-  height: 150px; /* Fixed image height */
-  object-fit: cover;
-  border-radius: 8px;
-}
-
-.column div {
-  text-align: center;
-  margin-top: 10px;  
-  margin-bottom: 10px;
-  text-align: center;
-  flex-grow: 1;
-}
-
 .grid-cell img {
   max-width: 150px; /* Make the image responsive */
   object-fit: cover; /* Crop to fit while preserving aspect ratio */
   border-radius: 8px;
 }
-
-.layout-border {
-  background-color:  #f0f0f0;
-  align-items: stretch;  /* Stretch the columns to the same height */
-  display: flex;
-  box-sizing: border-box;         /* Ensure padding/margin does not affect width/height */
-  justify-content: space-evenly;
-  height:100%;
-  width: 100%;
-  gap: 0;  /* Remove extra space between columns */
-  margin: 0;
-  padding: 0;
+.hover-target {
+  border-radius: 50%;           /* make image round */
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+  cursor: pointer;
+  display: inline-block;
 }
 
+.hover-target:hover {
+  box-shadow: 0 0 5px 2px rgba(0, 123, 255, 0.7); /* glowing blue outline */
+  transform: scale(1.1);      /* slightly enlarge on hover */
+  border: 2px solid #bed4ec;  /* blue border */
+}
 /* for news page */
 .listing img {
   max-width: 50% !important;   /* Limit the width of images to 80% of the container */
