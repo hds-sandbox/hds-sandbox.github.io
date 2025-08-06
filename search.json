@@ -315,18 +315,18 @@
     "text": "UCloud\nUCloud is a relatively new HPC platform that can be accessed by students at Danish universities (via a WAYF university login). It has a user friendly graphical user interface that supports straightforward project, user, and resource management. UCloud provides access to many tools via selectable Apps matched with a range of flexible compute resources. Check out UCloud’s extensive user docs here.\nThe Sandbox is deploying training modules in this form such that any UCloud user can easily access Sandbox materials independently. The Sandbox is also hosting workshops and training events on UCloud in conjunction with in-person training. Click below for detailed instructions on accessing Sandbox apps.\n \n\n UCloud Guide for Sandbox apps"
   },
   {
+    "objectID": "access/index.html#genomedk",
+    "href": "access/index.html#genomedk",
+    "title": "HPC access",
+    "section": "GenomeDK",
+    "text": "GenomeDK\nGenomeDK is Aarhus University’s high‑performance computing facility for the life sciences-serving researchers, students, the public sector and companies with powerful, secure infrastructure and datamanagement tools.\n\n\n\n\n\n\nGenomeDK workshops at AU\n\n\n\n\n\nCheck out GenomeDK Workshop Resources (AU) for access and an introduction to the HPC system and basic commands.\nGenomeDK workshop content (in development):\n\nSome background\nGenomeDK’s ABC\nFile System (FS) on GenomeDK\nWorking with Files\nProject management\nDownloads and Copies\nPackage/Environment management\nRunning a Job"
+  },
+  {
     "objectID": "access/index.html#computerome",
     "href": "access/index.html#computerome",
     "title": "HPC access",
     "section": "Computerome",
     "text": "Computerome\nComputerome is the home of many sensitive health datasets via collaborations between DTU, KU, Rigshospitalet, and other major health sector players in the Capital Region of Denmark. Computerome has recently launched their secure cloud platform, DELPHI, and in collaboration with the Sandbox has built a Course Platform on the same backbone such that courses and training can be conducted in the same environment as real research would be performed in the secure cloud. The Sandbox is supporting courses in the Course Platform, but it is also available for independent use by educators at Danish universities. Please see their website for more information on independent use and pricing, and contact us if you’d like to collaborate on hosting a course on Computerome. We can help with tool installation, environment testing, and user support (ranging from using the environment to course content if we have Sandbox staff with matching expertise).\nParticipants in courses co-hosted by the Sandbox can check here for access instructions."
-  },
-  {
-    "objectID": "access/index.html#genomedk",
-    "href": "access/index.html#genomedk",
-    "title": "HPC access",
-    "section": "GenomeDK",
-    "text": "GenomeDK\nIn development\n\n\n\n\n\n\nGenomeDK workshops at AU\n\n\n\n\n\nCheck out GenomeDK Workshop Resources (AU) for access and an introduction to the HPC system and basic commands.\nGenomeDK workshop content (in development):\n\nSome background\nGenomeDK’s ABC\nFile System (FS) on GenomeDK\nWorking with Files\nProject management\nDownloads and Copies\nPackage/Environment management\nRunning a Job"
   },
   {
     "objectID": "access/index.html#any-other-computing-cluster-local-pc",
@@ -389,35 +389,35 @@
     "href": "modules/index.html#sandbox-hpc",
     "title": "Training modules",
     "section": "Data Carpentry and management",
-    "text": "Data Carpentry and management\n\n\n\n\n\n\n\nComputing skills are an important foundation for health data science (and using the above training modules), but formal training is often lacking as biomedical researchers navigate increasingly difficult computational tasks in their projects. These skills range from programming to the use of high-performance computers (HPC) to proper research data management.\n\nRDM for biodata (workshop on how to handle NGS data following simple guidelines to increase the FAIRability of your data)\nHPC-Lab (content in development)\n\nHPC launch\nHPC pipes\n\nGenomeDK Workshop Resources (AU) (content in development)\nHeaDS DataLab workshop materials (KU) (workshops for programming and good practices developed by the Center for Health Data Science at the University of Copenhagen, which are sometimes co-taught by Sandbox staff! Includes R, python, bash, and git!)"
+    "text": "Data Carpentry and management\nComputing skills are an important foundation for health data science (and using the above training modules), but formal training is often lacking as biomedical researchers navigate increasingly difficult computational tasks in their projects. These skills range from programming to the use of high-performance computers (HPC) to proper research data management.\n\nRDM for biodata (workshop on how to handle NGS data following simple guidelines to increase the FAIRability of your data)\nHPC-Lab (content in development)\n\nHPC launch\nHPC pipes\n\nGenomeDK Workshop Resources (AU) (content in development)\nHeaDS DataLab workshop materials (KU) (workshops for programming and good practices developed by the Center for Health Data Science at the University of Copenhagen, which are sometimes co-taught by Sandbox staff! Includes R, python, bash, and git!)"
   },
   {
     "objectID": "modules/index.html#genomics",
     "href": "modules/index.html#genomics",
     "title": "Training modules",
     "section": "Genomics",
-    "text": "Genomics\n\n\n\n\n\n\n\nGenomics is the study of genomes, the complete set of an organism’s DNA. Genomics research now encompasses functional and structural studies, epigenomics, and metagenomics, and genomic medicine is under active implementation and extension in the health sector.\nUse the Genomics Sandbox App on UCloud to explore the resources below:\n\nIntroduction to Next Generation Sequencing data (last update: June 2023)\nIntroduction to Population Genomics (implementation of a course by Prof. Kasper Munch of Aarhus University) (last update: March 2023)\nIntroduction to GWAS (last update: January 2025)"
+    "text": "Genomics\nGenomics is the study of genomes, the complete set of an organism’s DNA. Genomics research now encompasses functional and structural studies, epigenomics, and metagenomics, and genomic medicine is under active implementation and extension in the health sector.\nUse the Genomics Sandbox App on UCloud to explore the resources below:\n\nIntroduction to Next Generation Sequencing data (last update: June 2023)\nIntroduction to Population Genomics (implementation of a course by Prof. Kasper Munch of Aarhus University) (last update: March 2023)\nIntroduction to GWAS (last update: January 2025)"
   },
   {
     "objectID": "modules/index.html#transcriptomics",
     "href": "modules/index.html#transcriptomics",
     "title": "Training modules",
     "section": "Transcriptomics",
-    "text": "Transcriptomics\n\n\n\n\n\n\n\nTranscriptomics is the study of transcriptomes, which investigates RNA transcripts within a cell or tissue to determine what genes are being expressed and in what proportion. These RNA transcripts include mRNAs, tRNA, rRNA, and other non-coding RNA present in a cell.\nUse the Transcriptomics Sandbox App on UCloud to explore these resources:\n\nBulk RNAseq (last update: May 2024)\nSingle-Cell RNAseq (last update: May 2023)\nCirrocumulus (a popular tool for visualizing different types of RNA-seq data and downstream analysis)\nRNAseq in RStudio (RStudio session with pre-installed RNAseq analysis packages for exploring with your own uploaded data)"
+    "text": "Transcriptomics\nTranscriptomics is the study of transcriptomes, which investigates RNA transcripts within a cell or tissue to determine what genes are being expressed and in what proportion. These RNA transcripts include mRNAs, tRNA, rRNA, and other non-coding RNA present in a cell.\nUse the Transcriptomics Sandbox App on UCloud to explore these resources:\n\nBulk RNAseq (last update: May 2024)\nSingle-Cell RNAseq (last update: May 2023)\nCirrocumulus (a popular tool for visualizing different types of RNA-seq data and downstream analysis)\nRNAseq in RStudio (RStudio session with pre-installed RNAseq analysis packages for exploring with your own uploaded data)"
   },
   {
     "objectID": "modules/index.html#proteomics",
     "href": "modules/index.html#proteomics",
     "title": "Training modules",
     "section": "Proteomics",
-    "text": "Proteomics\n\n\n\n\n\n\n\nProteomics is the study of proteins that are produced by an organism. Proteomics allows us to analyze protein composition and structure, which have great importance in determining their function.\nUse the Proteomics Sandbox App on UCloud to explore pre-installed tools for proteomics analysis and other resources:\n\nProteomics Sandbox Documentation (last update: May 2023)\nIntroduction to Clinical Proteomics (course under development)\n\nWe also offer a tutorial on UCloud’s ColabFold app, a tool that allows predictions with AlphaFold2 or RoseTTAFold.\n\nColabFold Intro (last update: October 2022)"
+    "text": "Proteomics\nProteomics is the study of proteins that are produced by an organism. Proteomics allows us to analyze protein composition and structure, which have great importance in determining their function.\nUse the Proteomics Sandbox App on UCloud to explore pre-installed tools for proteomics analysis and other resources:\n\nProteomics Sandbox Documentation (last update: May 2023)\nIntroduction to Clinical Proteomics (course under development)\n\nWe also offer a tutorial on UCloud’s ColabFold app, a tool that allows predictions with AlphaFold2 or RoseTTAFold.\n\nColabFold Intro (last update: October 2022)"
   },
   {
     "objectID": "modules/index.html#EHC",
     "href": "modules/index.html#EHC",
     "title": "Training modules",
     "section": "Electronic Health Records",
-    "text": "Electronic Health Records\n\n\n\n\n\n\n\nElectronic health records (EHRs) are digital records kept in the public health sector that record the medical histories of individuals, and access is normally highly restricted to preserve patient privacy. This data is sometimes also shared (partly or in full) in secondary patient registries that support research on a specific disease or condition (such as breast cancer or cystic fibrosis). These datasets are extraordinarily valuable in the development of predictive models used in precision medicine.\nThe chronic lymphocytic leukemia synthetic dataset listed below is generated solely from public data. It is of low utility, so we don’t recommend its use beyond the course it was designed for (with much explanation for the students on its construction and caveats). Please see Synthetic Data for more information.\n\nChronic Lymphocytic Leukemia synthetic dataset created for use in “Fra realworld data til personlig medicin”, a course from the University of Copenhagen’s MS in Personlig Medicin (last update: January 2023)\nIntro to EHR analysis (workshop under development)"
+    "text": "Electronic Health Records\nElectronic health records (EHRs) are digital records kept in the public health sector that record the medical histories of individuals, and access is normally highly restricted to preserve patient privacy. This data is sometimes also shared (partly or in full) in secondary patient registries that support research on a specific disease or condition (such as breast cancer or cystic fibrosis). These datasets are extraordinarily valuable in the development of predictive models used in precision medicine.\nThe chronic lymphocytic leukemia synthetic dataset listed below is generated solely from public data. It is of low utility, so we don’t recommend its use beyond the course it was designed for (with much explanation for the students on its construction and caveats). Please see Synthetic Data for more information.\n\nChronic Lymphocytic Leukemia synthetic dataset created for use in “Fra realworld data til personlig medicin”, a course from the University of Copenhagen’s MS in Personlig Medicin (last update: January 2023)\nIntro to EHR analysis (workshop under development)"
   },
   {
     "objectID": "news/past/2023-01-08-platform-computerome.html",
