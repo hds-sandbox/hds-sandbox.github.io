@@ -12,7 +12,7 @@ css: ../css/styles.css
 ::: {.layout-border style="background-color: white;"}
 ::: {.grid-cell style="background-color: white;"}
 [![HPC Lab](../images/HPC.png){class="hover-target" width="100%"}](#sandbox-hpc)
-**<span style="display: block; margin-top:15px; text-align: center; font-size: 1.2em;">Data carpentery and management</span>**
+**<span style="display: block; margin-top:15px; text-align: center; font-size: 1.2em;">HPC Lab</span>**
 :::
 
 ::: {.grid-cell style="background-color: white;"}
@@ -50,7 +50,7 @@ You can **access our training modules** through:
 
 &nbsp;
 
-## Data Carpentry and management {#sandbox-hpc}
+## HPC Lab and data management {#sandbox-hpc}
 
 Computing skills are an important foundation for health data science (and using the above training modules), but formal training is often lacking as biomedical researchers navigate increasingly difficult computational tasks in their projects. These skills range from programming to the use of high-performance computers (HPC) to proper research data management.
 
