@@ -12,9 +12,11 @@
   {
     "listing": "/news.html",
     "items": [
-      "/news/upcoming/2025-08-14-hpcPipes.html",
       "/news/upcoming/2025-10-27-Binfconference.html",
       "/news/upcoming/2025-11-18-bulk.html",
+      "/news/upcoming/2026-05-21-hpcLaunch.html",
+      "/news/upcoming/2026-06-11-hpcPipes.html",
+      "/news/past/2025-08-14-hpcPipes.html",
       "/news/past/2025-06-23-NGS-analysis.html",
       "/news/past/2025-05-23-DDSAHPC.html",
       "/news/past/2025-04-7-hpcLaunch.html",

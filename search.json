@@ -98,95 +98,102 @@
     "text": "The Health Data Science sandbox is working with the following courses during spring 2023:\n\nSandbox support for Population Genomics\n\nExercises for an MS course on Population Genomics taught by Prof. Kasper Munch at Aarhus University are being implemented on UCloud by Sandbox data scientist Samuele Soraggi. Students will explore the training materials on UCloud during the Spring 2023 semester, after which the materials will be accessible to any UCloud user via the Genomics Sandbox App.\n\nFra real-world data til personlig medicin with Course Platform & Sandbox support The second round of the course ‘Fra real-world data til personlig medicin’ in KU’s MS in Personlig Medicin begins in January with an introduction to CLL-TIM, a predictive model for chronic lymphocytic leukemia deployed by Prof. Carsten Niemann, an introduction by Sandbox coordinator Jennifer Bartell to the new Course Platform at Computerome built with Sandbox help for hosting courses with HPC resources, and an introduction to building predictive models using TidyModels in R by Prof. Rasmus Broendum. The course will run through April with 10 continuing education students building their own predictive models using a new and improved synthetic CLL dataset developed by Sandbox data scientist Sander Boisen Valentin. Jennifer and Rasmus are also manning the Sandbox Slack workspace to field student questions about the dataset and their model building.\nSandbox support for ‘Single-cell, Single-Molecule: The Next Level in Cell Biology’ An NNF-funded course, ‘Single-cell, Single-Molecule: The Next Level in Cell Biology’ combining experimental and computational approaches to RNA sequencing is starting at Aarhus University. In addition to course-responsible professor Stig Andersen and co-teachers Victoria Birkedal and Thomas Boesen, Sandbox PI Mikkel Schierup will be contributing along with Sandbox data scientist Samuele Soraggi. Samuele is adapting the Transcriptomics App material on UCloud to supply tutorials and exercises for this hefty course as well as serving as a teaching assistant. The course materials will be available to all users of the Transcriptomics Sandbox App on UCloud in the future."
   },
   {
-    "objectID": "news/past/2022-06-01-genomics-au.html",
-    "href": "news/past/2022-06-01-genomics-au.html",
-    "title": "Genomics course at Aarhus University",
+    "objectID": "news/past/2025-08-14-hpcPipes.html",
+    "href": "news/past/2025-08-14-hpcPipes.html",
+    "title": "HPC-Pipes",
     "section": "",
-    "text": "A month-long course in Genomics taught by Professors Mikkel Schierup and Stig Andersen has started with lead supercomputing support on UCloud by Sandbox data scientist and course instructor Samuele Soraggi. Computational exercises in NGS analysis were deployed in a UCloud project for use by 47 graduate students with primarily molecular biology and clinical backgrounds and no prior supercomputing experience! Post-course update: We received many positive reviews on use of the Genomics Sandbox training materials on UCloud!"
+    "text": "The course HPC-Pipes introduces best practices for setting up, running, and sharing reproducible bioinformatics pipelines and workflows, with a strong emphasis on Snakemake for practical exercises. Rather than focusing on specific tools for bioinformatics analysis, we will cover the entire process of building a robust pipeline—applicable to any data type—using workflow languages, environment/package managers, optimized HPC resources, and FAIR principles for data and tool management. By the end of the course, participants will be equipped to design custom pipelines tailored to their analysis needs.\nWe will guide participants in automating data analysis with popular workflow languages like Snakemake (primarily) and Nextflow. From there, we’ll explore how to ensure reproducibility within pipelines and the available options for sharing data analysis and software within the research community. Participants will also learn strategies for managing and organizing large datasets, from documentation and processing to storage, sharing, and preservation. We’ll cover tools like Docker and other containers, with demonstrations on using package and environment managers such as Conda to control the software environment within workflows and containers (Docker and Apptainer). Finally, we’ll provide insights into managing and optimizing pipeline projects on HPC platforms, using resources efficiently."
   },
   {
-    "objectID": "news/past/2025-06-23-NGS-analysis.html",
-    "href": "news/past/2025-06-23-NGS-analysis.html",
-    "title": "Intro to NGS data analysis - Summer School",
+    "objectID": "news/past/2024-02-01-DDSAD3A.html",
+    "href": "news/past/2024-02-01-DDSAD3A.html",
+    "title": "DDSA PhD meetup and D3A conference",
     "section": "",
-    "text": "This summer school is a regularly hosted summer school to teach NGS data analysis, and is taught by Stig Andersen, Mikkel Schierup, and Samuele Soraggi (supporting via the HDS Sandbox). You can find additional information and sign up below\n \n\n Information + Signup"
+    "text": "Several Sandbox staff represented the project at both the DDSA PhD Meetup with a practical presentation on research data management and with posters at D3A, the national data science meeting. It was nice to meet up in person and also make new connections with the excellent cadre of conference attendees. Thanks to the DDSA secretariat for their invitation and organizational efforts."
   },
   {
-    "objectID": "news/past/2023-05-31-rollout-ucloud.html",
-    "href": "news/past/2023-05-31-rollout-ucloud.html",
-    "title": "Sandbox App updates on UCloud rolled out",
+    "objectID": "news/past/2022-09-06-genomics-launch.html",
+    "href": "news/past/2022-09-06-genomics-launch.html",
+    "title": "Genomics Sandbox app launched on UCloud!",
     "section": "",
-    "text": "New versions of the Genomics Sandbox App, the Transcriptomics Sandbox App, and the Proteomics Sandbox App have all been launched on UCloud this month! Check out the new components in the training modules such as a GWAS module in Genomics and new tools in Transcriptomics and Proteomics. Updates were also informed by the different courses supported during Spring 2023. With these courses wrapping up this month, the associated new training materials have also been included in the new versions of the apps."
+    "text": "We have deployed our first standalone Sandbox app on UCloud! Please see the Access page for instructions on how to find our Sandbox apps on UCloud - this first one is titled ‘Genomics Sandbox’ and module documentation is linked from the UCloud app page as well as here in Modules."
   },
   {
-    "objectID": "news/past/2024-09-30-hpcLaunch.html",
-    "href": "news/past/2024-09-30-hpcLaunch.html",
-    "title": "HPC-Launch",
+    "objectID": "news/past/2022-04-22-basicpm-wrapup.html",
+    "href": "news/past/2022-04-22-basicpm-wrapup.html",
+    "title": "Basics of Personalized Medicine - final wrap-up",
     "section": "",
-    "text": "The goal of the course HPC-Launch is to support the launch (and/or reconfiguration) of health data projects from an efficient and modern computing and data management perspective. Targeting trainees and researchers in bioinformatics and large-scale health records, the course will consist of two modules: High-Performance Computing (HPC) and Research Data management (RDM). With the HPC module, we want to expand understanding and efficient use of HPC resources for complex health data science projects. We will fill gaps in technical understanding for beginner to intermediate users of supercomputing platforms and share up-to-date information on computing resources available to Danish researchers and how to get access. With the RDM module, we will introduce the importance of research data management practices and demonstrate practical tips and tools for its implementation at a local research group level. Overall, the course will be a mix of theory, discussion of real-world use cases and participant needs, and active practice/exercises conducted on the HPC platform UCloud (SDU) using bash and relevant IDEs."
+    "text": "Our first course, Basics of Personalized Medicine, wrapped up this month with student project presentations which described their approaches to analysis of the synthetic Chronic Lymphocytic Leukemia dataset created for the course. Course reviews highlighted the helpfulness of Sandbox staff in troubleshooting R problems and the tremendous amount that students learned about predictive modeling."
   },
   {
-    "objectID": "news/past/2023-11-07-RDMtalk.html",
-    "href": "news/past/2023-11-07-RDMtalk.html",
-    "title": "From Data Chaos to Data Harmony",
+    "objectID": "news/past/2023-01-18-bulk-KU.html",
+    "href": "news/past/2023-01-18-bulk-KU.html",
+    "title": "Second bulk RNA-seq course at the University of Copenhagen",
     "section": "",
-    "text": "Sandbox data scientist Jose Alejandro Romero Herrera gave a talk in the Data Management speaker track at the annual Danish E-Infrastructure Consortium (DeiC) conference in Kolding, Denmark. The talk was well received at the biggest DeiC conference ever (250 participants)."
+    "text": "On 18th of January we taught the second iteration of our bulk RNA-seq course to researchers (from PhD students to professors) at SUND at the University of Copenhagen. We had ~50 workshop participants joining us for three days of lectures and exercises on UCloud. This time, we introduced preprocessing theory (read QC, alignment and quantification) and the use of automated workflows using the nf-core rnaseq pipeline.\nFor those that could not enroll for this session, you can find the updated material here. We have moved the datasets and slides to a zenodo repository\nWe’d like to extend our thanks to our workshop collaborators, data scientists from the SUND DataLab at KU’s Center for Health Data Science as well as the genomics platform at the NNF Center for Stem Cell Medicine (reNEW)."
   },
   {
-    "objectID": "news/past/2024-01-31-manuscript.html",
-    "href": "news/past/2024-01-31-manuscript.html",
-    "title": "A primer for Synthetic health data",
+    "objectID": "news/past/2022-11-30-advancedstatlearning.html",
+    "href": "news/past/2022-11-30-advancedstatlearning.html",
+    "title": "Sandbox support for ‘Advanced Statistical Learning’",
     "section": "",
-    "text": "In collaboration with Prof. Henning Langberg at KU Public Health and funding from Erhvervsfyrtaarn Sund Vaegt, Jennifer Bartell has developed a manuscript that discusses technical, regulatory, and deployment solutions and challenges for synthetic health data from a broad perspective. This manuscript was developed in collaboration with Sandbox partners Sander Boisen Valentin and Martin Boegsted of AAU, and we plan to submit it to a journal soon. For now, check out our manuscript on arXiv!"
+    "text": "Sandbox data scientist Samuele Soraggi spent two weeks teaching for the Fall 2023 course ‘Advanced Statistical Learning’ taught by Prof. Asger Hobolth at Aarhus University."
   },
   {
-    "objectID": "news/past/2023-08-29-aarhus-workshop.html",
-    "href": "news/past/2023-08-29-aarhus-workshop.html",
-    "title": "Sandbox workshop in Aarhus",
+    "objectID": "news/past/2025-05-23-DDSAHPC.html",
+    "href": "news/past/2025-05-23-DDSAHPC.html",
+    "title": "DDSA High-Performance Computing Workshop",
     "section": "",
-    "text": "Sandbox data scientist Samuele Soraggi hosted a three day speed run through Sandbox apps at the Bioinformatics Research Center. The 26 participants joined for genomics, transcriptomics, and/or proteomics app demos depending on their interests. This thorough omics demo had maxed out participant sign-ups and an enthusiastic crew enjoyed the sessions alongside a bit of networking across disciplines. We plan to host more of these type of workshops given the event’s success!"
+    "text": "1-day all-inclusive workshop on High-Performance Computing (HPC) for Bachelors and Masters students enrolled at Danish universities. Several Sandbox staff represented the project and help with the practical part, and Jennifer Bartell gave a lecture on National HPCs."
   },
   {
-    "objectID": "news/past/2022-12-10-transcriptomics-launch.html",
-    "href": "news/past/2022-12-10-transcriptomics-launch.html",
-    "title": "Transcriptomics Sandbox app launched on UCloud!",
+    "objectID": "news/past/2025-03-24-genomics.html",
+    "href": "news/past/2025-03-24-genomics.html",
+    "title": "Genomics Sandbox",
     "section": "",
-    "text": "We have deployed our second standalone Sandbox app on UCloud! Please see the Access page for instructions on how to find our Sandbox apps on UCloud - This one is titled ‘Transcriptomics Sandbox’ and module documentation is linked from the UCloud app page as well as here in Modules."
+    "text": "The Sandbox Genomics course is an intensive four-day program focused on training participants in Population genetics with a focus on Genome-Wide Association Studies (GWAS). The first day covers foundational genetics concepts through lectures and discussions, followed by a step-by-step guide to performing a GWAS study, from data preprocessing to results interpretation. A key feature is a hands-on GWAS case study where participants complete the entire process, including managing missing genotypes, conducting linear regression for association testing, and understanding linkage disequilibrium for fine-mapping. The course emphasizes practical skills, best practices, and common challenges in GWAS, especially when using high-performance computing."
   },
   {
-    "objectID": "news/past/2023-01-08-platform-computerome.html",
-    "href": "news/past/2023-01-08-platform-computerome.html",
-    "title": "Soft launch of the new Course Platform at Computerome",
+    "objectID": "news/past/2022-11-15-support-bioinf-sdu.html",
+    "href": "news/past/2022-11-15-support-bioinf-sdu.html",
+    "title": "Sandbox support within ‘Workshops in Applied Bioinformatics’ at SDU",
     "section": "",
-    "text": "Sandbox data scientist Jesper Roy Christiansen has been integral to the development of a new ‘Course Platform’ at Computerome, the HPC platform at the Technical University of Denmark. Built as a collaboration between the Sandbox and Computerome, the Course Platform will host its first users, students in ‘Fra real-world data til personlig medicin’, a course of KU’s MS in Personlig Medicin. Sandbox coordinator Jennifer Bartell and Sandbox PI Martin Boegsted have also been involved in testing this new system during course setup. See the above link as well as HPC Access for more details on this platform and how you can also use this new platform to host courses (with or without Sandbox involvement!)."
+    "text": "Sandbox data scientist Jacob Fredegaard Hansen created a tutorial on how to use ColabFold for a one day workshop as part of the ‘Workshops in Applied Bioinformatics’ series taught by Sandbox collaborator Veit Schwammle. The material is accessible on the Sandbox website (see Modules, Proteomics) for any UCloud user alongside the UCloud ColabFold App."
   },
   {
-    "objectID": "news/past/2022-01-04-basicpm.html",
-    "href": "news/past/2022-01-04-basicpm.html",
-    "title": "Basics of Personalized Medicine - MSc course",
+    "objectID": "news/past/2024-11-04-hpcPipes.html",
+    "href": "news/past/2024-11-04-hpcPipes.html",
+    "title": "HPC-Pipes",
     "section": "",
-    "text": "The first course supported by the Sandbox is launching this month - ‘Basics of Personalized Medicine’ - where students in the new Master in Personal Medicine program at University of Copenhagen are introduced to predictive modeling using electronic health records."
+    "text": "The course HPC-Pipes introduces best practices for setting up, running, and sharing reproducible bioinformatics pipelines and workflows. Rather than instruct on the whys and wherefores of using particular tools for a bioinformatics analysis, we will cover the general process of building a robust pipeline (regardless of data type) using workflow languages, environment/package managers, optimized HPC resources, and FAIRly managed data and tools. On course completion, participants will be able to use this knowledge to design their own custom pipelines with tools appropriate for their individual analysis needs.\nThe course will provide guidance on how to automate data analysis using common workflow languages such as Snakemake or Nextflow. Subsequently, we will delve into ensuring the reproducibility of pipelines and explore available options. Participants will learn how to share their data analysis and software with the research community. We will also delve into different strategies for managing the produced research data. This includes addressing the challenges posed by large volumes of data and exploring computational approaches that aid in data organization, documentation, processing, analysis, storing, sharing, and preservation. These discussions will encompass the reasons behind the increasing popularity of Docker and other containers, along with demonstrations on how to effectively utilize package and environment managers like Conda to control the software environment within a workflow. Finally, participants will learn how to manage and optimize their pipeline projects on HPC platforms, using compute resources efficiently."
   },
   {
-    "objectID": "news/past/2024-09-10-scverse2024.html",
-    "href": "news/past/2024-09-10-scverse2024.html",
-    "title": "Workshop at scVerse2024",
+    "objectID": "news/past/2023-09-07-workshop-conference.html",
+    "href": "news/past/2023-09-07-workshop-conference.html",
+    "title": "‘Digging into the Health Data Science Sandbox’ workshop",
     "section": "",
-    "text": "We will run a workshop on dimensionality reduction on single cell data (transcriptomics and spatial) with a focus on - state of the art techniques, - graph optimization VS laplacian operators - how to create interactive webpage plots to document your work in a FAIR and open access manner\nThe workshop will be running first at the conference and afterwards be available at the dedicated webpage for everyone to use. The link to the workshop will work correctly after 10th september 2024.\n \n\n Access the workshop"
+    "text": "The full team of Sandbox data scientists hosted a 4 hour workshop at the Danish Bioinformatics conference where they gave a taster session of each of our 3 omics apps. We learned that multi-omics analysis were a substantial draw for the crowd at the DBC and are making plans to address this interest in future events."
   },
   {
-    "objectID": "news/past/2023-06-19-KU-bulk.html",
-    "href": "news/past/2023-06-19-KU-bulk.html",
-    "title": "Workshop on bulkRNA-seq data",
+    "objectID": "news/past/2024-08-21-BinfConference.html",
+    "href": "news/past/2024-08-21-BinfConference.html",
+    "title": "How I learned to stop worrying and love RDM",
     "section": "",
-    "text": "Our teaching team (from the Sandbox, the HeaDS DataLab, and reNEW’s genomics platform) hosted another 3 day workshop on bulk RNA-seq. The 34 participants used the updated version of the UCloud Transcriptomics App which provided the smoothest experience yet for both trainers and trainees. A new goal for the next course run is to add a student project to support independent implementation and exploration of the course content."
+    "text": "Research data management involves more than just writing your DMP (Data Management Plan). We can assist you in crafting a more meaningful DMP with some practical tips. While DMP are essential in research, they may sometimes seem too general or not directly applicable to the specific challenges you face daily.\nJoin our workshop to make your research data more FAIR (Findable, Acessible, Interoperable and Reusable). We will cover various topis to enhance your data analysis work and go through several good practices for:\n\ndata organization (incl. file naming)\ndata documentation and file formats\ndata analysis\ndata storage\ndata archiving"
   },
   {
-    "objectID": "news/upcoming/2025-08-14-hpcPipes.html",
-    "href": "news/upcoming/2025-08-14-hpcPipes.html",
-    "title": "HPC Pipes",
+    "objectID": "news/upcoming/2025-11-18-bulk.html",
+    "href": "news/upcoming/2025-11-18-bulk.html",
+    "title": "Bulk RNAseq analysis",
     "section": "",
-    "text": "Sign-up: https://eventsignup.ku.dk/hpc-pipes-aug25.\nThe course HPC-Pipes introduces best practices for setting up, running, and sharing reproducible bioinformatics pipelines and workflows, with a strong emphasis on Snakemake for practical exercises. Rather than focusing on specific tools for bioinformatics analysis, we will cover the entire process of building a robust pipeline—applicable to any data type—using workflow languages, environment/package managers, optimized HPC resources, and FAIR principles for data and tool management. By the end of the course, participants will be equipped to design custom pipelines tailored to their analysis needs.\nWe will guide participants in automating data analysis with popular workflow languages like Snakemake (primarily) and Nextflow. From there, we’ll explore how to ensure reproducibility within pipelines and the available options for sharing data analysis and software within the research community. Participants will also learn strategies for managing and organizing large datasets, from documentation and processing to storage, sharing, and preservation. We’ll cover tools like Docker and other containers, with demonstrations on using package and environment managers such as Conda to control the software environment within workflows and containers (Docker and Apptainer). Finally, we’ll provide insights into managing and optimizing pipeline projects on HPC platforms, using resources efficiently."
+    "text": "Register here.\nThis workshop contains a basic tutorial on how to approach bioinformatics analyses of bulk RNAseq data, starting from the count matrix.\nBy the end of this workshop, you will be able to:\n\nGain insight into how to design an RNA-seq experiment\nPreprocess sequencing reads\nAnalyze bulk RNAseq data using the R package DESeq2\nKnow best practices for performing Differential Expression Analysis\nAnnotate and interpret their results"
+  },
+  {
+    "objectID": "news/upcoming/2026-06-11-hpcPipes.html",
+    "href": "news/upcoming/2026-06-11-hpcPipes.html",
+    "title": "HPC-Pipes",
+    "section": "",
+    "text": "Register: Opening soon.\nThe course HPC-Pipes introduces best practices for setting up, running, and sharing reproducible bioinformatics pipelines and workflows, with a strong emphasis on Snakemake for practical exercises. Rather than focusing on specific tools for bioinformatics analysis, we will cover the entire process of building a robust pipeline—applicable to any data type—using workflow languages, environment/package managers, optimized HPC resources, and FAIR principles for data and tool management. By the end of the course, participants will be equipped to design custom pipelines tailored to their analysis needs.\nWe will guide participants in automating data analysis with popular workflow languages like Snakemake (primarily) and Nextflow. From there, we’ll explore how to ensure reproducibility within pipelines and the available options for sharing data analysis and software within the research community. Participants will also learn strategies for managing and organizing large datasets, from documentation and processing to storage, sharing, and preservation. We’ll cover tools like Docker and other containers, with demonstrations on using package and environment managers such as Conda to control the software environment within workflows and containers (Docker and Apptainer). Finally, we’ll provide insights into managing and optimizing pipeline projects on HPC platforms, using resources efficiently."
   },
   {
     "objectID": "workshop/workshop_april2024.html#access-sandbox-resources",
@@ -403,7 +410,7 @@
     "href": "news.html",
     "title": "News",
     "section": "",
-    "text": "Sandbox data scientists routinely lead or contribute to courses and workshops at host universities in Denmark. Check out upcoming events here! All our past events are listed in the table below.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHPC Pipes\n\n\n\nsnakemake\n\nnextflow\n\nconda\n\ndocker\n\nKU\n\ncourse\n\n\n\nSignup now\n\n\n\nAug 14, 2025\n\n\n\n\n\n\n\n\n\n\n\n‘The Health Data Science Sandbox’ workshop\n\n\n\nworkshop\n\nBinf\n\nconference\n\nAAU\n\n\n\nClick to sign-up\n\n\n\nOct 27, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nBulk RNAseq analysis\n\n\n\nBulk RNAseq\n\nnf-core\n\nDESeq2\n\n\n\nOpening for signup soon\n\n\n\nNov 18, 2025\n\n\n\n\n\n\nNo matching items\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Event title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nEvent title\n\n\n\nDates\n\n\n\nLocation\n\n\n\nOrganizers\n\n\n\n\n\n\n\n\nIntro to NGS data analysis - Summer School\n\n\n23-27 June 2025\n\n\nAU\n\n\nSamuele Soraggi\n\n\n\n\n\n\nDDSA High-Performance Computing Workshop\n\n\n23 May 2025\n\n\nDDSA\n\n\nJennifer Bartell\n\n\n\n\n\n\nHPC launch\n\n\n7 April 2025\n\n\nUniversity of Copenhagen\n\n\nJ.Bartell and A.Refoyo\n\n\n\n\n\n\nGenomics Sandbox\n\n\n24-27 March 2025\n\n\nUniversity of Copenhagen\n\n\nA.Refoyo and S.Soraggi\n\n\n\n\n\n\nBulk RNAseq analysis\n\n\n18-20 November 2024\n\n\nUniversity of Copenhagen\n\n\nHeaDS\n\n\n\n\n\n\nHPC-Pipes\n\n\n4-5 November 2024\n\n\nUniversity of Copenhagen\n\n\nA.Refoyo and J.Bartell\n\n\n\n\n\n\nHPC-Launch\n\n\n30 September 2024\n\n\nUniversity of Copenhagen\n\n\nJ.Bartell and A.Refoyo\n\n\n\n\n\n\nWorkshop at scVerse2024\n\n\n10 September 2024\n\n\nTechnical University of Munich\n\n\nSamuele Soraggi\n\n\n\n\n\n\nABC - Accessible Bioinformatics Cafe in Aarhus\n\n\n1 September 2024\n\n\nAarhus University\n\n\nSamuele Soraggi\n\n\n\n\n\n\nHow I learned to stop worrying and love RDM\n\n\n21 August 2024\n\n\nADBi Conference\n\n\nA.Refoyo and J.Bartell\n\n\n\n\n\n\nIntro to NGS data analysis - Summer School\n\n\n1-5 July 2024\n\n\nAU\n\n\nSamuele Soraggi\n\n\n\n\n\n\nWorkshop: Digging into the Health Data Science Sandbox\n\n\n18-19 April 2024\n\n\nKU\n\n\nJ.Bartell and A.Refoyo\n\n\n\n\n\n\nCourse support at SDU\n\n\n9 February 2024\n\n\nSDU\n\n\nJacob Fredegaard Hansen\n\n\n\n\n\n\nDDSA PhD meetup and D3A conference\n\n\n1 February 2024\n\n\nDDSA\n\n\nJennifer Bartell\n\n\n\n\n\n\nA primer for Synthetic health data\n\n\n31 January 2024\n\n\n \n\n\nJennifer Bartell\n\n\n\n\n\n\nNNF Collaborative Data Science award news: the SE3D project!\n\n\n12 December 2023\n\n\nKU\n\n\nJennifer Bartell\n\n\n\n\n\n\nProteomics App updates\n\n\n9 November 2023\n\n\nSDU\n\n\nJacob Fredegaard Hansen\n\n\n\n\n\n\nA course on RDS for NGS data\n\n\n7 November 2023\n\n\nDTU\n\n\nJose AR Herrera\n\n\n\n\n\n\nFrom Data Chaos to Data Harmony\n\n\n7 November 2023\n\n\nDeiC conference\n\n\nJennifer Bartell\n\n\n\n\n\n\n‘Digging into the Health Data Science Sandbox’ workshop\n\n\n7 September 2023\n\n\nAU\n\n\nJennifer Bartell\n\n\n\n\n\n\nSandbox workshop in Aarhus\n\n\n29 August 2023\n\n\nAU\n\n\nSamuele Soraggi\n\n\n\n\n\n\nWorkshop on bulkRNA-seq data\n\n\n19 June 2023\n\n\nKU\n\n\nJennifer Bartell\n\n\n\n\n\n\nSandbox App updates on UCloud rolled out\n\n\n31 May 2023\n\n\nKU\n\n\nJennifer Bartell\n\n\n\n\n\n\nSecond bulk RNA-seq course at the University of Copenhagen\n\n\n18 January 2023\n\n\nKU\n\n\nJennifer Bartell\n\n\n\n\n\n\nSandbox support for Spring 2023 courses\n\n\n10 January 2023\n\n\nKU\n\n\nJennifer Bartell\n\n\n\n\n\n\nSoft launch of the new Course Platform at Computerome\n\n\n8 January 2023\n\n\nKU\n\n\nJesper R Christiansen\n\n\n\n\n\n\nSandbox support for ‘Advanced Statistical Learning’\n\n\n30 November 2022\n\n\nAU\n\n\nSamuele Soraggi\n\n\n\n\n\n\nSandbox support within ‘Workshops in Applied Bioinformatics’ at SDU\n\n\n15 November 2022\n\n\nSDU\n\n\nJacob Fredegaard Hansen\n\n\n\n\n\n\nTranscriptomics Sandbox app launched on UCloud!\n\n\n15 November 2022\n\n\nKU\n\n\nJose AR Herrera\n\n\n\n\n\n\nGenomics Sandbox app launched on UCloud!\n\n\n6 September 2022\n\n\nAU\n\n\nSamuele Soraggi\n\n\n\n\n\n\nBulk RNA-seq course at University of Copenhagen\n\n\n18 August 2022\n\n\nKU\n\n\nJennifer Bartell\n\n\n\n\n\n\nGenomics course at Aarhus University\n\n\n1 June 2022\n\n\nAU\n\n\nSamuele Soraggi\n\n\n\n\n\n\nBasics of Personalized Medicine - final wrap-up\n\n\n22 April 2022\n\n\nAAU\n\n\nJennifer Bartell\n\n\n\n\n\n\nBasics of Personalized Medicine - MSc course\n\n\n1 April 2022\n\n\nAAU\n\n\nJennifer Bartell\n\n\n\n\n\n\nNo matching items"
+    "text": "Sandbox data scientists routinely lead or contribute to courses and workshops at host universities in Denmark. Check out upcoming events here! All our past events are listed in the table below.\n\n\n\n\n\n\n\n\n\n\n\n\n‘The Health Data Science Sandbox’ workshop\n\n\n\nworkshop\n\nBinf\n\nconference\n\nAAU\n\n\n\nClick to sign-up\n\n\n\nOct 27, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nBulk RNAseq analysis\n\n\n\nBulk RNAseq\n\nnf-core\n\nDESeq2\n\n\n\nRegister now\n\n\n\nNov 10, 2025\n\n\n\n\n\n\n\n\n\n\n\nHPC-Launch\n\n\n\nHPC\n\nRDM\n\nKU\n\n\n\nRegistration opening soon\n\n\n\nMay 21, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nHPC-Pipes\n\n\n\nsnakemake\n\nnextflow\n\nconda\n\ndocker\n\nKU\n\n\n\nRegistration opening soon\n\n\n\nJun 11, 2026\n\n\n\n\n\n\nNo matching items\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Event title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nEvent title\n\n\n\nDates\n\n\n\nLocation\n\n\n\nOrganizers\n\n\n\n\n\n\n\n\nHPC-Pipes\n\n\n14-15 August 2025\n\n\nUniversity of Copenhagen\n\n\nA.Refoyo and J.Bartell\n\n\n\n\n\n\nIntro to NGS data analysis - Summer School\n\n\n23-27 June 2025\n\n\nAU\n\n\nSamuele Soraggi\n\n\n\n\n\n\nDDSA High-Performance Computing Workshop\n\n\n23 May 2025\n\n\nDDSA\n\n\nJennifer Bartell\n\n\n\n\n\n\nHPC launch\n\n\n7 April 2025\n\n\nUniversity of Copenhagen\n\n\nJ.Bartell and A.Refoyo\n\n\n\n\n\n\nGenomics Sandbox\n\n\n24-27 March 2025\n\n\nUniversity of Copenhagen\n\n\nA.Refoyo and S.Soraggi\n\n\n\n\n\n\nBulk RNAseq analysis\n\n\n18-20 November 2024\n\n\nUniversity of Copenhagen\n\n\nHeaDS\n\n\n\n\n\n\nHPC-Pipes\n\n\n4-5 November 2024\n\n\nUniversity of Copenhagen\n\n\nA.Refoyo and J.Bartell\n\n\n\n\n\n\nHPC-Launch\n\n\n30 September 2024\n\n\nUniversity of Copenhagen\n\n\nJ.Bartell and A.Refoyo\n\n\n\n\n\n\nWorkshop at scVerse2024\n\n\n10 September 2024\n\n\nTechnical University of Munich\n\n\nSamuele Soraggi\n\n\n\n\n\n\nABC - Accessible Bioinformatics Cafe in Aarhus\n\n\n1 September 2024\n\n\nAarhus University\n\n\nSamuele Soraggi\n\n\n\n\n\n\nHow I learned to stop worrying and love RDM\n\n\n21 August 2024\n\n\nADBi Conference\n\n\nA.Refoyo and J.Bartell\n\n\n\n\n\n\nIntro to NGS data analysis - Summer School\n\n\n1-5 July 2024\n\n\nAU\n\n\nSamuele Soraggi\n\n\n\n\n\n\nWorkshop: Digging into the Health Data Science Sandbox\n\n\n18-19 April 2024\n\n\nKU\n\n\nJ.Bartell and A.Refoyo\n\n\n\n\n\n\nCourse support at SDU\n\n\n9 February 2024\n\n\nSDU\n\n\nJacob Fredegaard Hansen\n\n\n\n\n\n\nDDSA PhD meetup and D3A conference\n\n\n1 February 2024\n\n\nDDSA\n\n\nJennifer Bartell\n\n\n\n\n\n\nA primer for Synthetic health data\n\n\n31 January 2024\n\n\n \n\n\nJennifer Bartell\n\n\n\n\n\n\nNNF Collaborative Data Science award news: the SE3D project!\n\n\n12 December 2023\n\n\nKU\n\n\nJennifer Bartell\n\n\n\n\n\n\nProteomics App updates\n\n\n9 November 2023\n\n\nSDU\n\n\nJacob Fredegaard Hansen\n\n\n\n\n\n\nA course on RDS for NGS data\n\n\n7 November 2023\n\n\nDTU\n\n\nJose AR Herrera\n\n\n\n\n\n\nFrom Data Chaos to Data Harmony\n\n\n7 November 2023\n\n\nDeiC conference\n\n\nJennifer Bartell\n\n\n\n\n\n\n‘Digging into the Health Data Science Sandbox’ workshop\n\n\n7 September 2023\n\n\nAU\n\n\nJennifer Bartell\n\n\n\n\n\n\nSandbox workshop in Aarhus\n\n\n29 August 2023\n\n\nAU\n\n\nSamuele Soraggi\n\n\n\n\n\n\nWorkshop on bulkRNA-seq data\n\n\n19 June 2023\n\n\nKU\n\n\nJennifer Bartell\n\n\n\n\n\n\nSandbox App updates on UCloud rolled out\n\n\n31 May 2023\n\n\nKU\n\n\nJennifer Bartell\n\n\n\n\n\n\nSecond bulk RNA-seq course at the University of Copenhagen\n\n\n18 January 2023\n\n\nKU\n\n\nJennifer Bartell\n\n\n\n\n\n\nSandbox support for Spring 2023 courses\n\n\n10 January 2023\n\n\nKU\n\n\nJennifer Bartell\n\n\n\n\n\n\nSoft launch of the new Course Platform at Computerome\n\n\n8 January 2023\n\n\nKU\n\n\nJesper R Christiansen\n\n\n\n\n\n\nSandbox support for ‘Advanced Statistical Learning’\n\n\n30 November 2022\n\n\nAU\n\n\nSamuele Soraggi\n\n\n\n\n\n\nSandbox support within ‘Workshops in Applied Bioinformatics’ at SDU\n\n\n15 November 2022\n\n\nSDU\n\n\nJacob Fredegaard Hansen\n\n\n\n\n\n\nTranscriptomics Sandbox app launched on UCloud!\n\n\n15 November 2022\n\n\nKU\n\n\nJose AR Herrera\n\n\n\n\n\n\nGenomics Sandbox app launched on UCloud!\n\n\n6 September 2022\n\n\nAU\n\n\nSamuele Soraggi\n\n\n\n\n\n\nBulk RNA-seq course at University of Copenhagen\n\n\n18 August 2022\n\n\nKU\n\n\nJennifer Bartell\n\n\n\n\n\n\nGenomics course at Aarhus University\n\n\n1 June 2022\n\n\nAU\n\n\nSamuele Soraggi\n\n\n\n\n\n\nBasics of Personalized Medicine - final wrap-up\n\n\n22 April 2022\n\n\nAAU\n\n\nJennifer Bartell\n\n\n\n\n\n\nBasics of Personalized Medicine - MSc course\n\n\n1 April 2022\n\n\nAAU\n\n\nJennifer Bartell\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "develop/news/news.html",
@@ -511,6 +518,13 @@
     "text": "Footnotes\n\n\nOther institutions (e.g. hospitals, libraries, …) can log on through WAYF. See all institutions here↩︎\nTo use Sandbox materials outside of the workshop: remember that each new user has hundreds of hours of free computing credit and around 50GB of free storage, which can be used to run any UCloud software. If you run out of credit (which takes a long time) you’ll need to check with the local DeiC office at your university about how to request compute hours on UCloud. Contact us at the Sandbox if you need help or want more information.↩︎"
   },
   {
+    "objectID": "news/upcoming/2026-05-21-hpcLaunch.html",
+    "href": "news/upcoming/2026-05-21-hpcLaunch.html",
+    "title": "HPC-Launch",
+    "section": "",
+    "text": "Register: Opening soon.\nThe goal of the course HPC-Launch is to support the launch (and/or reconfiguration) of health data projects from an efficient and modern computing and data management perspective. Targeting trainees and researchers in bioinformatics and large-scale health records, the course will consist of two modules: High-Performance Computing (HPC) and Research Data management (RDM). With the HPC module, we want to expand understanding and efficient use of HPC resources for complex health data science projects. We will fill gaps in technical understanding for beginner to intermediate users of supercomputing platforms and share up-to-date information on computing resources available to Danish researchers and how to get access. With the RDM module, we will introduce the importance of research data management practices and demonstrate practical tips and tools for its implementation at a local research group level. Overall, the course will be a mix of theory, discussion of real-world use cases and participant needs, and active practice/exercises conducted on the HPC platform UCloud (SDU) using bash and relevant IDEs."
+  },
+  {
     "objectID": "news/upcoming/2025-10-27-Binfconference.html",
     "href": "news/upcoming/2025-10-27-Binfconference.html",
     "title": "‘The Health Data Science Sandbox’ workshop",
@@ -518,88 +532,88 @@
     "text": "Sign-up: https://eventsignup.ku.dk/9danishbioinfconference.\nThe Sandbox data scientists will host a workshop (topic TBA) at the Danish Bioinformatics conference."
   },
   {
-    "objectID": "news/upcoming/2025-11-18-bulk.html",
-    "href": "news/upcoming/2025-11-18-bulk.html",
-    "title": "Bulk RNAseq analysis",
+    "objectID": "news/past/2023-06-19-KU-bulk.html",
+    "href": "news/past/2023-06-19-KU-bulk.html",
+    "title": "Workshop on bulkRNA-seq data",
     "section": "",
-    "text": "Opening for signup soon.\nThis workshop contains a basic tutorial on how to approach bioinformatics analyses of bulk RNAseq data, starting from the count matrix.\nBy the end of this workshop, you will be able to:\n\nGain insight into how to design an RNA-seq experiment\nPreprocess sequencing reads\nAnalyze bulk RNAseq data using the R package DESeq2\nKnow best practices for performing Differential Expression Analysis\nAnnotate and interpret their results"
+    "text": "Our teaching team (from the Sandbox, the HeaDS DataLab, and reNEW’s genomics platform) hosted another 3 day workshop on bulk RNA-seq. The 34 participants used the updated version of the UCloud Transcriptomics App which provided the smoothest experience yet for both trainers and trainees. A new goal for the next course run is to add a student project to support independent implementation and exploration of the course content."
   },
   {
-    "objectID": "news/past/2024-08-21-BinfConference.html",
-    "href": "news/past/2024-08-21-BinfConference.html",
-    "title": "How I learned to stop worrying and love RDM",
+    "objectID": "news/past/2024-09-10-scverse2024.html",
+    "href": "news/past/2024-09-10-scverse2024.html",
+    "title": "Workshop at scVerse2024",
     "section": "",
-    "text": "Research data management involves more than just writing your DMP (Data Management Plan). We can assist you in crafting a more meaningful DMP with some practical tips. While DMP are essential in research, they may sometimes seem too general or not directly applicable to the specific challenges you face daily.\nJoin our workshop to make your research data more FAIR (Findable, Acessible, Interoperable and Reusable). We will cover various topis to enhance your data analysis work and go through several good practices for:\n\ndata organization (incl. file naming)\ndata documentation and file formats\ndata analysis\ndata storage\ndata archiving"
+    "text": "We will run a workshop on dimensionality reduction on single cell data (transcriptomics and spatial) with a focus on - state of the art techniques, - graph optimization VS laplacian operators - how to create interactive webpage plots to document your work in a FAIR and open access manner\nThe workshop will be running first at the conference and afterwards be available at the dedicated webpage for everyone to use. The link to the workshop will work correctly after 10th september 2024.\n \n\n Access the workshop"
   },
   {
-    "objectID": "news/past/2023-09-07-workshop-conference.html",
-    "href": "news/past/2023-09-07-workshop-conference.html",
-    "title": "‘Digging into the Health Data Science Sandbox’ workshop",
+    "objectID": "news/past/2022-01-04-basicpm.html",
+    "href": "news/past/2022-01-04-basicpm.html",
+    "title": "Basics of Personalized Medicine - MSc course",
     "section": "",
-    "text": "The full team of Sandbox data scientists hosted a 4 hour workshop at the Danish Bioinformatics conference where they gave a taster session of each of our 3 omics apps. We learned that multi-omics analysis were a substantial draw for the crowd at the DBC and are making plans to address this interest in future events."
+    "text": "The first course supported by the Sandbox is launching this month - ‘Basics of Personalized Medicine’ - where students in the new Master in Personal Medicine program at University of Copenhagen are introduced to predictive modeling using electronic health records."
   },
   {
-    "objectID": "news/past/2024-11-04-hpcPipes.html",
-    "href": "news/past/2024-11-04-hpcPipes.html",
-    "title": "HPC-Pipes",
+    "objectID": "news/past/2023-01-08-platform-computerome.html",
+    "href": "news/past/2023-01-08-platform-computerome.html",
+    "title": "Soft launch of the new Course Platform at Computerome",
     "section": "",
-    "text": "The course HPC-Pipes introduces best practices for setting up, running, and sharing reproducible bioinformatics pipelines and workflows. Rather than instruct on the whys and wherefores of using particular tools for a bioinformatics analysis, we will cover the general process of building a robust pipeline (regardless of data type) using workflow languages, environment/package managers, optimized HPC resources, and FAIRly managed data and tools. On course completion, participants will be able to use this knowledge to design their own custom pipelines with tools appropriate for their individual analysis needs.\nThe course will provide guidance on how to automate data analysis using common workflow languages such as Snakemake or Nextflow. Subsequently, we will delve into ensuring the reproducibility of pipelines and explore available options. Participants will learn how to share their data analysis and software with the research community. We will also delve into different strategies for managing the produced research data. This includes addressing the challenges posed by large volumes of data and exploring computational approaches that aid in data organization, documentation, processing, analysis, storing, sharing, and preservation. These discussions will encompass the reasons behind the increasing popularity of Docker and other containers, along with demonstrations on how to effectively utilize package and environment managers like Conda to control the software environment within a workflow. Finally, participants will learn how to manage and optimize their pipeline projects on HPC platforms, using compute resources efficiently."
+    "text": "Sandbox data scientist Jesper Roy Christiansen has been integral to the development of a new ‘Course Platform’ at Computerome, the HPC platform at the Technical University of Denmark. Built as a collaboration between the Sandbox and Computerome, the Course Platform will host its first users, students in ‘Fra real-world data til personlig medicin’, a course of KU’s MS in Personlig Medicin. Sandbox coordinator Jennifer Bartell and Sandbox PI Martin Boegsted have also been involved in testing this new system during course setup. See the above link as well as HPC Access for more details on this platform and how you can also use this new platform to host courses (with or without Sandbox involvement!)."
   },
   {
-    "objectID": "news/past/2022-11-15-support-bioinf-sdu.html",
-    "href": "news/past/2022-11-15-support-bioinf-sdu.html",
-    "title": "Sandbox support within ‘Workshops in Applied Bioinformatics’ at SDU",
+    "objectID": "news/past/2022-12-10-transcriptomics-launch.html",
+    "href": "news/past/2022-12-10-transcriptomics-launch.html",
+    "title": "Transcriptomics Sandbox app launched on UCloud!",
     "section": "",
-    "text": "Sandbox data scientist Jacob Fredegaard Hansen created a tutorial on how to use ColabFold for a one day workshop as part of the ‘Workshops in Applied Bioinformatics’ series taught by Sandbox collaborator Veit Schwammle. The material is accessible on the Sandbox website (see Modules, Proteomics) for any UCloud user alongside the UCloud ColabFold App."
+    "text": "We have deployed our second standalone Sandbox app on UCloud! Please see the Access page for instructions on how to find our Sandbox apps on UCloud - This one is titled ‘Transcriptomics Sandbox’ and module documentation is linked from the UCloud app page as well as here in Modules."
   },
   {
-    "objectID": "news/past/2025-03-24-genomics.html",
-    "href": "news/past/2025-03-24-genomics.html",
-    "title": "Genomics Sandbox",
+    "objectID": "news/past/2023-08-29-aarhus-workshop.html",
+    "href": "news/past/2023-08-29-aarhus-workshop.html",
+    "title": "Sandbox workshop in Aarhus",
     "section": "",
-    "text": "The Sandbox Genomics course is an intensive four-day program focused on training participants in Population genetics with a focus on Genome-Wide Association Studies (GWAS). The first day covers foundational genetics concepts through lectures and discussions, followed by a step-by-step guide to performing a GWAS study, from data preprocessing to results interpretation. A key feature is a hands-on GWAS case study where participants complete the entire process, including managing missing genotypes, conducting linear regression for association testing, and understanding linkage disequilibrium for fine-mapping. The course emphasizes practical skills, best practices, and common challenges in GWAS, especially when using high-performance computing."
+    "text": "Sandbox data scientist Samuele Soraggi hosted a three day speed run through Sandbox apps at the Bioinformatics Research Center. The 26 participants joined for genomics, transcriptomics, and/or proteomics app demos depending on their interests. This thorough omics demo had maxed out participant sign-ups and an enthusiastic crew enjoyed the sessions alongside a bit of networking across disciplines. We plan to host more of these type of workshops given the event’s success!"
   },
   {
-    "objectID": "news/past/2025-05-23-DDSAHPC.html",
-    "href": "news/past/2025-05-23-DDSAHPC.html",
-    "title": "DDSA High-Performance Computing Workshop",
+    "objectID": "news/past/2024-01-31-manuscript.html",
+    "href": "news/past/2024-01-31-manuscript.html",
+    "title": "A primer for Synthetic health data",
     "section": "",
-    "text": "1-day all-inclusive workshop on High-Performance Computing (HPC) for Bachelors and Masters students enrolled at Danish universities. Several Sandbox staff represented the project and help with the practical part, and Jennifer Bartell gave a lecture on National HPCs."
+    "text": "In collaboration with Prof. Henning Langberg at KU Public Health and funding from Erhvervsfyrtaarn Sund Vaegt, Jennifer Bartell has developed a manuscript that discusses technical, regulatory, and deployment solutions and challenges for synthetic health data from a broad perspective. This manuscript was developed in collaboration with Sandbox partners Sander Boisen Valentin and Martin Boegsted of AAU, and we plan to submit it to a journal soon. For now, check out our manuscript on arXiv!"
   },
   {
-    "objectID": "news/past/2022-11-30-advancedstatlearning.html",
-    "href": "news/past/2022-11-30-advancedstatlearning.html",
-    "title": "Sandbox support for ‘Advanced Statistical Learning’",
+    "objectID": "news/past/2023-11-07-RDMtalk.html",
+    "href": "news/past/2023-11-07-RDMtalk.html",
+    "title": "From Data Chaos to Data Harmony",
     "section": "",
-    "text": "Sandbox data scientist Samuele Soraggi spent two weeks teaching for the Fall 2023 course ‘Advanced Statistical Learning’ taught by Prof. Asger Hobolth at Aarhus University."
+    "text": "Sandbox data scientist Jose Alejandro Romero Herrera gave a talk in the Data Management speaker track at the annual Danish E-Infrastructure Consortium (DeiC) conference in Kolding, Denmark. The talk was well received at the biggest DeiC conference ever (250 participants)."
   },
   {
-    "objectID": "news/past/2023-01-18-bulk-KU.html",
-    "href": "news/past/2023-01-18-bulk-KU.html",
-    "title": "Second bulk RNA-seq course at the University of Copenhagen",
+    "objectID": "news/past/2024-09-30-hpcLaunch.html",
+    "href": "news/past/2024-09-30-hpcLaunch.html",
+    "title": "HPC-Launch",
     "section": "",
-    "text": "On 18th of January we taught the second iteration of our bulk RNA-seq course to researchers (from PhD students to professors) at SUND at the University of Copenhagen. We had ~50 workshop participants joining us for three days of lectures and exercises on UCloud. This time, we introduced preprocessing theory (read QC, alignment and quantification) and the use of automated workflows using the nf-core rnaseq pipeline.\nFor those that could not enroll for this session, you can find the updated material here. We have moved the datasets and slides to a zenodo repository\nWe’d like to extend our thanks to our workshop collaborators, data scientists from the SUND DataLab at KU’s Center for Health Data Science as well as the genomics platform at the NNF Center for Stem Cell Medicine (reNEW)."
+    "text": "The goal of the course HPC-Launch is to support the launch (and/or reconfiguration) of health data projects from an efficient and modern computing and data management perspective. Targeting trainees and researchers in bioinformatics and large-scale health records, the course will consist of two modules: High-Performance Computing (HPC) and Research Data management (RDM). With the HPC module, we want to expand understanding and efficient use of HPC resources for complex health data science projects. We will fill gaps in technical understanding for beginner to intermediate users of supercomputing platforms and share up-to-date information on computing resources available to Danish researchers and how to get access. With the RDM module, we will introduce the importance of research data management practices and demonstrate practical tips and tools for its implementation at a local research group level. Overall, the course will be a mix of theory, discussion of real-world use cases and participant needs, and active practice/exercises conducted on the HPC platform UCloud (SDU) using bash and relevant IDEs."
   },
   {
-    "objectID": "news/past/2022-04-22-basicpm-wrapup.html",
-    "href": "news/past/2022-04-22-basicpm-wrapup.html",
-    "title": "Basics of Personalized Medicine - final wrap-up",
+    "objectID": "news/past/2023-05-31-rollout-ucloud.html",
+    "href": "news/past/2023-05-31-rollout-ucloud.html",
+    "title": "Sandbox App updates on UCloud rolled out",
     "section": "",
-    "text": "Our first course, Basics of Personalized Medicine, wrapped up this month with student project presentations which described their approaches to analysis of the synthetic Chronic Lymphocytic Leukemia dataset created for the course. Course reviews highlighted the helpfulness of Sandbox staff in troubleshooting R problems and the tremendous amount that students learned about predictive modeling."
+    "text": "New versions of the Genomics Sandbox App, the Transcriptomics Sandbox App, and the Proteomics Sandbox App have all been launched on UCloud this month! Check out the new components in the training modules such as a GWAS module in Genomics and new tools in Transcriptomics and Proteomics. Updates were also informed by the different courses supported during Spring 2023. With these courses wrapping up this month, the associated new training materials have also been included in the new versions of the apps."
   },
   {
-    "objectID": "news/past/2022-09-06-genomics-launch.html",
-    "href": "news/past/2022-09-06-genomics-launch.html",
-    "title": "Genomics Sandbox app launched on UCloud!",
+    "objectID": "news/past/2025-06-23-NGS-analysis.html",
+    "href": "news/past/2025-06-23-NGS-analysis.html",
+    "title": "Intro to NGS data analysis - Summer School",
     "section": "",
-    "text": "We have deployed our first standalone Sandbox app on UCloud! Please see the Access page for instructions on how to find our Sandbox apps on UCloud - this first one is titled ‘Genomics Sandbox’ and module documentation is linked from the UCloud app page as well as here in Modules."
+    "text": "This summer school is a regularly hosted summer school to teach NGS data analysis, and is taught by Stig Andersen, Mikkel Schierup, and Samuele Soraggi (supporting via the HDS Sandbox). You can find additional information and sign up below\n \n\n Information + Signup"
   },
   {
-    "objectID": "news/past/2024-02-01-DDSAD3A.html",
-    "href": "news/past/2024-02-01-DDSAD3A.html",
-    "title": "DDSA PhD meetup and D3A conference",
+    "objectID": "news/past/2022-06-01-genomics-au.html",
+    "href": "news/past/2022-06-01-genomics-au.html",
+    "title": "Genomics course at Aarhus University",
     "section": "",
-    "text": "Several Sandbox staff represented the project at both the DDSA PhD Meetup with a practical presentation on research data management and with posters at D3A, the national data science meeting. It was nice to meet up in person and also make new connections with the excellent cadre of conference attendees. Thanks to the DDSA secretariat for their invitation and organizational efforts."
+    "text": "A month-long course in Genomics taught by Professors Mikkel Schierup and Stig Andersen has started with lead supercomputing support on UCloud by Sandbox data scientist and course instructor Samuele Soraggi. Computational exercises in NGS analysis were deployed in a UCloud project for use by 47 graduate students with primarily molecular biology and clinical backgrounds and no prior supercomputing experience! Post-course update: We received many positive reviews on use of the Genomics Sandbox training materials on UCloud!"
   },
   {
     "objectID": "news/past/2023-10-25-RDM_NGS.html",
