@@ -1,0 +1,13 @@
+---
+title: "HPC-Launch"
+author: JB & ARM 
+Organizers: J.Bartell and A.Refoyo
+Location: "University of Copenhagen"
+date: 2026-05-21
+categories: [HPC, RDM, KU]
+description: "Registration opening soon"
+---
+
+Register: **Opening soon**.
+
+The goal of the course HPC-Launch is to support the launch (and/or reconfiguration) of health data projects from an efficient and modern computing and data management perspective. Targeting trainees and researchers in bioinformatics and large-scale health records, the course will consist of two modules: High-Performance Computing (HPC) and Research Data management (RDM). With the HPC module, we want to expand understanding and efficient use of HPC resources for complex health data science projects. We will fill gaps in technical understanding for beginner to intermediate users of supercomputing platforms and share up-to-date information on computing resources available to Danish researchers and how to get access. With the RDM module, we will introduce the importance of research data management practices and demonstrate practical tips and tools for its implementation at a local research group level. Overall, the course will be a mix of theory, discussion of real-world use cases and participant needs, and active practice/exercises conducted on the HPC platform UCloud (SDU) using bash and relevant IDEs.

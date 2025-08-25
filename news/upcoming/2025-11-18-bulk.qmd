@@ -3,14 +3,14 @@ title: "Bulk RNAseq analysis"
 image: "../../images/transcriptomics.png"
 author: HeaDS
 Organizers: HeaDS
-date: 2025-11-18
-Dates: "18-20 November 2025"
+date: 2025-11-10
+Dates: "10-13 November 2025"
 Location: "University of Copenhagen"
 categories: [Bulk RNAseq, nf-core, DESeq2]
-description: "Opening for signup soon"
+description: "Register now"
 ---
 
-Opening for signup soon.
+Register [here](https://eventsignup.ku.dk/bulkrnaseq-nov25). 
 
 This workshop contains a basic tutorial on how to approach bioinformatics analyses of bulk RNAseq data, starting from the count matrix.
 

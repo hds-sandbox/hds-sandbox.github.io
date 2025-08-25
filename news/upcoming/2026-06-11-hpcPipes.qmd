@@ -1,15 +1,15 @@
 ---
-title: "HPC Pipes"
+title: "HPC-Pipes"
 image: "../../images/HPC.png"
 author: "ARM and JB"
 Organizers: A.Refoyo and J.Bartell
-date: 2025-08-14
+date: 2026-06-11
 Location: "University of Copenhagen"
-categories: [snakemake, nextflow, conda, docker, KU, course]
-description: "Signup now"
+categories: [snakemake, nextflow, conda, docker, KU]
+description: "Registration opening soon"
 ---
 
-Sign-up: <https://eventsignup.ku.dk/hpc-pipes-aug25>. 
+Register: **Opening soon**. 
 
 The course HPC-Pipes introduces best practices for setting up, running, and sharing reproducible bioinformatics pipelines and workflows, with a strong emphasis on Snakemake for practical exercises. Rather than focusing on specific tools for bioinformatics analysis, we will cover the entire process of building a robust pipeline—applicable to any data type—using workflow languages, environment/package managers, optimized HPC resources, and FAIR principles for data and tool management. By the end of the course, participants will be equipped to design custom pipelines tailored to their analysis needs.
 
