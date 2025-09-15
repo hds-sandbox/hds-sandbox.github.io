@@ -1,7 +1,7 @@
 /* for index front page */
 
 .layout-border {
-  background-color:  #f0f0f0;
+  /* background-color:  #f0f0f0; */
   align-items: stretch;  /* Stretch the columns to the same height */
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 200px));
@@ -19,10 +19,17 @@
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  background-color: #f0f0f0;
   box-sizing: border-box;
   text-align: center;
   flex: 1;
+}
+
+.cell-title {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin: 15px 0 5px 0;
+  display: block;
+  text-align: center;
 }
 
 .grid-cell img {
@@ -30,6 +37,7 @@
   object-fit: cover; /* Crop to fit while preserving aspect ratio */
   border-radius: 8px;
 }
+
 .hover-target {
   border-radius: 50%;           /* make image round */
   transition: box-shadow 0.3s ease, transform 0.3s ease;
@@ -48,4 +56,12 @@
   height: auto;     /* Maintain aspect ratio */
   margin: 0 auto;   /* Center the image */
   display: block;
+}
+
+h3 {
+  text-align: center;
+}
+
+.title {
+  text-align: center;
 }

@@ -1,48 +1,46 @@
 ---
 title: "Training modules"
-format: 
+format:
     html:
         toc: false
         page-layout: full
 css: ../css/styles.css
 ---
 
-&nbsp;
-
-::: {.layout-border style="background-color: white;"}
-::: {.grid-cell style="background-color: white;"}
+::: {.layout-border}
+::: {.grid-cell}
 [![HPC Lab](../images/HPC.png){class="hover-target" width="100%"}](#sandbox-hpc)
-**<span style="display: block; margin-top:15px; text-align: center; font-size: 1.2em;">HPC Lab</span>**
+<span class="cell-title">HPC Lab</span>
 :::
 
-::: {.grid-cell style="background-color: white;"}
+::: {.grid-cell}
 [![](../images/genomics2.png){class="hover-target" width="100%"}](#genomics)
-**<span style="display: block; margin-top:15px; text-align: center; font-size: 1.2em;">Genomics</span>**
+<span class="cell-title">Genomics</span>
 :::
 
-::: {.grid-cell style="background-color: white;"}
+::: {.grid-cell}
 [![](../images/transcriptomics.png){class="hover-target" width="100%"}](#transcriptomics)
-**<span style="display: block; margin-top:15px; text-align: center; font-size: 1.2em;">Transcriptomics</span>**
+<span class="cell-title">Transcriptomics</span>
 :::
 
-::: {.grid-cell style="background-color: white;"}
+::: {.grid-cell}
 [![](../images/proteomics.png){class="hover-target" width="100%"}](#proteomics)
-**<span style="display: block; margin-top:15px; text-align: center; font-size: 1.2em;">Proteomics</span>**
+<span class="cell-title">Proteomics</span>
 :::
 
-::: {.grid-cell style="background-color: white;"}
+::: {.grid-cell}
 [![](../images/EHRs.png){class="hover-target" width="100%"}](#EHC)
-**<span style="display: block; margin-top:15px; text-align: center; font-size: 1.2em;">Health records</span>**
+<span class="cell-title">Health records</span>
 :::
 :::
 
 
-Sandbox resources have been organized as training modules focused on key topics in health data science. We are constantly adding additional resources and have plans to create additional modules on medical imaging and wearable device data. Feel free to adapt these resources for your own purposes (with credit to the National Health Data Science Sandbox project and other projects they acknowledge in the specific materials). 
+Sandbox resources have been organized as training modules focused on key topics in health data science. We are constantly adding additional resources and have plans to create additional modules on medical imaging and wearable device data. Feel free to adapt these resources for your own purposes (with credit to the National Health Data Science Sandbox project and other projects they acknowledge in the specific materials).
 
 You can **access our training modules** through:
 
-+ **In-person workshops and courses** at host universities (check [News](../news.qmd) for announcements) 
-+ Course/workshop repositories on our **[GitHub page](https://github.com/hds-sandbox)** - some tool assembly may be required! 
++ **In-person workshops and courses** at host universities (check [News](../news.qmd) for announcements)
++ Course/workshop repositories on our **[GitHub page](https://github.com/hds-sandbox)** - some tool assembly may be required!
 + Independently accessible **Sandbox apps on [UCloud](https://cloud.sdu.dk)**, the academic (interactive) HPC at the University of Southern Denmark
 + Independently accessible **Sandbox apps on [GenomeDK](https://genome.au.dk)**, the bioinformatics high-throughput HPC at University of Aarhus
 + Virtual machines deployed on the **[Course Platform](https://www.computerome.dk/solutions/course-platform) at Computerome**, the academic HPC at the Technical University of Denmark (Sandbox rollout still under development!)
@@ -61,13 +59,13 @@ Computing skills are an important foundation for health data science (and using 
 - [GenomeDK Workshop Resources (AU)](https://hds-sandbox.github.io/GDKworkshops/) (content in development)
 - [HeaDS DataLab workshop materials (KU)](https://center-for-health-data-science.github.io/index.html) (workshops for programming and good practices developed by the Center for Health Data Science at the University of Copenhagen, which are sometimes co-taught by Sandbox staff! Includes **R**, **python**, **bash**, and **git**!)
 
- 
+
 ## Genomics {#genomics}
 
-Genomics is the study of genomes, the complete set of an organism's DNA. Genomics research now encompasses functional and structural studies, epigenomics, and metagenomics, and genomic medicine is under active implementation and extension in the health sector. 
+Genomics is the study of genomes, the complete set of an organism's DNA. Genomics research now encompasses functional and structural studies, epigenomics, and metagenomics, and genomic medicine is under active implementation and extension in the health sector.
 
-**Use the [Genomics Sandbox App](https://cloud.sdu.dk/app/jobs/create?app=genomics&version=2023.03.01) on UCloud to explore the resources below:**
- 
+**Use the [Genomics Sandbox App](https://cloud.sdu.dk/app/jobs/create?app=genomics) on UCloud to explore the resources below:**
+
 - [Introduction to Next Generation Sequencing data](https://hds-sandbox.github.io/NGS_summer_course_Aarhus/) (last update: June 2023)
 - [Introduction to Population Genomics](https://hds-sandbox.github.io/PopulationGenomicsCourse/) (implementation of a course by Prof. Kasper Munch of Aarhus University) (last update: March 2023)
 - [Introduction to GWAS](https://hds-sandbox.github.io/GWAS_course/) (last update: January 2025)
@@ -75,12 +73,12 @@ Genomics is the study of genomes, the complete set of an organism's DNA. Genomic
 
 ## Transcriptomics {#transcriptomics}
 
-Transcriptomics is the study of transcriptomes, which investigates RNA transcripts within a cell or tissue to determine what genes are being expressed and in what proportion. These RNA transcripts include mRNAs, tRNA, rRNA, and other non-coding RNA present in a cell. 
+Transcriptomics is the study of transcriptomes, which investigates RNA transcripts within a cell or tissue to determine what genes are being expressed and in what proportion. These RNA transcripts include mRNAs, tRNA, rRNA, and other non-coding RNA present in a cell.
 
-**Use the [Transcriptomics Sandbox App](https://cloud.sdu.dk/app/jobs/create?app=transcriptomics&version=2023.03) on UCloud to explore these resources:**
+**Use the [Transcriptomics Sandbox App](https://cloud.sdu.dk/app/jobs/create?app=transcriptomics) on UCloud to explore these resources:**
 
-- [Bulk RNAseq](https://hds-sandbox.github.io/bulk_RNAseq_course/develop/) (last update: May 2024) 
-- [Single-Cell RNAseq](https://hds-sandbox.github.io/scRNASeq_course/) (last update: May 2023) 
+- [Bulk RNAseq](https://hds-sandbox.github.io/bulk_RNAseq_course/develop/) (last update: May 2024)
+- [Single-Cell RNAseq](https://hds-sandbox.github.io/scRNASeq_course/) (last update: May 2023)
 - Cirrocumulus (a popular tool for visualizing different types of RNA-seq data and downstream analysis)
 - RNAseq in RStudio (RStudio session with pre-installed RNAseq analysis packages for exploring with your own uploaded data)
 
@@ -89,14 +87,15 @@ Transcriptomics is the study of transcriptomes, which investigates RNA transcrip
 
 Proteomics is the study of proteins that are produced by an organism. Proteomics allows us to analyze protein composition and structure, which have great importance in determining their function.
 
-**Use the [Proteomics Sandbox App](https://cloud.sdu.dk/app/jobs/create?app=proteomics&version=Mar2023) on UCloud to explore pre-installed tools for proteomics analysis and other resources:** 
+**Check the [Sandbox Proteomics Hub](https://hds-sandbox.github.io/proteomics-sandbox/index.html) to explore the proteomics resources of HDS Sandbox:**
 
-- [Proteomics Sandbox Documentation](https://hds-sandbox.github.io/proteomics-sandbox/index.html) (last update: May 2023)
-- Introduction to Clinical Proteomics (course under development)
+- [Introduction to Clinical Proteomics](https://hds-sandbox.github.io/proteomics-sandbox/TeachingModule/teachingmodule.html)
+- [Data annotation in proteomics](https://hds-sandbox.github.io/proteomics-sandbox/sdrf.standalone.html)
+- [The Proteomics Sandbox UCloud app](https://hds-sandbox.github.io/proteomics-sandbox/ucloud.html)
 
-We also offer a tutorial on UCloud's [ColabFold app](https://cloud.sdu.dk/app/jobs/create?app=colabfold&version=1.5.2), a tool that allows predictions with AlphaFold2 or RoseTTAFold.
+We also offer a tutorial on UCloud's [ColabFold app](https://cloud.sdu.dk/app/jobs/create?app=colabfold), a tool that allows predictions with AlphaFold2 or RoseTTAFold.
 
-- [ColabFold Intro](https://hds-sandbox.github.io/proteomics-sandbox/colabfold.html) (last update: October 2022) 
+- [ColabFold Intro](https://hds-sandbox.github.io/proteomics-sandbox/colabfold.html) (last update: September 20224)
 
 ## Electronic Health Records {#EHC}
 
@@ -105,4 +104,4 @@ Electronic health records (EHRs) are digital records kept in the public health s
 The chronic lymphocytic leukemia synthetic dataset listed below is generated solely from public data. It is of low utility, so we don't recommend its use beyond the course it was designed for (with much explanation for the students on its construction and caveats). Please see [Synthetic Data](../datasets/synthdata.qmd) for more information.
 
 - Chronic Lymphocytic Leukemia synthetic dataset created for use in "Fra realworld data til personlig medicin", a course from the University of Copenhagen's [MS in Personlig Medicin](https://personligmedicin.ku.dk/) (last update: January 2023)
-- Intro to EHR analysis (workshop under development) 
+- Intro to EHR analysis (workshop under development)
