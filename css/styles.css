@@ -27,7 +27,7 @@
 .cell-title {
   font-size: 1.2em;
   font-weight: bold;
-  margin: 15px 0 5px 0;
+  margin: 15px 0 0 0;
   display: block;
   text-align: center;
 }
@@ -49,6 +49,9 @@
   box-shadow: 0 0 5px 2px rgba(0, 123, 255, 0.7); /* glowing blue outline */
   transform: scale(1.1);      /* slightly enlarge on hover */
   border: 2px solid #bed4ec;  /* blue border */
+  cursor: pointer; /* Changes the cursor to a pointer when hovered */
+  transform: scale(1.1); /* Enlarges the image when hovered */
+  transition: transform 0.2s; /* Smooth transition effect */
 }
 /* for news page */
 .listing img {
@@ -58,10 +61,14 @@
   display: block;
 }
 
-h3 {
+h1, h3, .title, .centered {
   text-align: center;
 }
 
 .title {
   text-align: center;
+}
+
+.grid-bg {
+  padding: 4px;
 }
