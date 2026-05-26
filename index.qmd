@@ -61,6 +61,7 @@ bibliography: resources/references.bib
 [![](./images/EHRs.png){class="hover-target" width="100%"}](modules/#EHC)
 <span class="cell-title">Health records</span>
 <div style="text-align: center;">
+    Dynamic Risk Prediction
     Synthetic data
     Personalized Medicine
 </div>
