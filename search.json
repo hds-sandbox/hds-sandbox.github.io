@@ -35,18 +35,18 @@
     "text": "Register: Opening soon.\nThe goal of the course HPC-Launch is to support the launch (and/or reconfiguration) of health data projects from an efficient and modern computing and data management perspective. Targeting trainees and researchers in bioinformatics and large-scale health records, the course will consist of two modules: High-Performance Computing (HPC) and Research Data management (RDM). With the HPC module, we want to expand understanding and efficient use of HPC resources for complex health data science projects. We will fill gaps in technical understanding for beginner to intermediate users of supercomputing platforms and share up-to-date information on computing resources available to Danish researchers and how to get access. With the RDM module, we will introduce the importance of research data management practices and demonstrate practical tips and tools for its implementation at a local research group level. Overall, the course will be a mix of theory, discussion of real-world use cases and participant needs, and active practice/exercises conducted on the HPC platform UCloud (SDU) using bash and relevant IDEs."
   },
   {
-    "objectID": "news/upcoming/2027-05-11-hpcPipes.html",
-    "href": "news/upcoming/2027-05-11-hpcPipes.html",
-    "title": "HPC-Pipes",
-    "section": "",
-    "text": "Register: Opening soon.\nThe course HPC-Pipes introduces best practices for setting up, running, and sharing reproducible bioinformatics pipelines and workflows, with a strong emphasis on Snakemake for practical exercises. Rather than focusing on specific tools for bioinformatics analysis, we will cover the entire process of building a robust pipeline—applicable to any data type—using workflow languages, environment/package managers, optimized HPC resources, and FAIR principles for data and tool management. By the end of the course, participants will be equipped to design custom pipelines tailored to their analysis needs.\nWe will guide participants in automating data analysis with popular workflow languages like Snakemake (primarily) and Nextflow. From there, we’ll explore how to ensure reproducibility within pipelines and the available options for sharing data analysis and software within the research community. Participants will also learn strategies for managing and organizing large datasets, from documentation and processing to storage, sharing, and preservation. We’ll cover tools like Docker and other containers, with demonstrations on using package and environment managers such as Conda to control the software environment within workflows and containers (Docker and Apptainer). Finally, we’ll provide insights into managing and optimizing pipeline projects on HPC platforms, using resources efficiently."
-  },
-  {
-    "objectID": "news/upcoming/2026-10-28-pAIBio.html",
-    "href": "news/upcoming/2026-10-28-pAIBio.html",
+    "objectID": "news/upcoming/2026-10-19-pAIBio.html",
+    "href": "news/upcoming/2026-10-19-pAIBio.html",
     "title": "Practical AI for biomedical researchers",
     "section": "",
     "text": "Register: Opening soon.\nLearning objectives:\n\nUnderstand conceptually how AI models work, particularly Large Language Models (LLMs).\nEvaluate outputs and limitations from AI models critically.\n\nUnderstand the trade-offs between accessing models via providers or locally.\nMake better use of AI for scientific tasks involving searching, summarization, ideation and programming."
+  },
+  {
+    "objectID": "news/upcoming/2026-11-09-genomics.html",
+    "href": "news/upcoming/2026-11-09-genomics.html",
+    "title": "Genomics Sandbox",
+    "section": "",
+    "text": "Register: Opening soon.\nThe Sandbox Genomics course is an intensive four-day program focused on training participants in Population genetics with a focus on Genome-Wide Association Studies (GWAS). The first day covers foundational genetics concepts through lectures and discussions, followed by a step-by-step guide to performing a GWAS study, from data preprocessing to results interpretation. A key feature is a hands-on GWAS case study where participants complete the entire process, including managing missing genotypes, conducting linear regression for association testing, and understanding linkage disequilibrium for fine-mapping. The course emphasizes practical skills, best practices, and common challenges in GWAS, especially when using high-performance computing."
   },
   {
     "objectID": "news/past/2024-04-18-sandbox-workshop.html",
@@ -700,11 +700,11 @@
     "text": "This workshop contains a basic tutorial on how to approach bioinformatics analyses of bulk RNAseq data, starting from the count matrix.\nBy the end of this workshop, you will be able to:\n\nGain insight into how to design an RNA-seq experiment\nPreprocess sequencing reads\nAnalyze bulk RNAseq data using the R package DESeq2\nKnow best practices for performing Differential Expression Analysis\nAnnotate and interpret their results"
   },
   {
-    "objectID": "news/upcoming/2026-11-09-genomics.html",
-    "href": "news/upcoming/2026-11-09-genomics.html",
-    "title": "Genomics Sandbox",
+    "objectID": "news/upcoming/2027-05-11-hpcPipes.html",
+    "href": "news/upcoming/2027-05-11-hpcPipes.html",
+    "title": "HPC-Pipes",
     "section": "",
-    "text": "Register: Opening soon.\nThe Sandbox Genomics course is an intensive four-day program focused on training participants in Population genetics with a focus on Genome-Wide Association Studies (GWAS). The first day covers foundational genetics concepts through lectures and discussions, followed by a step-by-step guide to performing a GWAS study, from data preprocessing to results interpretation. A key feature is a hands-on GWAS case study where participants complete the entire process, including managing missing genotypes, conducting linear regression for association testing, and understanding linkage disequilibrium for fine-mapping. The course emphasizes practical skills, best practices, and common challenges in GWAS, especially when using high-performance computing."
+    "text": "Register: Opening soon.\nThe course HPC-Pipes introduces best practices for setting up, running, and sharing reproducible bioinformatics pipelines and workflows, with a strong emphasis on Snakemake for practical exercises. Rather than focusing on specific tools for bioinformatics analysis, we will cover the entire process of building a robust pipeline—applicable to any data type—using workflow languages, environment/package managers, optimized HPC resources, and FAIR principles for data and tool management. By the end of the course, participants will be equipped to design custom pipelines tailored to their analysis needs.\nWe will guide participants in automating data analysis with popular workflow languages like Snakemake (primarily) and Nextflow. From there, we’ll explore how to ensure reproducibility within pipelines and the available options for sharing data analysis and software within the research community. Participants will also learn strategies for managing and organizing large datasets, from documentation and processing to storage, sharing, and preservation. We’ll cover tools like Docker and other containers, with demonstrations on using package and environment managers such as Conda to control the software environment within workflows and containers (Docker and Apptainer). Finally, we’ll provide insights into managing and optimizing pipeline projects on HPC platforms, using resources efficiently."
   },
   {
     "objectID": "news/upcoming/2026-10-28-bulk.html",
