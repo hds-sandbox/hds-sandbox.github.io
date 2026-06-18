@@ -12,12 +12,13 @@
   {
     "listing": "/news.html",
     "items": [
-      "/news/upcoming/2027-05-11-hpcPipes.html",
       "/news/upcoming/2026-10-28-pAIBio.html",
       "/news/upcoming/2026-10-28-bulk.html",
       "/news/upcoming/2026-11-09-genomics.html",
       "/news/upcoming/2027-03-21-hpcLaunch.html",
+      "/news/upcoming/2027-05-11-hpcPipes.html",
       "/news/past/2026-06-11-hpcPipes.html",
+      "/news/past/2026-06-10-reprod.html",
       "/news/past/2026-05-21-hpcLaunch.html",
       "/news/past/2025-11-18-bulk.html",
       "/news/past/2025-10-27-Binfconference.html",
