@@ -6,7 +6,7 @@ Organizers: A.Refoyo
 date: 2027-05-11
 Location: "University of Copenhagen"
 categories: [snakemake, nextflow, conda, docker, KU]
-description: "Registration opening soon"
+description: "Opening soon"
 ---
 
 Register: **Opening soon**. 

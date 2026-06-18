@@ -7,7 +7,7 @@ date: 2026-10-28
 Dates: "26-29 October 2026"
 Location: "University of Copenhagen"
 categories: [Bulk RNAseq, nf-core, DESeq2]
-description: "Register soon"
+description: "Opening soon"
 ---
 
 Register: **Opening soon**.

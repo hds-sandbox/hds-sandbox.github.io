@@ -1,13 +1,13 @@
 ---
 title: "Practical AI for biomedical researchers"
-image: "../../images/pipes.png"
+image: "../../images/EHR.png"
 author: HeaDS
 Organizers: HeaDS
 date: 2026-10-19
 Dates: "19 October 2026"
 Location: "University of Copenhagen"
 categories: [AI, LMM, RAGs]
-description: "Register soon"
+description: "Opening soon"
 ---
 
 Register: **Opening soon**.

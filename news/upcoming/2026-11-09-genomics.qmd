@@ -7,7 +7,7 @@ date: 2026-11-9
 Dates: "9-13 November 2026"
 Location: "University of Copenhagen"
 categories: [genomics, gwas, KU, course]
-description: "Register opening soon"
+description: "Opening soon"
 ---
 
 Register: **Opening soon**.

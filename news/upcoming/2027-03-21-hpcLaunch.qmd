@@ -5,7 +5,7 @@ Organizers: A.Refoyo
 Location: "University of Copenhagen"
 date: 2027-03-21
 categories: [HPC, RDM, KU]
-description: "Registration opening soon"
+description: "Opening soon"
 ---
 
 Register: **Opening soon**.
