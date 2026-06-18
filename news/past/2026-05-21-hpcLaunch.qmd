@@ -4,6 +4,7 @@ author: ARM and HeaDs
 Organizers: A.Refoyo 
 Location: "University of Copenhagen"
 date: 2026-05-21
+Dates: "21-22 May 2026"
 categories: [HPC, RDM, KU]
 description: "Registration opening soon"
 ---

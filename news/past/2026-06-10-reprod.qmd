@@ -1,0 +1,18 @@
+---
+title: "Reproducibility in the Sandbox project"
+author: "ARM"
+Organizers: A.Refoyo
+date: 2026-06-10
+Dates: "10 June 2026"
+Location: "DTU - National RDM event"
+categories: [snakemake, nextflow, conda, docker, KU]
+description: "Registration opening soon"
+---
+
+**National reproducibility & research data event: What matters for researchers and research support?**
+
+Building reproducible research with containers and workflow systems
+Alba Refoyo Martinez, Data scientist, UCPH
+ORCID:0000-0002-3674-4007
+
+Reproducibility in computational research depends not only on sharing data, but also on preserving the software, environments, and workflows used to generate results. Modern analyses often involve complex dependencies, multiple tools, and computational pipelines that can be difficult to reproduce across systems and over time. This talk presents practical approaches and examples for improving computational reproducibility using containers, package and environment managers, and workflow systems, in ways that are portable, maintainable, and easier to reproduce by others.
