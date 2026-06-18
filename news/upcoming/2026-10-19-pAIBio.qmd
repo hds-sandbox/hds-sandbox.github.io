@@ -1,6 +1,6 @@
 ---
 title: "Practical AI for biomedical researchers"
-image: "../../images/EHR.png"
+image: "../../images/EHRs.png"
 author: HeaDS
 Organizers: HeaDS
 date: 2026-10-19
