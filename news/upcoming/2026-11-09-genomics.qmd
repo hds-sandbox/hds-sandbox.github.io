@@ -1,0 +1,21 @@
+---
+title: "Genomics Sandbox"
+author: "A.Refoyo and S.Soraggi"
+image: "../../images/genomics2.png"
+Organizers: A.Refoyo and S.Soraggi
+date: 2026-11-9
+Dates: "9-13 November 2026"
+Location: "University of Copenhagen"
+categories: [genomics, gwas, KU, course]
+description: "Register opening soon"
+---
+
+Register: **Opening soon**.
+
+The Sandbox Genomics course is an intensive four-day program focused on training participants in Population genetics with a focus on Genome-Wide Association Studies (GWAS). The first day covers foundational genetics concepts through lectures and discussions, followed by a step-by-step guide to performing a GWAS study, from data preprocessing to results interpretation. A key feature is a hands-on GWAS case study where participants complete the entire process, including managing missing genotypes, conducting linear regression for association testing, and understanding linkage disequilibrium for fine-mapping. The course emphasizes practical skills, best practices, and common challenges in GWAS, especially when using high-performance computing.
+
+
+
+
+
+

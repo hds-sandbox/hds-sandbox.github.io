@@ -1,0 +1,20 @@
+---
+title: "Practical AI for biomedical researchers"
+image: "../../images/launch.png"
+author: HeaDS
+Organizers: HeaDS
+date: 2026-10-19
+Dates: "19 October 2026"
+Location: "University of Copenhagen"
+categories: [AI, LMM, RAGs]
+description: "Register soon"
+---
+
+Register: **Opening soon**.
+
+Learning objectives:
+
+- Understand conceptually how AI models work, particularly Large Language Models (LLMs). 
+- Evaluate outputs and limitations from AI models critically.  
+- Understand the trade-offs between accessing models via providers or locally. 
+- Make better use of AI for scientific tasks involving searching, summarization, ideation and programming.
