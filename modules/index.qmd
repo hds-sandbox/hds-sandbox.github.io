@@ -66,9 +66,9 @@ Genomics is the study of genomes, the complete set of an organism's DNA. Genomic
 
 **Use the [Genomics Sandbox App](https://cloud.sdu.dk/app/jobs/create?app=genomics) on UCloud to explore the resources below:**
 
-- [Introduction to Next Generation Sequencing data](https://hds-sandbox.github.io/NGS_summer_course_Aarhus/) (last update: June 2023)
-- [Introduction to Population Genomics](https://hds-sandbox.github.io/PopulationGenomicsCourse/) (implementation of a course by Prof. Kasper Munch of Aarhus University) (last update: March 2023)
-- [Introduction to GWAS](https://hds-sandbox.github.io/GWAS_course/) (last update: January 2025)
+- [Introduction to Next Generation Sequencing data](https://hds-sandbox.github.io/NGS_summer_course_Aarhus/) (last update: June 2025)
+- [Introduction to Population Genomics](https://hds-sandbox.github.io/PopulationGenomicsCourse/) (implementation of a course by Prof. Kasper Munch of Aarhus University) (last update: March 2025)
+- [Introduction to GWAS](https://hds-sandbox.github.io/GWAS_course/) (last update: Autumn 2026)
 
 
 ## Transcriptomics {#transcriptomics}
@@ -77,8 +77,8 @@ Transcriptomics is the study of transcriptomes, which investigates RNA transcrip
 
 **Use the [Transcriptomics Sandbox App](https://cloud.sdu.dk/app/jobs/create?app=transcriptomics) on UCloud to explore these resources:**
 
-- [Bulk RNAseq](https://hds-sandbox.github.io/bulk_RNAseq_course/develop/) (last update: May 2024)
-- [Single-Cell RNAseq](https://hds-sandbox.github.io/scRNASeq_course/) (last update: May 2023)
+- [Bulk RNAseq](https://hds-sandbox.github.io/bulk_RNAseq_course/develop/) (last update: Autumn 2026)
+- [Single-Cell RNAseq](https://hds-sandbox.github.io/scRNASeq_course/) (last update: May 2025)
 - Cirrocumulus (a popular tool for visualizing different types of RNA-seq data and downstream analysis)
 - RNAseq in RStudio (RStudio session with pre-installed RNAseq analysis packages for exploring with your own uploaded data)
 
@@ -95,7 +95,7 @@ Proteomics is the study of proteins that are produced by an organism. Proteomics
 
 We also offer a tutorial on UCloud's [ColabFold app](https://cloud.sdu.dk/app/jobs/create?app=colabfold), a tool that allows predictions with AlphaFold2 or RoseTTAFold.
 
-- [ColabFold Intro](https://hds-sandbox.github.io/proteomics-sandbox/colabfold.html) (last update: September 20224)
+- [ColabFold Intro](https://hds-sandbox.github.io/proteomics-sandbox/colabfold.html) (last update: September 2024)
 
 ## Electronic Health Records {#EHC}
 
